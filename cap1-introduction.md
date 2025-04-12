@@ -1,13 +1,21 @@
+## 1.1 Startup Profile
+
+### 1.1.1 Descripción de la Startup
+
+### 1.1.2 Perfiles de integrantes del equipo
+
 ## 1.2 Solution Profile
-### 1.2.1 Antecedentes y problemática
 
-En la actualidad, un gran número de restaurantes no cuentan con un sistema automatizado para gestionar su inventario y administración operativa. Muchos de estos negocios continúan utilizando métodos manuales como hojas de cálculo, cuadernos físicos o simples estimaciones verbales para controlar sus recursos.
+### 1.2.1 Antecedente y Problemática
 
-Esta falta de automatización conlleva a una serie de problemas críticos:
+### 1.2.2 Lean UX Proccess
 
-- **Desperdicio de recursos**, debido a una mala planificación o sobrecompra de productos.
-- **Pérdidas económicas**, ya que no se optimiza el uso de los insumos ni se toma decisiones basadas en datos reales.
-- **Limitada escalabilidad**, puesto que el crecimiento del negocio se vuelve inviable sin procesos eficientes.
-- **Falta de competitividad**, frente a restaurantes que sí utilizan tecnología para mejorar su gestión.
+#### 1.2.2.1. Lean UX Problem Statements
 
-Por tanto, se evidencia una clara necesidad de una solución tecnológica accesible, fácil de usar y que permita automatizar la administración de inventario, con reportes útiles, alertas y una interfaz intuitiva adaptada a las necesidades reales de los propietarios de restaurantes.
+#### 1.2.2.2 Lean UX Assumptions
+
+#### 1.2.2.3 Lean UX Hypothesis Statements
+
+#### 1.2.2.4 Lean UX Canvas
+
+## 1.3 Segmentos objetivos
