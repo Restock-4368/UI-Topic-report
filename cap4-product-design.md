@@ -3,6 +3,20 @@
 ### 4.1.1 General Style Guidelines
 
 ### 4.1.2 Web Style Guidelines
+El diseño web de Restock está optimizado para proporcionar una experiencia fluida en dispositivos de diferentes tamaños. Se emplean diseños de una sola columna para facilitar la lectura, mientras que el ancho de los contenedores y las imágenes se ajusta de manera dinámica para preservar la proporción y garantizar la accesibilidad. Asimismo, los bordes de los elementos interactivos se resaltan para mejorar la navegación y la interacción.
+
+En cuanto a la interactividad, los botones y enlaces son claramente identificables, y se implementan estados visuales (hover, active, etc.) para ofrecer retroalimentación al usuario. Los formularios están diseñados para ser intuitivos y fáciles de completar, con validaciones claras y mensajes de error visibles para evitar confusiones.
+
+![Mockup Landing Page](assets/images/mockup_landingpage.png)
+![Mockup Inicio de Sesión](assets/images/mockup_iniciosesion.png)
+
+![Mockup Registro](assets/images/mockup_registro.png)
+
+![Mockup Nosotros](assets/images/mockup_nosotros.png)
+
+![Mockup Footer](assets/images/mockup_footer.png)
+
+_Nota_: Elaboración propia.
 
 ## 4.2 Information Architecture
 
