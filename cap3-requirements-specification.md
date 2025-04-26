@@ -1,4 +1,18 @@
+# Capítulo III: Requirements Specification
+
 ## 3.1 To-Be Scenario Mapping
+
+**Segmento Objetivo 1:** Administradores de Restaurantes
+
+Este escenario To-Be fue construido tras una revisión detallada del escenario As-Is de Carolina Rivas y de las oportunidades de mejora identificadas a partir de las entrevistas. Se definieron las fases del proceso y se contrastaron con las actuales. Se priorizaron mejoras en eficiencia, control, automatización y reducción de frustraciones operativas.
+
+![Foto de To-Be Scenario Mapping Sector 1](assets/images/to-be_sector1.png)
+
+**Segmento objetivo 2:** Proveedores de Restaurantes
+ 
+Este escenario To-Be fue construido a partir del análisis del escenario As-Is de Jorge Torres. se incorporaron mejoras basadas en las necesidades y frustraciones. El equipo propuso una experiencia futura donde Jorge cuenta con una plataforma digital para gestionar pedidos, organizar rutas, registrar pagos y comunicarse con los restaurantes
+
+![Foto de To-Be Scenario Mapping Sector 1](assets/images/to-be_sector2.png)
 
 ## 3.2 User Stories
 
@@ -89,6 +103,9 @@
 | 79 | TS-32 | Exportar reporte de facturación mediante GET | Como desarrollador, deseo generar un reporte en pdf o excel de las ventas de un proveedor. | 8 |
 | 80 | TS-33 | Obtener lista de mejores clientes mediante GET | Como desarrollador, deseo obtener una lista de los restaurantes que más compran a un proveedor. | 5 |
 
+## 3.3 Impact Mapping
+
+![Foto de Impact Mapping](assets/images/impact-map.png)
 
 ## 3.4 Product Backlog
 
@@ -176,7 +193,6 @@
 | 80      | TS-31         | Obtener historial de ventas mediante GET                                              | Como desarrollador, quiero obtener todas las ventas que un proveedor realizó a un restaurante, ordenadas por fecha, usando un endpoint de api.                                                                                                                  | 8            |
 | 81      | TS-32         | Exportar reporte de facturación mediante GET                                          | Como desarrollador, quiero generar un reporte en pdf o excel de las ventas de un proveedor.                                                                                                                                                                     | 8            |
 | 82      | TS-33         | Obtener lista de mejores clientes mediante GET                                        | Como desarrollador, quiero obtener una lista de los restaurantes que más compran a un proveedor.                                                                                                                                                                | 5            |
-
 
 ### 3.4.1 Evidencia del Product Backlog
 
