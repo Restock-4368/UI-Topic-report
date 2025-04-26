@@ -82,7 +82,7 @@ Respecto a las **formas**, se ha optado por geometrías simples y amigables. Los
 En cuanto a los principios de diseño, el **contraste** se emplea para asegurar que los elementos importantes, como llamados a la acción (CTA) o errores, sean claramente visibles. Este principio es clave en la accesibilidad visual. La **repetición** de colores, formas e iconografía refuerza la familiaridad y la consistencia del sistema visual, haciendo que los usuarios comprendan rápidamente el uso de cada componente.
 
 La **alineación** contribuye a la profesionalidad del diseño: los formularios, encabezados y listas mantienen una disposición coherente, alineada y clara, lo que facilita la navegación intuitiva. Por último, el principio de **proximidad** agrupa de manera lógica los elementos relacionados (como inputs y botones, o productos y sus descripciones), mejorando la lectura, la interacción y la comprensión de cada bloque de información.
-E
+
 Estos elementos y principios no se aplican de forma aislada, sino como parte integral de un sistema visual que busca ser funcional, estético y coherente con la misión de Restock: facilitar la gestión de inventarios a través de una experiencia clara, empática y eficiente.
 
 ### 4.1.2 Web Style Guidelines
