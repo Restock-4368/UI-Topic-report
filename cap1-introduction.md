@@ -34,6 +34,15 @@ Puedo aportar al equipo capacidades de liderazgo técnico, organización de fluj
 &nbsp;  
 ![Foto de Julio](assets/images/julio.png)
 
+| **Gabriela Nicole Shapiama Rivera (u202319448)** |
+|--------------------------|
+|Soy estudiante del quinto ciclo de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas, motivada por una fuerte pasión por la lógica y el razonamiento, pilares fundamentales en la programación.
+Mi interés por comprender a fondo el funcionamiento de los sistemas de software que utilizamos diariamente me ha llevado a desarrollar habilidades en el lenguaje de programación C++, así como una base sólida en tecnologías web como HTML y CSS. Además, manejo herramientas de control de versiones como Git y plataformas colaborativas como GitHub.
+También, he fortalecido mis competencias en el diseño de proyectos de software, acompañado de un liderazgo asertivo. Estoy comprometida con seguir aprendiendo y aportar valor a cada equipo en el que participo. |
+
+&nbsp;  
+<img src="assets/images/gaby.jpeg" alt="Foto de Gaby" width="300px" />
+
 ## 1.2 Solution Profile
 ### 1.2.1 Antecedente y Problemática
 
