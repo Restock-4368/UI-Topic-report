@@ -330,14 +330,19 @@ En esta sección se presentan los User Journey Maps (As-Is) de los segmentos rep
 
 ![user journey mapping carolina rivas](<./assets/images/user journey map 1.png>)
 
-
 ## Jorge Torres
 
 ![user journey mapping jorge torres](<./assets/images/user journey map 2.png>)
 
-
-
 ### 2.3.4. Empathy Mapping
+
+## Carolina Rivas
+
+![empathy map carolina rivas](<./assets/images/empathy-map-carolina.png>)
+
+## Jorge Torres
+
+![empathy map jorge torres](<./assets/images/empathy-map-jorge.png>)
 
 ### 2.3.5 As-is Scenario Mapping
 
