@@ -2,7 +2,7 @@
 
 ## 3.1 To-Be Scenario Mapping
 
-**Segmento Objetivo 1:** Dueños de Restaurantes
+**Segmento Objetivo 1:** Administradores de Restaurantes
 
 Este escenario To-Be fue construido tras una revisión detallada del escenario As-Is de Carolina Rivas y de las oportunidades de mejora identificadas a partir de las entrevistas. Se definieron las fases del proceso y se contrastaron con las actuales. Se priorizaron mejoras en eficiencia, control, automatización y reducción de frustraciones operativas.
 
