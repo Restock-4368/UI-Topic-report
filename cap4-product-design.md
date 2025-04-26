@@ -90,6 +90,65 @@ En cuanto a los esquemas de categorización, no se utiliza una organización alf
 
 ### 4.2.4 Searching Systems
 
+## Vista del Administrador de Restaurante
+
+### 1. Medios de ayuda para la búsqueda de datos
+
+- Barra de búsqueda principal en cada módulo (Inventario, Pedidos, Proveedores).
+- Autocompletado inteligente: se muestran sugerencias conforme el usuario escribe.
+- Historial de búsquedas recientes.
+- Mensajes contextuales si no se encuentran resultados (“¿Desea agregar un nuevo insumo?”).
+
+### 2. Filtros y opciones
+
+- Por nombre de producto.
+- Por categoría de insumo (carnes, bebidas, verduras, etc.).
+- Por proveedor asociado.
+- Por estado de stock (stock bajo, suficiente, excedente).
+- Por fecha de vencimiento próxima.
+- Por pedidos con retraso o por llegar.
+
+### 3. Visualización de resultados
+
+- Filas con:
+  - Nombre del insumo.
+  - Cantidad actual.
+  - Alerta de stock bajo (ícono y color).
+  - Botones de acción rápida: **Editar**, **Eliminar**, **Reordenar**.
+- Íconos y colores visuales:
+  - Stock crítico.
+  - Stock bajo.
+  - Stock saludable.
+
+
+## Vista del Proveedor
+
+### 1. Medios de ayuda para la búsqueda de datos
+
+- Buscador centralizado para gestionar productos ofrecidos y pedidos recibidos.
+- Autocompletado para clientes, productos o pedidos.
+- Filtros combinables para analizar entregas, productos y clientes activos.
+
+### 2. Filtros y opciones
+
+- Por restaurante cliente.
+- Por producto ofrecido.
+- Por estado del pedido (pendiente, entregado, vencido).
+- Por fecha de entrega programada.
+- Por frecuencia de pedidos (clientes frecuentes o nuevos).
+
+### 3. Visualización de resultados
+
+- Listas de pedidos con:
+  - Nombre del cliente (restaurante).
+  - Productos solicitados.
+  - Fecha de entrega.
+  - Estado (pendiente, entregado, retrasado).
+- Colores de estado:
+  - Pedido entregado.
+  - Pedido pendiente.
+  - Pedido retrasado.
+
 ### 4.2.5 Navigation Systems
 
 La navegación en el sistema está diseñada para ser intuitiva y guiada mediante componentes de UI que permiten a los usuarios alcanzar sus objetivos de forma fluida. La navegación principal se presenta como una barra lateral fija con acceso rápido a secciones clave: Resumen, Suscripción, Inventario, Proveedores, Alertas, Pedidos y Recetas.
