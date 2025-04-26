@@ -198,8 +198,28 @@ La navegación también se adapta según el tipo de usuario. Por ejemplo, los pr
 
 ### 4.7.1 Class Diagrams
 
+![Class diagram](assets/images/cap4/UML_Java.png)
+
 ### 4.7.2 Class Dictionary
 
+| Entidad	| Descripción |
+|----------|--------------|
+|Subscription | Suscripción activa o pasada que un usuario ha contratado. |
+|User	| Cualquier persona que interactúa con el sistema. |
+|Subscriber | Tipo de usuario que tiene una suscripción activa para utilizar servicios adicionales/premium del sistema.|
+| Supplier	| Representa a un suscriptor de tipo proveedor que gestiona sus pedidos e inventario. |
+| RestaurantAdmin	| Representa a un suscriptor de tipo administrador de restaurante encargado de gestionar internamente el restaurante, sus operaciones, inventario y pedidos. |
+| Comment	| Comentario hecho por un administrador de restaurante a un pedido de proveedor. |
+| OrderToSupplier	| Pedido de productos o insumos realizado por el restaurante hacia un proveedor. |
+| PaymentInfo	| Contiene los detalles de métodos y transacciones de pago. |
+| Alert	| Representa una notificación automática que informa al suscriptor sobre eventos importantes. |
+| Inventory	| Representa el registro de todos los insumos, productos y materiales disponibles del suscriptor. |
+| ProductCatalog	| Catálogo o listado de platos ofrecidos por el restaurante a sus clientes. |
+| RestaurantCustomerOrder	| Pedido que un cliente realiza al restaurante. |
+| Report	| Resumen generado sobre eventos o métricas del sistema. |
+| Supply	| Insumo o materia prima almacenada en el inventario. |
+| RecipeIngredient	| Ingrediente específico que forma parte de una receta. |
+| Recipe	| Representa la receta de un plato del restaurante.
 
 ## 4.8 Database Design
 
