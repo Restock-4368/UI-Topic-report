@@ -4,6 +4,22 @@
 
 ### 1.1.1 Descripción de la Startup
 
+**UI-Topic** nace con el propósito de automatizar la gestión de inventario y los pedidos a proveedores en restaurantes para la maximización de sus ganancias. En un sector donde la falta de control en el almacenamiento y en los pedidos a proveedores genera desperdicio y pérdidas económicas, ofrecemos una solución tecnológica innovadora: una plataforma automatizada que optimiza el manejo de insumos y la gestión de pedidos a proveedores en restaurantes.
+
+Nuestra plataforma permite a los restaurantes monitorear su inventario en tiempo real, prever necesidades de abastecimiento y reducir el desperdicio de productos, todo desde una interfaz intuitiva y fácil de usar. Además, facilitamos la conexión con proveedores, agilizando los procesos de compra y asegurando un flujo de insumos eficiente.
+
+Nos enfocamos en apoyar tanto a pequeños restaurantes como a grandes cadenas, brindándoles herramientas tecnológicas accesibles para mejorar su rentabilidad y sostenibilidad. Creemos en la digitalización como un pilar fundamental para la evolución del sector gastronómico, ayudando a los negocios a ser más eficientes y competitivos en un mercado en constante cambio.  
+
+En **UI-Topic**, aspiramos a liderar la transformación digital en la gestión de inventarios y pedidos a proveedores, ofreciendo soluciones que impulsen la productividad y minimicen el desperdicio, contribuyendo así a un ecosistema gastronómico más organizado, rentable y sustentable.
+
+# **Misión y Visión**  
+
+## **Misión**  
+Nuestra misión es revolucionar la gestión de inventarios en la industria gastronómica mediante una plataforma automatizada que optimiza el control de insumos y la gestión de pedidos a provedores. Buscamos reducir el desperdicio, mejorar la eficiencia operativa y fortalecer la rentabilidad de los restaurantes, proporcionando una herramienta intuitiva y adaptable a sus necesidades.  
+
+## **Visión**  
+Visualizamos un futuro donde todos los restaurantes, sin importar su tamaño, cuenten con un sistema de gestión automatizado que les permita operar con mayor precisión y sostenibilidad. Aspiramos a ser líderes en la transformación digital del sector gastronómico, impulsando la innovación y facilitando la toma de decisiones estratégicas a través de la tecnología. 
+
 ### 1.1.2 Perfiles de integrantes del equipo
 
 | **Williams Eduardo Avendaño Balarezo (u202315325)** |
