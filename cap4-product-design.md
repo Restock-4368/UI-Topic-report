@@ -205,3 +205,6 @@ La navegación también se adapta según el tipo de usuario. Por ejemplo, los pr
 
 ### 4.8.1 Database Diagram
 
+![Database diagram](assets/images/database-diagram.png)
+
+
