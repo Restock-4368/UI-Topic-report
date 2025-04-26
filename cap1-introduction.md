@@ -14,6 +14,15 @@ Puedo aportar al equipo una capacidad sólida para desarrollar aplicaciones esca
 &nbsp;  
 ![Foto de Williams](assets/images/williams.png)
 
+| **Yaku Mateo Guzmán Cabrejos (u20231b173)** |
+|-----------------------------------------|
+|Soy estudiante de Ingeniería de Software, motivado por el desarrollo de aplicaciones y por entender cómo funcionan las tecnologías detrás de ellas. Me gusta crear soluciones útiles, eficientes y seguras. Tengo experiencia en frontend y backend, y conocimientos sólidos en estructuras de datos, patrones de diseño y arquitectura de software, lo que me permite construir sistemas bien organizados y escalables.
+A futuro, me gustaría especializarme en informática forense y ciberseguridad. Me interesa aprender nuevas herramientas y metodologías que mejoren el desarrollo y la calidad del software.
+Me considero analítico, con buenas prácticas en trabajo en equipo y organización usando Git. Siempre busco aportar ideas prácticas y resolver problemas de forma eficiente. |
+
+&nbsp;  
+![Foto de Yaku](assets/images/yaku.png)
+
 ## 1.2 Solution Profile
 ### 1.2.1 Antecedente y Problemática
 
