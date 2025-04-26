@@ -192,8 +192,6 @@ Retención: retención del 60%
 
 #### 1.2.2.3 Lean UX Hypothesis Statements
 
-#### 1.2.2.3 **Lean UX Hypothesis Statements**  
-
 1. **Creemos que** al proporcionar un sistema automatizado de gestión de inventario y pedidos para restaurantes, reduciremos la desorganización y el desperdicio de insumos.  
    **Sabremos que** hemos tenido éxito **cuando** los restaurantes reporten una disminución en la pérdida de productos y una mejora en la eficiencia operativa.  
 
