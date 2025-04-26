@@ -331,6 +331,18 @@ En esta sección se presentan los User Journey Maps (As-Is) de los segmentos rep
 
 ### 2.3.5 As-is Scenario Mapping
 
+**Segmento Objetivo 1:** Administradores de Restaurantes
+
+El siguiente escenario As-Is fue desarrollado a partir de entrevistas y análisis de comportamiento del perfil de Carolina Rivas. Se identificaron las principales fases que conforman su flujo de trabajo diario como administradora de un restaurante
+
+![Foto de As-Is Scenario Mapping Sector 1](assets/images/as-is_sector1.png)
+
+**Segmento objetivo 2:** Proveedores de Restaurantes
+
+El siguiente escenario As-Is fue desarrollado a partir de entrevistas y análisis del comportamiento del perfil de Jorge Torres. Se identificaron las principales fases que conforman su flujo de trabajo diario como proveedor tradicional de abarrotes y bebidas para restaurantes.
+
+![Foto de As-Is Scenario Mapping Sector 2](assets/images/as-is_sector2.png)
+
 ## 2.4. Ubiquitous Language
 
 En esta sección se presentan los términos clave del proyecto UI-Topic. Estos términos han sido acordados en el equipo del proyecto y serán usados de manera consistente en la comunicación, documentación y desarrollo del sistema.
