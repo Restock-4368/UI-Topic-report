@@ -214,6 +214,22 @@ https://trello.com/invite/b/680c05f1fac416bfdb0ea024/ATTI41428da9336a1d11b087843
 #### 5.2.1.5 Execution Evidence for Sprint Review
 
 #### 5.2.1.6 Services Documentation Evidence for Sprint Review
+Durante este sprint se completó el diseño e implementación del Landing Page del sistema, el cual forma parte del acceso inicial al sistema y constituye un punto de entrada fundamental para los usuarios. Aunque no se implementaron endpoints tradicionales de tipo REST en este sprint, se documenta a continuación la URL del recurso publicado, junto con evidencia de despliegue, interacción y commits relacionados.
+
+**Descripción del Logro:**
+
+-Implementación del Landing Page estático.
+
+-Deployment del landing page.
+
+### 🌐 Recursos del Sprint
+
+| Recurso      | Acción implementada   | Método HTTP | URL / Endpoint                      | Link de repositorio         |
+|--------------|------------------------|-------------|-------------------------------------|---------------------------|
+| Landing Page | Visualización inicial | GET         | https://desarrollo-de-app-web-curso-upc.github.io/UI-Topic-landing/               | https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-landing   |
+
+**Documentacion**
+Commit 556268a: Initial commit
 
 #### 5.2.1.7 Software Deployment Evidence for Sprint Review
 
