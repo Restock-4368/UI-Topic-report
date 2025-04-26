@@ -135,10 +135,26 @@ Se utilizará el estándar de **Conventional Commits** para los mensajes de comm
 
 ## 5.2 Landing Page, Services & Applications Implementation
 
+## 5.2.1 Sprint 1
 
-### 5.2.1 Sprint 1
+### 5.2.1.1. Sprint Planning 1
 
-#### 5.2.1.1 Sprint Planning 1
+A continuación, se presenta la planificación correspondiente a nuestro Sprint 1, el cual tiene como enfoque principal el desarrollo de la landing page de Restock. En esta etapa inicial, el equipo definió el objetivo del sprint, seleccionó las historias de usuario más relevantes y estableció los entregables clave que permitirán construir una primera versión funcional y visualmente atractiva de la página. Esta planificación busca asegurar un entendimiento compartido entre todos los miembros del equipo y sentar las bases para comunicar eficazmente el valor de la plataforma a los usuarios potenciales.
+
+| Sprint #     | Sprint 1                   | 
+|--------------|----------------------------|
+| **Sprint Planning Background**                |      
+| Date                  | 2025-04-23             | 
+| Time                  | 19:00 pm (GMT-5)|
+| Location | Modalidad remota mediante la plataforma Discord |
+| Prepared By | Shapiama Rivera, Gabriela Nicole |
+| Attendees (to planning meeting) | Avendaño Balarezo, Williams Eduardo / Castro Alejos / Julio, Guerra Perez, José Jahaziel / Guzmán Cabrejos, Yaku Mateo / Shapiama Rivera, Gabriela Nicole |
+| Sprint 0 Review Summary  | Dado que este es el sprint inicial, no se presenta un resumen del sprint anterior. |
+| Sprint 0 Retrospective Summary | Dado que este es el sprint inicial, no se presenta una retroalimentación del sprint anterior. |
+| **Sprint Goal & User Stories** |
+| Sprint 1 Goal | Nos enfocamos en implementar la estructura principal y las funcionalidades clave de la landing page pública de Restock.<br>Creemos que esto aportará una percepción más sólida del producto y despertará mayor interés entre los usuarios potenciales, al comunicar de forma clara el valor y los beneficios de la plataforma.<br>Esto se confirmará cuando los visitantes puedan navegar de manera fluida por la página, comprendan fácilmente qué ofrece Restock y muestren intención de interactuar o registrarse. |
+| Sprint 1 Velocity | 27 puntos |
+| Sum of Story Points |  27 puntos |
 
 #### 5.2.1.2 Aspect Leaders and Collaborators
 
