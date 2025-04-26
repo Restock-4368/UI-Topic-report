@@ -64,3 +64,13 @@ Por tanto, se evidencia una clara necesidad de una solución tecnológica accesi
 #### 1.2.2.4 Lean UX Canvas
 
 ## 1.3 Segmentos objetivos
+
+## 1.3 Segmentos objetivos
+
+**Segmento Objetivo 1: Dueños o Administradores de Restaurantes**
+
+Los dueños o administradores de restaurantes en Lima, con edades entre 20 y 60 años que buscan optimizar la gestión de sus establecimientos para mejorar la experiencia del cliente y aumentar la rentabilidad. Enfrentan desafíos en la administración de inventarios, pedidos y coordinación del personal, por lo que requieren soluciones tecnológicas eficientes. Según el Instituto Nacional de Estadística e Informática (INEI), en abril de 2023, la actividad de restaurantes en Perú creció un 9,16% respecto al año anterior, reflejando un sector en recuperación y expansión. 
+
+**Segmento Objetivo 2: Proveedores para Restaurantes**
+
+Los proveedores de alimentos, bebidas y utensilios que abastecen a restaurantes en Lima y otras ciudades que buscan establecer relaciones comerciales con clientes que valoren la calidad y confiabilidad en las entregas. Este segmento incluye desde pequeños productores locales hasta grandes distribuidores. Según el INEI, en diciembre de 2023, la actividad de restaurantes aumentó un 3,66%, impulsando la demanda de insumos y beneficiando a los proveedores del sector.
