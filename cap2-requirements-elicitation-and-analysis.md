@@ -281,6 +281,36 @@ El manejo de facturas y pagos al crédito es visto como una parte vulnerable de 
 
 ### 2.3.2. User Task Matrix
 
+Se presenta el User Task Matrix, que reúne las tareas que ambos User Persona, administradores de restaurantes y proveedores de restaurantes, realizan para lograr sus objetivos. Estas tareas comprenden funciones específicas, son actividades que los usuarios llevan a cabo en su día a día, independientemente de la existencia de una solución tecnológica.
+
+Los segmentos considerados para este análisis son:
+
+- Dueños de Restaurantes
+- Proveedores para Restaurantes
+
+##### Task Matrix
+
+| Tarea                                                    | User Persona 1 |         | User Persona 2 |          |
+|----------------------------------------------------------|----------------|---------|----------------|----------|
+|                                                          | Frecuencia     | Importancia | Frecuencia      | Importancia |
+| Supervisar y controlar el inventario                     | often          | high        | sometimes       | high        |
+| Capacitar al personal o asistente operativo              | sometimes      | medium      | sometimes       | medium      |
+| Coordinar pedidos y abastecimiento                       | often          | high        | often           | high        |
+| Comunicarse con clientes/proveedores                     | sometimes      | medium      | often           | high        |
+| Evaluar precios, rentabilidad y condiciones de venta     | sometimes      | high        | sometimes       | medium      |
+| Revisar ingresos, gastos y pagos                         | often          | high        | often           | high        |
+| Gestionar incidencias e imprevistos                      | sometimes      | medium      | sometimes       | medium      |
+| Preparar, despachar o recibir productos del día          | sometimes      | high        | often           | high        |
+| Optimizar rutas o flujos logísticos internos             | rarely         | low         | sometimes       | medium      |
+| Buscar herramientas para mejorar la gestión/organización | rarely         | medium      | rarely          | medium      |
+
+**Análisis:**
+- Ambos segmentos comparten varias tareas operativas esenciales, como la supervisión de inventario, la coordinación de pedidos, el control de ingresos y pagos, y la gestión de imprevistos. Estas actividades son frecuentes y de alta importancia en ambos casos, aunque con enfoques distintos: el administrador de restaurante busca eficiencia y control interno, mientras que el proveedor se centra en la entrega oportuna.
+
+- Otras tareas como capacitar al personal, evaluar rentabilidad o buscar herramientas de mejora son menos frecuentes, pero igualmente presentes en ambos perfiles. Esto evidencia un interés común por profesionalizar sus procesos.
+
+- Por otro lado, tareas como la optimización de rutas logísticas son mucho más relevantes para el proveedor, dado que forman parte directa de su operación diaria, mientras que para el administrador su frecuencia e impacto es menor. Esta diferencia permite identificar funcionalidades que deben ser priorizadas según el perfil del usuario.
+
 
 ### 2.3.3. User Journey Mapping
 
