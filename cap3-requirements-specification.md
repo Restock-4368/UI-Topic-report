@@ -103,6 +103,11 @@ Este escenario To-Be fue construido a partir del análisis del escenario As-Is d
 | 79 | TS-32 | Exportar reporte de facturación mediante GET | Como desarrollador, deseo generar un reporte en pdf o excel de las ventas de un proveedor. | 8 |
 | 80 | TS-33 | Obtener lista de mejores clientes mediante GET | Como desarrollador, deseo obtener una lista de los restaurantes que más compran a un proveedor. | 5 |
 
+
+## 3.3 Impact Mapping
+
+![Foto de Impact Mapping](assets/images/impact-map.png)
+
 ### 3.4.1 Evidencia del Product Backlog
 
 A continuación, se presenta una captura de pantalla del backlog de historias de usuario gestionado en la herramienta Jira. 
