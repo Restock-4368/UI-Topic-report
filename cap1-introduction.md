@@ -68,6 +68,14 @@ Por tanto, se evidencia una clara necesidad de una solución tecnológica accesi
 
 #### 1.2.2.1. Lean UX Problem Statements
 
+El estado actual de la operación en restaurantes ha dependido principalmente de la gestión manual de inventarios y pedidos por parte de administradores y proveedores. Utilizan hojas de cálculo, cuadernos físicos y mensajería informal. Estos procesos generan errores, desperdicio de insumos y falta de control operativo.
+
+Lo que los productos actuales no resuelven es la necesidad de una solución accesible y sencilla que integre a proveedores y permita automatizar la operación sin requerir conocimientos muy técnicos.
+
+Nuestro producto abordará esta brecha mediante una plataforma que digitaliza la gestión de inventario, automatiza pedidos a proveedores y centraliza la comunicación entre las dos partes.
+
+Nuestro enfoque inicial estará dirigido a administradores de restaurantes y proveedores. Sabremos que hemos tenido éxito cuando veamos una reducción del desperdicio, una mejora en los tiempos de abastecimiento, y un uso recurrente de la plataforma para registrar inventario y coordinar pedidos por parte de los usuarios
+
 #### 1.2.2.2 Lean UX Assumptions
 
 #### 1.2.2.3 Lean UX Hypothesis Statements
