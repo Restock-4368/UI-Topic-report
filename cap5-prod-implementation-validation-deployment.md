@@ -229,7 +229,7 @@ Durante este sprint se completó el diseño e implementación del Landing Page d
 | Landing Page | Visualización inicial | GET         | https://desarrollo-de-app-web-curso-upc.github.io/UI-Topic-landing/               | https://github.com/Desarrollo-de-App-Open-Source-Curso-UPC/UI-Topic-landing   |
 
 **Documentacion**
-Commit 556268a: Initial commit
+Commit 4d6b92f: Initial commit
 
 #### 5.2.1.7 Software Deployment Evidence for Sprint Review
 
