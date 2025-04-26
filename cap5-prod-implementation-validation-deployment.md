@@ -65,7 +65,68 @@ Se utilizará el estándar de **Conventional Commits** para los mensajes de comm
 - `chore: update dependencies`
 
 
-### 5.1.3 Source Code Style Guide & Conventions
+## 5.1.3. Source Code Style Guide & Conventions
+
+## Frontend (Landing Page - HTML, CSS, JavaScript)
+
+### Convenciones generales:
+- **Idioma**: Todo el código, incluyendo nombres de variables, funciones y clases, está escrito en **inglés**.
+- **Indentación**: 2 espacios.
+- **Formato de archivos**: `.html`, `.css`, `.js`
+- **Estilo de código adoptado**:
+  - [W3Schools HTML Style Guide](https://www.w3schools.com/html/html5_syntax.asp)
+  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
+
+### Nomenclatura:
+- **Clases CSS**: `kebab-case` (ej. `main-container`)
+- **IDs HTML**: `camelCase` (ej. `mainContent`)
+- **Variables JS**: `camelCase` (ej. `userName`)
+- **Funciones JS**: `camelCase` (ej. `handleClick()`)
+
+---
+
+## Frontend Web App (Vue.js + JavaScript)
+
+### Convenciones generales:
+- **Idioma**: Código completamente en **inglés**.
+- **Estructura de carpetas**: Segregación por módulos y componentes.
+- **Indentación**: 2 espacios.
+- **Formato de archivos**: `.vue`, `.js`, `.css`
+
+### Estilo de código adoptado:
+- [Vue.js Style Guide (Oficial)](https://vuejs.org/guide/reusability/style-guide.html)
+- [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
+
+### Nomenclatura:
+- **Componentes Vue**: `PascalCase` (ej. `UserProfile.vue`)
+- **Variables y funciones JS**: `camelCase` (ej. `userName`, `handleSubmit()`)
+- **Archivos**: `kebab-case` (ej. `user-profile.vue`)
+- **Props**: `camelCase` en JavaScript, `kebab-case` en templates HTML (ej. prop: `userProfile`, uso: `user-profile`)
+- **Eventos personalizados**: `kebab-case` (ej. `user-logged-in`)
+- **Clases CSS**: `kebab-case`
+
+---
+
+## Backend (ASP.NET + C#)
+
+### Convenciones generales:
+- **Idioma**: Código y documentación interna en **inglés**.
+- **Indentación**: 4 espacios.
+- **Formato de archivos**: `.cs`
+
+### Estilo de código adoptado:
+- [Microsoft C# Coding Conventions](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions)
+- [ASP.NET Core Best Practices](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/index)
+
+### Nomenclatura:
+- **Clases**: `PascalCase` (ej. `UserService`)
+- **Métodos**: `PascalCase` (ej. `GetUserById()`)
+- **Variables locales**: `camelCase` (ej. `userRepository`)
+- **Constantes**: `PascalCase` o `UPPER_SNAKE_CASE` (según si es `const` o `readonly static`) (ej. `MaxUsers`)
+- **Interfaces**: `IPascalCase` (ej. `IUserRepository`)
+- **Endpoints (URLs)**: `kebab-case` (ej. `/api/user-profile`)
+- **Namespaces**: `PascalCase` y estructurados jerárquicamente (ej. `ProjectName.ModuleName.FeatureName`)
+
 
 ### 5.1.4 Software Deployment Configuration
 
