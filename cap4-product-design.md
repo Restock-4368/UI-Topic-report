@@ -400,7 +400,27 @@ A continuación, se presentan los mock-ups de la versión móvil de la aplicaci�
 
 ### 4.4.1 Web Applications Wireframes
 
+Los siguientes wireframes corresponden a la aplicación web de Restock
+
+### Principios aplicados
+
+- **Jerarquía funcional clara:**
+ El flujo de navegación prioriza las acciones más relevantes para proveedores, como gestión de productos, visualización de órdenes y acceso a reportes de ventas.
+
+- **Consistencia y patrones de diseño:**
+ Los componentes mantienen uniformidad en su comportamiento visual e interactivo, asegurando coherencia entre pantallas y módulos.
+
+- **Accesibilidad en interfaces:**
+ Se aplicaron contrastes adecuados, fuentes legibles, botones de tamaño óptimo y estructura de navegación compatible con teclado y lectores de pantalla.
+
+- **Diseño adaptativo:**
+ Los wireframes consideran que la aplicación será utilizada tanto en pantallas de laptop como en tablets, por lo que el diseño es responsivo y se ajusta a distintos anchos de pantalla.
+
+- **Arquitectura de información enfocada al flujo de tareas:**
+ La estructura prioriza la eficiencia operativa, permitiendo a los proveedores registrar productos, atender pedidos y monitorear métricas clave en el menor número de clics posible.
+
 #### Segmento objetivo: Dueño o Administrador de Restaurante (User Persona 1)
+
 ![a1](assets/images/wireframes-admin/a1.png)
 ![b1](assets/images/wireframes-admin/b1.png)
 ![c1](assets/images/wireframes-admin/c1.png)
@@ -440,6 +460,30 @@ A continuación, se presentan los mock-ups de la versión móvil de la aplicaci�
 ![i8](assets/images/wireframes-admin/i8.png)
 ![i9](assets/images/wireframes-admin/i9.png)
 ![i10](assets/images/wireframes-admin/i10.png)
+
+### Segmento objetivo: Proveedores de Restaurantes (User Persona 2)
+
+!p1](assets/images/web-applications-wireframes-proveedor/gestion-perfil.png)
+!p2](assets/images/web-applications-wireframes-proveedor/actualiza-datos.png)
+!p3](assets/images/web-applications-wireframes-proveedor/resumen.png)
+!p4](assets/images/web-applications-wireframes-proveedor/listar-suscripciones.png)
+!p5](assets/images/web-applications-wireframes-proveedor/comprar-suscripciones.png)
+!p6](assets/images/web-applications-wireframes-proveedor/inventario1.png)
+!p7](assets/images/web-applications-wireframes-proveedor/inventario-agregar-insumo.png)
+!p8](assets/images/web-applications-wireframes-proveedor/inventario-insumos-agregados.png)
+!p9](assets/images/web-applications-wireframes-proveedor/inventario-agregar-insumo-no-perecible.png)
+!p10](assets/images/web-applications-wireframes-proveedor/inventario-agregar-insumo-perecible.png)
+!p11](assets/images/web-applications-wireframes-proveedor/inventario2.png)
+!p12](assets/images/web-applications-wireframes-proveedor/inventario-editar-insumo-no-perecible.png)
+!p13](assets/images/web-applications-wireframes-proveedor/inventario-editar-insumo-perecible.png)
+!p14](assets/images/web-applications-wireframes-proveedor/inventario-eliminar-insumo.png)
+!p15](assets/images/web-applications-wireframes-proveedor/inventario3.png)
+!p16](assets/images/web-applications-wireframes-proveedor/alertas.png)
+!p17](assets/images/web-applications-wireframes-proveedor/ordenes.png)
+!p18](assets/images/web-applications-wireframes-proveedor/ordenes-detalle.png)
+!p19](assets/images/web-applications-wireframes-proveedor/orden-aceptada.png)
+!p20](assets/images/web-applications-wireframes-proveedor/orden-rechazada.png)
+!p21](assets/images/web-applications-wireframes-proveedor/calificaciones.png)
 
 ### 4.4.2 Web Applications Wireflow Diagrams
 
@@ -586,124 +630,47 @@ Esta sección presenta la propuesta de Wireflows. Se ha considerado un Wireflow 
 
 ### 4.4.3 Web Applications Mock-ups
 
-
-
 ### 4.4.4 Web Applications User Flow Diagrams
-
-#### User Flows Desktop
-
-A continuación se muestra los user flows asociados a cada user goal, donde se pueden apreciar tanto los happy paths como unhappy paths de los usuarios al navegar por la plataforma:
-
-**Desktop User Flow 1:**
-
-![Desktop User Flow 1](assets/images/cap4/user-flows-desktop/UF_desktop_1.jpeg)
-
-**Desktop User Flow 2:**
-
-![Desktop User Flow 2](assets/images/cap4/user-flows-desktop/UF_desktop_2.jpeg)
-
-**Desktop User Flow 3:**
-
-Se aprecia el unhappy path de fecha incorrecta:
-
-![Desktop User Flow 3](assets/images/cap4/user-flows-desktop/UF_desktop_3.jpeg)
-
-**Desktop User Flow 4:**
-
-![Desktop User Flow 4](assets/images/cap4/user-flows-desktop/UF_desktop_4.jpeg)
-
-**Desktop User Flow 5:**
-
-![Desktop User Flow 5](assets/images/cap4/user-flows-desktop/UF_desktop_5.jpeg)
-
-**Desktop User Flow 6:**
-
-![Desktop User Flow 6](assets/images/cap4/user-flows-desktop/UF_desktop_6.jpeg)
-
-**Desktop User Flow 7:**
-![Desktop User Flow 7](assets/images/cap4/user-flows-desktop/UF_desktop_7.jpeg)
-
-**Desktop User Flow 8:**
-
-![Desktop User Flow 8.1](assets/images/cap4/user-flows-desktop/UF_desktop_8.1.jpeg)
-
-![Desktop User Flow 8.2](assets/images/cap4/user-flows-desktop/UF_desktop_8.2.jpeg)
-
-**Desktop User Flow 9:**
-
-Se aprecia el unhappy path de formato de imagen incorrecta:
-
-![Desktop User Flow 9](assets/images/cap4/user-flows-desktop/UF_desktop_9.jpeg)
-
-**Desktop User Flow 10:**
-
-![Desktop User Flow 10](assets/images/cap4/user-flows-desktop/UF_desktop_10.jpeg)
-
-**Desktop User Flow 11:**
-
-![Desktop User Flow 11](assets/images/cap4/user-flows-desktop/UF_desktop_11.jpeg)
-
-**Desktop User Flow 12:**
-
-![Desktop User Flow 12](assets/images/cap4/user-flows-desktop/UF_desktop_12.jpeg)
-
-**Desktop User Flow 13:**
-
-![Desktop User Flow 13](assets/images/cap4/user-flows-desktop/UF_desktop_13.jpeg)
-
 
 #### User Flows Mobile
 
 **Mobile User Flow 1:**
-
 ![Mobile User Flow 1](assets/images/cap4/mobile_ug1.png)
 
 **Mobile User Flow 2:**
-
 ![Mobile User Flow 2](assets/images/cap4/mobile_ug2.png)
 
 **Mobile User Flow 3:**
-
 ![Mobile User Flow 3](assets/images/cap4/mobile_ug3.png)
 
 **Mobile User Flow 4:**
-
 ![Mobile User Flow 4](assets/images/cap4/mobile_ug4.png)
 
 **Mobile User Flow 5:**
-
 ![Mobile User Flow 5](assets/images/cap4/mobile_ug5.png)
 
 **Mobile User Flow 6:**
-
 ![Mobile User Flow 6](assets/images/cap4/mobile_ug6.png)
 
 **Mobile User Flow 7:**
-
 ![Mobile User Flow 7](assets/images/cap4/mobile_ug7.png)
 
 **Mobile User Flow 8:**
-
 ![Mobile User Flow 8](assets/images/cap4/mobile_ug8.png)
 
 **Mobile User Flow 9:**
-
 ![Mobile User Flow 9](assets/images/cap4/mobile_ug9.png)
 
 **Mobile User Flow 10:**
-
 ![Mobile User Flow 10](assets/images/cap4/mobile_ug10.png)
 
 **Mobile User Flow 11:**
-
 ![Mobile User Flow 11](assets/images/cap4/mobile_ug11.png)
 
 **Mobile User Flow 12:**
-
 ![Mobile User Flow 12](assets/images/cap4/mobile_ug12.png)
 
 **Mobile User Flow 13:**
-
 ![Mobile User Flow 13](assets/images/cap4/mobile_ug13.png)
 
 
@@ -768,5 +735,3 @@ A continuación, se presenta el video de prototipado de la aplicación web en su
 ### 4.8.1 Database Diagram
 
 ![Database diagram](assets/images/database-diagram.png)
-
-
