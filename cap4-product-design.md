@@ -283,43 +283,144 @@ La navegación también se adapta según el tipo de usuario. Por ejemplo, los pr
 
 Esta sección presenta la propuesta de Wireflows. Se ha considerado un Wireflow para cada User Goal, teniendo en cuenta los User Persona definidos para las aplicaciones que forman parte del alcance.
 
-#### User Persona 1:  Dueño o administrador de restaurante
+#### Task Flow 1: Administrar la cuenta
 
-**User Goal 1:** Como administrador de restaurante, quiero registrar y actualizar manualmente el inventario de insumos, para mantener el control de stock, evitar sobreabastecimientos y detectar discrepancias.
-![User Goal 1](assets/images/cap4/usergoal_1.png)
+**Objetivo del usuario**: Gestionar la información de su cuenta y su suscripción para mantener el acceso y los beneficios de la plataforma.
 
-**User Goal 2:** Como administrador de restaurante, quiero gestionar manualmente el inventario de insumos (ingresarlos, actualizarlos, descontarlos o registrar compras), para mantener datos precisos que eviten pérdidas y faciliten la toma de decisiones.
-![User Goal 2](assets/images/cap4/usergoal_2.png)
+**Pasos del Task Flow:**
 
-**User Goal 3:** Como administrador de restaurante, quiero gestionar y consultar información de mis proveedores (agregarlos, buscarlos y ver su historial de compras), para mantener organizada la relación comercial y controlar mejor mis gastos.
-![User Goal 3](assets/images/cap4/usergoal_3.png)
-
-**User Goal 4:** Como administrador de restarante, quiero que mi empleado registre ventas completas desde la carta (platos e insumos adicionales), para automatizar el descuento de stock y mantener el inventario sincronizado sin tener que gestionarlo manualmente.
-![User Goal 4](assets/images/cap4/usergoal_4.png)
-
-**User Goal 5:** Como administrador de restaurante, quiero gestionar mi cuenta (perfil y suscripción) para tener acceso completo a la plataforma y asegurarme de que mis datos estén siempre actualizados.
-![User Goal 5](assets/images/cap4/usergoal_5.png)
-
-**User Goal 6:** Como administrador de restaurante, quiero evaluar los pedidos que recibo de los proveedores, para dejar retroalimentación y asegurar la calidad de los insumos en futuras compras.
-![User Goal 6](assets/images/cap4/usergoal_6.png)
-
-**User Goal 7:** Como administrador de restaurante, quiero crear recetas vinculadas a insumos del inventario, para estandarizar los platos, calcular sus costos y controlar el consumo de ingredientes automáticamente.
-![User Goal 7](assets/images/cap4/usergoal_7.png)
-
-#### User Persona 2: Proveedores para restaurante
-
-**User Goal 8:** Como proveedor, quiero gestionar mi catálogo de productos (agregarlos, actualizarlos o desactivarlos temporalmente), para asegurar que los restaurantes vean solo productos disponibles y vigentes.
-![User Goal 8](assets/images/cap4/usergoal_8.png)
-
-**User Goal 9:** Como proveedor, quiero gestionar y actualizar el estado de las órdenes recibidas, para organizar mis entregas, coordinar con los restaurantes y brindar visibilidad sobre el proceso de despacho.
-![User Goal 9](assets/images/cap4/usergoal_9.png)
-
-**User Goal 10:** Como proveedor, quiero analizar el rendimiento de mis ventas y el feedback de los restaurantes, para identificar a mis mejores clientes, mejorar mi servicio y fortalecer relaciones comerciales.
-![User Goal 10](assets/images/cap4/usergoal_10.png)
+1. Acceder a la sección "Perfil" o "Cuenta" desde el menú lateral.
+2. Visualizar los datos personales registrados.
+3. Actualizar la información de perfil (nombre, apellidos, correo electrónico, dirección o país).
+4. Guardar los cambios realizados en el perfil.
+5. Acceder a la sección "Suscripción" desde el menú lateral.
+6. Visualizar los planes de suscripción disponibles.
+7. Seleccionar el plan de suscripción deseado.
+8. Ingresar los datos de pago requeridos (correo, tarjeta, dirección).
+9. Confirmar y completar el pago de la suscripción.
 
 
-**User Goal 11:** Como proveedor, quiero tener control total sobre los productos de mi inventario, para poder visualizar, actualizar o eliminar aquellos que ya no están disponibles o no deseo ofrecer.
-![User Goal 11](assets/images/cap4/usergoal_11.png)
+**User Goal 1:** Como suscriptor, quiero gestionar mi cuenta para tener acceso completo a la plataforma y asegurarme de que mis datos estén siempre actualizados.  
+![User Goal 1](assets/images/cap4/taskflow1_ug1.png)
+
+**User Goal 2:** Como suscriptor, quiero gestionar mi plan de suscripción para obtener beneficios respecto a la plataforma. 
+![User Goal 2](assets/images/cap4/taskflow1_ug2.png)
+
+### User Persona 1:  Dueño o administrador de restaurante
+
+#### Task Flow 2: Monitorear el inventario
+
+**Objetivo del usuario**: Gestionar y monitorear manualmente el inventario de insumos para mantener la disponibilidad de productos y detectar problemas a tiempo.
+
+**Pasos del Task Flow:**
+
+1. Acceder a la sección "Inventario" desde el menú lateral.
+2. Visualizar el listado general de insumos registrados.
+3. Ingresar un nuevo insumo manualmente (nombre, categoría, unidad de medida, stock máximo).
+4. Editar la información de un insumo existente (stock disponible, estado de visibilidad, fecha de vencimiento).
+5. Registrar una compra de insumos realizada a un proveedor.
+6. Consultar las últimas alertas registradas relacionadas con stock o vencimientos.
+7. Acceder al historial completo de alertas del inventario.
+8. Visualizar el panel de resumen del inventario (ingredientes más usados, productos próximos a vencer, alertas críticas).
+9. Tomar decisiones de reposición, corrección o eliminación de insumos según los datos mostrados.
+
+**User Goal 3** Como administrador de restaurante, quiero gestionar manualmente el inventario de insumos (ingresarlos, actualizarlos, descontarlos o registrar compras), para mantener datos precisos que eviten pérdidas y faciliten la toma de decisiones.  
+![User Goal 3](assets/images/cap4/taskflow2_ug3.png)
+
+**User Goal 4:** Como administrador, quiero consultar un panel que resuma datos importantes y acceder al historial de alertas, para tomar decisiones rápidas sobre el inventario.  
+![User Goal 4](assets/images/cap4/taskflow2_ug4.png)
+
+#### Task Flow 3: Monitorear pedidos a los proveedores
+
+**Objetivo del usuario**: Gestionar la relación con los proveedores y evaluar la calidad de los insumos recibidos mediante pedidos y retroalimentación.
+
+**Pasos del Task Flow:**
+
+1. Acceder a la sección "Proveedores" desde el menú lateral.
+2. Visualizar el listado general de proveedores registrados.
+3. Buscar o filtrar proveedores por nombre, tipo de insumo o estado.
+4. Seleccionar un proveedor para consultar su historial de compras y catálogo de productos.
+5. Crear un nuevo pedido seleccionando un insumo disponible en el catálogo del proveedor.
+6. Confirmar la cantidad deseada y registrar el pedido.
+7. Acceder a la sección "Pedidos" desde el menú lateral.
+8. Visualizar la lista de pedidos pendientes, aprobados, rechazados o completados.
+9. Calificar y dejar comentarios sobre los pedidos recibidos para retroalimentar al proveedor.
+
+**User Goal 5:** Como administrador de restaurante, quiero consultar información de mis proveedores, para mantener organizada la relación comercial y controlar mejor mis gastos.  
+![User Goal 5](assets/images/cap4/taskflow3_ug5.png)
+
+**User Goal 6:** Como administrador de restaurante, quiero solicitar pedidos a mis proveedores, para actualizar mi inventario según los insumos que requiero.
+![User Goal 6](assets/images/cap4/taskflow3_ug5.2.png)
+
+**User Goal 7:** Como administrador de restaurante, quiero evaluar los pedidos que recibo de los proveedores, para dejar retroalimentación y asegurar la calidad de los insumos en futuras compras.  
+![User Goal 7](assets/images/cap4/taskflow3_ug6.png)
+
+
+#### Task Flow 4: Gestionar el servicio del restaurante
+
+**Objetivo del usuario**: Facilitar la administración del stock a través del registro de ventas y la estandarización de platos mediante recetas vinculadas al inventario.
+
+**Pasos del Task Flow:**
+
+1. Acceder a la sección "Ventas" desde el menú lateral.
+2. Iniciar un nuevo registro de venta seleccionando platos y/o insumos adicionales desde la carta.
+3. Visualizar el detalle del pedido para verificar precios y cantidades.
+4. Confirmar la venta y actualizar automáticamente el inventario descontando el stock utilizado.
+5. Acceder a la sección "Recetas" desde el menú lateral.
+6. Visualizar el listado de recetas registradas en el sistema.
+7. Crear una nueva receta ingresando el nombre del plato, el costo total y los insumos utilizados.
+8. Guardar la receta para vincularla automáticamente con el inventario y controlar el consumo de insumos por plato.
+
+**User Goal 8:** Como administrador de restaurante, quiero que mi empleado registre ventas completas desde la carta (platos e insumos adicionales), para automatizar el descuento de stock y mantener el inventario sincronizado sin tener que gestionarlo manualmente.  
+![User Goal 8](assets/images/cap4/taskflow4_ug7.png)
+
+**User Goal 8:** Como administrador de restaurante, quiero crear recetas vinculadas a insumos del inventario, para estandarizar los platos, calcular sus costos y controlar el consumo de ingredientes automáticamente.  
+![User Goal 9](assets/images/cap4/taskflow4_ug8.png)
+
+
+
+### User Persona 2: Proveedores para restaurante
+
+#### Task Flow 5: Gestionar el catálogo de productos
+
+**Objetivo del usuario**: Mantener actualizado el catálogo de productos ofrecidos a los restaurantes, asegurando la disponibilidad y evitando confusión con productos obsoletos.
+
+**Pasos del Task Flow:**
+
+1. Acceder a la sección "Inventario" desde el menú lateral.
+2. Visualizar el listado de productos registrados en el inventario.
+3. Crear un nuevo producto completando el formulario de nombre, categoría, unidad de medida y descripción opcional.
+4. Editar un producto existente para actualizar stock, categoría o visibilidad.
+5. Desactivar temporalmente un producto para ocultarlo del catálogo cuando no esté disponible.
+6. Eliminar definitivamente un producto obsoleto o que ya no se desea ofrecer.
+
+**User Goal 10:** Como proveedor, quiero gestionar mi catálogo de productos (agregarlos, actualizarlos o desactivarlos temporalmente), para asegurar que los restaurantes vean solo productos disponibles y vigentes.  
+![User Goal 10](assets/images/cap4/taskflow5_ug9.png)
+
+**User Goal 11:** Como proveedor, quiero tener control total sobre los productos de mi inventario, para poder visualizar, actualizar o eliminar aquellos que ya no están disponibles o no deseo ofrecer.  
+![User Goal 11](assets/images/cap4/taskflow5_ug10.png)
+
+#### Task Flow 6: Monitorear los pedidos
+
+**Objetivo del usuario**: Gestionar y hacer seguimiento de las órdenes recibidas, además de analizar el desempeño de ventas y relaciones con los clientes.
+
+**Pasos del Task Flow:**
+
+1. Acceder a la sección "Órdenes" desde el menú lateral.
+2. Visualizar el listado de órdenes recibidas por parte de restaurantes.
+3. Consultar el detalle de cada orden (producto, cantidad, fecha estimada de entrega).
+4. Actualizar el estado de la orden (preparando, en camino, entregado) para informar al restaurante del avance.
+5. Acceder a la sección de "Resumen" o "Calificaciones" desde el menú lateral.
+6. Visualizar las métricas de ventas por restaurante (historial de ventas).
+7. Identificar a los clientes más frecuentes o que realizan mayores compras.
+8. Consultar las calificaciones y comentarios recibidos de los restaurantes.
+9. Analizar la retroalimentación para tomar decisiones de mejora en productos y servicios.
+
+**User Goal 12:** Como proveedor, quiero gestionar y actualizar el estado de las órdenes recibidas, para organizar mis entregas, coordinar con los restaurantes y brindar visibilidad sobre el proceso de despacho.  
+![User Goal 12](assets/images/cap4/taskflow6_ug11.png)
+
+**User Goal 13:** Como proveedor, quiero analizar el rendimiento de mis ventas y el feedback de los restaurantes, para identificar a mis mejores clientes, mejorar mi servicio y fortalecer relaciones comerciales.  
+![User Goal 13](assets/images/cap4/taskflow6_ug12.png)
 
 ### 4.4.3 Web Applications Mock-ups
 
