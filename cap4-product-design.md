@@ -302,7 +302,8 @@ La navegación también se adapta según el tipo de usuario. Por ejemplo, los pr
 ![Container Diagrams](assets/images/web-container.png)
 
 ### 4.6.3 Software Architecture Components Diagrams
-
+**Component Diagram: Web Service**
+![Container Diagrams](assets/images/web-backend-api-component.png)
 
 ## 4.7 Software Object-Oriented Design
 
