@@ -461,7 +461,7 @@ Los siguientes wireframes corresponden a la aplicación web de Restock
 ![i9](assets/images/wireframes-admin/i9.png)
 ![i10](assets/images/wireframes-admin/i10.png)
 
-### Segmento objetivo: Proveedores de Restaurantes (User Persona 2)
+#### Segmento objetivo: Proveedores de Restaurantes (User Persona 2)
 
 ![p1](assets/images/web-applications-wireframes-proveedor/gestion-perfil.png)
 ![p2](assets/images/web-applications-wireframes-proveedor/actualiza-datos.png)
@@ -629,6 +629,104 @@ Esta sección presenta la propuesta de Wireflows. Se ha considerado un Wireflow 
 ![User Goal 13](assets/images/cap4/taskflow6_ug12.png)
 
 ### 4.4.3 Web Applications Mock-ups
+ 
+#### Segmento objetivo: Dueño o Administrador de Restaurante (User Persona 1)
+
+**Desktop:** En esta seccion se muestra los mockups del diseño Desktop
+
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_1.jpeg)
+
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_2.jpeg)
+
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_3.jpeg)
+
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_4.jpeg)
+
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_5.jpeg)
+
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_6.jpeg)
+
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_7.jpeg)
+
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_8.jpeg)
+
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_9.jpeg)
+
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_10.jpeg)
+
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_11.jpeg)
+
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_12.jpeg)
+
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_13.jpeg)
+
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_14.jpeg)
+
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_15.jpeg)
+
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_16.jpeg)
+
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_17.jpeg)
+
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_18.jpeg)
+
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_19.jpeg)
+
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_20.jpeg)
+
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_21.jpeg)
+
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_22.jpeg)
+
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_23.jpeg)
+
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_24.jpeg)
+
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_25.jpeg)
+
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_26.jpeg)
+
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_27.jpeg)
+
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_28.jpeg)
+
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_29.jpeg)
+
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_30.jpeg)
+
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_31.jpeg)
+
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_32.jpeg)
+
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_33.jpeg)
+
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_34.jpeg)
+
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_35.jpeg)
+
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_36.jpeg)
+
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_37.jpeg)
+
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_38.jpeg)
+
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_39.jpeg)
+
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_40.jpeg)
+
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_41.jpeg)
+
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_42.jpeg)
+
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_43.jpeg)
+
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_44.jpeg)
+
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_45.jpeg)
+
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_46.jpeg)
+
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_47.jpeg)
 
 ### 4.4.4 Web Applications User Flow Diagrams
 
