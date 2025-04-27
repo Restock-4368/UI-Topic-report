@@ -400,9 +400,7 @@ A continuación, se presentan los mock-ups de la versión móvil de la aplicaci�
 
 ### 4.4.1 Web Applications Wireframes
 
-## Proveedores:
-
-Los siguientes wireframes corresponden a la aplicación web de Restock, segmentada para el perfil de proveedores.
+Los siguientes wireframes corresponden a la aplicación web de Restock
 
 ### Principios aplicados
 
@@ -421,27 +419,71 @@ Los siguientes wireframes corresponden a la aplicación web de Restock, segmenta
 - **Arquitectura de información enfocada al flujo de tareas:**
  La estructura prioriza la eficiencia operativa, permitiendo a los proveedores registrar productos, atender pedidos y monitorear métricas clave en el menor número de clics posible.
 
-![Wireframe Landing Page Bienvenida](assets/images/web-applications-wireframes-proveedor/gestion-perfil.png)
-![Wireframe Landing Page Bienvenida](assets/images/web-applications-wireframes-proveedor/actualiza-datos.png)
-![Wireframe Landing Page Bienvenida](assets/images/web-applications-wireframes-proveedor/resumen.png)
-![Wireframe Landing Page Bienvenida](assets/images/web-applications-wireframes-proveedor/listar-suscripciones.png)
-![Wireframe Landing Page Bienvenida](assets/images/web-applications-wireframes-proveedor/comprar-suscripciones.png)
-![Wireframe Landing Page Bienvenida](assets/images/web-applications-wireframes-proveedor/inventario1.png)
-![Wireframe Landing Page Bienvenida](assets/images/web-applications-wireframes-proveedor/inventario-agregar-insumo.png)
-![Wireframe Landing Page Bienvenida](assets/images/web-applications-wireframes-proveedor/inventario-insumos-agregados.png)
-![Wireframe Landing Page Bienvenida](assets/images/web-applications-wireframes-proveedor/inventario-agregar-insumo-no-perecible.png)
-![Wireframe Landing Page Bienvenida](assets/images/web-applications-wireframes-proveedor/inventario-agregar-insumo-perecible.png)
-![Wireframe Landing Page Bienvenida](assets/images/web-applications-wireframes-proveedor/inventario2.png)
-![Wireframe Landing Page Bienvenida](assets/images/web-applications-wireframes-proveedor/inventario-editar-insumo-no-perecible.png)
-![Wireframe Landing Page Bienvenida](assets/images/web-applications-wireframes-proveedor/inventario-editar-insumo-perecible.png)
-![Wireframe Landing Page Bienvenida](assets/images/web-applications-wireframes-proveedor/inventario-eliminar-insumo.png)
-![Wireframe Landing Page Bienvenida](assets/images/web-applications-wireframes-proveedor/inventario3.png)
-![Wireframe Landing Page Bienvenida](assets/images/web-applications-wireframes-proveedor/alertas.png)
-![Wireframe Landing Page Bienvenida](assets/images/web-applications-wireframes-proveedor/ordenes.png)
-![Wireframe Landing Page Bienvenida](assets/images/web-applications-wireframes-proveedor/ordenes-detalle.png)
-![Wireframe Landing Page Bienvenida](assets/images/web-applications-wireframes-proveedor/orden-aceptada.png)
-![Wireframe Landing Page Bienvenida](assets/images/web-applications-wireframes-proveedor/orden-rechazada.png)
-![Wireframe Landing Page Bienvenida](assets/images/web-applications-wireframes-proveedor/calificaciones.png)
+#### Segmento objetivo: Dueño o Administrador de Restaurante (User Persona 1)
+
+![a1](assets/images/wireframes-admin/a1.png)
+![b1](assets/images/wireframes-admin/b1.png)
+![c1](assets/images/wireframes-admin/c1.png)
+![c2](assets/images/wireframes-admin/c2.png)
+![d1](assets/images/wireframes-admin/d1.png)
+![d2](assets/images/wireframes-admin/d2.png)
+![d3](assets/images/wireframes-admin/d3.png)
+![d4](assets/images/wireframes-admin/d4.png)
+![d5](assets/images/wireframes-admin/d5.png)
+![d6](assets/images/wireframes-admin/d6.png)
+![d7](assets/images/wireframes-admin/d7.png)
+![d8](assets/images/wireframes-admin/d8.png)
+![e1](assets/images/wireframes-admin/e1.png)
+![e2](assets/images/wireframes-admin/e2.png)
+![e3](assets/images/wireframes-admin/e3.png)
+![e4](assets/images/wireframes-admin/e4.png)
+![e5](assets/images/wireframes-admin/e5.png)
+![f1](assets/images/wireframes-admin/f1.png)
+![g1](assets/images/wireframes-admin/g1.png)
+![g2](assets/images/wireframes-admin/g2.png)
+![g3](assets/images/wireframes-admin/g3.png)
+![g4](assets/images/wireframes-admin/g4.png)
+![g5](assets/images/wireframes-admin/g5.png)
+![g6](assets/images/wireframes-admin/g6.png)
+![h1](assets/images/wireframes-admin/h1.png)
+![h2](assets/images/wireframes-admin/h2.png)
+![h3](assets/images/wireframes-admin/h3.png)
+![h4](assets/images/wireframes-admin/h4.png)
+![h5](assets/images/wireframes-admin/h5.png)
+![i1](assets/images/wireframes-admin/i1.png)
+![i2](assets/images/wireframes-admin/i2.png)
+![i3](assets/images/wireframes-admin/i3.png)
+![i4](assets/images/wireframes-admin/i4.png)
+![i5](assets/images/wireframes-admin/i5.png)
+![i6](assets/images/wireframes-admin/i6.png)
+![i7](assets/images/wireframes-admin/i7.png)
+![i8](assets/images/wireframes-admin/i8.png)
+![i9](assets/images/wireframes-admin/i9.png)
+![i10](assets/images/wireframes-admin/i10.png)
+
+### Segmento objetivo: Proveedores de Restaurantes (User Persona 2)
+
+!p1](assets/images/web-applications-wireframes-proveedor/gestion-perfil.png)
+!p2](assets/images/web-applications-wireframes-proveedor/actualiza-datos.png)
+!p3](assets/images/web-applications-wireframes-proveedor/resumen.png)
+!p4](assets/images/web-applications-wireframes-proveedor/listar-suscripciones.png)
+!p5](assets/images/web-applications-wireframes-proveedor/comprar-suscripciones.png)
+!p6](assets/images/web-applications-wireframes-proveedor/inventario1.png)
+!p7](assets/images/web-applications-wireframes-proveedor/inventario-agregar-insumo.png)
+!p8](assets/images/web-applications-wireframes-proveedor/inventario-insumos-agregados.png)
+!p9](assets/images/web-applications-wireframes-proveedor/inventario-agregar-insumo-no-perecible.png)
+!p10](assets/images/web-applications-wireframes-proveedor/inventario-agregar-insumo-perecible.png)
+!p11](assets/images/web-applications-wireframes-proveedor/inventario2.png)
+!p12](assets/images/web-applications-wireframes-proveedor/inventario-editar-insumo-no-perecible.png)
+!p13](assets/images/web-applications-wireframes-proveedor/inventario-editar-insumo-perecible.png)
+!p14](assets/images/web-applications-wireframes-proveedor/inventario-eliminar-insumo.png)
+!p15](assets/images/web-applications-wireframes-proveedor/inventario3.png)
+!p16](assets/images/web-applications-wireframes-proveedor/alertas.png)
+!p17](assets/images/web-applications-wireframes-proveedor/ordenes.png)
+!p18](assets/images/web-applications-wireframes-proveedor/ordenes-detalle.png)
+!p19](assets/images/web-applications-wireframes-proveedor/orden-aceptada.png)
+!p20](assets/images/web-applications-wireframes-proveedor/orden-rechazada.png)
+!p21](assets/images/web-applications-wireframes-proveedor/calificaciones.png)
 
 ### 4.4.2 Web Applications Wireflow Diagrams
 
@@ -693,5 +735,3 @@ A continuación, se presenta el video de prototipado de la aplicación web en su
 ### 4.8.1 Database Diagram
 
 ![Database diagram](assets/images/database-diagram.png)
-
-
