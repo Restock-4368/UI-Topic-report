@@ -630,6 +630,51 @@ Esta sección presenta la propuesta de Wireflows. Se ha considerado un Wireflow 
 
 ### 4.4.3 Web Applications Mock-ups
 
+#### Segmento objetivo: Dueños o Administradores de restaurantes (User Persona 1)
+
+**Mobile:** En esta sección se muestran los mockups del diseño móvil.
+
+![ma1](assets/images/mockup-mobile/ma1.jpg)
+![ma2](assets/images/mockup-mobile/ma2.jpg)
+![ma3](assets/images/mockup-mobile/ma3.jpg)
+![ma4](assets/images/mockup-mobile/ma4.jpg)
+![ma5](assets/images/mockup-mobile/ma5.jpg)
+![ma6](assets/images/mockup-mobile/ma6.jpg)
+![ma7](assets/images/mockup-mobile/ma7.jpg)
+![ma8](assets/images/mockup-mobile/ma8.jpg)
+![ma9](assets/images/mockup-mobile/ma9.jpg)
+![ma10](assets/images/mockup-mobile/ma10.jpg)
+![ma11](assets/images/mockup-mobile/ma11.jpg)
+![ma12.0](assets/images/mockup-mobile/ma12.0.jpg)
+![ma12](assets/images/mockup-mobile/ma12.jpg)
+![ma13](assets/images/mockup-mobile/ma13.jpg)
+![ma14](assets/images/mockup-mobile/ma14.jpg)
+![ma15](assets/images/mockup-mobile/ma15.jpg)
+![ma16](assets/images/mockup-mobile/ma16.jpg)
+![ma17](assets/images/mockup-mobile/ma17.jpg)
+![ma18](assets/images/mockup-mobile/ma18.jpg)
+![ma19](assets/images/mockup-mobile/ma19.jpg)
+![ma20](assets/images/mockup-mobile/ma20.jpg)
+![ma21](assets/images/mockup-mobile/ma21.jpg)
+![ma22](assets/images/mockup-mobile/ma22.jpg)
+![ma23.0](assets/images/mockup-mobile/ma23.0.jpg)
+![ma23.1](assets/images/mockup-mobile/ma23.1.jpg)
+![ma23](assets/images/mockup-mobile/ma23.jpg)
+![ma24](assets/images/mockup-mobile/ma24.jpg)
+![ma25](assets/images/mockup-mobile/ma25.jpg)
+![ma26](assets/images/mockup-mobile/ma26.jpg)
+![ma27](assets/images/mockup-mobile/ma27.jpg)
+![ma28](assets/images/mockup-mobile/ma28.jpg)
+![ma29](assets/images/mockup-mobile/ma29.jpg)
+![ma30](assets/images/mockup-mobile/ma30.jpg)
+![ma31](assets/images/mockup-mobile/ma31.jpg)
+![ma32](assets/images/mockup-mobile/ma32.jpg)
+![ma33](assets/images/mockup-mobile/ma33.jpg)
+![ma34](assets/images/mockup-mobile/ma34.jpg)
+![ma35](assets/images/mockup-mobile/ma35.jpg)
+![ma36](assets/images/mockup-mobile/ma36.jpg)
+![ma37](assets/images/mockup-mobile/ma37.jpg)
+
 ### 4.4.4 Web Applications User Flow Diagrams
 
 #### User Flows Mobile
