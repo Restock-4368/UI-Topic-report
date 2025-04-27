@@ -470,6 +470,12 @@ Esta sección presenta la propuesta de Wireflows. Se ha considerado un Wireflow 
 
 ## 4.5 Web Applications Prototyping
 
+A continuación, se presenta el video de prototipado de la aplicación web en su versión móvil. Este prototipo muestra la interacción principal de los usuarios con la plataforma, destacando los flujos de navegación, diseño responsivo y la estructura general de la aplicación en dispositivos móviles.
+
+**Video de prototipo móvil:**  
+![Captura del video](assets/images/cap4/evidence_prototyping_mobile.png)
+[Enlace al video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319831_upc_edu_pe/EQzRDCS2G9dMnPeFjvYtBxcBUPAW0gTeCzoypBvguA-1VA?e=Gatbh7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
 
 ## 4.6 Domain-Driven Software Architecture
 
