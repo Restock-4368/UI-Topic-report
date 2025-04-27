@@ -426,6 +426,47 @@ Esta sección presenta la propuesta de Wireflows. Se ha considerado un Wireflow 
 
 ### 4.4.4 Web Applications User Flow Diagrams
 
+#### User Flows Mobile
+
+**Mobile User Flow 1:**
+![Mobile User Flow 1](assets/images/cap4/mobile_ug1.png)
+
+**Mobile User Flow 2:**
+![Mobile User Flow 2](assets/images/cap4/mobile_ug2.png)
+
+**Mobile User Flow 3:**
+![Mobile User Flow 3](assets/images/cap4/mobile_ug3.png)
+
+**Mobile User Flow 4:**
+![Mobile User Flow 4](assets/images/cap4/mobile_ug4.png)
+
+**Mobile User Flow 5:**
+![Mobile User Flow 5](assets/images/cap4/mobile_ug5.png)
+
+**Mobile User Flow 6:**
+![Mobile User Flow 6](assets/images/cap4/mobile_ug6.png)
+
+**Mobile User Flow 7:**
+![Mobile User Flow 7](assets/images/cap4/mobile_ug7.png)
+
+**Mobile User Flow 8:**
+![Mobile User Flow 8](assets/images/cap4/mobile_ug8.png)
+
+**Mobile User Flow 9:**
+![Mobile User Flow 9](assets/images/cap4/mobile_ug9.png)
+
+**Mobile User Flow 10:**
+![Mobile User Flow 10](assets/images/cap4/mobile_ug10.png)
+
+**Mobile User Flow 11:**
+![Mobile User Flow 11](assets/images/cap4/mobile_ug11.png)
+
+**Mobile User Flow 12:**
+![Mobile User Flow 12](assets/images/cap4/mobile_ug12.png)
+
+**Mobile User Flow 13:**
+![Mobile User Flow 13](assets/images/cap4/mobile_ug13.png)
+
 
 ## 4.5 Web Applications Prototyping
 
