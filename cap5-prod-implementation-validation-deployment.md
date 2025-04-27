@@ -132,6 +132,16 @@ Se utilizará el estándar de **Conventional Commits** para los mensajes de comm
 
 ### 5.1.4 Software Deployment Configuration
 
+Para la Landing Page desarrollada en HTML, CSS y JavaScript, la configuración del despliegue en GitHub Pages se define de la siguiente manera:
+
+**Repositorio de Código Fuente**
+
+Se debe crear un repositorio en GitHub y subir todos los archivos del proyecto (HTML, CSS, JS).  
+Es obligatorio que el archivo `index.html` esté ubicado en la raíz del repositorio para poder realizar el despliegue correctamente.
+
+<br/>
+
+![Software Deployment Configuration](assets/images/cap-5/repo-landing-github.png)
 
 ## 5.2 Landing Page, Services & Applications Implementation
 
