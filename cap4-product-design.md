@@ -274,6 +274,38 @@ La navegación también se adapta según el tipo de usuario. Por ejemplo, los pr
 
 ### 4.3.2 Landing Page Mock-up
 
+A continuación, se presentan los mock-ups de las principales secciones de la landing page. Cada imagen ilustra el diseño propuesto para las diferentes funcionalidades, flujos de navegación y elementos de interacción de la plataforma.
+
+![Bienvenida](assets/images/landing-page-mockups/Bienvenida.png)
+
+![Beneficios](assets/images/landing-page-mockups/Beneficios.png)
+
+![Beneficios2](assets/images/landing-page-mockups/Beneficios2.png)
+
+![Cambio de idioma](assets/images/landing-page-mockups/Cambio%20Idioma.png)
+
+![Registro](assets/images/landing-page-mockups/Registro.png)
+
+![Inicio de sesión](assets/images/landing-page-mockups/Inicio%20de%20sesion.png)
+
+![Contraseña olvidada](assets/images/landing-page-mockups/Contraseña%20olvidada.png)
+
+![Testimonios](assets/images/landing-page-mockups/Testimonios.png)
+
+![Preguntas frecuentes](assets/images/landing-page-mockups/Preguntas%20frecuentes.png)
+
+![Tutorial](assets/images/landing-page-mockups/Tutorial.png)
+
+![Nosotros](assets/images/landing-page-mockups/Nosotros.png)
+
+![Contacto](assets/images/landing-page-mockups/Contacto.png)
+
+![Descargar App](assets/images/landing-page-mockups/Descargar%20App.png)
+
+![Footer](assets/images/landing-page-mockups/Footer.png)
+
+![Lector texto](assets/images/landing-page-mockups/Lector%20texto.png)
+
 
 ## 4.4 Web Applications UX/UI Design
 
