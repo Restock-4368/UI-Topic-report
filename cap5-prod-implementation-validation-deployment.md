@@ -229,6 +229,44 @@ https://trello.com/invite/b/680c05f1fac416bfdb0ea024/ATTI41428da9336a1d11b087843
 
 #### 5.2.1.4 Development Evidence for Sprint Review
 
+En esta sección se presentan los avances de implementación realizados durante el Sprint 1, el cual tuvo como objetivo principal construir la Landing Page de la plataforma Restock.
+Se desarrollaron múltiples secciones, aplicando principios de diseño responsivo, buenas prácticas de codificación y asegurando consistencia con el estilo visual definido para el proyecto. Los entregables principales de este sprint incluyen la creación de secciones como About Us, Benefits, Testimonials, FAQ, Tutorial, Contact, Footer, además de la implementación de mejoras de SEO, formularios de acceso, y enlaces de descarga.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date)|
+|-|-|-|-|-|-|
+| GabrielaShapiama/UI-Topic-landing | feature/acces | 798578d | fix(access): remove incorrect image. | Removed a misplaced or outdated image to maintain correct visuals in the access section. | 26/04/25 |
+| Yaku Guzman/UI-Topic-landing | feature/tutorial-section | 946e9ba | feat(tutorial-section): fix height | Adjusted the height of tutorial elements to ensure visual consistency across devices. | 26/04/25 |
+| Yaku Guzman/UI-Topic-landing | feature/tutorial-section | 23c3dd6 | feat(tutorial-section): fix tutorial links width | Corrected the width of tutorial links to improve responsiveness and readability. | 26/04/25 |
+| Williams/UI-Topic-landing | feature/seo-tags-meta-tags | 6f1e249 | feat(seo-tags-meta-tags): adding seo tags and meta tags | Implemented basic SEO and meta tags to enhance page discoverability and improve search engine indexing. | 26/04/25 |
+| Williams/UI-Topic-landing | feature/descargar | 7066dfa | feat(descargar): adding download section(html,css,js) | Created a new download section with layout, styles, and interaction scripts. | 26/04/25 |
+| Williams/UI-Topic-landing | feature/preguntas | c01b5c2 | feat(preguntas): adding frecuent questions(html,css,js) | Developed the FAQ section with collapsible questions and styling for better UX. | 26/04/25 |
+| Williams/UI-Topic-landing | feature/testimonios | bacb51d | feat(testimonios): adding testimonios(html,css) | Implemented the testimonials section including design and user reviews. | 26/04/25 |
+| Yaku Guzman/UI-Topic-landing | feature/footer-section | 8de1580 | feat(footer-section): add footer section, footer css file, and add icons | Built the footer layout, styling, and added social media icons for better navigation. | 26/04/25 |
+| Yaku Guzman/UI-Topic-landing | feature/contacto-section | 1a2d460 | feat(contacto-section): add contacto section and contacto css file | Added a contact form section including input fields and responsive design. | 26/04/25 |
+| jahazielgp/UI-Topic-landing | feature/benefits-section | 23713f3 | feat(benefits-section): add benefits section with their style. | Created the benefits section showcasing platform advantages with proper styling. | 26/04/25 |
+| Yaku Guzman/UI-Topic-landing | feature/tutorial-section | d358944 | feat(tutorial-section): add tutorial section and tutorial images | Developed the tutorial section and incorporated tutorial-related images. | 26/04/25 |
+| jahazielgp/UI-Topic-landing | feature/about-us-section | 9ace330 | feat(about-us): add about us template and styles. | Implemented the About Us section with a basic template and responsive design. | 26/04/25 |
+| jahazielgp/UI-Topic-landing | feature/hero-section | 2ff0a3c | feat(hero-section): add template, scripts and styles components of hero section. | Created the hero section including main banner, call-to-action, and responsive layout. | 26/04/25 |
+| GabrielaShapiama/UI-Topic-landing | feature/access | bad294f | feat(access): add access forms. | Developed user access forms including login and registration interfaces. | 26/04/25 |
+| jahazielgp/UI-Topic-landing | feature/develop | a66d307 | chore: initial commit | Initial setup of project structure and configurations. | 26/04/25 |
+| jahazielgp/UI-Topic-landing | main | 15bf93a | Initial commit | Base initialization of the landing page project repository. | 26/04/25 |
+
+#### Productos según alcance del Sprint
+##### Landing Page
+Durante el Sprint 1 se implementó la Landing Page de Restock. Los principales avances fueron:
+
+- Diseño responsivo adaptado a diferentes tamaños de pantalla.
+
+- Creación de secciones: Hero, Sobre Nosotros, Beneficios, Testimonios, Preguntas Frecuentes, Tutorial, Contacto y Footer.
+
+- Aplicación de buenas prácticas de accesibilidad (uso de etiquetado semántico, contraste adecuado).
+
+- Optimización inicial para motores de búsqueda (SEO básico) con metaetiquetas y atributos relevantes.
+
+- Implementación de navegación fluida entre secciones mediante anclas y smooth scrolling.
+
+- Validación de compatibilidad en navegadores modernos y dispositivos móviles.
+
 #### 5.2.1.5 Execution Evidence for Sprint Review
 
 #### 5.2.1.6 Services Documentation Evidence for Sprint Review
