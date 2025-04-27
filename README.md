@@ -43,7 +43,7 @@ _Abril 2025_
 
 Para el desarrollo del **Project Report**, se utilizó un repositorio en la organización de GitHub del equipo. A continuación, se presenta la evidencia de colaboración correspondiente al periodo del **27 de marzo de 2025 al 27 de abril de 2025**.
 
-![Colaboraciones proyecto](assets\images\collaboration_insight.png)
+![Colaboraciones proyecto](assets/images/collaboration_insight.png)
 
 - 75 pull requests activos, todos fusionados exitosamente.
 - 0 issues abiertos, cerrados o nuevos.
