@@ -267,7 +267,7 @@ Durante el Sprint 1 se llevó a cabo el desarrollo de la **Landing Page** del pr
 
 **Captura de creación de la organización:**
 
-![Organización creada en GitHub](ruta/a/la/imagen)
+![Organización creada en GitHub](assets\images\software-deployment-evidence-1.png)
 
 ### 2. Creación del Repositorio para la Landing Page
 
@@ -277,7 +277,7 @@ Durante el Sprint 1 se llevó a cabo el desarrollo de la **Landing Page** del pr
 
 **Captura del repositorio creado:**
 
-![Repositorio Landing Page](ruta/a/la/imagen)
+![Repositorio Landing Page](assets\images\software-deployment-evidence-2.png)
 
 ### 3. Desarrollo de la Landing Page
 
@@ -287,7 +287,7 @@ Durante el Sprint 1 se llevó a cabo el desarrollo de la **Landing Page** del pr
 
 **Captura de la estructura del proyecto:**
 
-![Estructura de archivos de la Landing](ruta/a/la/imagen)
+![Estructura de archivos de la Landing](assets\images\software-deployment-evidence-3.png)
 
 ### 4. Configuración de GitHub Pages
 
