@@ -147,6 +147,10 @@ Estas actividades evidencian la colaboración de todos los integrantes del equip
 
 ## [Bibliografía](bibliografia.md)
 
+Instituto Nacional de Estadística e Informática. (2023, 6 de junio). Negocios de restaurantes se incrementaron 9,16% en abril de 2023. https://m.inei.gob.pe/prensa/noticias/negocios-de-restaurantes-se-incrementaron-916-en-abril-de-2023-14439
+
+Instituto Nacional de Estadística e Informática. (2024, 6 de febrero). Actividad de restaurantes aumentó en 3,66% en diciembre 2023. https://m.inei.gob.pe/prensa/noticias/actividad-de-restaurantes-aumento-en-366-en-diciembre-2023-15025 
+
 ## [Anexos](anexos.md)
 
 # ABET – EAC - Student Outcome 5
