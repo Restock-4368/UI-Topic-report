@@ -400,6 +400,49 @@ A continuación, se presentan los mock-ups de la versión móvil de la aplicaci�
 
 ### 4.4.1 Web Applications Wireframes
 
+## Proveedores:
+
+Los siguientes wireframes corresponden a la aplicación web de Restock, segmentada para el perfil de proveedores.
+
+### Principios aplicados
+
+- **Jerarquía funcional clara:**
+ El flujo de navegación prioriza las acciones más relevantes para proveedores, como gestión de productos, visualización de órdenes y acceso a reportes de ventas.
+
+- **Consistencia y patrones de diseño:**
+ Los componentes mantienen uniformidad en su comportamiento visual e interactivo, asegurando coherencia entre pantallas y módulos.
+
+- **Accesibilidad en interfaces:**
+ Se aplicaron contrastes adecuados, fuentes legibles, botones de tamaño óptimo y estructura de navegación compatible con teclado y lectores de pantalla.
+
+- **Diseño adaptativo:**
+ Los wireframes consideran que la aplicación será utilizada tanto en pantallas de laptop como en tablets, por lo que el diseño es responsivo y se ajusta a distintos anchos de pantalla.
+
+- **Arquitectura de información enfocada al flujo de tareas:**
+ La estructura prioriza la eficiencia operativa, permitiendo a los proveedores registrar productos, atender pedidos y monitorear métricas clave en el menor número de clics posible.
+
+![Wireframe Landing Page Bienvenida](assets/images/web-applications-wireframes-proveedor/gestion-perfil.png)
+![Wireframe Landing Page Bienvenida](assets/images/web-applications-wireframes-proveedor/actualiza-datos.png)
+![Wireframe Landing Page Bienvenida](assets/images/web-applications-wireframes-proveedor/resumen.png)
+![Wireframe Landing Page Bienvenida](assets/images/web-applications-wireframes-proveedor/listar-suscripciones.png)
+![Wireframe Landing Page Bienvenida](assets/images/web-applications-wireframes-proveedor/comprar-suscripciones.png)
+![Wireframe Landing Page Bienvenida](assets/images/web-applications-wireframes-proveedor/inventario1.png)
+![Wireframe Landing Page Bienvenida](assets/images/web-applications-wireframes-proveedor/inventario-agregar-insumo.png)
+![Wireframe Landing Page Bienvenida](assets/images/web-applications-wireframes-proveedor/inventario-insumos-agregados.png)
+![Wireframe Landing Page Bienvenida](assets/images/web-applications-wireframes-proveedor/inventario-agregar-insumo-no-perecible.png)
+![Wireframe Landing Page Bienvenida](assets/images/web-applications-wireframes-proveedor/inventario-agregar-insumo-perecible.png)
+![Wireframe Landing Page Bienvenida](assets/images/web-applications-wireframes-proveedor/inventario2.png)
+![Wireframe Landing Page Bienvenida](assets/images/web-applications-wireframes-proveedor/inventario-editar-insumo-no-perecible.png)
+![Wireframe Landing Page Bienvenida](assets/images/web-applications-wireframes-proveedor/inventario-editar-insumo-perecible.png)
+![Wireframe Landing Page Bienvenida](assets/images/web-applications-wireframes-proveedor/inventario-eliminar-insumo.png)
+![Wireframe Landing Page Bienvenida](assets/images/web-applications-wireframes-proveedor/inventario3.png)
+![Wireframe Landing Page Bienvenida](assets/images/web-applications-wireframes-proveedor/alertas.png)
+![Wireframe Landing Page Bienvenida](assets/images/web-applications-wireframes-proveedor/ordenes.png)
+![Wireframe Landing Page Bienvenida](assets/images/web-applications-wireframes-proveedor/ordenes-detalle.png)
+![Wireframe Landing Page Bienvenida](assets/images/web-applications-wireframes-proveedor/orden-aceptada.png)
+![Wireframe Landing Page Bienvenida](assets/images/web-applications-wireframes-proveedor/orden-rechazada.png)
+![Wireframe Landing Page Bienvenida](assets/images/web-applications-wireframes-proveedor/calificaciones.png)
+
 ### 4.4.2 Web Applications Wireflow Diagrams
 
 Esta sección presenta la propuesta de Wireflows. Se ha considerado un Wireflow para cada User Goal, teniendo en cuenta los User Persona definidos para las aplicaciones que forman parte del alcance.
