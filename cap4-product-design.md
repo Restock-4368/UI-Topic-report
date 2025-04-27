@@ -342,8 +342,12 @@ Esta sección presenta la propuesta de Wireflows. Se ha considerado un Wireflow 
 ![Container Diagrams](assets/images/web-container.png)
 
 ### 4.6.3 Software Architecture Components Diagrams
+
 **Component Diagram: Web Service**
-![Container Diagrams](assets/images/web-backend-api-component.png)
+![Container Diagrams](assets/images/web-web-service-component.png)
+
+**Component Diagram: SPA UI-Topic**
+![Component diagram SPA](assets/images/web-component-spa.png)
 
 ## 4.7 Software Object-Oriented Design
 
