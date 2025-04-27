@@ -276,6 +276,13 @@ Durante el Sprint 1 se implementó la Landing Page de Restock. Los principales a
 
 #### 5.2.1.5 Execution Evidence for Sprint Review
 
+A continuación, se presenta el video de la landing page. Este muestra la interacción principal de los usuarios con la plataforma, destacando los flujos de navegación, diseño responsivo y la estructura general de la aplicación.
+
+**Video de landing page:**  
+![Captura del video](assets\images\cap-5\landing_preview.png)
+[Enlace al video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202021885_upc_edu_pe/ESr2APucfj9Ahygy-5yMSmIBAaBEuyNsfl4xjvlap9Zv-A?e=SoZLKy&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+
 #### 5.2.1.6 Services Documentation Evidence for Sprint Review
 Durante este sprint se completó el diseño e implementación del Landing Page del sistema, el cual forma parte del acceso inicial al sistema y constituye un punto de entrada fundamental para los usuarios. Aunque no se implementaron endpoints tradicionales de tipo REST en este sprint, se documenta a continuación la URL del recurso publicado, junto con evidencia de despliegue, interacción y commits relacionados.
 
