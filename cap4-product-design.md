@@ -306,6 +306,39 @@ A continuación, se presentan los mock-ups de las principales secciones de la la
 
 ![Lector texto](assets/images/landing-page-mockups/Lector%20texto.png)
 
+A continuación, se presentan los mock-ups de la versión móvil de la aplicación. Cada imagen muestra la adaptación responsiva de las principales funcionalidades y secciones diseñadas para ofrecer una experiencia de usuario optimizada en dispositivos móviles.
+
+![Bienvenida](assets/images/cap4/mobile/Bienvenida.jpg)
+
+![Beneficios para restaurantes](assets/images/cap4/mobile/Beneficios%20restaurantes.jpg)
+
+![Beneficios para proveedores](assets/images/cap4/mobile/Beneficios%20proveedores.jpg)
+
+![Cambio de idioma](assets/images/cap4/mobile/Cambio%20idioma.jpg)
+
+![Registrarse](assets/images/cap4/mobile/Registrarse.jpg)
+
+![Inicio de sesión](assets/images/cap4/mobile/Inicio%20sesión.jpg)
+
+![Olvidar contraseña](assets/images/cap4/mobile/Olvidar%20contraseña.jpg)
+
+![Testimonios](assets/images/cap4/mobile/Testimonios.jpg)
+
+![Preguntas frecuentes](assets/images/cap4/mobile/Preguntas%20frecuentes.jpg)
+
+![Tutorial](assets/images/cap4/mobile/Tutorial.jpg)
+
+![Tutorial2](assets/images/cap4/mobile/Tutorial2.jpg)
+
+![Nosotros](assets/images/cap4/mobile/Nosotros.jpg)
+
+![Contacto](assets/images/cap4/mobile/Contacto.jpg)
+
+![Descarga](assets/images/cap4/mobile/Descarga.jpg)
+
+![Footer](assets/images/cap4/mobile/Footer.jpg)
+
+![Lector de voz](assets/images/cap4/mobile/Lector%20de%20voz.jpg)
 
 ## 4.4 Web Applications UX/UI Design
 
