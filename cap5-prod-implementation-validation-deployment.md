@@ -309,6 +309,51 @@ Durante el Sprint 1 se llevó a cabo el desarrollo de la **Landing Page** del pr
 
 ![Página desplegada en GitHub Pages](ruta/a/la/imagen)
 
-
-
 #### 5.2.1.8 Team Collaboration Insights during Sprint
+
+Durante el Sprint 1, el equipo de desarrollo trabajó de forma colaborativa en la implementación de los productos asignados, principalmente enfocados en la **Landing Page**. Cada miembro del equipo participó activamente en el desarrollo de las funcionalidades, asegurando un flujo de trabajo ágil y eficiente a través del control de versiones en **GitHub**.
+
+## Actividades de Implementación
+
+- Distribución de tareas mediante la planificación en Jira.
+- Creación de ramas específicas para cada feature o corrección.
+- Uso de **Pull Requests** para revisión y fusión del código.
+- Resolución de conflictos y seguimiento de buenas prácticas de Git.
+- Participación activa de todos los miembros en el ciclo de desarrollo, asegurando cobertura y avance continuo en las tareas.
+
+## Evidencias de Colaboración
+
+A continuación se presentan las capturas que evidencian la colaboración del equipo a través de GitHub:
+
+### Pulse Overview
+
+_Resumen general del trabajo colaborativo realizado en GitHub durante el Sprint 1:_
+
+![Pulse Overview](ruta/a/la/imagen)
+
+- 23 Pull Requests merged.
+- 6 autores contribuyendo activamente.
+- 36 commits en total en las diferentes ramas de desarrollo.
+- Distribución de actividades visible a través de las gráficas.
+
+### Commits por Autor
+
+_Captura que muestra la cantidad de commits realizados por cada miembro del equipo:_
+
+![Commits por Autor](ruta/a/la/imagen)
+
+- Todos los miembros participaron activamente en el ciclo de desarrollo.
+- Se observa una distribución balanceada del esfuerzo y la contribución de código.
+
+### Pull Requests
+
+_Detalle de algunos Pull Requests relevantes:_
+
+- `feat(navbar): add language switch icon and console log for future functionality`
+- `fix(access): fix text position`
+- `Feature/fix navbar`
+- `feat(benefits): add benefits section`
+
+**Captura de Pull Requests:**
+
+![Pull Requests](ruta/a/la/imagen)
