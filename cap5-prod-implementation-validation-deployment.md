@@ -251,4 +251,64 @@ Commit 4d6b92f: Initial commit
 
 #### 5.2.1.7 Software Deployment Evidence for Sprint Review
 
+# Software Deployment Evidence for Sprint Review
+
+## Introducción
+
+Durante el Sprint 1 se llevó a cabo el desarrollo de la **Landing Page** del proyecto, cumpliendo con los requerimientos establecidos en el backlog del sprint. Para el proceso de **Deployment**, se realizó la configuración necesaria para publicar la Landing Page utilizando **GitHub Pages** en la organización de GitHub destinada al proyecto.
+
+## Actividades Realizadas
+
+### 1. Creación de la Organización en GitHub
+
+- Se creó una nueva organización en GitHub para centralizar todos los repositorios del proyecto.
+- Configuración de nombre, imagen y ajustes básicos de la organización.
+- Adición de los miembros del equipo de desarrollo con los roles adecuados.
+
+**Captura de creación de la organización:**
+
+![Organización creada en GitHub](ruta/a/la/imagen)
+
+### 2. Creación del Repositorio para la Landing Page
+
+- Se creó un nuevo repositorio llamado `landing-page` dentro de la organización.
+- Configuración de visibilidad pública para permitir la publicación mediante GitHub Pages.
+- Inicialización del repositorio con un archivo README y licencia adecuada.
+
+**Captura del repositorio creado:**
+
+![Repositorio Landing Page](ruta/a/la/imagen)
+
+### 3. Desarrollo de la Landing Page
+
+- Se desarrolló la Landing Page siguiendo los requisitos definidos en el Sprint 1.
+- Se implementaron funcionalidades como navegación, formularios de contacto, sección de beneficios, entre otros.
+- El código fue versionado y gestionado mediante Git y GitHub.
+
+**Captura de la estructura del proyecto:**
+
+![Estructura de archivos de la Landing](ruta/a/la/imagen)
+
+### 4. Configuración de GitHub Pages
+
+- Se configuró GitHub Pages para desplegar la página desde la rama `main` del repositorio.
+- Se seleccionó la carpeta raíz (`/root`) como fuente de publicación.
+- Se generó la URL pública para el acceso a la Landing Page.
+
+**Captura de configuración de GitHub Pages:**
+
+![Configuración GitHub Pages](ruta/a/la/imagen)
+
+### 5. Deploy de la Landing Page
+
+- Se realizó el primer deploy al terminar el desarrollo básico.
+- Se verificó que la página cargara correctamente y que el contenido fuera accesible.
+- Se hicieron pequeños ajustes de rutas y assets estáticos según necesidades.
+
+**Captura de la página desplegada:**
+
+![Página desplegada en GitHub Pages](ruta/a/la/imagen)
+
+
+
 #### 5.2.1.8 Team Collaboration Insights during Sprint
