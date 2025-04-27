@@ -280,7 +280,6 @@ La navegación también se adapta según el tipo de usuario. Por ejemplo, los pr
 ### 4.4.1 Web Applications Wireframes
 
 ### 4.4.2 Web Applications Wireflow Diagrams
-### 4.4.2 Web Applications Wireflow Diagrams
 
 Esta sección presenta la propuesta de Wireflows. Se ha considerado un Wireflow para cada User Goal, teniendo en cuenta los User Persona definidos para las aplicaciones que forman parte del alcance.
 
