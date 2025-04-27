@@ -232,24 +232,21 @@ https://trello.com/invite/b/680c05f1fac416bfdb0ea024/ATTI41428da9336a1d11b087843
 En esta sección se presentan los avances de implementación realizados durante el Sprint 1, el cual tuvo como objetivo principal construir la Landing Page de la plataforma Restock.
 Se desarrollaron múltiples secciones, aplicando principios de diseño responsivo, buenas prácticas de codificación y asegurando consistencia con el estilo visual definido para el proyecto. Los entregables principales de este sprint incluyen la creación de secciones como About Us, Benefits, Testimonials, FAQ, Tutorial, Contact, Footer, además de la implementación de mejoras de SEO, formularios de acceso, y enlaces de descarga.
 
-| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date)|
-|-|-|-|-|-|-|
-| GabrielaShapiama/UI-Topic-landing | feature/acces | 798578d | fix(access): remove incorrect image. | Removed a misplaced or outdated image to maintain correct visuals in the access section. | 26/04/25 |
-| Yaku Guzman/UI-Topic-landing | feature/tutorial-section | 946e9ba | feat(tutorial-section): fix height | Adjusted the height of tutorial elements to ensure visual consistency across devices. | 26/04/25 |
-| Yaku Guzman/UI-Topic-landing | feature/tutorial-section | 23c3dd6 | feat(tutorial-section): fix tutorial links width | Corrected the width of tutorial links to improve responsiveness and readability. | 26/04/25 |
-| Williams/UI-Topic-landing | feature/seo-tags-meta-tags | 6f1e249 | feat(seo-tags-meta-tags): adding seo tags and meta tags | Implemented basic SEO and meta tags to enhance page discoverability and improve search engine indexing. | 26/04/25 |
-| Williams/UI-Topic-landing | feature/descargar | 7066dfa | feat(descargar): adding download section(html,css,js) | Created a new download section with layout, styles, and interaction scripts. | 26/04/25 |
-| Williams/UI-Topic-landing | feature/preguntas | c01b5c2 | feat(preguntas): adding frecuent questions(html,css,js) | Developed the FAQ section with collapsible questions and styling for better UX. | 26/04/25 |
-| Williams/UI-Topic-landing | feature/testimonios | bacb51d | feat(testimonios): adding testimonios(html,css) | Implemented the testimonials section including design and user reviews. | 26/04/25 |
-| Yaku Guzman/UI-Topic-landing | feature/footer-section | 8de1580 | feat(footer-section): add footer section, footer css file, and add icons | Built the footer layout, styling, and added social media icons for better navigation. | 26/04/25 |
-| Yaku Guzman/UI-Topic-landing | feature/contacto-section | 1a2d460 | feat(contacto-section): add contacto section and contacto css file | Added a contact form section including input fields and responsive design. | 26/04/25 |
-| jahazielgp/UI-Topic-landing | feature/benefits-section | 23713f3 | feat(benefits-section): add benefits section with their style. | Created the benefits section showcasing platform advantages with proper styling. | 26/04/25 |
-| Yaku Guzman/UI-Topic-landing | feature/tutorial-section | d358944 | feat(tutorial-section): add tutorial section and tutorial images | Developed the tutorial section and incorporated tutorial-related images. | 26/04/25 |
-| jahazielgp/UI-Topic-landing | feature/about-us-section | 9ace330 | feat(about-us): add about us template and styles. | Implemented the About Us section with a basic template and responsive design. | 26/04/25 |
-| jahazielgp/UI-Topic-landing | feature/hero-section | 2ff0a3c | feat(hero-section): add template, scripts and styles components of hero section. | Created the hero section including main banner, call-to-action, and responsive layout. | 26/04/25 |
-| GabrielaShapiama/UI-Topic-landing | feature/access | bad294f | feat(access): add access forms. | Developed user access forms including login and registration interfaces. | 26/04/25 |
-| jahazielgp/UI-Topic-landing | feature/develop | a66d307 | chore: initial commit | Initial setup of project structure and configurations. | 26/04/25 |
-| jahazielgp/UI-Topic-landing | main | 15bf93a | Initial commit | Base initialization of the landing page project repository. | 26/04/25 |
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|--- | --- | --- | --- | --- | --- |
+| GabrielaShapiama/UI-Topic-landing | feature/access | 936d1db | feat(access): add access forms. | Implemented the login and registration forms with appropriate field validations. | 27-04-2025 |
+| Yaku Guzman/UI-Topic-landing | feature/footer-section | fc81879 | feat(footer-section): add footer section, footer css and icons | Designed and styled the footer component, added navigation links and social media icons. | 27-04-2025 |
+| Yaku Guzman/UI-Topic-landing | feature/contacto-section | c4988c0 | feat(contacto-section): add contact section, contact css | Developed the contact form section, added input fields and styling for responsiveness. | 27-04-2025 |
+| Yaku Guzman/UI-Topic-landing | feature/tutorial-section | 1bda3eb | feat(tutorial-section): add tutorial section, tutorial css and images | Created the tutorial guide section with step-by-step images and responsive layout. | 27-04-2025 |
+| Williams/UI-Topic-landing | feature/descargar | 219e86a | feat(descargar): adding download section(html,css) | Built the download section including download buttons and responsive design. | 27-04-2025 |
+| Williams/UI-Topic-landing | feature/preguntas | bf2f8f9 | fix(preguntas): updating frecuent questions(html,css,js) | Updated the FAQ section to improve its structure, styling, and dynamic functionality. | 27-04-2025 |
+| Williams/UI-Topic-landing | feature/preguntas | c2882d0 | feat(preguntas): adding frecuent questions(html,css) | Added the frequently asked questions section with collapsible answers. | 27-04-2025 |
+| Williams/UI-Topic-landing | feature/testimonios | 4be7138 | feat(testimonios): adding testimonios(html,css) | Developed the testimonials section with client feedback and applied custom styles. | 27-04-2025 |
+| jahazielgg/UI-Topic-landing | feature/benefits | 34e3804 | feat(benefits): add benefits section. | Created the benefits section highlighting key features and advantages. | 27-04-2025 |
+| jahazielgg/UI-Topic-landing | feature/about-us-section | ac7366b | feat(about-us): add about us section. | Implemented the about us section including company mission and vision statements. | 27-04-2025 |
+| jahazielgg/UI-Topic-landing | feature/hero-section | f9716bd | feat(hero-section): add hero section. | Built the hero section with main headline, supporting text, and CTA button. | 27-04-2025 |
+| jahazielgg/UI-Topic-landing | feature/develop | e10bc23 | chore: initial commit. | Set up the initial project structure and configurations for the landing page. | 27-04-2025 |
+| jahazielgg/UI-Topic-landing | main | 31a94bc | Initial commit | 	Initialized the repository with basic project files. | 27-04-2025 |
 
 #### Productos según alcance del Sprint
 ##### Landing Page
