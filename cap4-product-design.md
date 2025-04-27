@@ -545,47 +545,124 @@ Esta sección presenta la propuesta de Wireflows. Se ha considerado un Wireflow 
 
 ### 4.4.3 Web Applications Mock-ups
 
+
+
 ### 4.4.4 Web Applications User Flow Diagrams
+
+#### User Flows Desktop
+
+A continuación se muestra los user flows asociados a cada user goal, donde se pueden apreciar tanto los happy paths como unhappy paths de los usuarios al navegar por la plataforma:
+
+**Desktop User Flow 1:**
+
+![Desktop User Flow 1](assets/images/cap4/user-flows-desktop/UF_desktop_1.jpeg)
+
+**Desktop User Flow 2:**
+
+![Desktop User Flow 2](assets/images/cap4/user-flows-desktop/UF_desktop_2.jpeg)
+
+**Desktop User Flow 3:**
+
+Se aprecia el unhappy path de fecha incorrecta:
+
+![Desktop User Flow 3](assets/images/cap4/user-flows-desktop/UF_desktop_3.jpeg)
+
+**Desktop User Flow 4:**
+
+![Desktop User Flow 4](assets/images/cap4/user-flows-desktop/UF_desktop_4.jpeg)
+
+**Desktop User Flow 5:**
+
+![Desktop User Flow 5](assets/images/cap4/user-flows-desktop/UF_desktop_5.jpeg)
+
+**Desktop User Flow 6:**
+
+![Desktop User Flow 6](assets/images/cap4/user-flows-desktop/UF_desktop_6.jpeg)
+
+**Desktop User Flow 7:**
+![Desktop User Flow 7](assets/images/cap4/user-flows-desktop/UF_desktop_7.jpeg)
+
+**Desktop User Flow 8:**
+
+![Desktop User Flow 8.1](assets/images/cap4/user-flows-desktop/UF_desktop_8.1.jpeg)
+
+![Desktop User Flow 8.2](assets/images/cap4/user-flows-desktop/UF_desktop_8.2.jpeg)
+
+**Desktop User Flow 9:**
+
+Se aprecia el unhappy path de formato de imagen incorrecta:
+
+![Desktop User Flow 9](assets/images/cap4/user-flows-desktop/UF_desktop_9.jpeg)
+
+**Desktop User Flow 10:**
+
+![Desktop User Flow 10](assets/images/cap4/user-flows-desktop/UF_desktop_10.jpeg)
+
+**Desktop User Flow 11:**
+
+![Desktop User Flow 11](assets/images/cap4/user-flows-desktop/UF_desktop_11.jpeg)
+
+**Desktop User Flow 12:**
+
+![Desktop User Flow 12](assets/images/cap4/user-flows-desktop/UF_desktop_12.jpeg)
+
+**Desktop User Flow 13:**
+
+![Desktop User Flow 13](assets/images/cap4/user-flows-desktop/UF_desktop_13.jpeg)
+
 
 #### User Flows Mobile
 
 **Mobile User Flow 1:**
+
 ![Mobile User Flow 1](assets/images/cap4/mobile_ug1.png)
 
 **Mobile User Flow 2:**
+
 ![Mobile User Flow 2](assets/images/cap4/mobile_ug2.png)
 
 **Mobile User Flow 3:**
+
 ![Mobile User Flow 3](assets/images/cap4/mobile_ug3.png)
 
 **Mobile User Flow 4:**
+
 ![Mobile User Flow 4](assets/images/cap4/mobile_ug4.png)
 
 **Mobile User Flow 5:**
+
 ![Mobile User Flow 5](assets/images/cap4/mobile_ug5.png)
 
 **Mobile User Flow 6:**
+
 ![Mobile User Flow 6](assets/images/cap4/mobile_ug6.png)
 
 **Mobile User Flow 7:**
+
 ![Mobile User Flow 7](assets/images/cap4/mobile_ug7.png)
 
 **Mobile User Flow 8:**
+
 ![Mobile User Flow 8](assets/images/cap4/mobile_ug8.png)
 
 **Mobile User Flow 9:**
+
 ![Mobile User Flow 9](assets/images/cap4/mobile_ug9.png)
 
 **Mobile User Flow 10:**
+
 ![Mobile User Flow 10](assets/images/cap4/mobile_ug10.png)
 
 **Mobile User Flow 11:**
+
 ![Mobile User Flow 11](assets/images/cap4/mobile_ug11.png)
 
 **Mobile User Flow 12:**
+
 ![Mobile User Flow 12](assets/images/cap4/mobile_ug12.png)
 
 **Mobile User Flow 13:**
+
 ![Mobile User Flow 13](assets/images/cap4/mobile_ug13.png)
 
 
