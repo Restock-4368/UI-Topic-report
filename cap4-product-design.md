@@ -728,6 +728,35 @@ Esta sección presenta la propuesta de Wireflows. Se ha considerado un Wireflow 
 
 ![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_47.jpeg)
 
+#### Segmento objetivo: Proveedores de Restaurantes (User Persona 2)
+
+**Desktop:** En esta seccion se muestra los mockups del diseño Desktop
+
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-proveedor/1.png)
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-proveedor/2.png)
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-proveedor/3.png)
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-proveedor/4.png)
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-proveedor/5.png)
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-proveedor/6.png)
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-proveedor/7.png)
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-proveedor/8.png)
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-proveedor/9.png)
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-proveedor/10.png)
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-proveedor/11.png)
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-proveedor/12.png)
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-proveedor/13.png)
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-proveedor/14.png)
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-proveedor/15.png)
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-proveedor/16.png)
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-proveedor/17.png)
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-proveedor/18.png)
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-proveedor/19.png)
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-proveedor/20.png)
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-proveedor/21.png)
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-proveedor/22.png)
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-proveedor/23.png)
+![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-proveedor/24.png)
+
 ### 4.4.4 Web Applications User Flow Diagrams
 
 #### User Flows Mobile
