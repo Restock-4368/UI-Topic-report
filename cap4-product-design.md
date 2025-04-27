@@ -272,6 +272,62 @@ La navegación también se adapta según el tipo de usuario. Por ejemplo, los pr
 
 ### 4.3.1 Landing Page Wireframe
 
+Los siguientes wireframes representan la estructura visual y de navegación propuesta para la Landing Page de Restock, adaptada a Desktop Web Browser y Mobile Web Browser.
+Se aplicaron criterios de diseño visual, diseño inclusivo y arquitectura de información para asegurar una experiencia accesible, intuitiva y coherente en ambos entornos.
+
+#### Principios Aplicados
+- **Jerarquía visual clara:**
+  Los contenidos se ordenan priorizando la información principal en la parte superior (propuesta de valor) y distribuyendo de manera progresiva los beneficios, testimonios, preguntas frecuentes, tutoriales, contacto y descarga.
+
+- **Consistencia visual:**
+   Se mantuvieron patrones visuales uniformes en tipografías, colores y espaciados, respetando la guía de estilos definida para la marca Restock.
+
+- **Contraste y accesibilidad:**
+  Se aseguraron contrastes adecuados entre texto y fondo para favorecer la legibilidad, así como tamaños de fuente óptimos para usuarios con diferentes capacidades visuales.
+
+- **Optimización para dispositivos móviles:**
+  Los wireframes contemplan un diseño adaptable, reorganizando los componentes en una estructura vertical, botones de mayor tamaño y menús accesibles para pantallas táctiles.
+
+- **Diseño inclusivo:**
+  Cada sección permite navegación intuitiva mediante teclado y está pensada para ser compatible con tecnologías de asistencia como lectores de pantalla.
+
+### Wireframes de Landing Page:
+#### Versión Desktop Web Browser:
+![Wireframe Landing Page Bienvenida](assets/images/wireframes-landing/bienvenida.png)
+![Wireframe Landing Page Cambio de idioma](assets/images/wireframes-landing/cambio-idioma.png)
+![Wireframe Landing Page Lector de texto](assets/images/wireframes-landing/lector-texto.png)
+![Wireframe Landing Page Inicio de sesión](assets/images/wireframes-landing/inicio-sesion.png)
+![Wireframe Landing Page Registro](assets/images/wireframes-landing/registro.png)
+![Wireframe Landing Page Contraseña olvidada](assets/images/wireframes-landing/contraseña-olvidada.png)
+![Wireframe Landing Page Nosotros](assets/images/wireframes-landing/nosotros.png)
+![Wireframe Landing Page Beneficios1](assets/images/wireframes-landing/beneficios1.png)
+![Wireframe Landing Page Beneficios2](assets/images/wireframes-landing/beneficios2.png)
+![Wireframe Landing Page Testimonios](assets/images/wireframes-landing/testimonios.png)
+![Wireframe Landing Page Preguntas frecuentes](assets/images/wireframes-landing/preguntas-frecuentes.png)
+![Wireframe Landing Page Tutorial1](assets/images/wireframes-landing/tutorial1.png)
+![Wireframe Landing Page Tutorial2](assets/images/wireframes-landing/tutorial2.png)
+![Wireframe Landing Page Contacto](assets/images/wireframes-landing/contacto.png)
+![Wireframe Landing Page Descargar](assets/images/wireframes-landing/descargar.png)
+![Wireframe Landing Page Footer](assets/images/wireframes-landing/footer.png)
+
+#### Versión Mobile Web Browser
+![Wireframe Landing Page Bienvenida](assets/images/wireframes-landing/mobile/bienvenida.png)
+![Wireframe Landing Page Cambio de idioma](assets/images/wireframes-landing/mobile/cambio-idioma.png)
+![Wireframe Landing Page Lector de voz](assets/images/wireframes-landing/mobile/lector-voz.png)
+![Wireframe Landing Page Inicio de sesión](assets/images/wireframes-landing/mobile/inicio-sesion.png)
+![Wireframe Landing Page Registro](assets/images/wireframes-landing/mobile/registrarse.png)
+![Wireframe Landing Page Contraseña olvidada](assets/images/wireframes-landing/mobile/contraseña-olvidada.png)
+![Wireframe Landing Page Nosotros](assets/images/wireframes-landing/mobile/nosotros.png)
+![Wireframe Landing Page Beneficios1](assets/images/wireframes-landing/mobile/beneficios1.png)
+![Wireframe Landing Page Beneficios2](assets/images/wireframes-landing/mobile/beneficios2.png)
+![Wireframe Landing Page Testimonios](assets/images/wireframes-landing/mobile/testimonios.png)
+![Wireframe Landing Page Preguntas frecuentes](assets/images/wireframes-landing/mobile/preguntas-frecuentes.png)
+![Wireframe Landing Page Tutorial1](assets/images/wireframes-landing/mobile/tutorial1.png)
+![Wireframe Landing Page Tutorial2](assets/images/wireframes-landing/mobile/tutorial2.png)
+![Wireframe Landing Page Contacto](assets/images/wireframes-landing/mobile/contacto.png)
+![Wireframe Landing Page Descargar](assets/images/wireframes-landing/mobile/descargar.png)
+![Wireframe Landing Page Footer](assets/images/wireframes-landing/mobile/footer.png)
+
 ### 4.3.2 Landing Page Mock-up
 
 
