@@ -4,31 +4,24 @@
 
 ### 4.1.1 General Style Guidelines
 
-En el diseño de Restock, se tomaron decisiones cuidadosas para garantizar una experiencia de usuario coherente y efectiva. 
+En el diseño de Restock, se tomaron decisiones cuidadosas para garantizar una experiencia de usuario coherente y efectiva.
 
 #### Colores
+
 La paleta de colores de Restock fue seleccionada con un enfoque en la armonía visual y la accesibilidad. Cada color cumple un rol específico para mejorar la experiencia del usuario:
 
-![Foto de paleta de colores](assets/images/cap4/paleta-colores.png) 
+![Foto de paleta de colores](assets/images/cap4/paleta-colores.png)
 
 - Naranja mandarina – #F28C38: Este color transmite energía, dinamismo y entusiasmo. En Restock, lo utilizamos para incentivar la acción en botones especiales como el del lector de texto o de retroceder. Representa proactividad y movimiento, ideales para un entorno de gestión ágil de inventarios.
-
 - Rojo coral – #D9534F: Este color simboliza urgencia y atención, por lo que lo empleamos estratégicamente en alertas o notificaciones importantes dentro de la plataforma, así como en botones de cancelación. Su intensidad refuerza el enfoque en tareas prioritarias o advertencias, ayudando a los usuarios a tomar decisiones rápidas.
-
 - Verde oscuro – #4F8A5B: Este color está asociado con estabilidad, crecimiento y seguridad. En Restock, este color refuerza la confianza en los procesos, especialmente en la gestión eficiente de productos. Por ello, ser usa en subtítulos principales y botones de confirmación y selección. Aporta equilibrio visual y solidez al diseño general.
-
-- Verde claro – #B5D99C: Este color representa frescura y renovación. Se utiliza en fondos de secciones especiales para transmitir un ambiente amigable y limpio dentro de la interfaz, fomentando una sensación de ligereza y bienestar mientras se interactúa con la plataforma. 
-
-- Verde menta claro – #CDE7D3: Este color evoca serenidad, limpieza y claridad. Se usa en fondos y para destacar opciones seleccionadas. Apoya la legibilidad y aporta una atmósfera relajada en las secciones de consulta o visualización de datos, facilitando la concentración. 
-
+- Verde claro – #B5D99C: Este color representa frescura y renovación. Se utiliza en fondos de secciones especiales para transmitir un ambiente amigable y limpio dentro de la interfaz, fomentando una sensación de ligereza y bienestar mientras se interactúa con la plataforma.
+- Verde menta claro – #CDE7D3: Este color evoca serenidad, limpieza y claridad. Se usa en fondos y para destacar opciones seleccionadas. Apoya la legibilidad y aporta una atmósfera relajada en las secciones de consulta o visualización de datos, facilitando la concentración.
 - Blanco grisáceo - #F4F4F4: Este color simboliza simplicidad, orden y neutralidad. Usado principalmente en los fondos, este color ofrece un lienzo limpio que mejora el contraste con otros elementos y asegura una experiencia visual clara y sin distracciones.
-
 - Gris oscuro – #3C3C3C: Este color refleja profesionalismo y solidez. En Restock, se utiliza para resaltar textos importantes y títulos, aportando un contraste elegante que estructura visualmente la información clave.
+- Beige cálido – #FAF1E7: Este color transmite calidez y cercanía. Se usa en fondos pequeños, ya que añade un toque humano al diseño de la plataforma, suavizando los espacios y brindando una sensación acogedora sin perder la sobriedad.
 
-- Beige cálido – #FAF1E7: Este color transmite calidez y cercanía. Se usa en fondos pequeños, ya que añade un toque humano al diseño de la plataforma, suavizando los espacios y brindando una sensación acogedora sin perder la sobriedad. 
- 
-
-#### Tipografía 
+#### Tipografía
 
 Se seleccionó la tipografía “Poppins” como fuente principal para los títulos de la plataforma por su estilo llamativo y su capacidad para captar la atención del usuario. Además, esta fuente es visualmente agradable y de fácil lectura, lo que garantiza una experiencia cómoda y comprensible para el usuario.
 
@@ -43,9 +36,9 @@ Asimismo, optamos por la tipografía "Inter" como fuente secundaria para los tex
 #### Branding
 
 El branding de Restock está diseñado para reflejar simplicidad, confianza y profesionalismo. El logo y los íconos adoptan un enfoque minimalista, con líneas claras y formas simples que comunican el propósito de la plataforma. El diseño incluye la incial del nombre del producto ofrecido, representado de tal manera que simboliza gestión y orden con una apariencia limpia que es fácilmente reconocible, tanto en entornos web como móviles.
- 
-&nbsp;  
-<img src="assets/images/cap4/logo.jpeg" alt="Foto de logo" width="200px" />
+
+&nbsp;
+`<img src="assets/images/cap4/logo.jpeg" alt="Foto de logo" width="200px" />`
 
 #### Espaciado
 
@@ -60,9 +53,7 @@ Optamos por un tono casual pero respetuoso, que permita a los usuarios sentirse 
 Además, se han considerado los siguientes aspectos clave en el diseño de Restock:
 
 - Consistencia: La coherencia en el diseño es esencial para brindar una experiencia uniforme y eficiente. Todos los elementos visuales e interactivos de Restock mantienen una línea gráfica y funcional clara, lo que permite que los usuarios se familiaricen rápidamente y operen la plataforma con facilidad. Esto es vital para negocios que requieren respuestas rápidas y precisas en su operación diaria.
-
 - Navegación: La estructura de navegación ha sido pensada para ser intuitiva y ordenada. Los usuarios pueden acceder fácilmente a secciones como control de stock, historial de pedidos, comunicación con proveedores y reportes de abastecimiento. Los menús son claros y las opciones están organizadas para ahorrar tiempo y evitar complicaciones, facilitando la toma de decisiones en entornos exigentes como las cocinas de restaurantes o los centros de distribución.
-
 - Accesibilidad: La plataforma fue diseñada para adaptarse a todo tipo de usuarios y dispositivos. Desde computadoras hasta tablets o celulares, Restock ofrece botones grandes, opciones de ajuste de idioma, lector de texto y navegación simplificada, permitiendo a dueños de restaurantes y proveedores utilizar la plataforma incluso en ambientes dinámicos y de alta demanda.
 
 #### Elementos de diseño
@@ -86,6 +77,7 @@ La **alineación** contribuye a la profesionalidad del diseño: los formularios,
 Estos elementos y principios no se aplican de forma aislada, sino como parte integral de un sistema visual que busca ser funcional, estético y coherente con la misión de Restock: facilitar la gestión de inventarios a través de una experiencia clara, empática y eficiente.
 
 ### 4.1.2 Web Style Guidelines
+
 El diseño web de Restock está optimizado para proporcionar una experiencia fluida en dispositivos de diferentes tamaños. Se emplean diseños de una sola columna para facilitar la lectura, mientras que el ancho de los contenedores y las imágenes se ajusta de manera dinámica para preservar la proporción y garantizar la accesibilidad. Asimismo, los bordes de los elementos interactivos se resaltan para mejorar la navegación y la interacción.
 
 En cuanto a la interactividad, los botones y enlaces son claramente identificables, y se implementan estados visuales (hover, active, etc.) para ofrecer retroalimentación al usuario. Los formularios están diseñados para ser intuitivos y fáciles de completar, con validaciones claras y mensajes de error visibles para evitar confusiones.
@@ -118,6 +110,7 @@ A continuación, se presenta el sistema de etiquetado (labeling system)diseñado
 Se ha priorizado la claridad semántica y la coherencia con el lenguaje visual del producto, especialmente con el tono de comunicación cercano y profesional.
 
 **Landing Page:**
+
 - **Inicio:** Sección principal de bienvenida. Incluye título principal y acceso a la plataforma
 - **Beneficios:** Explicación segmentada de las ventajas de Restock para restaurantes y proveedores.
 - **Testimonios:** Comentarios reales de usuarios sobre cómo la plataforma les ha ayudado en su gestión.
@@ -142,74 +135,90 @@ Se ha priorizado la claridad semántica y la coherencia con el lenguaje visual d
 
 ### 4.2.3 SEO Tags and Meta Tags
 
-## Landing Page
+#### Landing Page
 
-#### **Charset**
-    <meta charset="utf-8">
+##### **Charset**
 
-#### **Viewport (responsive)**
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    `<meta charset="utf-8">`
 
-#### **Title (SEO)**
-    <title>UI-Topic | Automatiza el inventario y pedidos de tu restaurante</title>
+##### **Viewport (responsive)**
 
-#### **Meta Description (SEO)**
-    <meta name="description" content="Plataforma para restaurantes que reduce desperdicios y mejora las ganancias mediante la gestión inteligente de inventarios y pedidos.">
+    `<meta name="viewport" content="width=device-width, initial-scale=1">`
 
-#### **Meta Keywords (SEO, aunque en desuso para Google)** 
-    <meta name="keywords" content="restaurantes, gestión de inventario, pedidos, automatización, proveedores, tecnología gastronómica">
+##### **Title (SEO)**
 
-#### **Meta Author**
-    <meta name="author" content="UI-Topic Team">
+    `<title>`UI-Topic | Automatiza el inventario y pedidos de tu restaurante `</title>`
 
-#### **Meta Robots**
-    <meta name="robots" content="index, follow">
+##### **Meta Description (SEO)**
 
-#### **Meta Language**
-    <meta name="language" content="es">
+    `<meta name="description" content="Plataforma para restaurantes que reduce desperdicios y mejora las ganancias mediante la gestión inteligente de inventarios y pedidos.">`
 
-#### **Meta Copyright**
-    <meta name="copyright" content="UI-Topic 2025">
+##### **Meta Keywords (SEO, aunque en desuso para Google)**
 
-## Web Application
+    `<meta name="keywords" content="restaurantes, gestión de inventario, pedidos, automatización, proveedores, tecnología gastronómica">`
 
-#### **Charset**
-    <meta charset="utf-8">
+##### **Meta Author**
 
-#### **Viewport (responsive)**
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    `<meta name="author" content="UI-Topic Team">`
 
-#### **Title (SEO)**
-    <title>UI-Topic App | Panel de gestión</title>
+##### **Meta Robots**
 
-#### **Meta Description (SEO)**
-    <meta name="description" content="Panel interno de UI-Topic para gestionar inventario, pedidos y proveedores. Solo accesible para usuarios autorizados.">
+    `<meta name="robots" content="index, follow">`
 
-#### **Meta Author**
-    <meta name="author" content="UI-Topic Team">
+##### **Meta Language**
 
-#### **Meta Robots**
-    <meta name="robots" content="noindex, nofollow">
+    `<meta name="language" content="es">`
 
-#### **Meta Language**
-    <meta name="language" content="es">
+##### **Meta Copyright**
 
-#### **Meta Copyright**
-    <meta name="copyright" content="UI-Topic 2025">
+    `<meta name="copyright" content="UI-Topic 2025">`
 
+#### Web Application
+
+##### **Charset**
+
+    `<meta charset="utf-8">`
+
+##### **Viewport (responsive)**
+
+    `<meta name="viewport" content="width=device-width, initial-scale=1">`
+
+##### **Title (SEO)**
+
+    `<title>`UI-Topic App | Panel de gestión `</title>`
+
+##### **Meta Description (SEO)**
+
+    `<meta name="description" content="Panel interno de UI-Topic para gestionar inventario, pedidos y proveedores. Solo accesible para usuarios autorizados.">`
+
+##### **Meta Author**
+
+    `<meta name="author" content="UI-Topic Team">`
+
+##### **Meta Robots**
+
+    `<meta name="robots" content="noindex, nofollow">`
+
+##### **Meta Language**
+
+    `<meta name="language" content="es">`
+
+##### **Meta Copyright**
+
+    `<meta name="copyright" content="UI-Topic 2025">`
 
 ### 4.2.4 Searching Systems
 
-## Vista del Administrador de Restaurante
+#### Vista del Administrador de Restaurante
 
-### 1. Medios de ayuda para la búsqueda de datos
+##### 1. Medios de ayuda para la búsqueda de datos
 
 - Barra de búsqueda principal en cada módulo (Inventario, Pedidos, Proveedores).
 - Autocompletado inteligente: se muestran sugerencias conforme el usuario escribe.
 - Historial de búsquedas recientes.
 - Mensajes contextuales si no se encuentran resultados (“¿Desea agregar un nuevo insumo?”).
 
-### 2. Filtros y opciones
+##### 2. Filtros y opciones
 
 - Por nombre de producto.
 - Por categoría de insumo (carnes, bebidas, verduras, etc.).
@@ -218,7 +227,7 @@ Se ha priorizado la claridad semántica y la coherencia con el lenguaje visual d
 - Por fecha de vencimiento próxima.
 - Por pedidos con retraso o por llegar.
 
-### 3. Visualización de resultados
+##### 3. Visualización de resultados
 
 - Filas con:
   - Nombre del insumo.
@@ -230,16 +239,15 @@ Se ha priorizado la claridad semántica y la coherencia con el lenguaje visual d
   - Stock bajo.
   - Stock saludable.
 
+#### Vista del Proveedor
 
-## Vista del Proveedor
-
-### 1. Medios de ayuda para la búsqueda de datos
+##### 1. Medios de ayuda para la búsqueda de datos
 
 - Buscador centralizado para gestionar productos ofrecidos y pedidos recibidos.
 - Autocompletado para clientes, productos o pedidos.
 - Filtros combinables para analizar entregas, productos y clientes activos.
 
-### 2. Filtros y opciones
+##### 2. Filtros y opciones
 
 - Por restaurante cliente.
 - Por producto ofrecido.
@@ -247,7 +255,7 @@ Se ha priorizado la claridad semántica y la coherencia con el lenguaje visual d
 - Por fecha de entrega programada.
 - Por frecuencia de pedidos (clientes frecuentes o nuevos).
 
-### 3. Visualización de resultados
+##### 3. Visualización de resultados
 
 - Listas de pedidos con:
   - Nombre del cliente (restaurante).
@@ -267,7 +275,6 @@ El contenido dentro de cada vista se organiza mediante tabs, filtros y botones d
 
 La navegación también se adapta según el tipo de usuario. Por ejemplo, los proveedores acceden a sus funciones desde una sección separada en el panel, asegurando que su recorrido dentro del sistema sea coherente con sus tareas específicas, como la gestión de productos ofrecidos o visualización de órdenes recibidas.
 
-
 ## 4.3 Landing Page UI Design
 
 ### 4.3.1 Landing Page Wireframe
@@ -276,23 +283,22 @@ Los siguientes wireframes representan la estructura visual y de navegación prop
 Se aplicaron criterios de diseño visual, diseño inclusivo y arquitectura de información para asegurar una experiencia accesible, intuitiva y coherente en ambos entornos.
 
 #### Principios Aplicados
+
 - **Jerarquía visual clara:**
   Los contenidos se ordenan priorizando la información principal en la parte superior (propuesta de valor) y distribuyendo de manera progresiva los beneficios, testimonios, preguntas frecuentes, tutoriales, contacto y descarga.
-
 - **Consistencia visual:**
-   Se mantuvieron patrones visuales uniformes en tipografías, colores y espaciados, respetando la guía de estilos definida para la marca Restock.
-
+  Se mantuvieron patrones visuales uniformes en tipografías, colores y espaciados, respetando la guía de estilos definida para la marca Restock.
 - **Contraste y accesibilidad:**
   Se aseguraron contrastes adecuados entre texto y fondo para favorecer la legibilidad, así como tamaños de fuente óptimos para usuarios con diferentes capacidades visuales.
-
 - **Optimización para dispositivos móviles:**
   Los wireframes contemplan un diseño adaptable, reorganizando los componentes en una estructura vertical, botones de mayor tamaño y menús accesibles para pantallas táctiles.
-
 - **Diseño inclusivo:**
   Cada sección permite navegación intuitiva mediante teclado y está pensada para ser compatible con tecnologías de asistencia como lectores de pantalla.
 
-### Wireframes de Landing Page:
-#### Versión Desktop Web Browser:
+#### Wireframes de Landing Page:
+
+##### Versión Desktop Web Browser:
+
 ![Wireframe Landing Page Bienvenida](assets/images/wireframes-landing/bienvenida.png)
 ![Wireframe Landing Page Cambio de idioma](assets/images/wireframes-landing/cambio-idioma.png)
 ![Wireframe Landing Page Lector de texto](assets/images/wireframes-landing/lector-texto.png)
@@ -310,7 +316,8 @@ Se aplicaron criterios de diseño visual, diseño inclusivo y arquitectura de in
 ![Wireframe Landing Page Descargar](assets/images/wireframes-landing/descargar.png)
 ![Wireframe Landing Page Footer](assets/images/wireframes-landing/footer.png)
 
-#### Versión Mobile Web Browser
+##### Versión Mobile Web Browser
+
 ![Wireframe Landing Page Bienvenida](assets/images/wireframes-landing/mobile/bienvenida.png)
 ![Wireframe Landing Page Cambio de idioma](assets/images/wireframes-landing/mobile/cambio-idioma.png)
 ![Wireframe Landing Page Lector de voz](assets/images/wireframes-landing/mobile/lector-voz.png)
@@ -402,22 +409,18 @@ A continuación, se presentan los mock-ups de la versión móvil de la aplicaci�
 
 Los siguientes wireframes corresponden a la aplicación web de Restock
 
-### Principios aplicados
+#### Principios aplicados
 
 - **Jerarquía funcional clara:**
- El flujo de navegación prioriza las acciones más relevantes para proveedores, como gestión de productos, visualización de órdenes y acceso a reportes de ventas.
-
+  El flujo de navegación prioriza las acciones más relevantes para proveedores, como gestión de productos, visualización de órdenes y acceso a reportes de ventas.
 - **Consistencia y patrones de diseño:**
- Los componentes mantienen uniformidad en su comportamiento visual e interactivo, asegurando coherencia entre pantallas y módulos.
-
+  Los componentes mantienen uniformidad en su comportamiento visual e interactivo, asegurando coherencia entre pantallas y módulos.
 - **Accesibilidad en interfaces:**
- Se aplicaron contrastes adecuados, fuentes legibles, botones de tamaño óptimo y estructura de navegación compatible con teclado y lectores de pantalla.
-
+  Se aplicaron contrastes adecuados, fuentes legibles, botones de tamaño óptimo y estructura de navegación compatible con teclado y lectores de pantalla.
 - **Diseño adaptativo:**
- Los wireframes consideran que la aplicación será utilizada tanto en pantallas de laptop como en tablets, por lo que el diseño es responsivo y se ajusta a distintos anchos de pantalla.
-
+  Los wireframes consideran que la aplicación será utilizada tanto en pantallas de laptop como en tablets, por lo que el diseño es responsivo y se ajusta a distintos anchos de pantalla.
 - **Arquitectura de información enfocada al flujo de tareas:**
- La estructura prioriza la eficiencia operativa, permitiendo a los proveedores registrar productos, atender pedidos y monitorear métricas clave en el menor número de clics posible.
+  La estructura prioriza la eficiencia operativa, permitiendo a los proveedores registrar productos, atender pedidos y monitorear métricas clave en el menor número de clics posible.
 
 #### Segmento objetivo: Dueño o Administrador de Restaurante (User Persona 1)
 
@@ -489,7 +492,7 @@ Los siguientes wireframes corresponden a la aplicación web de Restock
 
 Esta sección presenta la propuesta de Wireflows. Se ha considerado un Wireflow para cada User Goal, teniendo en cuenta los User Persona definidos para las aplicaciones que forman parte del alcance.
 
-#### Task Flow 1: Administrar la cuenta
+##### Task Flow 1: Administrar la cuenta
 
 **Objetivo del usuario**: Gestionar la información de su cuenta y su suscripción para mantener el acceso y los beneficios de la plataforma.
 
@@ -505,16 +508,15 @@ Esta sección presenta la propuesta de Wireflows. Se ha considerado un Wireflow 
 8. Ingresar los datos de pago requeridos (correo, tarjeta, dirección).
 9. Confirmar y completar el pago de la suscripción.
 
-
-**User Goal 1:** Como suscriptor, quiero gestionar mi cuenta para tener acceso completo a la plataforma y asegurarme de que mis datos estén siempre actualizados.  
+**User Goal 1:** Como suscriptor, quiero gestionar mi cuenta para tener acceso completo a la plataforma y asegurarme de que mis datos estén siempre actualizados.
 ![User Goal 1](assets/images/cap4/taskflow1_ug1.png)
 
-**User Goal 2:** Como suscriptor, quiero gestionar mi plan de suscripción para obtener beneficios respecto a la plataforma. 
+**User Goal 2:** Como suscriptor, quiero gestionar mi plan de suscripción para obtener beneficios respecto a la plataforma.
 ![User Goal 2](assets/images/cap4/taskflow1_ug2.png)
 
-### User Persona 1:  Dueño o administrador de restaurante
+#### User Persona 1:  Dueño o administrador de restaurante
 
-#### Task Flow 2: Monitorear el inventario
+##### Task Flow 2: Monitorear el inventario
 
 **Objetivo del usuario**: Gestionar y monitorear manualmente el inventario de insumos para mantener la disponibilidad de productos y detectar problemas a tiempo.
 
@@ -530,13 +532,13 @@ Esta sección presenta la propuesta de Wireflows. Se ha considerado un Wireflow 
 8. Visualizar el panel de resumen del inventario (ingredientes más usados, productos próximos a vencer, alertas críticas).
 9. Tomar decisiones de reposición, corrección o eliminación de insumos según los datos mostrados.
 
-**User Goal 3** Como administrador de restaurante, quiero gestionar manualmente el inventario de insumos (ingresarlos, actualizarlos, descontarlos o registrar compras), para mantener datos precisos que eviten pérdidas y faciliten la toma de decisiones.  
+**User Goal 3** Como administrador de restaurante, quiero gestionar manualmente el inventario de insumos (ingresarlos, actualizarlos, descontarlos o registrar compras), para mantener datos precisos que eviten pérdidas y faciliten la toma de decisiones.
 ![User Goal 3](assets/images/cap4/taskflow2_ug3.png)
 
-**User Goal 4:** Como administrador, quiero consultar un panel que resuma datos importantes y acceder al historial de alertas, para tomar decisiones rápidas sobre el inventario.  
+**User Goal 4:** Como administrador, quiero consultar un panel que resuma datos importantes y acceder al historial de alertas, para tomar decisiones rápidas sobre el inventario.
 ![User Goal 4](assets/images/cap4/taskflow2_ug4.png)
 
-#### Task Flow 3: Monitorear pedidos a los proveedores
+##### Task Flow 3: Monitorear pedidos a los proveedores
 
 **Objetivo del usuario**: Gestionar la relación con los proveedores y evaluar la calidad de los insumos recibidos mediante pedidos y retroalimentación.
 
@@ -552,17 +554,16 @@ Esta sección presenta la propuesta de Wireflows. Se ha considerado un Wireflow 
 8. Visualizar la lista de pedidos pendientes, aprobados, rechazados o completados.
 9. Calificar y dejar comentarios sobre los pedidos recibidos para retroalimentar al proveedor.
 
-**User Goal 5:** Como administrador de restaurante, quiero consultar información de mis proveedores, para mantener organizada la relación comercial y controlar mejor mis gastos.  
+**User Goal 5:** Como administrador de restaurante, quiero consultar información de mis proveedores, para mantener organizada la relación comercial y controlar mejor mis gastos.
 ![User Goal 5](assets/images/cap4/taskflow3_ug5.png)
 
 **User Goal 6:** Como administrador de restaurante, quiero solicitar pedidos a mis proveedores, para actualizar mi inventario según los insumos que requiero.
 ![User Goal 6](assets/images/cap4/taskflow3_ug5.2.png)
 
-**User Goal 7:** Como administrador de restaurante, quiero evaluar los pedidos que recibo de los proveedores, para dejar retroalimentación y asegurar la calidad de los insumos en futuras compras.  
+**User Goal 7:** Como administrador de restaurante, quiero evaluar los pedidos que recibo de los proveedores, para dejar retroalimentación y asegurar la calidad de los insumos en futuras compras.
 ![User Goal 7](assets/images/cap4/taskflow3_ug6.png)
 
-
-#### Task Flow 4: Gestionar el servicio del restaurante
+##### Task Flow 4: Gestionar el servicio del restaurante
 
 **Objetivo del usuario**: Facilitar la administración del stock a través del registro de ventas y la estandarización de platos mediante recetas vinculadas al inventario.
 
@@ -577,17 +578,15 @@ Esta sección presenta la propuesta de Wireflows. Se ha considerado un Wireflow 
 7. Crear una nueva receta ingresando el nombre del plato, el costo total y los insumos utilizados.
 8. Guardar la receta para vincularla automáticamente con el inventario y controlar el consumo de insumos por plato.
 
-**User Goal 8:** Como administrador de restaurante, quiero que mi empleado registre ventas completas desde la carta (platos e insumos adicionales), para automatizar el descuento de stock y mantener el inventario sincronizado sin tener que gestionarlo manualmente.  
+**User Goal 8:** Como administrador de restaurante, quiero que mi empleado registre ventas completas desde la carta (platos e insumos adicionales), para automatizar el descuento de stock y mantener el inventario sincronizado sin tener que gestionarlo manualmente.
 ![User Goal 8](assets/images/cap4/taskflow4_ug7.png)
 
-**User Goal 8:** Como administrador de restaurante, quiero crear recetas vinculadas a insumos del inventario, para estandarizar los platos, calcular sus costos y controlar el consumo de ingredientes automáticamente.  
+**User Goal 8:** Como administrador de restaurante, quiero crear recetas vinculadas a insumos del inventario, para estandarizar los platos, calcular sus costos y controlar el consumo de ingredientes automáticamente.
 ![User Goal 9](assets/images/cap4/taskflow4_ug8.png)
 
+#### User Persona 2: Proveedores para restaurante
 
-
-### User Persona 2: Proveedores para restaurante
-
-#### Task Flow 5: Gestionar el catálogo de productos
+##### Task Flow 5: Gestionar el catálogo de productos
 
 **Objetivo del usuario**: Mantener actualizado el catálogo de productos ofrecidos a los restaurantes, asegurando la disponibilidad y evitando confusión con productos obsoletos.
 
@@ -600,13 +599,13 @@ Esta sección presenta la propuesta de Wireflows. Se ha considerado un Wireflow 
 5. Desactivar temporalmente un producto para ocultarlo del catálogo cuando no esté disponible.
 6. Eliminar definitivamente un producto obsoleto o que ya no se desea ofrecer.
 
-**User Goal 10:** Como proveedor, quiero gestionar mi catálogo de productos (agregarlos, actualizarlos o desactivarlos temporalmente), para asegurar que los restaurantes vean solo productos disponibles y vigentes.  
+**User Goal 10:** Como proveedor, quiero gestionar mi catálogo de productos (agregarlos, actualizarlos o desactivarlos temporalmente), para asegurar que los restaurantes vean solo productos disponibles y vigentes.
 ![User Goal 10](assets/images/cap4/taskflow5_ug9.png)
 
-**User Goal 11:** Como proveedor, quiero tener control total sobre los productos de mi inventario, para poder visualizar, actualizar o eliminar aquellos que ya no están disponibles o no deseo ofrecer.  
+**User Goal 11:** Como proveedor, quiero tener control total sobre los productos de mi inventario, para poder visualizar, actualizar o eliminar aquellos que ya no están disponibles o no deseo ofrecer.
 ![User Goal 11](assets/images/cap4/taskflow5_ug10.png)
 
-#### Task Flow 6: Monitorear los pedidos
+##### Task Flow 6: Monitorear los pedidos
 
 **Objetivo del usuario**: Gestionar y hacer seguimiento de las órdenes recibidas, además de analizar el desempeño de ventas y relaciones con los clientes.
 
@@ -622,14 +621,14 @@ Esta sección presenta la propuesta de Wireflows. Se ha considerado un Wireflow 
 8. Consultar las calificaciones y comentarios recibidos de los restaurantes.
 9. Analizar la retroalimentación para tomar decisiones de mejora en productos y servicios.
 
-**User Goal 12:** Como proveedor, quiero gestionar y actualizar el estado de las órdenes recibidas, para organizar mis entregas, coordinar con los restaurantes y brindar visibilidad sobre el proceso de despacho.  
+**User Goal 12:** Como proveedor, quiero gestionar y actualizar el estado de las órdenes recibidas, para organizar mis entregas, coordinar con los restaurantes y brindar visibilidad sobre el proceso de despacho.
 ![User Goal 12](assets/images/cap4/taskflow6_ug11.png)
 
-**User Goal 13:** Como proveedor, quiero analizar el rendimiento de mis ventas y el feedback de los restaurantes, para identificar a mis mejores clientes, mejorar mi servicio y fortalecer relaciones comerciales.  
+**User Goal 13:** Como proveedor, quiero analizar el rendimiento de mis ventas y el feedback de los restaurantes, para identificar a mis mejores clientes, mejorar mi servicio y fortalecer relaciones comerciales.
 ![User Goal 13](assets/images/cap4/taskflow6_ug12.png)
 
 ### 4.4.3 Web Applications Mock-ups
- 
+
 #### Segmento objetivo: Dueño o Administrador de Restaurante (User Persona 1)
 
 **Desktop:** En esta seccion se muestra los mockups del diseño Desktop
@@ -800,15 +799,19 @@ Esta sección presenta la propuesta de Wireflows. Se ha considerado un Wireflow 
 **Mobile User Flow 13:**
 ![Mobile User Flow 13](assets/images/cap4/mobile_ug13.png)
 
-
 ## 4.5 Web Applications Prototyping
 
 A continuación, se presenta el video de prototipado de la aplicación web en su versión móvil. Este prototipo muestra la interacción principal de los usuarios con la plataforma, destacando los flujos de navegación, diseño responsivo y la estructura general de la aplicación en dispositivos móviles.
 
-**Video de prototipo móvil:**  
-![Captura del video](assets/images/cap4/evidence_prototyping_mobile.png)
-[Enlace al video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319831_upc_edu_pe/EQzRDCS2G9dMnPeFjvYtBxcBUPAW0gTeCzoypBvguA-1VA?e=Gatbh7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+**Video de prototipo mobile:**
 
+![Captura del video](assets/images/cap4/evidence_prototyping_mobile.png)
+[Enlace al video] [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319831_upc_edu_pe/EQzRDCS2G9dMnPeFjvYtBxcBUPAW0gTeCzoypBvguA-1VA?e=Gatbh7&amp;nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319831_upc_edu_pe/EQzRDCS2G9dMnPeFjvYtBxcBUPAW0gTeCzoypBvguA-1VA?e=Gatbh7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+**Video de prototipo desktop:**
+
+![Captura del video](assets/images/cap4/evidence_prototyping_desktop.png)
+[Enlace al video] [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319448_upc_edu_pe/EQAZa2u5SHtBkX6IXs-LoyUB3eq_aW7yGUBVKdY-8990Hg?e=aQ6yPR](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319448_upc_edu_pe/EQAZa2u5SHtBkX6IXs-LoyUB3eq_aW7yGUBVKdY-8990Hg?e=aQ6yPR)
 
 ## 4.6 Domain-Driven Software Architecture
 
@@ -834,28 +837,28 @@ A continuación, se presenta el video de prototipado de la aplicación web en su
 
 ### 4.7.1 Class Diagrams
 
-![Class diagram](assets/images/cap4/UML_Java.png)
+![Class diagram](assets/images/cap4/UML_CSharp.jpeg)
 
 ### 4.7.2 Class Dictionary
 
-| Entidad	| Descripción |
-|----------|--------------|
-|Subscription | Suscripción activa o pasada que un usuario ha contratado. |
-|User	| Cualquier persona que interactúa con el sistema. |
-|Subscriber | Tipo de usuario que tiene una suscripción activa para utilizar servicios adicionales/premium del sistema.|
-| Supplier	| Representa a un suscriptor de tipo proveedor que gestiona sus pedidos e inventario. |
-| RestaurantAdmin	| Representa a un suscriptor de tipo administrador de restaurante encargado de gestionar internamente el restaurante, sus operaciones, inventario y pedidos. |
-| Comment	| Comentario hecho por un administrador de restaurante a un pedido de proveedor. |
-| OrderToSupplier	| Pedido de productos o insumos realizado por el restaurante hacia un proveedor. |
-| PaymentInfo	| Contiene los detalles de métodos y transacciones de pago. |
-| Alert	| Representa una notificación automática que informa al suscriptor sobre eventos importantes. |
-| Inventory	| Representa el registro de todos los insumos, productos y materiales disponibles del suscriptor. |
-| ProductCatalog	| Catálogo o listado de platos ofrecidos por el restaurante a sus clientes. |
-| RestaurantCustomerOrder	| Pedido que un cliente realiza al restaurante. |
-| Report	| Resumen generado sobre eventos o métricas del sistema. |
-| Supply	| Insumo o materia prima almacenada en el inventario. |
-| RecipeIngredient	| Ingrediente específico que forma parte de una receta. |
-| Recipe	| Representa la receta de un plato del restaurante.
+| Entidad                 | Descripción                                                                                                                                               |
+| ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Subscription            | Suscripción activa o pasada que un usuario ha contratado.                                                                                                 |
+| User                    | Cualquier persona que interactúa con el sistema.                                                                                                          |
+| Subscriber              | Tipo de usuario que tiene una suscripción activa para utilizar servicios adicionales/premium del sistema.                                                 |
+| Supplier                | Representa a un suscriptor de tipo proveedor que gestiona sus pedidos e inventario.                                                                        |
+| RestaurantAdmin         | Representa a un suscriptor de tipo administrador de restaurante encargado de gestionar internamente el restaurante, sus operaciones, inventario y pedidos. |
+| Comment                 | Comentario hecho por un administrador de restaurante a un pedido de proveedor.                                                                             |
+| OrderToSupplier         | Pedido de productos o insumos realizado por el restaurante hacia un proveedor.                                                                             |
+| PaymentInfo             | Contiene los detalles de métodos y transacciones de pago.                                                                                                 |
+| Alert                   | Representa una notificación automática que informa al suscriptor sobre eventos importantes.                                                              |
+| Inventory               | Representa el registro de todos los insumos, productos y materiales disponibles del suscriptor.                                                            |
+| ProductCatalog          | Catálogo o listado de platos ofrecidos por el restaurante a sus clientes.                                                                                 |
+| RestaurantCustomerOrder | Pedido que un cliente realiza al restaurante.                                                                                                              |
+| Report                  | Resumen generado sobre eventos o métricas del sistema.                                                                                                    |
+| Supply                  | Insumo o materia prima almacenada en el inventario.                                                                                                        |
+| RecipeIngredient        | Ingrediente específico que forma parte de una receta.                                                                                                     |
+| Recipe                  | Representa la receta de un plato del restaurante.                                                                                                          |
 
 ## 4.8 Database Design
 
