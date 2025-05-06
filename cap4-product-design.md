@@ -836,8 +836,8 @@ A continuación, se presenta el video de prototipado de la aplicación web en su
 ## 4.7 Software Object-Oriented Design
 
 ### 4.7.1 Class Diagrams
-
-![Class diagram](assets/images/cap4/UML_CSharp.jpeg)
+ 
+![Class diagram](assets/images/cap4/UML_C_sharp.png) 
 
 ### 4.7.2 Class Dictionary
 
