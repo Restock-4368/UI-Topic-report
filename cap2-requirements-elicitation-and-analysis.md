@@ -1,3 +1,5 @@
+# Capítulo II: Requirements Elicitation & Analysis
+
 ## 2.1 Competidores
 
 ### 2.1.1 Análisis Competitivo
@@ -207,11 +209,117 @@ Benjamín valora mantener relaciones comerciales a largo plazo, basadas en la ho
 
 ### 2.2.3 Análisis de entrevistas
 
+## Segmento 1: Dueños de Restaurantes
+
+Se analizaron **3 entrevistas** a administradores con amplia experiencia en el manejo de restaurantes. La información obtenida permitió identificar características objetivas y subjetivas clave para construir al arquetipo de dueño de restaurantes.
+
+### Características
+
+| Característica                               | Mención | %     | Evidencia                                                                                   |
+| -------------------------------------------- | ------- | ----- | ------------------------------------------------------------------------------------------- |
+| Más de 5 años de experiencia en gestión      | 3/3     | 100%  | Todos los entrevistados mencionan su trayectoria (“5 a 6 años”, “5 años”, “20 años”)        |
+| Utilizan software para facturación o pedidos | 3/3     | 100%  | Uso de software como Dibal, sistemas de caja, o intención de implementarlo pronto |
+| Gestión de inventario parcial o manual       | 2/3     | 66.7% | Uso mixto entre registros físicos y digitales; uno usa solo gestión manual                  |
+| Han cambiado de software por deficiencias    | 2/3     | 66.7% | Señalan haber probado varias herramientas antes de una funcional                            |
+| Dispuestos a invertir en tecnología          | 3/3     | 100%  | Declaran presupuestos o escalas de disposición al 10                                        |
+| Reconocen que la tecnología mejora la eficiencia  | 3/3     | 100%  | Vinculan tecnología con mejora de control, marketing y atención |
+| Dificultades por complejidad o soporte deficiente | 2/3     | 66.7% | Señalan postventa lenta y sistemas poco intuitivos              |
+| Necesidad de personalización                      | 3/3     | 100%  | Indican que los sistemas son genéricos y complicados de adaptar |
+| Valor por facilidad de uso y adaptabilidad        | 3/3     | 100%  | Expresan deseo de una solución autogestionable                  |
+
+### Insights
+
+**1. Alta disposición hacia la digitalización, pero con obstáculos prácticos**  
+Existe interés por parte de todos los entrevistados en incorporar tecnología para mejorar su gestión. Sin embargo, su adopción ha sido limitada por barreras como sistemas complejos o falta de capacitación. Sugiere que la plataforma debería ser intuitiva y estar diseñada pensando en la realidad operativa del usuario.
+
+**2. Necesidad crítica de herramientas flexibles y adaptables**  
+La estandarización de los sistemas actuales no responde a las particularidades de cada restaurante. Mencionan la dificultad de modificar configuraciones o adaptarse a actualizaciones frecuentes. Un sistema que permita editar menús, precios o funcionalidades sin asistencia externa sería lo ideal.
+
+**3. El soporte técnico deficiente afecta la confianza y el uso**  
+Los usuarios se sienten desatendidos cuando enfrentan incidencias en momentos críticos. El soporte técnico lento o ineficaz reduce la confianza en el sistema. Una solución que ofrezca soporte ágil y confiable podría diferenciarse en el mercado.
+
+**4. Inversión justificable si existe retorno tangible**  
+Todos los entrevistados señalan estar dispuestos a invertir en tecnología si esta genera beneficios claros como control, personalización, eficiencia o mejora de ingresos. Esto valida la viabilidad comercial de una solución enfocada.
+
+---
+
+## Segmento 2: Proveedores para Restaurantes
+
+Se analizaron **3 entrevistas** a proveedores de productos para restaurantes (abarrotes, bebidas, licores), todos con una trayectoria considerable en el rubro. A partir de sus respuestas se identificaron aspectos clave para construir el arquetipo del proveedor.
+
+### Características
+
+| Característica                               | Mención | %     | Evidencia                                                                                   |
+| -------------------------------------------- | ------- | ----- | ------------------------------------------------------------------------------------------- |
+| Más de 10 años de experiencia               | 3/3     | 100%  | Trayectorias de 38 años, experiencia amplia en distribución y ventas                       |
+| Uso de WhatsApp para pedidos                  | 3/3     | 100%  | Mencionan WhatsApp como canal primario para recibir pedidos                                 |
+| Manejo logístico manual o con supervisores   | 2/3     | 66.7% | No usan plataformas; dependen de listas físicas y personal de reparto                      |
+| No utilizan plataformas digitales especializadas | 2/3  | 66.7% | Uno menciona tener app, los otros usan WhatsApp y gestión manual                           |
+| Trato directo con dueños de restaurante      | 3/3     | 100%  | Priorizan relaciones directas como parte de su estrategia comercial                         |
+| Apertura a digitalizar su operación          | 3/3     | 100%  | Dispuestos a adoptar apps si estas mejoran su gestión                                      |
+| Importancia de la confianza con el cliente    | 3/3     | 100%  | Señalan que la confianza es clave para continuidad y créditos                             |
+| Valoración de la puntualidad y cumplimiento   | 3/3     | 100%  | Mencionan cumplimiento de horario y entregas completas como vitales                        |
+| Necesidad de mejorar la facturación con tecnología | 2/3 | 66.7% | Describen problemas con gestión manual de facturas y cobros                               |
+
+### Insights
+
+**1. Confianza, cumplimiento y atención**  
+La relación con el restaurante se construye sobre la confianza, y esta se gana a través de entregas puntuales, cumplimiento de pedidos y buena atención. Cualquier solución digital debe reforzar esta relación en lugar de reemplazarla, manteniendo la cercanía con el cliente.
+
+**2. Alta apertura hacia plataformas tecnológicas funcionales**  
+Los proveedores no solo están abiertos al uso de apps, sino que identifican directamente beneficios como organización de rutas, mejor facturación y eficiencia operativa. Esto representa una oportunidad concreta para implementar soluciones simples pero potentes adaptadas a su entorno.
+
+**3. Procesos de logística e inventario poco tecnificados**  
+Aún con estructuras operativas consolidadas, la mayoría depende de medios manuales para controlar entregas e inventario. Esto implica un margen de error y retrasos, los cuales podrían disminuirse mediante una herramienta que digitalice el flujo operativo.
+
+**4. La facturación digital resolvería un punto crítico**  
+El manejo de facturas y pagos al crédito es visto como una parte vulnerable de la operación. Señalan que automatizar este proceso (emisión, seguimiento, entrega) permitiría ahorrar tiempo, reducir errores y fortalecer la relación financiera con el restaurante.
+
 ### 2.3. Needfinding
 
 ### 2.3.1. User Personas
 
+En esta sección se presentan dos User Personas que representan los segmentos clave del proyecto: los Dueños de Restaurantes y los Proveedores para Restaurantes. Estos perfiles permiten comprender en profundidad las necesidades, motivaciones, frustraciones y comportamientos de los usuarios potenciales del sistema, el cual busca mejorar la gestión de inventarios, pedidos y relaciones comerciales en el sector gastronómico.
+
+El User Persona **Carolina Rivas** representa a las administradoras y propietarias de restaurantes con trayectoria, principalmente medianos y grandes negocios ubicados en zonas urbanas de alta competencia. Carolina tiene amplia experiencia en la gestión operativa, y aunque ha intentado digitalizar procesos clave como el inventario o la facturación, se ha encontrado con soluciones poco intuitivas y difíciles de adaptar. Su motivación principal es lograr un control más riguroso de su inventario y aumentar la eficiencia general del negocio sin perder autonomía. Busca una plataforma accesible, personalizable y fácil de usar, que le permita mejorar la toma de decisiones operativas sin requerir soporte técnico constante.
+
+![user persona carolina rivas](<./assets/images/user-persona-carolina-rivas.png>)
+
+Por otro lado, el User Persona **Jorge Torres** encarna al proveedor tradicional de productos para restaurantes, especialmente aquellos dedicados a la distribución de abarrotes y bebidas. Con más de una década en el rubro, Jorge opera principalmente con métodos manuales apoyados por WhatsApp y Excel. Valora las relaciones comerciales de confianza con sus clientes y la puntualidad en las entregas como pilares de su éxito. Aunque no es nativo digital, muestra alta apertura hacia plataformas tecnológicas que le permitan organizar mejor sus rutas, facturación y seguimiento de pagos. Su mayor necesidad es una solución que simplifique su operación sin romper la cercanía con los restaurantes a los que abastece.
+
+![user persona jorge torres](<./assets/images/user-persona-jorge-torres.png>)
+
 ### 2.3.2. User Task Matrix
+
+Se presenta el User Task Matrix, que reúne las tareas que ambos User Persona, administradores de restaurantes y proveedores de restaurantes, realizan para lograr sus objetivos. Estas tareas comprenden funciones específicas, son actividades que los usuarios llevan a cabo en su día a día, independientemente de la existencia de una solución tecnológica.
+
+Los segmentos considerados para este análisis son:
+
+- Dueños de Restaurantes
+- Proveedores para Restaurantes
+
+##### Task Matrix
+
+| Tarea                                                    | User Persona 1 |         | User Persona 2 |          |
+|----------------------------------------------------------|----------------|---------|----------------|----------|
+|                                                          | Frecuencia     | Importancia | Frecuencia      | Importancia |
+| Supervisar y controlar el inventario                     | often          | high        | sometimes       | high        |
+| Capacitar al personal o asistente operativo              | sometimes      | medium      | sometimes       | medium      |
+| Coordinar pedidos y abastecimiento                       | often          | high        | often           | high        |
+| Comunicarse con clientes/proveedores                     | sometimes      | medium      | often           | high        |
+| Evaluar precios, rentabilidad y condiciones de venta     | sometimes      | high        | sometimes       | medium      |
+| Revisar ingresos, gastos y pagos                         | often          | high        | often           | high        |
+| Gestionar incidencias e imprevistos                      | sometimes      | medium      | sometimes       | medium      |
+| Preparar, despachar o recibir productos del día          | sometimes      | high        | often           | high        |
+| Optimizar rutas o flujos logísticos internos             | rarely         | low         | sometimes       | medium      |
+| Buscar herramientas para mejorar la gestión/organización | rarely         | medium      | rarely          | medium      |
+
+**Análisis:**
+- Ambos segmentos comparten varias tareas operativas esenciales, como la supervisión de inventario, la coordinación de pedidos, el control de ingresos y pagos, y la gestión de imprevistos. Estas actividades son frecuentes y de alta importancia en ambos casos, aunque con enfoques distintos: el administrador de restaurante busca eficiencia y control interno, mientras que el proveedor se centra en la entrega oportuna.
+
+- Otras tareas como capacitar al personal, evaluar rentabilidad o buscar herramientas de mejora son menos frecuentes, pero igualmente presentes en ambos perfiles. Esto evidencia un interés común por profesionalizar sus procesos.
+
+- Por otro lado, tareas como la optimización de rutas logísticas son mucho más relevantes para el proveedor, dado que forman parte directa de su operación diaria, mientras que para el administrador su frecuencia e impacto es menor. Esta diferencia permite identificar funcionalidades que deben ser priorizadas según el perfil del usuario.
 
 
 ### 2.3.3. User Journey Mapping
@@ -222,16 +330,33 @@ En esta sección se presentan los User Journey Maps (As-Is) de los segmentos rep
 
 ![user journey mapping carolina rivas](<./assets/images/user journey map 1.png>)
 
-
 ## Jorge Torres
 
 ![user journey mapping jorge torres](<./assets/images/user journey map 2.png>)
 
-
-
 ### 2.3.4. Empathy Mapping
 
+## Carolina Rivas
+
+![empathy map carolina rivas](<./assets/images/empathy-map-carolina.png>)
+
+## Jorge Torres
+
+![empathy map jorge torres](<./assets/images/empathy-map-jorge.png>)
+
 ### 2.3.5 As-is Scenario Mapping
+
+**Segmento Objetivo 1:** Administradores de Restaurantes
+
+El siguiente escenario As-Is fue desarrollado a partir de entrevistas y análisis de comportamiento del perfil de Carolina Rivas. Se identificaron las principales fases que conforman su flujo de trabajo diario como administradora de un restaurante
+
+![Foto de As-Is Scenario Mapping Sector 1](assets/images/as-is_sector1.png)
+
+**Segmento objetivo 2:** Proveedores de Restaurantes
+
+El siguiente escenario As-Is fue desarrollado a partir de entrevistas y análisis del comportamiento del perfil de Jorge Torres. Se identificaron las principales fases que conforman su flujo de trabajo diario como proveedor tradicional de abarrotes y bebidas para restaurantes.
+
+![Foto de As-Is Scenario Mapping Sector 2](assets/images/as-is_sector2.png)
 
 ## 2.4. Ubiquitous Language
 
