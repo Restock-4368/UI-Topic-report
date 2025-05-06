@@ -300,7 +300,7 @@ Los segmentos considerados para este análisis son:
 
 ##### Task Matrix
 
-| Tarea                                                    | User Persona 1 |         | User Persona 2 |          |
+| Tarea                                                    | Carolina Rivas |         | Jorge Torres|          |
 |----------------------------------------------------------|----------------|---------|----------------|----------|
 |                                                          | Frecuencia     | Importancia | Frecuencia      | Importancia |
 | Supervisar y controlar el inventario                     | often          | high        | sometimes       | high        |
