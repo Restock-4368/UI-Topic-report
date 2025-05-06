@@ -6,7 +6,7 @@
 
 Este escenario To-Be fue construido tras una revisión detallada del escenario As-Is de Carolina Rivas y de las oportunidades de mejora identificadas a partir de las entrevistas. Se definieron las fases del proceso y se contrastaron con las actuales. Se priorizaron mejoras en eficiencia, control, automatización y reducción de frustraciones operativas.
 
-![Foto de To-Be Escenario Mapping Sector 1](assets/images/to-be_sector1.png)
+![Foto de To-Be Scenario Mapping Sector 1](assets/images/to-be_sector1.png)
 
 **Segmento objetivo 2:** Proveedores de Restaurantes
 
