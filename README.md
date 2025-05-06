@@ -4,10 +4,10 @@ _Universidad Peruana de Ciencias Aplicadas_
 _Ingeniería de Software_  
 _2025-10_  
 
-**Código:** _1ASI0729_  
-**Nombre:** _Desarrollo de Aplicaciones Open Source_  
+**Código:** _1ASI0730_  
+**Nombre:** _Aplicaciones Web_  
 
-_Sección 4292_  
+_Sección 4368  
 
 _Prof. Velásquez Núñez, Ángel Augusto_  
 
