@@ -118,53 +118,34 @@ Nuestro enfoque inicial estará dirigido a administradores de restaurantes y pro
 
 **¿Quién es el usuario?**
 
-- Segmento 1: Administradores y gerentes de restaurantes medianos ubicados en zonas urbanas, con operaciones activas y contacto frecuente con proveedores. Buscan optimizar su control operativo, evitar pérdidas de insumos y mejorar su capacidad de decisión sin depender de herramientas complejas.
-
-- Segmento 2: Proveedores tradicionales de productos para restaurantes (bebidas, abarrotes), que aún trabajan con métodos manuales como Excel y WhatsApp. Priorizan la eficiencia en entregas, el registro de pedidos y el seguimiento de pagos.
+Los usuarios principales de Restock se dividen en dos segmentos. El primero está conformado por administradores y gerentes de restaurantes medianos ubicados en zonas urbanas, quienes tienen operaciones activas y contacto frecuente con proveedores. Este grupo busca optimizar el control operativo de su negocio, reducir las pérdidas de insumos y tomar decisiones informadas sin depender de herramientas complejas.<br />
+El segundo segmento corresponde a proveedores tradicionales de productos para restaurantes, tales como bebidas o abarrotes. Muchos de ellos aún utilizan métodos manuales como Excel y WhatsApp, y priorizan mejorar la eficiencia en las entregas, el registro de pedidos y el seguimiento de pagos.
 
 **¿Dónde encaja nuestro producto en su trabajo o vida?**
 
-- Segmento 1: Nuestra plataforma se integra en su rutina diaria como una herramienta central para el control de inventario, la automatización de pedidos y la toma de decisiones basada en datos.
-
-- Segmento 2: La solución actúa como una plataforma comercial liviana que centraliza la recepción de pedidos y permite registrar pagos de forma simple y rápida.
+En cuanto a la integración del producto en su vida laboral, para los administradores de restaurantes, Restock se incorpora como una herramienta central dentro de su rutina diaria, facilitando el control de inventario, la automatización de pedidos y la toma de decisiones operativas basadas en datos en tiempo real.<br />
+Para los proveedores, la plataforma actúa como una solución comercial ligera que centraliza la recepción de pedidos y permite gestionar pagos de forma rápida y eficiente, reduciendo su dependencia de múltiples canales.
 
 **¿Qué problemas tiene nuestro producto para resolver?**
 
-- Segmento 1:
-  - Desorganización en el control de insumos.
-  - Errores por registros manuales.
-  - Falta de datos para tomar decisiones operativas.
-  - Baja trazabilidad con proveedores.
-- Segmento 2:
-  - Desorden en la gestión de pedidos y entregas.
-  - Dificultad para registrar pagos o controlar cuentas pendientes.
-  - Pérdida de tiempo al usar múltiples canales.
-  - Falta de herramientas simples para organizar su operación.
+Restock busca resolver diferentes tipos de problemas para ambos segmentos. En el caso de los administradores de restaurantes, los desafíos incluyen la desorganización en el control de insumos, los errores frecuentes al llevar registros manuales, la falta de datos claros para decisiones operativas y la baja trazabilidad en la relación con sus proveedores.<br />
+Por otra parte, los proveedores enfrentan dificultades como la desorganización en la gestión de pedidos y entregas, complicaciones para registrar pagos o controlar cuentas pendientes, pérdida de tiempo por utilizar diversos medios de comunicación y la carencia de herramientas simples para estructurar sus operaciones.
 
 **¿Cuándo y cómo es nuestro producto usado?**
 
-- Cuándo:
-  - Diario: para registrar o consultar inventario, recibir alertas y generar pedidos.
-  - Al inicio y fin de jornada: para ver pedidos entrantes, coordinar entregas y cerrar operaciones.
-  - Al momento de recibir productos o registrar pagos.
-- Cómo:
-  - Desde su celular o PC, en una interfaz simple y responsiva, con módulos personalizados para cada segmento.
+Los usuarios acceden a Restock diariamente para registrar o consultar niveles de inventario, recibir alertas, generar pedidos o registrar pagos. El uso se intensifica al inicio y al final de la jornada laboral para coordinar entregas y verificar pedidos pendientes.<br />
+Tanto administradores como proveedores acceden a la plataforma desde sus teléfonos móviles o computadoras, a través de una interfaz sencilla, responsiva y adaptada a sus respectivas necesidades.
 
 **¿Qué características son importantes?**
 
-- Panel de control de inventario en tiempo real.
-- Alertas automáticas por escasez de productos.
-- Generación y envío de pedidos a proveedores desde la plataforma.
-- Registro de pagos y gestión de deudas de forma rápida.
-- Rutas de entrega optimizadas para proveedores.
-- Comunicación centralizada entre proveedor y restaurante.
+Las características más relevantes que los usuarios valoran incluyen un panel de control con inventario actualizado en tiempo real, alertas automáticas ante escasez de productos, la posibilidad de generar y enviar pedidos desde la misma plataforma, un sistema para registrar pagos y gestionar deudas de forma rápida, rutas de entrega optimizadas para los proveedores, y un canal de comunicación centralizado entre restaurante y proveedor.
 
-¿Cómo debe verse nuestro producto y cómo comportarse?
+**¿Cómo debe verse nuestro producto y cómo comportarse?**
 
-- Apariencia: Interfaz limpia, moderna e intuitiva. De una fácil manera de navegar, enfocandose en la experiencia del usuario
-- Comportamiento: Fluido y adaptable. Navegación simple, con módulos organizados por tareas frecuentes. Las alertas deben ser visibles y el flujo debe permitir completar tareas en pocos pasos.
+En cuanto al diseño, el producto debe presentar una apariencia limpia, moderna e intuitiva, enfocada en la experiencia del usuario. Su comportamiento debe ser fluido y adaptable, con una navegación simple que organice las tareas frecuentes en módulos accesibles. Las alertas deben ser visualmente claras y todo el flujo de uso debe permitir completar acciones clave en pocos pasos, sin fricciones.
 
 **Objetivos comerciales:**
+
 - Crecimiento de usuarios: Nos enfocaremos en construir una base sólida de usuarios activos que utilicen regularmente la plataforma en sus operaciones diarias. Se proyecta alcanzar 500 usuarios activos en los primeros 6 meses, consolidando una comunidad inicial de administradores de restaurantes y proveedores
 Retención: retención del 60%
 - Retención: La retención de usuarios será clave para asegurar que la plataforma genere valor sostenido. Se espera lograr una tasa de retención del 60% al finalizar el primer mes de uso, lo que indicaría que la plataforma cumple con las expectativas de y mejora operativa de los segmentos objetivo.
