@@ -1066,4 +1066,4 @@ A continuación, se presenta el video de prototipado de la aplicación web en su
 
 ### 4.8.1 Database Diagram
 
-![Database diagram](assets/images/database-diagram.png)
+![Database diagram](assets/images/cap4/database_diagram.png)
