@@ -414,19 +414,15 @@ Los siguientes wireframes corresponden a la aplicación web de Restock
 - **Jerarquía funcional clara:**
 
   El flujo de navegación prioriza las acciones más relevantes para proveedores, como gestión de productos, visualización de órdenes y acceso a reportes de ventas.
-- 
-  **Consistencia y patrones de diseño:**
+- **Consistencia y patrones de diseño:**
 
   Los componentes mantienen uniformidad en su comportamiento visual e interactivo, asegurando coherencia entre pantallas y módulos.
-  
 - **Accesibilidad en interfaces:**
-  
-  Se aplicaron contrastes adecuados, fuentes legibles, botones de tamaño óptimo y estructura de navegación compatible con teclado y lectores de pantalla.
 
+  Se aplicaron contrastes adecuados, fuentes legibles, botones de tamaño óptimo y estructura de navegación compatible con teclado y lectores de pantalla.
 - **Diseño adaptativo:**
 
   Los wireframes consideran que la aplicación será utilizada tanto en pantallas de laptop como en tablets, por lo que el diseño es responsivo y se ajusta a distintos anchos de pantalla.
-
 - **Arquitectura de información enfocada al flujo de tareas:**
 
   La estructura prioriza la eficiencia operativa, permitiendo a los proveedores registrar productos, atender pedidos y monitorear métricas clave en el menor número de clics posible.
@@ -499,7 +495,6 @@ Los siguientes wireframes corresponden a la aplicación web de Restock
 ![p20](assets/images/web-applications-wireframes-proveedor/orden-rechazada.png)
 ![p21](assets/images/web-applications-wireframes-proveedor/calificaciones.png)
 
-
 #### Versión Mobile Web Browser
 
 **Segmento objetivo: Dueño o Administrador de Restaurante (User Persona 1)**
@@ -507,45 +502,45 @@ Los siguientes wireframes corresponden a la aplicación web de Restock
 **Perfil**
 
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/1.png)
-<br/>
+`<br/>`
 
 **Suscripciones**
 
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/2.png)
-<br/>
+`<br/>`
 
 **Resumen**
 
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/3.png)
-<br/>
+`<br/>`
 
 **Inventario**
 
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/4.png)
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/5.png)
-<br/>
+`<br/>`
 
 **Provedores**
 
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/6.png)
-<br/>
+`<br/>`
 
 **Alertas**
 
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/7.png)
-<br/>
+`<br/>`
 
 **Pedidos**
 
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/8.png)
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/9.png)
-<br/>
+`<br/>`
 
 **Recetas**
 
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/10.png)
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/11.png)
-<br/>
+`<br/>`
 
 **Ventas**
 
@@ -553,47 +548,46 @@ Los siguientes wireframes corresponden a la aplicación web de Restock
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/13.png)
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/14.png)
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/15.png)
-<br/>
-
+`<br/>`
 
 **Segmento objetivo: Proveedores para Restaurantes (User Persona 2)**
 
 **Perfil**
 
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20proovedor/1.png)
-<br/>
+`<br/>`
 
 **Suscripciones**
 
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20proovedor/2.png)
-<br/>
+`<br/>`
 
 **Resumen**
 
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20proovedor/3.png)
-<br/>
+`<br/>`
 
 **Inventario**
 
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20proovedor/4.png)
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20proovedor/5.png)
-<br/>
+`<br/>`
 
 **Alertas**
 
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20proovedor/6.png)
-<br/>
+`<br/>`
 
 **Ordenes**
 
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20proovedor/7.png)
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20proovedor/8.png)
-<br/>
+`<br/>`
 
 **Calificaciones**
 
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20proovedor/9.png)
-<br/>
+`<br/>`
 
 ### 4.4.2 Web Applications Wireflow Diagrams
 
@@ -623,7 +617,7 @@ Esta sección presenta la propuesta de Wireflows. Se ha considerado un Wireflow 
 
 #### User Persona 1:  Dueño o administrador de restaurante
 
-##### Task Flow 2: Monitorear el inventario
+##### Task Flow 2: Consultar el inventario
 
 **Objetivo del usuario**: Gestionar y monitorear manualmente el inventario de insumos para mantener la disponibilidad de productos y detectar problemas a tiempo.
 
@@ -868,45 +862,45 @@ Esta sección presenta la propuesta de Wireflows. Se ha considerado un Wireflow 
 **Perfil**
 
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/1.png)
-<br/>
+`<br/>`
 
 **Suscripciones**
 
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/2.png)
-<br/>
+`<br/>`
 
 **Resumen**
 
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/3.png)
-<br/>
+`<br/>`
 
 **Inventario**
 
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/4.png)
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/5.png)
-<br/>
+`<br/>`
 
 **Provedores**
 
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/6.png)
-<br/>
+`<br/>`
 
 **Alertas**
 
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/7.png)
-<br/>
+`<br/>`
 
 **Pedidos**
 
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/8.png)
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/9.png)
-<br/>
+`<br/>`
 
 **Recetas**
 
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/10.png)
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/11.png)
-<br/>
+`<br/>`
 
 **Ventas**
 
@@ -914,49 +908,46 @@ Esta sección presenta la propuesta de Wireflows. Se ha considerado un Wireflow 
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/13.png)
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/14.png)
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/15.png)
-<br/>
-
+`<br/>`
 
 **Segmento objetivo: Proveedores para Restaurantes (User Persona 2)**
 
 **Perfil**
 
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20proovedor/1.png)
-<br/>
+`<br/>`
 
 **Suscripciones**
 
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20proovedor/2.png)
-<br/>
+`<br/>`
 
 **Resumen**
 
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20proovedor/3.png)
-<br/>
+`<br/>`
 
 **Inventario**
 
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20proovedor/4.png)
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20proovedor/5.png)
-<br/>
+`<br/>`
 
 **Alertas**
 
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20proovedor/6.png)
-<br/>
+`<br/>`
 
 **Ordenes**
 
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20proovedor/7.png)
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20proovedor/8.png)
-<br/>
+`<br/>`
 
 **Calificaciones**
 
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20proovedor/9.png)
-<br/>
-
-
+`<br/>`
 
 ### 4.4.4 Web Applications User Flow Diagrams
 
@@ -1038,8 +1029,8 @@ A continuación, se presenta el video de prototipado de la aplicación web en su
 ## 4.7 Software Object-Oriented Design
 
 ### 4.7.1 Class Diagrams
- 
-![Class diagram](assets/images/cap4/UML_C_sharp.png) 
+
+![Class diagram](assets/images/cap4/UML_C_sharp.png)
 
 ### 4.7.2 Class Dictionary
 
