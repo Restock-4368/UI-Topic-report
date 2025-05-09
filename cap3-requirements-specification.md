@@ -121,6 +121,8 @@ Este escenario To-Be fue construido a partir del análisis del escenario As-Is d
 
 ## 3.3 Impact Mapping
 
+A continuación se presenta el Impact Map de Restock , el cual permite visualizar de manera clara cómo las funcionalidades clave de la aplicación se alinean con los objetivos de negocio, considerando a los actores involucrados y los impactos esperados en su comportamiento.
+
 ![Foto de Impact Mapping](assets/images/impact-map.png)
 
 ## 3.4 Product Backlog
