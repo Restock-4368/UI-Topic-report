@@ -736,9 +736,9 @@ Esta sección presenta la propuesta de Wireflows. Se ha considerado un Wireflow 
 
 ### 4.4.3 Web Applications Mock-ups
 
-#### Segmento objetivo: Dueño o Administrador de Restaurante (User Persona 1)
+#### Versión Desktop Web Browser
 
-**Desktop:** En esta seccion se muestra los mockups del diseño Desktop
+***Segmento objetivo: Dueño o Administrador de Restaurante (User Persona 1)**
 
 ![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_1.jpeg)
 
@@ -834,9 +834,7 @@ Esta sección presenta la propuesta de Wireflows. Se ha considerado un Wireflow 
 
 ![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_47.jpeg)
 
-#### Segmento objetivo: Proveedores de Restaurantes (User Persona 2)
-
-**Desktop:** En esta seccion se muestra los mockups del diseño Desktop
+**Segmento objetivo: Proveedores de Restaurantes (User Persona 2)**
 
 ![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-proveedor/1.png)
 ![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-proveedor/2.png)
@@ -862,6 +860,103 @@ Esta sección presenta la propuesta de Wireflows. Se ha considerado un Wireflow 
 ![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-proveedor/22.png)
 ![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-proveedor/23.png)
 ![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-proveedor/24.png)
+
+#### Versión Mobile Web Browser
+
+**Segmento objetivo: Dueño o Administrador de Restaurante (User Persona 1)**
+
+**Perfil**
+
+![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/1.png)
+<br/>
+
+**Suscripciones**
+
+![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/2.png)
+<br/>
+
+**Resumen**
+
+![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/3.png)
+<br/>
+
+**Inventario**
+
+![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/4.png)
+![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/5.png)
+<br/>
+
+**Provedores**
+
+![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/6.png)
+<br/>
+
+**Alertas**
+
+![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/7.png)
+<br/>
+
+**Pedidos**
+
+![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/8.png)
+![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/9.png)
+<br/>
+
+**Recetas**
+
+![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/10.png)
+![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/11.png)
+<br/>
+
+**Ventas**
+
+![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/12.png)
+![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/13.png)
+![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/14.png)
+![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/15.png)
+<br/>
+
+
+**Segmento objetivo: Proveedores para Restaurantes (User Persona 2)**
+
+**Perfil**
+
+![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20proovedor/1.png)
+<br/>
+
+**Suscripciones**
+
+![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20proovedor/2.png)
+<br/>
+
+**Resumen**
+
+![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20proovedor/3.png)
+<br/>
+
+**Inventario**
+
+![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20proovedor/4.png)
+![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20proovedor/5.png)
+<br/>
+
+**Alertas**
+
+![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20proovedor/6.png)
+<br/>
+
+**Ordenes**
+
+![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20proovedor/7.png)
+![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20proovedor/8.png)
+<br/>
+
+**Calificaciones**
+
+![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20proovedor/9.png)
+<br/>
+
+
 
 ### 4.4.4 Web Applications User Flow Diagrams
 
