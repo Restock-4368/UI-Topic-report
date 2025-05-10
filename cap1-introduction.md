@@ -239,11 +239,10 @@ En cuanto al diseño, el producto debe presentar una apariencia limpia, moderna 
 
 #### 1.2.2.3 Lean UX Hypothesis Statements
 
-1. **Creemos que** al proporcionar un sistema automatizado de gestión de inventario y pedidos para restaurantes, reduciremos la desorganización y el desperdicio de insumos.**Sabremos que** hemos tenido éxito **cuando** los restaurantes reporten una disminución en la pérdida de productos y una mejora en la eficiencia operativa.
-2. **Creemos que** al diseñar una plataforma intuitiva y fácil de usar, facilitaremos la adopción del sistema por parte de dueños de restaurantes y su personal.**Sabremos que** hemos tenido éxito **cuando** la mayoría de los usuarios completen la configuración inicial sin asistencia y registren un uso recurrente del sistema.
-3. **Creemos que** al integrar herramientas de análisis y reportes en tiempo real, ayudaremos a los restaurantes a tomar decisiones estratégicas basadas en datos.**Sabremos que** hemos tenido éxito **cuando** los usuarios utilicen estos informes para optimizar su inventario y mejorar la rentabilidad de su negocio.
-4. **Creemos que** al permitir la conexión entre restaurantes y proveedores dentro de la plataforma, facilitaremos la gestión de pedidos y reduciremos los tiempos de espera en el abastecimiento.
-   **Sabremos que** hemos tenido éxito **cuando** los restaurantes reporten una mejora en la disponibilidad de insumos y una reducción en retrasos en la entrega de productos.
+1. **Creemos que** al ofrecer una experiencia ágil y responsiva con accesos rápidos a módulos clave, aumentaremos la frecuencia de uso diario de la plataforma por parte de administradores y proveedores. **Sabremos que** hemos tenido éxito **cuando** el uso diario de la aplicación crezca en un 30% durante los próximos 2 meses.
+2. **Creemos que** al integrar un sistema optimizado de pedidos con formularios claros y seguimiento en tiempo real, impulsaremos una mayor gestión de pedidos desde la app. **Sabremos que** hemos tenido éxito **cuando** los pedidos realizados desde la plataforma aumenten en un 40% y se reduzcan los errores de registro en al menos un 25%.
+3. **Creemos que** al automatizar el control de inventario y enviar alertas por bajo stock o vencimiento, ayudaremos a los restaurantes a reducir el desperdicio de insumos. **Sabremos** que hemos tenido éxito **cuando** los restaurantes reporten una disminución del 35% en pérdidas de productos.
+4. **Creemos que** al facilitar el registro, ofrecer un diseño accesible y permitir un onboarding rápido, lograremos construir una base inicial de usuarios comprometidos. **Sabremos** que hemos tenido éxito **cuando** alcancemos 500 usuarios activos durante los primeros 6 meses del año 2025.
 
 #### 1.2.2.4 Lean UX Canvas
 
