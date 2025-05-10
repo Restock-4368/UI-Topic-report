@@ -595,32 +595,26 @@ Los siguientes wireframes corresponden a la aplicación web de Restock
 
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/1.png)
 
-
 **Suscripciones**
 
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/2.png)
 
-
 **Resumen**
 
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/3.png)
-
 
 **Inventario**
 
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/4.png)
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/5.png)
 
-
 **Provedores**
 
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/6.png)
 
-
 **Alertas**
 
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/7.png)
-
 
 **Pedidos**
 
@@ -639,13 +633,11 @@ Los siguientes wireframes corresponden a la aplicación web de Restock
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/14.png)
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/15.png)
 
-
 **Segmento objetivo: Proveedores para Restaurantes (User Persona 2)**
 
 **Perfil**
 
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20proovedor/1.png)
-
 
 **Suscripciones**
 
@@ -660,7 +652,6 @@ Los siguientes wireframes corresponden a la aplicación web de Restock
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20proovedor/4.png)
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20proovedor/5.png)
 
-
 **Alertas**
 
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20proovedor/6.png)
@@ -673,7 +664,6 @@ Los siguientes wireframes corresponden a la aplicación web de Restock
 **Calificaciones**
 
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20proovedor/9.png)
-
 
 ### 4.4.2 Web Applications Wireflow Diagrams
 
@@ -1008,18 +998,15 @@ Esta sección presenta la propuesta de Wireflows. Se ha considerado un Wireflow 
 
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/7.png)
 
-
 **Pedidos**
 
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/8.png)
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/9.png)
 
-
 **Recetas**
 
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/10.png)
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/11.png)
-
 
 **Ventas**
 
@@ -1028,29 +1015,24 @@ Esta sección presenta la propuesta de Wireflows. Se ha considerado un Wireflow 
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/14.png)
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/15.png)
 
-
 **Segmento objetivo: Proveedores para Restaurantes (User Persona 2)**
 
 **Perfil**
 
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20proovedor/1.png)
 
-
 **Suscripciones**
 
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20proovedor/2.png)
-
 
 **Resumen**
 
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20proovedor/3.png)
 
-
 **Inventario**
 
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20proovedor/4.png)
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20proovedor/5.png)
-
 
 **Alertas**
 
@@ -1061,11 +1043,9 @@ Esta sección presenta la propuesta de Wireflows. Se ha considerado un Wireflow 
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20proovedor/7.png)
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20proovedor/8.png)
 
-
 **Calificaciones**
 
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20proovedor/9.png)
-
 
 ### 4.4.4 Web Applications User Flow Diagrams
 
@@ -1176,3 +1156,9 @@ A continuación, se presenta el video de prototipado de la aplicación web en su
 ### 4.8.1 Database Diagram
 
 ![Database diagram](assets/images/cap4/database_diagram.png)
+
+## 4.9 DDD Estratégico
+
+A continuación, se presenta el Event Storming de Restock, en el cual se identifican los eventos clave, actores, acciones, decisiones, reglas y relaciones entre partes del sistema.
+
+![Event Storming](assets/images/cap4/event_storming.jpg)
