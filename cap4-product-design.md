@@ -818,128 +818,166 @@ Esta sección presenta la propuesta de Wireflows. Se ha considerado un Wireflow 
 
 #### Versión Desktop Web Browser
 
-***Segmento objetivo: Dueño o Administrador de Restaurante (User Persona 1)**
+**Segmento objetivo: Dueño o Administrador de Restaurante (User Persona 1)**
 
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_1.jpeg)
+- **Gestión de perfil:** Esta sección permite a los administradores o dueños visualizar y editar su información personal o de negocio. Incluye campos como nombre, correo electrónico y contraseña.
 
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_2.jpeg)
+![Mockups-Admin-Gestion-Perfil](assets/images/cap4/desktop-mockups-segmento-admin/gestion-perfil-1.png)
+![Mockups-Admin-Gestion-Perfil](assets/images/cap4/desktop-wireframe-segmento-admin/gestion-perfil-2.png)
 
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_3.jpeg)
+- **Resumen:** Es la vista principal luego de iniciar sesión. Presenta un resumen visual con indicadores como los pedidos pendientes, útlimas alertas y últimos insumos añadidos.
 
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_4.jpeg)
+![Mockups-Admin-Resumen](assets/images/cap4/desktop-mockups-segmento-admin/resumen.png)
 
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_5.jpeg)
+- **Suscripción:** Permite visualizar los planes de suscripción disponibles. Desde aquí se puede adquirir un plan, con mensajes informativos sobre los beneficios de cada nivel.
 
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_6.jpeg)
+![Mockups-Admin-Suscripcion](assets/images/cap4/desktop-mockups-segmento-admin/suscripcion-1.png)
+![Mockups-Admin-Suscripcion](assets/images/cap4/desktop-mockups-segmento-admin/suscripcion-2.png)
 
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_7.jpeg)
+- **Inventario:** Se trata de uno de los módulos centrales. En esta sección el usuario puede ver el inventario vacío o sin insumos registrados.
 
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_8.jpeg)
+![Mockups-Admin-Inventario](assets/images/cap4/desktop-mockups-segmento-admin/inventario-1.png)
 
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_9.jpeg)
+- Crear nuevos insumos, especificando si son perecibles o no perecibles.
 
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_10.jpeg)
+![Mockups-Admin-Inventario](assets/images/cap4/desktop-mockups-segmento-admin/inventario-2.png)
+![Mockups-Admin-Inventario](assets/images/cap4/desktop-mockups-segmento-admin/inventario-3.png)
+![Mockups-Admin-Inventario](assets/images/cap4/desktop-mockups-segmento-admin/inventario-4.png)
+![Mockups-Admin-Inventario](assets/images/cap4/desktop-mockups-segmento-admin/inventario-5.png)
+![Mockups-Admin-Inventario](assets/images/cap4/desktop-mockups-segmento-admin/inventario-6.png)
 
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_11.jpeg)
+- Visualizar el listado completo de insumos registrados.
 
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_12.jpeg)
+![Mockups-Admin-Inventario](assets/images/cap4/desktop-mockups-segmento-admin/inventario-7.png)
 
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_13.jpeg)
+- Editar información de un insumo.
 
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_14.jpeg)
+![Mockups-Admin-Inventario](assets/images/cap4/desktop-mockups-segmento-admin/inventario-8.png)
+![Mockups-Admin-Inventario](assets/images/cap4/desktop-mockups-segmento-admin/inventario-9.png)
 
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_15.jpeg)
+- Eliminar insumos cuando ya no se gestionen.
 
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_16.jpeg)
+![Mockups-Admin-Inventario](assets/images/cap4/desktop-mockups-segmento-admin/inventario-10.png)
+![Mockups-Admin-Inventario](assets/images/cap4/desktop-mockups-segmento-admin/inventario-11.png)
 
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_17.jpeg)
+- **Proveedores:** Desde esta sección, los administradores pueden añadir proveedores.
 
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_18.jpeg)
+![Mockups-Admin-Proveedores](assets/images/cap4/desktop-mockups-segmento-admin/proveedores-1.png)
+![Mockups-Admin-Proveedores](assets/images/cap4/desktop-mockups-segmento-admin/proveedores-2.png)
+![Mockups-Admin-Proveedores](assets/images/cap4/desktop-mockups-segmento-admin/proveedores-3.png)
+![Mockups-Admin-Proveedores](assets/images/cap4/desktop-mockups-segmento-admin/proveedores-4.png)
 
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_19.jpeg)
+- Calificar proveedores.
 
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_20.jpeg)
+![Mockups-Admin-Proveedores](assets/images/cap4/desktop-mockups-segmento-admin/proveedores-5.png)
 
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_21.jpeg)
+- **Alertas de Stock:** Aquí se listan los productos cuyo nivel está por llegar al mínimo o máximo configurado.
 
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_22.jpeg)
+![Mockups-Admin-Alertas](assets/images/cap4/desktop-mockups-segmento-admin/alertas.png)
 
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_23.jpeg)
+- **Pedidos a Proveedores:** Este módulo permite seleccionar productos desde el inventario y generar una orden de pedido.
 
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_24.jpeg)
+![Mockups-Admin-Pedidos](assets/images/cap4/desktop-mockups-segmento-admin/pedidos-1.png)
+![Mockups-Admin-Pedidos](assets/images/cap4/desktop-mockups-segmento-admin/pedidos-2.png)
+![Mockups-Admin-Pedidos](assets/images/cap4/desktop-mockups-segmento-admin/pedidos-3.png)
+![Mockups-Admin-Pedidos](assets/images/cap4/desktop-mockups-segmento-admin/pedidos-4.png)
+![Mockups-Admin-Pedidos](assets/images/cap4/desktop-mockups-segmento-admin/pedidos-5.png)
 
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_25.jpeg)
+- Calificar pedidos: una vez entregado, el usuario puede valorar el pedido
 
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_26.jpeg)
+![Mockups-Admin-Pedidos](assets/images/cap4/desktop-mockups-segmento-admin/pedidos-6.png)
 
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_27.jpeg)
+- **Recetas:** Permite a los usuarios crear recetas, definiendo nombre, precio y los ingredientes que la componen.
 
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_28.jpeg)
+![Mockups-Admin-Recetas](assets/images/cap4/desktop-mockups-segmento-admin/recetas-1.png)
+![Mockups-Admin-Recetas](assets/images/cap4/desktop-mockups-segmento-admin/recetas-2.png)
+![Mockups-Admin-Recetas](assets/images/cap4/desktop-mockups-segmento-admin/recetas-3.png)
+![Mockups-Admin-Recetas](assets/images/cap4/desktop-mockups-segmento-admin/recetas-4.png)
 
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_29.jpeg)
+- Editar o eliminar recetas existentes.
 
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_30.jpeg)
+![Mockups-Admin-Recetas](assets/images/cap4/desktop-mockups-segmento-admin/recetas-5.png)
+![Mockups-Admin-Recetas](assets/images/cap4/desktop-mockups-segmento-admin/recetas-6.png)
+![Mockups-Admin-Recetas](assets/images/cap4/desktop-mockups-segmento-admin/recetas-7.png)
 
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_31.jpeg)
+- **Ventas a Comensales:** Este módulo busca registrar la salida de productos por consumo interno. Incluye un registro de una nueva venta.
 
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_32.jpeg)
+![Mockups-Admin-Ventas](assets/images/cap4/desktop-mockups-segmento-admin/ventas-1.png)
+![Mockups-Admin-Ventas](assets/images/cap4/desktop-mockups-segmento-admin/ventas-2.png)
+![Mockups-Admin-Ventas](assets/images/cap4/desktop-mockups-segmento-admin/ventas-3.png)
+![Mockups-Admin-Ventas](assets/images/cap4/desktop-mockups-segmento-admin/ventas-4.png)
 
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_33.jpeg)
+- Historial de ventas registradas.
 
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_34.jpeg)
+![Mockups-Admin-Ventas](assets/images/cap4/desktop-mockups-segmento-admin/ventas-5.png)
 
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_35.jpeg)
+- Detalle de cada venta (precio, productos involucrados).
 
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_36.jpeg)
+![Mockups-Admin-Ventas](assets/images/cap4/desktop-mockups-segmento-admin/ventas-6.png)
+![Mockups-Admin-Ventas](assets/images/cap4/desktop-mockups-segmento-admin/ventas-7.png)
+![Mockups-Admin-Ventas](assets/images/cap4/desktop-mockups-segmento-admin/ventas-8.png)
+![Mockups-Admin-Ventas](assets/images/cap4/desktop-mockups-segmento-admin/ventas-9.png)
 
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_37.jpeg)
+- Actualización automática del inventario según los productos consumidos en las ventas.
 
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_38.jpeg)
-
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_39.jpeg)
-
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_40.jpeg)
-
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_41.jpeg)
-
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_42.jpeg)
-
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_43.jpeg)
-
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_44.jpeg)
-
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_45.jpeg)
-
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_46.jpeg)
-
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-admin/Mockup_desktop_47.jpeg)
+![Mockups-Admin-Ventas](assets/images/cap4/desktop-mockups-segmento-admin/ventas-10.png)
 
 **Segmento objetivo: Proveedores de Restaurantes (User Persona 2)**
 
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-proveedor/1.png)
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-proveedor/2.png)
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-proveedor/3.png)
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-proveedor/4.png)
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-proveedor/5.png)
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-proveedor/6.png)
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-proveedor/7.png)
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-proveedor/8.png)
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-proveedor/9.png)
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-proveedor/10.png)
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-proveedor/11.png)
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-proveedor/12.png)
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-proveedor/13.png)
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-proveedor/14.png)
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-proveedor/15.png)
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-proveedor/16.png)
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-proveedor/17.png)
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-proveedor/18.png)
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-proveedor/19.png)
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-proveedor/20.png)
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-proveedor/21.png)
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-proveedor/22.png)
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-proveedor/23.png)
-![Mock-up Desktop 1](assets/images/cap4/mockups-desktop-proveedor/24.png)
+- **Gestión de perfil:** Esta sección permite a los proveedores visualizar y editar su información personal o de negocio. Incluye campos como nombre, correo electrónico y contraseña.
+
+![Mockups-Proveedor-Gestion-Perfil](assets/images/cap4/desktop-mockups-segmento-proveedor/gestion-perfil-1.png)
+![Mockups-Proveedor-Gestion-Perfil](assets/images/cap4/desktop-mockups-segmento-proveedor/gestion-perfil-2.png)
+
+- **Resumen**: Al ingresar, el proveedor accede a un panel resumen que muestra indicadores clave últimas alertas, estado de cuenta y clientes frecuentes.
+
+![Mockups-Proveedor-Resumen](assets/images/cap4/desktop-mockups-segmento-proveedor/resumen.png)
+
+- **Suscripción:** Permite ver y seleccionar planes de suscripción adaptados a proveedores.
+
+![Mockups-Proveedor-Suscripcion](assets/images/cap4/desktop-mockups-segmento-proveedor/suscripcion-1.png)
+![Mockups-Proveedor-Suscripcion](assets/images/cap4/desktop-mockups-segmento-proveedor/suscripcion-2.png)
+
+- **Inventario:** El proveedor puede registrar los productos que ofrece. Este módulo permite ver el inventario vacío al iniciar por primera vez.
+
+![Mockups-Proveedor-Inventario](assets/images/cap4/desktop-mockups-segmento-proveedor/inventario-1.png)
+
+- Crear productos indicando si son perecibles o no perecibles.
+
+![Mockups-Proveedor-Inventario](assets/images/cap4/desktop-mockups-segmento-proveedor/inventario-2.png)
+![Mockups-Proveedor-Inventario](assets/images/cap4/desktop-mockups-segmento-proveedor/inventario-3.png)
+![Mockups-Proveedor-Inventario](assets/images/cap4/desktop-mockups-segmento-proveedor/inventario-4.png)
+![Mockups-Proveedor-Inventario](assets/images/cap4/desktop-mockups-segmento-proveedor/inventario-5.png)
+![Mockups-Proveedor-Inventario](assets/images/cap4/desktop-mockups-segmento-proveedor/inventario-6.png)
+
+- Editar o eliminar productos cuando sea necesario.
+
+![Mockups-Proveedor-Inventario](assets/images/cap4/desktop-mockups-segmento-proveedor/inventario-7.png)
+![Mockups-Proveedor-Inventario](assets/images/cap4/desktop-mockups-segmento-proveedor/inventario-8.png)
+![Mockups-Proveedor-Inventario](assets/images/cap4/desktop-mockups-segmento-proveedor/inventario-9.png)
+![Mockups-Proveedor-Inventario](assets/images/cap4/desktop-mockups-segmento-proveedor/inventario-10.png)
+
+- Se listan los pedidos de órdenes
+
+![Mockups-Proveedor-Alertas](assets/images/cap4/desktop-mockups-segmento-proveedor/alertas.png)
+
+- **Órdenes Recibidas:** Desde esta sección, los proveedores pueden ver el detalle de cada orden solicitada por los restaurantes.
+
+![Mockups-Proveedor-Ordenes](assets/images/cap4/desktop-mockups-segmento-proveedor/ordenes-1.png)
+![Mockups-Proveedor-Ordenes](assets/images/cap4/desktop-mockups-segmento-proveedor/ordenes-2.png)
+![Mockups-Proveedor-Ordenes](assets/images/cap4/desktop-mockups-segmento-proveedor/ordenes-3.png)
+
+- Revisar cantidades, productos solicitados, fechas de entrega y estado actual de la orden.
+
+![Mockups-Proveedor-Ordenes](assets/images/cap4/desktop-mockups-segmento-proveedor/ordenes-4.png)
+![Mockups-Proveedor-Ordenes](assets/images/cap4/desktop-mockups-segmento-proveedor/ordenes-5.png)
+![Mockups-Proveedor-Ordenes](assets/images/cap4/desktop-mockups-segmento-proveedor/ordenes-6.png)
+![Mockups-Proveedor-Ordenes](assets/images/cap4/desktop-mockups-segmento-proveedor/ordenes-7.png)
+![Mockups-Proveedor-Ordenes](assets/images/cap4/desktop-mockups-segmento-proveedor/ordenes-8.png)
+
+- **Calificaciones:** Aquí se muestran las evaluaciones realizadas por los restaurantes luego de cada pedido.
+
+![Mockups-Proveedor-Calificaciones](assets/images/cap4/desktop-mockups-segmento-proveedor/calificaciones.png)
 
 #### Versión Mobile Web Browser
 
