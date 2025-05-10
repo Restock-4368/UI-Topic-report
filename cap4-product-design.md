@@ -431,69 +431,161 @@ Los siguientes wireframes corresponden a la aplicación web de Restock
 
 **Segmento objetivo: Dueño o Administrador de Restaurante (User Persona 1)**
 
-![a1](assets/images/wireframes-admin/a1.png)
-![b1](assets/images/wireframes-admin/b1.png)
-![c1](assets/images/wireframes-admin/c1.png)
-![c2](assets/images/wireframes-admin/c2.png)
-![d1](assets/images/wireframes-admin/d1.png)
-![d2](assets/images/wireframes-admin/d2.png)
-![d3](assets/images/wireframes-admin/d3.png)
-![d4](assets/images/wireframes-admin/d4.png)
-![d5](assets/images/wireframes-admin/d5.png)
-![d6](assets/images/wireframes-admin/d6.png)
-![d7](assets/images/wireframes-admin/d7.png)
-![d8](assets/images/wireframes-admin/d8.png)
-![e1](assets/images/wireframes-admin/e1.png)
-![e2](assets/images/wireframes-admin/e2.png)
-![e3](assets/images/wireframes-admin/e3.png)
-![e4](assets/images/wireframes-admin/e4.png)
-![e5](assets/images/wireframes-admin/e5.png)
-![f1](assets/images/wireframes-admin/f1.png)
-![g1](assets/images/wireframes-admin/g1.png)
-![g2](assets/images/wireframes-admin/g2.png)
-![g3](assets/images/wireframes-admin/g3.png)
-![g4](assets/images/wireframes-admin/g4.png)
-![g5](assets/images/wireframes-admin/g5.png)
-![g6](assets/images/wireframes-admin/g6.png)
-![h1](assets/images/wireframes-admin/h1.png)
-![h2](assets/images/wireframes-admin/h2.png)
-![h3](assets/images/wireframes-admin/h3.png)
-![h4](assets/images/wireframes-admin/h4.png)
-![h5](assets/images/wireframes-admin/h5.png)
-![i1](assets/images/wireframes-admin/i1.png)
-![i2](assets/images/wireframes-admin/i2.png)
-![i3](assets/images/wireframes-admin/i3.png)
-![i4](assets/images/wireframes-admin/i4.png)
-![i5](assets/images/wireframes-admin/i5.png)
-![i6](assets/images/wireframes-admin/i6.png)
-![i7](assets/images/wireframes-admin/i7.png)
-![i8](assets/images/wireframes-admin/i8.png)
-![i9](assets/images/wireframes-admin/i9.png)
-![i10](assets/images/wireframes-admin/i10.png)
+- **Gestión de perfil:** Esta sección permite a los administradores o dueños visualizar y editar su información personal o de negocio. Incluye campos como nombre, correo electrónico y contraseña.
+
+![Wireframe-Admin-Gestion-Perfil](assets/images/cap4/desktop-wireframe-segmento-admin/gestion-perfil-1.png)
+![Wireframe-Admin-Gestion-Perfil](assets/images/cap4/desktop-wireframe-segmento-admin/gestion-perfil-2.png)
+
+- **Resumen:** Es la vista principal luego de iniciar sesión. Presenta un resumen visual con indicadores como los pedidos pendientes, útlimas alertas y últimos insumos añadidos.
+
+![Wireframe-Admin-Resumen](assets/images/cap4/desktop-wireframe-segmento-admin/resumen.png)
+
+- **Suscripción:** Permite visualizar los planes de suscripción disponibles. Desde aquí se puede adquirir un plan, con mensajes informativos sobre los beneficios de cada nivel.
+
+![Wireframe-Admin-Suscripcion](assets/images/cap4/desktop-wireframe-segmento-admin/suscripcion-1.png)
+![Wireframe-Admin-Suscripcion](assets/images/cap4/desktop-wireframe-segmento-admin/suscripcion-2.png)
+
+- **Inventario:** Se trata de uno de los módulos centrales. En esta sección el usuario puede ver el inventario vacío o sin insumos registrados.
+
+![Wireframe-Admin-Inventario](assets/images/cap4/desktop-wireframe-segmento-admin/inventario-1.png)
+
+- Crear nuevos insumos, especificando si son perecibles o no perecibles.
+
+![Wireframe-Admin-Inventario](assets/images/cap4/desktop-wireframe-segmento-admin/inventario-2.png)
+![Wireframe-Admin-Inventario](assets/images/cap4/desktop-wireframe-segmento-admin/inventario-3.png)
+![Wireframe-Admin-Inventario](assets/images/cap4/desktop-wireframe-segmento-admin/inventario-4.png)
+![Wireframe-Admin-Inventario](assets/images/cap4/desktop-wireframe-segmento-admin/inventario-5.png)
+![Wireframe-Admin-Inventario](assets/images/cap4/desktop-wireframe-segmento-admin/inventario-6.png)
+
+- Visualizar el listado completo de insumos registrados.
+
+![Wireframe-Admin-Inventario](assets/images/cap4/desktop-wireframe-segmento-admin/inventario-7.png)
+
+- Editar información de un insumo.
+
+![Wireframe-Admin-Inventario](assets/images/cap4/desktop-wireframe-segmento-admin/inventario-8.png)
+![Wireframe-Admin-Inventario](assets/images/cap4/desktop-wireframe-segmento-admin/inventario-9.png)
+
+- Eliminar insumos cuando ya no se gestionen.
+
+![Wireframe-Admin-Inventario](assets/images/cap4/desktop-wireframe-segmento-admin/inventario-10.png)
+![Wireframe-Admin-Inventario](assets/images/cap4/desktop-wireframe-segmento-admin/inventario-11.png)
+
+- **Proveedores:** Desde esta sección, los administradores pueden añadir proveedores.
+
+![Wireframe-Admin-Proveedores](assets/images/cap4/desktop-wireframe-segmento-admin/proveedores-1.png)
+![Wireframe-Admin-Proveedores](assets/images/cap4/desktop-wireframe-segmento-admin/proveedores-2.png)
+![Wireframe-Admin-Proveedores](assets/images/cap4/desktop-wireframe-segmento-admin/proveedores-3.png)
+![Wireframe-Admin-Proveedores](assets/images/cap4/desktop-wireframe-segmento-admin/proveedores-4.png)
+
+- Calificar proveedores.
+
+![Wireframe-Admin-Proveedores](assets/images/cap4/desktop-wireframe-segmento-admin/proveedores-5.png)
+
+- **Alertas de Stock:** Aquí se listan los productos cuyo nivel está por llegar al mínimo o máximo configurado.
+
+![Wireframe-Admin-Alertas](assets/images/cap4/desktop-wireframe-segmento-admin/alertas.png)
+
+- **Pedidos a Proveedores:** Este módulo permite seleccionar productos desde el inventario y generar una orden de pedido.
+
+![Wireframe-Admin-Pedidos](assets/images/cap4/desktop-wireframe-segmento-admin/pedidos-1.png)
+![Wireframe-Admin-Pedidos](assets/images/cap4/desktop-wireframe-segmento-admin/pedidos-2.png)
+![Wireframe-Admin-Pedidos](assets/images/cap4/desktop-wireframe-segmento-admin/pedidos-3.png)
+![Wireframe-Admin-Pedidos](assets/images/cap4/desktop-wireframe-segmento-admin/pedidos-4.png)
+![Wireframe-Admin-Pedidos](assets/images/cap4/desktop-wireframe-segmento-admin/pedidos-5.png)
+
+- Calificar pedidos: una vez entregado, el usuario puede valorar el pedido
+
+![Wireframe-Admin-Pedidos](assets/images/cap4/desktop-wireframe-segmento-admin/pedidos-6.png)
+
+- **Recetas:** Permite a los usuarios crear recetas, definiendo nombre, precio y los ingredientes que la componen.
+
+![Wireframe-Admin-Recetas](assets/images/cap4/desktop-wireframe-segmento-admin/recetas-1.png)
+![Wireframe-Admin-Recetas](assets/images/cap4/desktop-wireframe-segmento-admin/recetas-2.png)
+![Wireframe-Admin-Recetas](assets/images/cap4/desktop-wireframe-segmento-admin/recetas-3.png)
+![Wireframe-Admin-Recetas](assets/images/cap4/desktop-wireframe-segmento-admin/recetas-4.png)
+
+- Editar o eliminar recetas existentes.
+
+![Wireframe-Admin-Recetas](assets/images/cap4/desktop-wireframe-segmento-admin/recetas-5.png)
+![Wireframe-Admin-Recetas](assets/images/cap4/desktop-wireframe-segmento-admin/recetas-6.png)
+![Wireframe-Admin-Recetas](assets/images/cap4/desktop-wireframe-segmento-admin/recetas-7.png)
+
+- **Ventas a Comensales:** Este módulo busca registrar la salida de productos por consumo interno. Incluye un registro de una nueva venta.
+
+![Wireframe-Admin-Ventas](assets/images/cap4/desktop-wireframe-segmento-admin/ventas-1.png)
+![Wireframe-Admin-Ventas](assets/images/cap4/desktop-wireframe-segmento-admin/ventas-2.png)
+![Wireframe-Admin-Ventas](assets/images/cap4/desktop-wireframe-segmento-admin/ventas-3.png)
+![Wireframe-Admin-Ventas](assets/images/cap4/desktop-wireframe-segmento-admin/ventas-4.png)
+
+- Historial de ventas registradas.
+
+![Wireframe-Admin-Ventas](assets/images/cap4/desktop-wireframe-segmento-admin/ventas-5.png)
+
+- Detalle de cada venta (precio, productos involucrados).
+
+![Wireframe-Admin-Ventas](assets/images/cap4/desktop-wireframe-segmento-admin/ventas-6.png)
+![Wireframe-Admin-Ventas](assets/images/cap4/desktop-wireframe-segmento-admin/ventas-7.png)
+![Wireframe-Admin-Ventas](assets/images/cap4/desktop-wireframe-segmento-admin/ventas-8.png)
+![Wireframe-Admin-Ventas](assets/images/cap4/desktop-wireframe-segmento-admin/ventas-9.png)
+
+- Actualización automática del inventario según los productos consumidos en las ventas.
+
+![Wireframe-Admin-Ventas](assets/images/cap4/desktop-wireframe-segmento-admin/ventas-10.png)
 
 **Segmento objetivo: Proveedores de Restaurantes (User Persona 2)**
 
-![p1](assets/images/web-applications-wireframes-proveedor/gestion-perfil.png)
-![p2](assets/images/web-applications-wireframes-proveedor/actualiza-datos.png)
-![p3](assets/images/web-applications-wireframes-proveedor/resumen.png)
-![p4](assets/images/web-applications-wireframes-proveedor/listar-suscripciones.png)
-![p5](assets/images/web-applications-wireframes-proveedor/comprar-suscripciones.png)
-![p6](assets/images/web-applications-wireframes-proveedor/inventario1.png)
-![p7](assets/images/web-applications-wireframes-proveedor/inventario-agregar-insumo.png)
-![p8](assets/images/web-applications-wireframes-proveedor/inventario-insumos-agregados.png)
-![p9](assets/images/web-applications-wireframes-proveedor/inventario-agregar-insumo-no-perecible.png)
-![p10](assets/images/web-applications-wireframes-proveedor/inventario-agregar-insumo-perecible.png)
-![p11](assets/images/web-applications-wireframes-proveedor/inventario2.png)
-![p12](assets/images/web-applications-wireframes-proveedor/inventario-editar-insumo-no-perecible.png)
-![p13](assets/images/web-applications-wireframes-proveedor/inventario-editar-insumo-perecible.png)
-![p14](assets/images/web-applications-wireframes-proveedor/inventario-eliminar-insumo.png)
-![p15](assets/images/web-applications-wireframes-proveedor/inventario3.png)
-![p16](assets/images/web-applications-wireframes-proveedor/alertas.png)
-![p17](assets/images/web-applications-wireframes-proveedor/ordenes.png)
-![p18](assets/images/web-applications-wireframes-proveedor/ordenes-detalle.png)
-![p19](assets/images/web-applications-wireframes-proveedor/orden-aceptada.png)
-![p20](assets/images/web-applications-wireframes-proveedor/orden-rechazada.png)
-![p21](assets/images/web-applications-wireframes-proveedor/calificaciones.png)
+- **Gestión de perfil:** Esta sección permite a los proveedores visualizar y editar su información personal o de negocio. Incluye campos como nombre, correo electrónico y contraseña.
+
+![Wireframe-Proveedor-Gestion-Perfil](assets/images/cap4/desktop-wireframe-segmento-proveedor/gestion-perfil-1.png)
+![Wireframe-Proveedor-Gestion-Perfil](assets/images/cap4/desktop-wireframe-segmento-proveedor/gestion-perfil-2.png)
+
+- **Resumen**: Al ingresar, el proveedor accede a un panel resumen que muestra indicadores clave últimas alertas, estado de cuenta y clientes frecuentes.
+
+![Wireframe-Proveedor-Resumen](assets/images/cap4/desktop-wireframe-segmento-proveedor/resumen.png)
+
+- **Suscripción:** Permite ver y seleccionar planes de suscripción adaptados a proveedores.
+
+![Wireframe-Proveedor-Suscripcion](assets/images/cap4/desktop-wireframe-segmento-proveedor/suscripcion-1.png)
+![Wireframe-Proveedor-Suscripcion](assets/images/cap4/desktop-wireframe-segmento-proveedor/suscripcion-2.png)
+
+- **Inventario:** El proveedor puede registrar los productos que ofrece. Este módulo permite ver el inventario vacío al iniciar por primera vez.
+
+![Wireframe-Proveedor-Inventario](assets/images/cap4/desktop-wireframe-segmento-proveedor/inventario-1.png)
+
+- Crear productos indicando si son perecibles o no perecibles.
+
+![Wireframe-Proveedor-Inventario](assets/images/cap4/desktop-wireframe-segmento-proveedor/inventario-2.png)
+![Wireframe-Proveedor-Inventario](assets/images/cap4/desktop-wireframe-segmento-proveedor/inventario-3.png)
+![Wireframe-Proveedor-Inventario](assets/images/cap4/desktop-wireframe-segmento-proveedor/inventario-4.png)
+![Wireframe-Proveedor-Inventario](assets/images/cap4/desktop-wireframe-segmento-proveedor/inventario-5.png)
+![Wireframe-Proveedor-Inventario](assets/images/cap4/desktop-wireframe-segmento-proveedor/inventario-6.png)
+
+- Editar o eliminar productos cuando sea necesario.
+
+![Wireframe-Proveedor-Inventario](assets/images/cap4/desktop-wireframe-segmento-proveedor/inventario-7.png)
+![Wireframe-Proveedor-Inventario](assets/images/cap4/desktop-wireframe-segmento-proveedor/inventario-8.png)
+![Wireframe-Proveedor-Inventario](assets/images/cap4/desktop-wireframe-segmento-proveedor/inventario-9.png)
+![Wireframe-Proveedor-Inventario](assets/images/cap4/desktop-wireframe-segmento-proveedor/inventario-10.png)
+
+- Se listan los pedidos de órdenes
+
+![Wireframe-Proveedor-Alertas](assets/images/cap4/desktop-wireframe-segmento-proveedor/alertas.png)
+
+- **Órdenes Recibidas:** Desde esta sección, los proveedores pueden ver el detalle de cada orden solicitada por los restaurantes.
+
+![Wireframe-Proveedor-Ordenes](assets/images/cap4/desktop-wireframe-segmento-proveedor/ordenes-1.png)
+![Wireframe-Proveedor-Ordenes](assets/images/cap4/desktop-wireframe-segmento-proveedor/ordenes-2.png)
+![Wireframe-Proveedor-Ordenes](assets/images/cap4/desktop-wireframe-segmento-proveedor/ordenes-3.png)
+
+- Revisar cantidades, productos solicitados, fechas de entrega y estado actual de la orden.
+
+![Wireframe-Proveedor-Ordenes](assets/images/cap4/desktop-wireframe-segmento-proveedor/ordenes-4.png)
+![Wireframe-Proveedor-Ordenes](assets/images/cap4/desktop-wireframe-segmento-proveedor/ordenes-5.png)
+
+- **Calificaciones:** Aquí se muestran las evaluaciones realizadas por los restaurantes luego de cada pedido.
+
+![Wireframe-Proveedor-Calificaciones](assets/images/cap4/desktop-wireframe-segmento-proveedor/calificaciones.png)
 
 #### Versión Mobile Web Browser
 
@@ -502,45 +594,43 @@ Los siguientes wireframes corresponden a la aplicación web de Restock
 **Perfil**
 
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/1.png)
-`<br/>`
+
 
 **Suscripciones**
 
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/2.png)
-`<br/>`
+
 
 **Resumen**
 
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/3.png)
-`<br/>`
+
 
 **Inventario**
 
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/4.png)
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/5.png)
-`<br/>`
+
 
 **Provedores**
 
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/6.png)
-`<br/>`
+
 
 **Alertas**
 
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/7.png)
-`<br/>`
+
 
 **Pedidos**
 
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/8.png)
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/9.png)
-`<br/>`
 
 **Recetas**
 
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/10.png)
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/11.png)
-`<br/>`
 
 **Ventas**
 
@@ -548,46 +638,42 @@ Los siguientes wireframes corresponden a la aplicación web de Restock
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/13.png)
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/14.png)
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/15.png)
-`<br/>`
+
 
 **Segmento objetivo: Proveedores para Restaurantes (User Persona 2)**
 
 **Perfil**
 
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20proovedor/1.png)
-`<br/>`
+
 
 **Suscripciones**
 
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20proovedor/2.png)
-`<br/>`
 
 **Resumen**
 
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20proovedor/3.png)
-`<br/>`
 
 **Inventario**
 
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20proovedor/4.png)
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20proovedor/5.png)
-`<br/>`
+
 
 **Alertas**
 
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20proovedor/6.png)
-`<br/>`
 
 **Ordenes**
 
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20proovedor/7.png)
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20proovedor/8.png)
-`<br/>`
 
 **Calificaciones**
 
 ![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20proovedor/9.png)
-`<br/>`
+
 
 ### 4.4.2 Web Applications Wireflow Diagrams
 
@@ -862,45 +948,40 @@ Esta sección presenta la propuesta de Wireflows. Se ha considerado un Wireflow 
 **Perfil**
 
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/1.png)
-`<br/>`
 
 **Suscripciones**
 
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/2.png)
-`<br/>`
 
 **Resumen**
 
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/3.png)
-`<br/>`
 
 **Inventario**
 
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/4.png)
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/5.png)
-`<br/>`
 
 **Provedores**
 
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/6.png)
-`<br/>`
 
 **Alertas**
 
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/7.png)
-`<br/>`
+
 
 **Pedidos**
 
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/8.png)
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/9.png)
-`<br/>`
+
 
 **Recetas**
 
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/10.png)
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/11.png)
-`<br/>`
+
 
 **Ventas**
 
@@ -908,46 +989,45 @@ Esta sección presenta la propuesta de Wireflows. Se ha considerado un Wireflow 
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/13.png)
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/14.png)
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/15.png)
-`<br/>`
+
 
 **Segmento objetivo: Proveedores para Restaurantes (User Persona 2)**
 
 **Perfil**
 
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20proovedor/1.png)
-`<br/>`
+
 
 **Suscripciones**
 
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20proovedor/2.png)
-`<br/>`
+
 
 **Resumen**
 
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20proovedor/3.png)
-`<br/>`
+
 
 **Inventario**
 
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20proovedor/4.png)
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20proovedor/5.png)
-`<br/>`
+
 
 **Alertas**
 
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20proovedor/6.png)
-`<br/>`
 
 **Ordenes**
 
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20proovedor/7.png)
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20proovedor/8.png)
-`<br/>`
+
 
 **Calificaciones**
 
 ![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20proovedor/9.png)
-`<br/>`
+
 
 ### 4.4.4 Web Applications User Flow Diagrams
 
