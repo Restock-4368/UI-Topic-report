@@ -367,3 +367,19 @@ Con el fin de mantener una coordinación efectiva y una comunicación fluida ent
 | Shapiama Rivera, Gabriela Nicole    | GabrielaShapiama28 | C                        | C                              | C                        | C                             | C                    | C                         | C                   | C                                  | C                                          | C                     | L                      | L                      | C                |
 
 </div>
+
+#### 5.2.2.3 Sprint Backlog 2
+
+El objetivo principal de este Sprint es desarrollar la interfaz frontend de los dashboards para **administradores de restaurantes y proveedores**, enfocándose en una estructura clara, navegación eficiente y visualización adecuada de datos críticos. 
+
+![Board Sprint 2](assets/images/cap-5/vision-statement-sprint2.png)
+
+Además, se realizaron mejoras en el *landing page*, incluyendo la implementación de un **toggle de idioma** (inglés/español) y la incorporación de **atributos de accesibilidad** como `aria-label` y `lang`, asegurando mayor inclusión y cumplimiento de estándares web.
+
+![Board Sprint 2](assets/images/cap-5/sprint-backlog2-3.png)
+
+![Board Sprint Details 2](assets/images/cap-5/sprint-backlog2-1.png)
+
+![Board Sprint Details 2](assets/images/cap-5/sprint-backlog2-2.png)
+
+[[Enlace al Trello Sprint 2](https://trello.com/invite/b/681ab5854ac93bbc3c456c4e/ATTI2ddc2248f5308bf6ee343af5c381ec7f2CE97AD8/sprint-backlog-2)]
