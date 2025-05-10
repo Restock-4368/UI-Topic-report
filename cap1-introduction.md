@@ -185,13 +185,6 @@ Las características más relevantes que los usuarios valoran incluyen un panel 
 
 En cuanto al diseño, el producto debe presentar una apariencia limpia, moderna e intuitiva, enfocada en la experiencia del usuario. Su comportamiento debe ser fluido y adaptable, con una navegación simple que organice las tareas frecuentes en módulos accesibles. Las alertas deben ser visualmente claras y todo el flujo de uso debe permitir completar acciones clave en pocos pasos, sin fricciones.
 
-**Objetivos comerciales:**
-
-- Crecimiento de usuarios: Nos enfocaremos en construir una base sólida de usuarios activos que utilicen regularmente la plataforma en sus operaciones diarias. Se proyecta alcanzar 500 usuarios activos en los primeros 6 meses, consolidando una comunidad inicial de administradores de restaurantes y proveedores
-  Retención: retención del 60%
-- Retención: La retención de usuarios será clave para asegurar que la plataforma genere valor sostenido. Se espera lograr una tasa de retención del 60% al finalizar el primer mes de uso, lo que indicaría que la plataforma cumple con las expectativas de y mejora operativa de los segmentos objetivo.
-- Expansión geográfica: Durante el primer año se buscará expandir la presencia de la plataforma en un 15% hacia nuevos mercados. Se buscarán nuevas ciudades y regiones con una buena actividad gastronómica, lo que nos permitirá escalar y mejorar nuestra solución
-
 ---
 
 ### Business Assumptions
@@ -226,7 +219,7 @@ En cuanto al diseño, el producto debe presentar una apariencia limpia, moderna 
 - Aumentar el uso diario de la plataforma en un 30% por parte de ambos segmentos de usuarios en los próximos 2 meses.
 - Incrementar en un 40% la frecuencia de pedidos gestionados desde la app y reducir errores de pedido en un 25%.
 - Reducir en un 35% el desperdicio de insumos reportado por los restaurantes registrados.
-- Lograr una retención de usuarios del 60% al finalizar el primer mes de uso.
+- Alcanzar 500 usuarios activos en los próximos 6 meses en 2025
 
 ---
 
