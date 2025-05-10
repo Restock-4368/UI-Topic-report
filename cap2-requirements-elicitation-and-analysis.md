@@ -4,74 +4,77 @@
 
 ### 2.1.1 Análisis Competitivo
 
-**¿Por qué llevar a cabo este análisis?**  
-> El objetivo de este análisis es evaluar las oportunidades reales de competir en el mercado, identificando los segmentos objetivos, características de producto y estrategias de venta de los principales actores.
-A través de este estudio, buscamos tomar decisiones informadas para diseñar una propuesta de valor diferenciada que nos permita destacar en el mercado objetivo.
+**¿Por qué llevar a cabo este análisis?**
 
-|                                           | **Restock (Nuestro producto)** <br> <img src="assets/images/restock_logo.jpg" width="64" height="64" style="border-radius: 50%; border: 2px solid black;"> | **Oracle Simphony** <br> <img src="assets/images/oracle_simphony_logo.jpg" width="64" height="64" style="border-radius: 50%; border: 2px solid black;"> | **RestroWorks** <br> <img src="assets/images/restroworks_logo.jpg" width="64" height="64" style="border-radius: 50%; border: 2px solid black;"> | **SoftRestaurant** <br> <img src="assets/images/softrestaurant_logo.jpg" width="64" height="64" style="border-radius: 50%; border: 2px solid black;"> |
-|-------------------------------------------|------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
-| **Perfil**                                |                                                                                          |                                                                                          |                                                                                        |                                                                                                                                                                                                                                                    |                                                                                                                                                   |                                                                                                                                                          |
-| Overview                                  | Plataforma para automatizar la gestión de inventarios y pedidos de restaurantes.                                     | Solución POS basada en la nube para gestión integral de restaurantes grandes y retail.                                                                  | Plataforma en la nube con herramientas de operación para restaurantes y cocinas en la nube.                                                     | Software administrativo integral para restaurantes pequeños, medianos y franquicias emergentes en Latinoamérica.                                        |
-| Ventaja competitiva                       | Enfoque exclusivo en automatizar inventarios y pedidos con costos accesibles y alta usabilidad para LATAM.          | Integración total de operaciones con analítica en tiempo real.                                                                                          | Plataforma modular y escalable con enfoque en optimización de procesos.                                                                       | Solución todo en uno con 20+ años de experiencia en el mercado latinoamericano.                                                                         |
-| Mercado objetivo                          | Restaurantes medianos y grandes que no cuentan con automatización. Proveedores como segmento indirecto.              | Grandes cadenas de restaurantes, locales de comida rápida y retail con POS integrado.                                                                   | Restaurantes de todos los tamaños y cocinas en la nube.                                                                                         | Restaurantes pequeños, medianos y franquicias emergentes.                                                                                                |
-| **Perfil de Marketing**                   |                                                                                                                      |                                                                                                                                                          |                                                                                                                                                   |                                                                                                                                                          |
-| Estrategias de marketing                  | Enfocada en eficiencia operativa, reducción de pérdidas y facilidad de uso.                                          | Destaca escalabilidad, integración y confiabilidad en la nube.                                                                                          | Resalta confianza de más de 23,000 clientes y casos de éxito.                                                                                   | Énfasis en experiencia de 20 años y cobertura regional en 11 países LATAM.                                                                                |
-| **Perfil de Producto**                    |                                                                                                                      |                                                                                                                                                          |                                                                                                                                                   |                                                                                                                                                          |
-| Productos & Servicios                     | Inventario, pedidos internos, conexión con proveedores, reportes, alertas.                                           | POS, pedidos online, gestión de cocina, análisis en tiempo real.                                                                                        | Gestión de pedidos, inventario, suite de cocina, pedidos digitales y más.                                                                     | Gestión de pedidos, stock, personal, menús, clientes, facturación.                                                                                        |
-| Precios & Costos                          | Modelo freemium o de suscripción escalable según tamaño del restaurante.                                             | Essentials: 55 USD/mes. Plus: 75 USD/mes.                                                                                                               | Desde 200 USD/año según módulos.                                                                                                                 | LITE: 37 USD/mes. PRO: 54 USD/mes.                                                                                                                       |
-| Canales de distribución (Web y/o Móvil)   | Web responsive, planes para versión móvil.                                                                           | Distribuidores autorizados, venta directa.                                                                                                              | Consultas y demostraciones online.                                                                                                              | Web oficial con opciones de contacto directo.                                                                                                            |
-| **Análisis SWOT**                         |                                                                                                                      |                                                                                                                                                          |                                                                                                                                                   |                                                                                                                                                          |
-| Fortalezas                                | Facilidad de uso, enfoque LATAM, solución accesible y ágil, integración con proveedores.                             | Analítica avanzada, operación completa, escalabilidad global.                                                                                           | Plataforma completa en la nube adaptable a distintos tamaños.                                                                                   | Sistema todo-en-uno para mejorar procesos operativos y atención al cliente.                                                                               |
-| Debilidades                               | Aún sin validación en mercado real, sin presencia internacional.                                                    | Costos de implementación y configuración elevados, curva de aprendizaje.                                                                                | Puede ser costoso por su estructura modular para pequeños negocios.                                                                            | Enfocado solo en LATAM, limitada presencia fuera de la región.                                                                                            |
-| Oportunidades                             | Baja digitalización en el sector gastronómico en LATAM, alta demanda por automatización eficiente.                   | Expansión a mercados emergentes, integración con nuevas tecnologías de IA.                                                                              | Penetración en mercados poco desarrollados con cloud kitchens.                                                                                 | Consolidarse en mercados locales con alta informalidad en gestión.                                                                                        |
-| Amenazas                                  | Alta competencia con soluciones consolidadas y resistencia al cambio en negocios tradicionales.                      | Emergencia de nuevas plataformas SaaS más ligeras y económicas.                                                                                        | Nuevos actores con soluciones más económicas o integraciones verticales.                                                                      | Competidores con mayor capacidad de innovación o expansión.                                                                                              |
-       
+> El objetivo de este análisis es evaluar las oportunidades reales de competir en el mercado, identificando los segmentos objetivos, características de producto y estrategias de venta de los principales actores.
+> A través de este estudio, buscamos tomar decisiones informadas para diseñar una propuesta de valor diferenciada que nos permita destacar en el mercado objetivo.
+
+|                                           | **Restock (Nuestro producto)** <br /> `<img src="assets/images/restock_logo.jpg" width="64" height="64" style="border-radius: 50%; border: 2px solid black;">` | **Oracle Simphony** <br /> `<img src="assets/images/oracle_simphony_logo.jpg" width="64" height="64" style="border-radius: 50%; border: 2px solid black;">` | **RestroWorks** <br /> `<img src="assets/images/restroworks_logo.jpg" width="64" height="64" style="border-radius: 50%; border: 2px solid black;">` | **SoftRestaurant** <br /> `<img src="assets/images/softrestaurant_logo.jpg" width="64" height="64" style="border-radius: 50%; border: 2px solid black;">` |
+| ----------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Perfil**                          |                                                                                                                                                                         |                                                                                                                                                                     |                                                                                                                                                             |                                                                                                                                                                   |
+| Overview                                  | Plataforma para automatizar la gestión de inventarios y pedidos de restaurantes.                                                                                       | Solución POS basada en la nube para gestión integral de restaurantes grandes y retail.                                                                            | Plataforma en la nube con herramientas de operación para restaurantes y cocinas en la nube.                                                                | Software administrativo integral para restaurantes pequeños, medianos y franquicias emergentes en Latinoamérica.                                                |
+| Ventaja competitiva                       | Enfoque exclusivo en automatizar inventarios y pedidos con costos accesibles y alta usabilidad para LATAM.                                                              | Integración total de operaciones con analítica en tiempo real.                                                                                                    | Plataforma modular y escalable con enfoque en optimización de procesos.                                                                                    | Solución todo en uno con 20+ años de experiencia en el mercado latinoamericano.                                                                                 |
+| Mercado objetivo                          | Restaurantes medianos y grandes que no cuentan con automatización. Proveedores como segmento indirecto.                                                                | Grandes cadenas de restaurantes, locales de comida rápida y retail con POS integrado.                                                                              | Restaurantes de todos los tamaños y cocinas en la nube.                                                                                                    | Restaurantes pequeños, medianos y franquicias emergentes.                                                                                                        |
+| **Perfil de Marketing**             |                                                                                                                                                                         |                                                                                                                                                                     |                                                                                                                                                             |                                                                                                                                                                   |
+| Estrategias de marketing                  | Enfocada en eficiencia operativa, reducción de pérdidas y facilidad de uso.                                                                                           | Destaca escalabilidad, integración y confiabilidad en la nube.                                                                                                     | Resalta confianza de más de 23,000 clientes y casos de éxito.                                                                                             | Énfasis en experiencia de 20 años y cobertura regional en 11 países LATAM.                                                                                     |
+| **Perfil de Producto**              |                                                                                                                                                                         |                                                                                                                                                                     |                                                                                                                                                             |                                                                                                                                                                   |
+| Productos & Servicios                     | Inventario, pedidos internos, conexión con proveedores, reportes, alertas.                                                                                             | POS, pedidos online, gestión de cocina, análisis en tiempo real.                                                                                                  | Gestión de pedidos, inventario, suite de cocina, pedidos digitales y más.                                                                                 | Gestión de pedidos, stock, personal, menús, clientes, facturación.                                                                                             |
+| Precios & Costos                          | Modelo freemium o de suscripción escalable según tamaño del restaurante.                                                                                             | Essentials: 55 USD/mes. Plus: 75 USD/mes.                                                                                                                           | Desde 200 USD/año según módulos.                                                                                                                         | LITE: 37 USD/mes. PRO: 54 USD/mes.                                                                                                                                |
+| Canales de distribución (Web y/o Móvil) | Web responsive, planes para versión móvil.                                                                                                                            | Distribuidores autorizados, venta directa.                                                                                                                          | Consultas y demostraciones online.                                                                                                                          | Web oficial con opciones de contacto directo.                                                                                                                     |
+| **Análisis SWOT**                  |                                                                                                                                                                         |                                                                                                                                                                     |                                                                                                                                                             |                                                                                                                                                                   |
+| Fortalezas                                | Facilidad de uso, enfoque LATAM, solución accesible y ágil, integración con proveedores.                                                                             | Analítica avanzada, operación completa, escalabilidad global.                                                                                                     | Plataforma completa en la nube adaptable a distintos tamaños.                                                                                              | Sistema todo-en-uno para mejorar procesos operativos y atención al cliente.                                                                                      |
+| Debilidades                               | Aún sin validación en mercado real, sin presencia internacional.                                                                                                      | Costos de implementación y configuración elevados, curva de aprendizaje.                                                                                          | Puede ser costoso por su estructura modular para pequeños negocios.                                                                                        | Enfocado solo en LATAM, limitada presencia fuera de la región.                                                                                                   |
+| Oportunidades                             | Baja digitalización en el sector gastronómico en LATAM, alta demanda por automatización eficiente.                                                                   | Expansión a mercados emergentes, integración con nuevas tecnologías de IA.                                                                                       | Penetración en mercados poco desarrollados con cloud kitchens.                                                                                             | Consolidarse en mercados locales con alta informalidad en gestión.                                                                                               |
+| Amenazas                                  | Alta competencia con soluciones consolidadas y resistencia al cambio en negocios tradicionales.                                                                         | Emergencia de nuevas plataformas SaaS más ligeras y económicas.                                                                                                   | Nuevos actores con soluciones más económicas o integraciones verticales.                                                                                  | Competidores con mayor capacidad de innovación o expansión.                                                                                                     |
 
 ### 2.1.2 Estrategias y tácticas frente a competidores
 
-## 2.2 Entrevistas  
+## 2.2 Entrevistas
 
-### 2.2.1 Diseño de entrevistas  
+### 2.2.1 Diseño de entrevistas
 
-#### **Segmento 1: Dueños de Restaurantes**  
+#### **Segmento 1: Dueños de Restaurantes**
 
-##### **Preguntas principales:**  
+##### **Preguntas principales:**
+
 1. ¿Cuál es su nombre y cuánto tiempo lleva administrando su restaurante?
 2. ¿Podría indicarme su edad, estado civil y el distrito en el que reside actualmente?
 3. ¿Cómo describiría su trayectoria profesional hasta convertirse en administrador(a) de su restaurante?
 4. ¿Cuáles son los principales desafíos que enfrenta en la gestión de su restaurante?
 5. ¿Cómo maneja actualmente el inventario y los pedidos de insumos?
-6. ¿Utiliza algún software o herramienta digital para gestionar su negocio? Si es así, ¿cuáles son sus principales beneficios y limitaciones?  
-7. ¿Qué tan importante es para usted mejorar la experiencia del cliente a través de tecnología?  
-8. ¿Cuáles son las principales dificultades al momento de recibir y gestionar pedidos de proveedores?  
+6. ¿Utiliza algún software o herramienta digital para gestionar su negocio? Si es así, ¿cuáles son sus principales beneficios y limitaciones?
+7. ¿Qué tan importante es para usted mejorar la experiencia del cliente a través de tecnología?
+8. ¿Cuáles son las principales dificultades al momento de recibir y gestionar pedidos de proveedores?
 
-##### **Preguntas complementarias:**  
-9. ¿Cuáles son los criterios clave que considera al elegir un proveedor?  
-10. ¿Ha intentado digitalizar su negocio en el pasado? ¿Qué obstáculos ha encontrado?  
+##### **Preguntas complementarias:**
+
+9. ¿Cuáles son los criterios clave que considera al elegir un proveedor?
+10. ¿Ha intentado digitalizar su negocio en el pasado? ¿Qué obstáculos ha encontrado?
 11. ¿Qué tipo de dispositivos tecnológicos utiliza para gestionar su restaurante? ¿Hay marcas,  modelos de negocio o referentes que influyen en su forma de administrar?
 12. ¿Cuánto estaría dispuesto a invertir en una solución tecnológica para mejorar la gestión de su restaurante?
 
 ---
 
-#### **Segmento 2: Proveedores para Restaurantes**  
+#### **Segmento 2: Proveedores para Restaurantes**
 
-##### **Preguntas principales:**  
+##### **Preguntas principales:**
+
 1. ¿Cuál es su nombre y qué tipo de productos ofrece a los restaurantes?
 2. ¿Podría indicarme su edad, estado civil y el distrito en el que reside actualmente?
 3. ¿Cómo describiría su trayectoria profesional hasta convertirse en administrador(a) de su restaurante?
-4. ¿Cómo suelen contactar los restaurantes con usted para hacer pedidos?  
-5. ¿Qué desafíos enfrenta en la entrega de productos a los restaurantes?  
-6. ¿Cómo gestiona el inventario y la logística de distribución?  
-7. ¿Qué tan importante es para su negocio la relación a largo plazo con los restaurantes?  
-8. ¿Utiliza alguna plataforma digital para gestionar pedidos y clientes?  
-9. ¿Qué aspectos considera clave para ofrecer un servicio confiable y eficiente a los restaurantes?  
+4. ¿Cómo suelen contactar los restaurantes con usted para hacer pedidos?
+5. ¿Qué desafíos enfrenta en la entrega de productos a los restaurantes?
+6. ¿Cómo gestiona el inventario y la logística de distribución?
+7. ¿Qué tan importante es para su negocio la relación a largo plazo con los restaurantes?
+8. ¿Utiliza alguna plataforma digital para gestionar pedidos y clientes?
+9. ¿Qué aspectos considera clave para ofrecer un servicio confiable y eficiente a los restaurantes?
 
-##### **Preguntas complementarias:**  
-10. ¿Ha experimentado problemas con pagos o facturación en su relación con los restaurantes?  
-11. ¿Qué tan abierto estaría a utilizar una plataforma digital para mejorar la gestión de sus pedidos y relaciones comerciales? 
-12. ¿Qué tipo de dispositivos tecnológicos utiliza para gestionar su restaurante? ¿Hay marcas,  modelos de negocio o referentes que influyen en su forma de administrar? 
-13. ¿Cómo maneja la comunicación con los dueños de restaurantes para asegurar la calidad y puntualidad de las entregas?  
+##### **Preguntas complementarias:**
 
+10. ¿Ha experimentado problemas con pagos o facturación en su relación con los restaurantes?
+11. ¿Qué tan abierto estaría a utilizar una plataforma digital para mejorar la gestión de sus pedidos y relaciones comerciales?
+12. ¿Qué tipo de dispositivos tecnológicos utiliza para gestionar su restaurante? ¿Hay marcas,  modelos de negocio o referentes que influyen en su forma de administrar?
+13. ¿Cómo maneja la comunicación con los dueños de restaurantes para asegurar la calidad y puntualidad de las entregas?
 
 ### 2.2.2 Registro de entrevistas
 
@@ -80,11 +83,11 @@ A través de este estudio, buscamos tomar decisiones informadas para diseñar un
 ### Entrevista 1:
 
 **Nombre:** Alex Guardia
-**Edad:** 38 años  
-**Distrito:** Chorrillos  
-**Timing:** (00:05- 05:00 min)  
+**Edad:** 38 años
+**Distrito:** Chorrillos
+**Timing:** (00:05- 05:00 min)
 
-![Foto de Entrevista](assets/images/entrevista1.png) 
+![Foto de Entrevista](assets/images/entrevista1.png)
 [Ver entrevista (00:05 - 05:00 min)](https://upcedupe-my.sharepoint.com/personal/u202319831_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202319831%5Fupc%5Fedu%5Fpe%2FDocuments%2Fdocs%2Dassets%2Duitopic%5Fneedfinding%5Finterviews%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E4af6ada4%2Df911%2D4a24%2D87bf%2De53e3ec1998e)
 
 **Resumen:**
@@ -95,12 +98,13 @@ Para comunicarse, recurre frecuentemente a canales como WhatsApp y YouTube. Se i
 En cuanto a la gestión de inventarios, realiza controles físicos diarios y verificaciones electrónicas semanales o quincenales. Aunque utiliza software de gestión, considera que la mayoría carece de personalización y el soporte postventa suele ser deficiente. Estaría dispuesto a invertir entre 500 y 800 dólares en una solución tecnológica integral que incluya implementación, capacitación y soporte, siempre que se adapte a sus procesos y contribuya a mejorar la eficiencia del negocio.
 
 ### Entrevista 2:
-**Nombre:** Lincoln Chauca Rubio  
-**Edad:** 36 años  
-**Distrito:** Breña  
-**Timing:** (05:01 - 09:09 min)  
 
-![Foto de Entrevista](assets/images/entrevista2.png) 
+**Nombre:** Lincoln Chauca Rubio
+**Edad:** 36 años
+**Distrito:** Breña
+**Timing:** (05:01 - 09:09 min)
+
+![Foto de Entrevista](assets/images/entrevista2.png)
 [Ver entrevista (05:01 - 09:09 min)](https://upcedupe-my.sharepoint.com/personal/u202319831_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202319831%5Fupc%5Fedu%5Fpe%2FDocuments%2Fdocs%2Dassets%2Duitopic%5Fneedfinding%5Finterviews%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E4af6ada4%2Df911%2D4a24%2D87bf%2De53e3ec1998e)
 
 **Resumen:**
@@ -116,12 +120,13 @@ Otro reto significativo es el manejo del inventario, que incide directamente en 
 Respecto a los proveedores, trabaja con 2 o 3 distintos con el objetivo de conseguir mejores precios, ya que los costos suelen variar con regularidad. Actualmente invierte alrededor de 300 soles mensuales en herramientas tecnológicas, pero está dispuesto a incrementar esa inversión hasta 500 soles si la solución mejora sustancialmente la gestión del restaurante.
 
 ### Entrevista 3:
-**Nombre:** Amparo Soledad Robles Vásquez
-**Edad:** 56 años  
-**Distrito:** Bellavista  
-**Timing:** (09:10 - 14:12 min)  
 
-![Foto de Entrevista](assets/images/entrevista3.png)  
+**Nombre:** Amparo Soledad Robles Vásquez
+**Edad:** 56 años
+**Distrito:** Bellavista
+**Timing:** (09:10 - 14:12 min)
+
+![Foto de Entrevista](assets/images/entrevista3.png)
 [Ver entrevista (09:10 - 14:12 min)](https://upcedupe-my.sharepoint.com/personal/u202319831_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202319831%5Fupc%5Fedu%5Fpe%2FDocuments%2Fdocs%2Dassets%2Duitopic%5Fneedfinding%5Finterviews%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E4af6ada4%2Df911%2D4a24%2D87bf%2De53e3ec1998e)
 
 **Resumen:**
@@ -141,11 +146,11 @@ En cuanto a sus proveedores, valora mucho la seriedad, puntualidad y calidad de 
 ### Entrevista 1:
 
 **Nombre:** José Santos Tapia Bustamente
-**Edad:** 68 años  
-**Distrito:** Chorrillos  
-**Timing:** (14:27 - 09:09 min)  
+**Edad:** 68 años
+**Distrito:** Chorrillos
+**Timing:** (14:27 - 09:09 min)
 
-![Foto de Entrevista](assets/images/entrevista4.png) 
+![Foto de Entrevista](assets/images/entrevista4.png)
 [Ver entrevista (14:27 - 09:09 min)](https://upcedupe-my.sharepoint.com/personal/u202319831_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202319831%5Fupc%5Fedu%5Fpe%2FDocuments%2Fdocs%2Dassets%2Duitopic%5Fneedfinding%5Finterviews%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E4af6ada4%2Df911%2D4a24%2D87bf%2De53e3ec1998e)
 
 **Resumen:**
@@ -158,12 +163,13 @@ Realiza la gestión de pedidos de forma manual, revisando uno por uno los produc
 Valora la calidad del producto, la atención al cliente y las facilidades de pago como claves en el servicio. Aunque no está familiarizado con sistemas digitales, está abierto a usar una plataforma tecnológica si esta le permite mejorar su facturación y optimizar las entregas. Tiene afinidad con marcas como PlazaVea y confía en recomendaciones de otros proveedores de confianza.
 
 ### Entrevista 2:
-**Nombre:** Percy Polo Ferrera
-**Edad:** 38 años  
-**Distrito:** Chorrillos  
-**Timing:** (19:22 - 23:40 min)  
 
-![Foto de Entrevista](assets/images/entrevista5.png)  
+**Nombre:** Percy Polo Ferrera
+**Edad:** 38 años
+**Distrito:** Chorrillos
+**Timing:** (19:22 - 23:40 min)
+
+![Foto de Entrevista](assets/images/entrevista5.png)
 [Ver entrevista (19:22 - 23:40 min)](https://upcedupe-my.sharepoint.com/personal/u202319831_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202319831%5Fupc%5Fedu%5Fpe%2FDocuments%2Fdocs%2Dassets%2Duitopic%5Fneedfinding%5Finterviews%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E4af6ada4%2Df911%2D4a24%2D87bf%2De53e3ec1998e)
 
 **Resumen:**
@@ -175,15 +181,15 @@ Suele contactar a los restaurantes por medio de redes sociales y WhatsApp, donde
 La gestión de inventario la realiza al finalizar el día junto a los supervisores mediante un cuadre, asegurando control y precisión. Además, Percy utiliza una plataforma digital para recibir pedidos de forma inmediata, lo que le permite acelerar su flujo de trabajo y mantener el orden.
 
 Percy considera que la buena atención al cliente es clave para mantener relaciones comerciales sólidas. En cuanto a pagos y facturación, resalta la importancia de una comunicación clara y constante con los clientes para evitar problemas y garantizar confianza. Se siente influenciado por marcas como Makro y sigue canales como YouTube para información logística y de ventas.
- 
+
 ### Entrevista 3:
 
 **Nombre:** Benjamín Pacheco Quesada
-**Edad:** 57 años  
-**Distrito:** Miraflores  
-**Timing:** (23:41 - 29:13 min)  
+**Edad:** 57 años
+**Distrito:** Miraflores
+**Timing:** (23:41 - 29:13 min)
 
-![Foto de Entrevista](assets/images/entrevista6.png) 
+![Foto de Entrevista](assets/images/entrevista6.png)
 [Ver entrevista (23:41 - 29:13 min)](https://upcedupe-my.sharepoint.com/personal/u202319831_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202319831%5Fupc%5Fedu%5Fpe%2FDocuments%2Fdocs%2Dassets%2Duitopic%5Fneedfinding%5Finterviews%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E4af6ada4%2Df911%2D4a24%2D87bf%2De53e3ec1998e)
 
 **Resumen:**
@@ -198,7 +204,6 @@ Benjamín valora las relaciones comerciales duraderas, basadas en la honestidad 
 
 ---
 
-
 ### 2.2.3 Análisis de entrevistas
 
 ## Segmento 1: Dueños de Restaurantes
@@ -207,30 +212,30 @@ Se analizaron **3 entrevistas** a administradores con amplia experiencia en el m
 
 ### Características
 
-| Característica                               | Mención | %     | Evidencia                                                                                   |
-| -------------------------------------------- | ------- | ----- | ------------------------------------------------------------------------------------------- |
-| Más de 5 años de experiencia en gestión      | 3/3     | 100%  | Todos los entrevistados mencionan su trayectoria (“5 a 6 años”, “5 años”, “20 años”)        |
-| Utilizan software para facturación o pedidos | 3/3     | 100%  | Uso de software como Dibal, sistemas de caja, o intención de implementarlo pronto |
-| Gestión de inventario parcial o manual       | 2/3     | 66.7% | Uso mixto entre registros físicos y digitales; uno usa solo gestión manual                  |
-| Han cambiado de software por deficiencias    | 2/3     | 66.7% | Señalan haber probado varias herramientas antes de una funcional                            |
-| Dispuestos a invertir en tecnología          | 3/3     | 100%  | Declaran presupuestos o escalas de disposición al 10                                        |
-| Reconocen que la tecnología mejora la eficiencia  | 3/3     | 100%  | Vinculan tecnología con mejora de control, marketing y atención |
-| Dificultades por complejidad o soporte deficiente | 2/3     | 66.7% | Señalan postventa lenta y sistemas poco intuitivos              |
-| Necesidad de personalización                      | 3/3     | 100%  | Indican que los sistemas son genéricos y complicados de adaptar |
-| Valor por facilidad de uso y adaptabilidad        | 3/3     | 100%  | Expresan deseo de una solución autogestionable                  |
+| Característica                                   | Mención | %     | Evidencia                                                                                     |
+| ------------------------------------------------- | -------- | ----- | --------------------------------------------------------------------------------------------- |
+| Más de 5 años de experiencia en gestión        | 3/3      | 100%  | Todos los entrevistados mencionan su trayectoria (“5 a 6 años”, “5 años”, “20 años”) |
+| Utilizan software para facturación o pedidos     | 3/3      | 100%  | Uso de software como Dibal, sistemas de caja, o intención de implementarlo pronto            |
+| Gestión de inventario parcial o manual           | 2/3      | 66.7% | Uso mixto entre registros físicos y digitales; uno usa solo gestión manual                  |
+| Han cambiado de software por deficiencias         | 2/3      | 66.7% | Señalan haber probado varias herramientas antes de una funcional                             |
+| Dispuestos a invertir en tecnología              | 3/3      | 100%  | Declaran presupuestos o escalas de disposición al 10                                         |
+| Reconocen que la tecnología mejora la eficiencia | 3/3      | 100%  | Vinculan tecnología con mejora de control, marketing y atención                             |
+| Dificultades por complejidad o soporte deficiente | 2/3      | 66.7% | Señalan postventa lenta y sistemas poco intuitivos                                           |
+| Necesidad de personalización                     | 3/3      | 100%  | Indican que los sistemas son genéricos y complicados de adaptar                              |
+| Valor por facilidad de uso y adaptabilidad        | 3/3      | 100%  | Expresan deseo de una solución autogestionable                                               |
 
 ### Insights
 
-**1. Alta disposición hacia la digitalización, pero con obstáculos prácticos**  
+**1. Alta disposición hacia la digitalización, pero con obstáculos prácticos**
 Existe interés por parte de todos los entrevistados en incorporar tecnología para mejorar su gestión. Sin embargo, su adopción ha sido limitada por barreras como sistemas complejos o falta de capacitación. Sugiere que la plataforma debería ser intuitiva y estar diseñada pensando en la realidad operativa del usuario.
 
-**2. Necesidad crítica de herramientas flexibles y adaptables**  
+**2. Necesidad crítica de herramientas flexibles y adaptables**
 La estandarización de los sistemas actuales no responde a las particularidades de cada restaurante. Mencionan la dificultad de modificar configuraciones o adaptarse a actualizaciones frecuentes. Un sistema que permita editar menús, precios o funcionalidades sin asistencia externa sería lo ideal.
 
-**3. El soporte técnico deficiente afecta la confianza y el uso**  
+**3. El soporte técnico deficiente afecta la confianza y el uso**
 Los usuarios se sienten desatendidos cuando enfrentan incidencias en momentos críticos. El soporte técnico lento o ineficaz reduce la confianza en el sistema. Una solución que ofrezca soporte ágil y confiable podría diferenciarse en el mercado.
 
-**4. Inversión justificable si existe retorno tangible**  
+**4. Inversión justificable si existe retorno tangible**
 Todos los entrevistados señalan estar dispuestos a invertir en tecnología si esta genera beneficios claros como control, personalización, eficiencia o mejora de ingresos. Esto valida la viabilidad comercial de una solución enfocada.
 
 ---
@@ -241,30 +246,30 @@ Se analizaron **3 entrevistas** a proveedores de productos para restaurantes (ab
 
 ### Características
 
-| Característica                               | Mención | %     | Evidencia                                                                                   |
-| -------------------------------------------- | ------- | ----- | ------------------------------------------------------------------------------------------- |
-| Más de 10 años de experiencia               | 3/3     | 100%  | Trayectorias de 38 años, experiencia amplia en distribución y ventas                       |
-| Uso de WhatsApp para pedidos                  | 3/3     | 100%  | Mencionan WhatsApp como canal primario para recibir pedidos                                 |
-| Manejo logístico manual o con supervisores   | 2/3     | 66.7% | No usan plataformas; dependen de listas físicas y personal de reparto                      |
-| No utilizan plataformas digitales especializadas | 2/3  | 66.7% | Uno menciona tener app, los otros usan WhatsApp y gestión manual                           |
-| Trato directo con dueños de restaurante      | 3/3     | 100%  | Priorizan relaciones directas como parte de su estrategia comercial                         |
-| Apertura a digitalizar su operación          | 3/3     | 100%  | Dispuestos a adoptar apps si estas mejoran su gestión                                      |
-| Importancia de la confianza con el cliente    | 3/3     | 100%  | Señalan que la confianza es clave para continuidad y créditos                             |
-| Valoración de la puntualidad y cumplimiento   | 3/3     | 100%  | Mencionan cumplimiento de horario y entregas completas como vitales                        |
-| Necesidad de mejorar la facturación con tecnología | 2/3 | 66.7% | Describen problemas con gestión manual de facturas y cobros                               |
+| Característica                                      | Mención | %     | Evidencia                                                              |
+| ---------------------------------------------------- | -------- | ----- | ---------------------------------------------------------------------- |
+| Más de 10 años de experiencia                      | 3/3      | 100%  | Trayectorias de 38 años, experiencia amplia en distribución y ventas |
+| Uso de WhatsApp para pedidos                         | 3/3      | 100%  | Mencionan WhatsApp como canal primario para recibir pedidos            |
+| Manejo logístico manual o con supervisores          | 2/3      | 66.7% | No usan plataformas; dependen de listas físicas y personal de reparto |
+| No utilizan plataformas digitales especializadas     | 2/3      | 66.7% | Uno menciona tener app, los otros usan WhatsApp y gestión manual      |
+| Trato directo con dueños de restaurante             | 3/3      | 100%  | Priorizan relaciones directas como parte de su estrategia comercial    |
+| Apertura a digitalizar su operación                 | 3/3      | 100%  | Dispuestos a adoptar apps si estas mejoran su gestión                 |
+| Importancia de la confianza con el cliente           | 3/3      | 100%  | Señalan que la confianza es clave para continuidad y créditos        |
+| Valoración de la puntualidad y cumplimiento         | 3/3      | 100%  | Mencionan cumplimiento de horario y entregas completas como vitales    |
+| Necesidad de mejorar la facturación con tecnología | 2/3      | 66.7% | Describen problemas con gestión manual de facturas y cobros           |
 
 ### Insights
 
-**1. Confianza, cumplimiento y atención**  
+**1. Confianza, cumplimiento y atención**
 La relación con el restaurante se construye sobre la confianza, y esta se gana a través de entregas puntuales, cumplimiento de pedidos y buena atención. Cualquier solución digital debe reforzar esta relación en lugar de reemplazarla, manteniendo la cercanía con el cliente.
 
-**2. Alta apertura hacia plataformas tecnológicas funcionales**  
+**2. Alta apertura hacia plataformas tecnológicas funcionales**
 Los proveedores no solo están abiertos al uso de apps, sino que identifican directamente beneficios como organización de rutas, mejor facturación y eficiencia operativa. Esto representa una oportunidad concreta para implementar soluciones simples pero potentes adaptadas a su entorno.
 
-**3. Procesos de logística e inventario poco tecnificados**  
+**3. Procesos de logística e inventario poco tecnificados**
 Aún con estructuras operativas consolidadas, la mayoría depende de medios manuales para controlar entregas e inventario. Esto implica un margen de error y retrasos, los cuales podrían disminuirse mediante una herramienta que digitalice el flujo operativo.
 
-**4. La facturación digital resolvería un punto crítico**  
+**4. La facturación digital resolvería un punto crítico**
 El manejo de facturas y pagos al crédito es visto como una parte vulnerable de la operación. Señalan que automatizar este proceso (emisión, seguimiento, entrega) permitiría ahorrar tiempo, reducir errores y fortalecer la relación financiera con el restaurante.
 
 ### 2.3. Needfinding
@@ -275,11 +280,11 @@ En esta sección se presentan dos User Personas que representan los segmentos cl
 
 El User Persona **Carolina Rivas** representa a las administradoras y propietarias de restaurantes con trayectoria, principalmente medianos y grandes negocios ubicados en zonas urbanas de alta competencia. Carolina tiene amplia experiencia en la gestión operativa, y aunque ha intentado digitalizar procesos clave como el inventario o la facturación, se ha encontrado con soluciones poco intuitivas y difíciles de adaptar. Su motivación principal es lograr un control más riguroso de su inventario y aumentar la eficiencia general del negocio sin perder autonomía. Busca una plataforma accesible, personalizable y fácil de usar, que le permita mejorar la toma de decisiones operativas sin requerir soporte técnico constante.
 
-![user persona carolina rivas](<./assets/images/user-persona-carolina-rivas.png>)
+![user persona carolina rivas](./assets/images/user-persona-carolina-rivas.png)
 
 Por otro lado, el User Persona **Jorge Torres** encarna al proveedor tradicional de productos para restaurantes, especialmente aquellos dedicados a la distribución de abarrotes y bebidas. Con más de una década en el rubro, Jorge opera principalmente con métodos manuales apoyados por WhatsApp y Excel. Valora las relaciones comerciales de confianza con sus clientes y la puntualidad en las entregas como pilares de su éxito. Aunque no es nativo digital, muestra alta apertura hacia plataformas tecnológicas que le permitan organizar mejor sus rutas, facturación y seguimiento de pagos. Su mayor necesidad es una solución que simplifique su operación sin romper la cercanía con los restaurantes a los que abastece.
 
-![user persona jorge torres](<./assets/images/user-persona-jorge-torres.png>)
+![user persona jorge torres](./assets/images/user-persona-jorge-torres.png)
 
 ### 2.3.2. User Task Matrix
 
@@ -292,27 +297,25 @@ Los segmentos considerados para este análisis son:
 
 ##### Task Matrix
 
-| Tarea                                                    | Carolina Rivas |         | Jorge Torres|          |
-|----------------------------------------------------------|----------------|---------|----------------|----------|
-|                                                          | Frecuencia     | Importancia | Frecuencia      | Importancia |
-| Supervisar y controlar el inventario                     | often          | high        | sometimes       | high        |
-| Capacitar al personal o asistente operativo              | sometimes      | medium      | sometimes       | medium      |
-| Coordinar pedidos y abastecimiento                       | often          | high        | often           | high        |
-| Comunicarse con clientes/proveedores                     | sometimes      | medium      | often           | high        |
-| Evaluar precios, rentabilidad y condiciones de venta     | sometimes      | high        | sometimes       | medium      |
-| Revisar ingresos, gastos y pagos                         | often          | high        | often           | high        |
-| Gestionar incidencias e imprevistos                      | sometimes      | medium      | sometimes       | medium      |
-| Preparar, despachar o recibir productos del día          | sometimes      | high        | often           | high        |
-| Optimizar rutas o flujos logísticos internos             | rarely         | low         | sometimes       | medium      |
-| Buscar herramientas para mejorar la gestión/organización | rarely         | medium      | rarely          | medium      |
+| Tarea                                                      | Carolina Rivas |             | Jorge Torres |             |
+| ---------------------------------------------------------- | -------------- | ----------- | ------------ | ----------- |
+|                                                            | Frecuencia     | Importancia | Frecuencia   | Importancia |
+| Supervisar y controlar el inventario                       | often          | high        | sometimes    | high        |
+| Capacitar al personal o asistente operativo                | sometimes      | medium      | sometimes    | medium      |
+| Coordinar pedidos y abastecimiento                         | often          | high        | often        | high        |
+| Comunicarse con clientes/proveedores                       | sometimes      | medium      | often        | high        |
+| Evaluar precios, rentabilidad y condiciones de venta       | sometimes      | high        | sometimes    | medium      |
+| Revisar ingresos, gastos y pagos                           | often          | high        | often        | high        |
+| Gestionar incidencias e imprevistos                        | sometimes      | medium      | sometimes    | medium      |
+| Preparar, despachar o recibir productos del día           | sometimes      | high        | often        | high        |
+| Optimizar rutas o flujos logísticos internos              | rarely         | low         | sometimes    | medium      |
+| Buscar herramientas para mejorar la gestión/organización | rarely         | medium      | rarely       | medium      |
 
 **Análisis:**
+
 - Ambos segmentos comparten varias tareas operativas esenciales, como la supervisión de inventario, la coordinación de pedidos, el control de ingresos y pagos, y la gestión de imprevistos. Estas actividades son frecuentes y de alta importancia en ambos casos, aunque con enfoques distintos: el administrador de restaurante busca eficiencia y control interno, mientras que el proveedor se centra en la entrega oportuna.
-
 - Otras tareas como capacitar al personal, evaluar rentabilidad o buscar herramientas de mejora son menos frecuentes, pero igualmente presentes en ambos perfiles. Esto evidencia un interés común por profesionalizar sus procesos.
-
 - Por otro lado, tareas como la optimización de rutas logísticas son mucho más relevantes para el proveedor, dado que forman parte directa de su operación diaria, mientras que para el administrador su frecuencia e impacto es menor. Esta diferencia permite identificar funcionalidades que deben ser priorizadas según el perfil del usuario.
-
 
 ### 2.3.3. User Journey Mapping
 
@@ -320,21 +323,21 @@ En esta sección se presentan los User Journey Maps (As-Is) de los segmentos rep
 
 ## Carolina Rivas
 
-![user journey mapping carolina rivas](<./assets/images/user journey map 1.png>)
+![user journey mapping carolina rivas](./assets/images/user journey map 1.png)
 
 ## Jorge Torres
 
-![user journey mapping jorge torres](<./assets/images/user journey map 2.png>)
+![user journey mapping jorge torres](./assets/images/user journey map 2.png)
 
 ### 2.3.4. Empathy Mapping
 
 ## Carolina Rivas
 
-![empathy map carolina rivas](<./assets/images/empathy-map-carolina.png>)
+![empathy map carolina rivas](./assets/images/empathy-map-carolina.png)
 
 ## Jorge Torres
 
-![empathy map jorge torres](<./assets/images/empathy-map-jorge.png>)
+![empathy map jorge torres](./assets/images/empathy-map-jorge.png)
 
 ### 2.3.5 As-is Scenario Mapping
 
@@ -354,19 +357,18 @@ El siguiente escenario As-Is fue desarrollado a partir de entrevistas y análisi
 
 En esta sección se presentan los términos clave del proyecto UI-Topic. Estos términos han sido acordados en el equipo del proyecto y serán usados de manera consistente en la comunicación, documentación y desarrollo del sistema.
 
- **Term (EN)**               | **Definición (ES)** |
-|----------------------------|---------------------|
-| **Supply item** *(Insumo)* | Ingrediente o producto consumible necesario para la preparación de platos en el restaurante. Su stock se monitorea continuamente. |
-| **Product** *(Producto)* | Elemento registrado en el inventario, puede ser consumible (como alimentos) o no consumible (como utensilios o envases). |
-| **Supplier** *(Proveedor)* | Entidad externa encargada de abastecer insumos al restaurante según los pedidos realizados. |
-| **Inventory manager** *(Administrador de inventario)* | Persona responsable de supervisar los niveles de stock y realizar pedidos a proveedores. |
-| **Stock level** *(Nivel de stock)* | Cantidad disponible de un insumo o producto en el sistema. Puede estar en estado normal, bajo o crítico. |
-| **Critical stock level** *(Nivel crítico de stock)* | Umbral mínimo definido para un insumo. Si el stock disponible cae por debajo de este valor, se activa una alerta. |
-| **Supply request** *(Solicitud de insumos)* | Pedido formal realizado al proveedor cuando un insumo necesita ser reabastecido. Puede ser generado automáticamente por el sistema o de forma manual. |
-| **Replenishment** *(Reposición)* | Proceso mediante el cual un insumo es reabastecido tras recibir un pedido aprobado. Afecta directamente el stock. |
-| **Inventory alert** *(Alerta de inventario)* | Notificación automática generada por el sistema cuando un insumo alcanza el nivel crítico o hay un consumo inesperado. |
-| **Verified supplier** *(Proveedor verificado)* | Proveedor aprobado por el restaurante para recibir pedidos automáticos del sistema. Debe cumplir ciertos criterios de calidad y tiempo de entrega. |
-| **Internal consumption** *(Consumo interno)* | Uso de insumos dentro del restaurante que no está relacionado a ventas directas, como pruebas de recetas o pérdidas por caducidad. |
-| **Supply history** *(Historial de insumos)* | Registro de entradas, salidas, consumos y pedidos relacionados a cada insumo del restaurante. |
-| **Menu dependency** *(Dependencia de menú)* | Relación entre los platos del menú y los insumos requeridos para su preparación. Afecta el cálculo de stock disponible. |
-
+| **Term (EN)**                                           | **Definición (ES)**                                                                                                                             |
+| ------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Supply item** *(Insumo)*                            | Ingrediente o producto consumible necesario para la preparación de platos en el restaurante. Su stock se monitorea continuamente.                     |
+| **Product** *(Producto)*                              | Elemento registrado en el inventario, puede ser consumible (como alimentos) o no consumible (como utensilios o envases).                               |
+| **Supplier** *(Proveedor)*                            | Entidad externa encargada de abastecer insumos al restaurante según los pedidos realizados.                                                           |
+| **Inventory manager** *(Administrador de inventario)* | Persona responsable de supervisar los niveles de stock y realizar pedidos a proveedores.                                                               |
+| **Stock level** *(Nivel de stock)*                    | Cantidad disponible de un insumo o producto en el sistema. Puede estar en estado normal, bajo o crítico.                                              |
+| **Critical stock level** *(Nivel crítico de stock)*  | Umbral mínimo definido para un insumo. Si el stock disponible cae por debajo de este valor, se activa una alerta.                                     |
+| **Supply request** *(Solicitud de insumos)*           | Pedido formal realizado al proveedor cuando un insumo necesita ser reabastecido. Puede ser generado automáticamente por el sistema o de forma manual. |
+| **Replenishment** *(Reposición)*                     | Proceso mediante el cual un insumo es reabastecido tras recibir un pedido aprobado. Afecta directamente el stock.                                      |
+| **Inventory alert** *(Alerta de inventario)*          | Notificación automática generada por el sistema cuando un insumo alcanza el nivel crítico o hay un consumo inesperado.                              |
+| **Verified supplier** *(Proveedor verificado)*        | Proveedor aprobado por el restaurante para recibir pedidos automáticos del sistema. Debe cumplir ciertos criterios de calidad y tiempo de entrega.    |
+| **Internal consumption** *(Consumo interno)*          | Uso de insumos dentro del restaurante que no está relacionado a ventas directas, como pruebas de recetas o pérdidas por caducidad.                   |
+| **Supply history** *(Historial de insumos)*           | Registro de entradas, salidas, consumos y pedidos relacionados a cada insumo del restaurante.                                                          |
+| **Menu dependency** *(Dependencia de menú)*          | Relación entre los platos del menú y los insumos requeridos para su preparación. Afecta el cálculo de stock disponible.                            |
