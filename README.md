@@ -93,6 +93,8 @@ Para el desarrollo del **Project Report**, se utilizó un repositorio en la orga
 
 Estas actividades evidencian la colaboración de todos los integrantes del equipo en la elaboración del informe, en coherencia con el Registro de Versiones del Informe.
 
+A continuación, se presenta el enlace al repositorio del proyecto, donde se puede observar la actividad de cada integrante del equipo:
+[https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-report](https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-report)
 # Tabla de contenidos
 
 ## [Capítulo I: Introducción](cap1-introduction.md)
