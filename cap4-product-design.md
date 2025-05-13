@@ -1159,6 +1159,34 @@ A continuación, se presenta el video de prototipado de la aplicación web en su
 
 ## 4.9 DDD Estratégico
 
-A continuación, se presenta el Event Storming de Restock, en el cual se identifican los eventos clave, actores, acciones, decisiones, reglas y relaciones entre partes del sistema.
+A continuación, se presenta el Event Storming de Restock, en el cual se identifican los eventos clave, actores, acciones, decisiones, reglas y relaciones entre partes del sistema. Se establecieron 7 bounded context:  Subscriptions and Payments, Identity and Access Management, Profiles and Preferences, Service Design and Planning, Asset Operation and Monitoring, Service Operation and Monitoring y Analytics.
 
-![Event Storming](assets/images/cap4/event_storming.jpg)
+![Event Storming](assets/images/cap4/event_storming/event_storming_general.jpg "Event Storming")
+
+Identity and Access Management: Este bounded context contiene el proceso de ingreso del usuario a la plataforma, ya sea iniciando sesión o registrandose.
+
+![Identity and Guess Managments](assets/images/cap4/event_storming/event_storming_1.jpg "Identity and Guess Managments")
+
+Subscriptions and Payments: Este bounded context contiene el proceso de suscribirse a uno de los planes en la plataforma y pagar por dicho plan.
+
+![Subscriptions and Payments](assets/images/cap4/event_storming/event_storming_2.jpg "Subscriptions and Payments")
+
+Profiles and Preferences: Este bounded context contiene el proceso de configuración de datos personales en el perfil.
+
+![Profiles and Preferences](assets/images/cap4/event_storming/event_storming_3.jpg "Profiles and Preferences")
+
+Asset and Resource Management: Este bounded context contiene el proceso de gestionar los insumos en el inventario, agregar nuevos proveedores al catálogo de proveedores de los administradores de restaurantes y realizar un pedido a un proveedor.
+
+![Asset and Resource Management](assets/images/cap4/event_storming/event_storming_4.jpg "Asset and Resource Management")
+
+Service Design and Planning: Este bounded context contiene el proceso de diseñar/crear una nueva receta en base a los insumos registrados en el inventario.
+
+![Service Design and Planning](assets/images/cap4/event_storming/event_storming_5.jpg "Service Design and Planning")
+
+Service Operation and Monitoring: Este bounded context contiene el proceso de registrar una nueva venta del administrador de restaurante y el proceso de gestionar las órdenes que recibe un proveedor.
+
+![Service Operation and Monitoring](assets/images/cap4/event_storming/event_storming_6.jpg "Service Operation and Monitoring")
+
+Analytics: Este bounded context contiene el proceso de mostrar información resumida e importante para los suscriptores.
+
+![Analytics](assets/images/cap4/event_storming/event_storming_7.jpg "Analytics")
