@@ -275,8 +275,8 @@ Durante el Sprint 1 se implementó la Landing Page de Restock. Los principales a
 A continuación, se presenta el video de la landing page. Este muestra la interacción principal de los usuarios con la plataforma, destacando los flujos de navegación, diseño responsivo y la estructura general de la aplicación.
 
 **Video de landing page:**
-![Captura del video](assets\images\cap-5\landing_preview.png)
-[Enlace al video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202021885_upc_edu_pe/ESr2APucfj9Ahygy-5yMSmIBAaBEuyNsfl4xjvlap9Zv-A?e=SoZLKy&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+![Captura del video](assets\images\cap-5\evidence_sprint_1.png)
+[Enlace al video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202021885_upc_edu_pe/EcvZvXFf2R5Grwqi4pZmu4sBxzaCWMUm9-atcPPKarcjgw?e=EpmVfH&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 #### 5.2.1.6 Services Documentation Evidence for Sprint Review
 
