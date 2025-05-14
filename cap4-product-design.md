@@ -688,7 +688,7 @@ Esta sección presenta la propuesta de Wireflows. Se ha considerado un Wireflow 
 **User Goal 1:** Como suscriptor, quiero gestionar mi cuenta para tener acceso completo a la plataforma y asegurarme de que mis datos estén siempre actualizados.
 ![User Goal 1](assets/images/cap4/taskflow1_ug1.png)
 
-**User Goal 2:** Como suscriptor, quiero gestionar mi plan de suscripción para obtener beneficios respecto a la plataforma.
+**User Goal 2:** Como suscriptor, quiero gestionar mi plan de suscripción.
 ![User Goal 2](assets/images/cap4/taskflow1_ug2.png)
 
 #### User Persona 1:  Dueño o administrador de restaurante
@@ -709,10 +709,10 @@ Esta sección presenta la propuesta de Wireflows. Se ha considerado un Wireflow 
 8. Visualizar el panel de resumen del inventario (ingredientes más usados, productos próximos a vencer, alertas críticas).
 9. Tomar decisiones de reposición, corrección o eliminación de insumos según los datos mostrados.
 
-**User Goal 3** Como administrador de restaurante, quiero gestionar manualmente el inventario de insumos (ingresarlos, actualizarlos, descontarlos o registrar compras), para mantener datos precisos que eviten pérdidas y faciliten la toma de decisiones.
+**User Goal 3** Como administrador de restaurante, quiero gestionar manualmente el inventario de insumos (ingresarlos, actualizarlos, descontarlos o registrar compras).
 ![User Goal 3](assets/images/cap4/taskflow2_ug3.png)
 
-**User Goal 4:** Como administrador, quiero consultar un panel que resuma datos importantes y acceder al historial de alertas, para tomar decisiones rápidas sobre el inventario.
+**User Goal 4:** Como administrador, quiero consultar un panel que resuma datos importantes y acceder al historial de alertas.
 ![User Goal 4](assets/images/cap4/taskflow2_ug4.png)
 
 ##### Task Flow 3: Monitorear pedidos a los proveedores
@@ -731,13 +731,13 @@ Esta sección presenta la propuesta de Wireflows. Se ha considerado un Wireflow 
 8. Visualizar la lista de pedidos pendientes, aprobados, rechazados o completados.
 9. Calificar y dejar comentarios sobre los pedidos recibidos para retroalimentar al proveedor.
 
-**User Goal 5:** Como administrador de restaurante, quiero consultar información de mis proveedores, para mantener organizada la relación comercial y controlar mejor mis gastos.
+**User Goal 5:** Como administrador de restaurante, quiero consultar información de mis proveedores.
 ![User Goal 5](assets/images/cap4/taskflow3_ug5.png)
 
-**User Goal 6:** Como administrador de restaurante, quiero solicitar pedidos a mis proveedores, para actualizar mi inventario según los insumos que requiero.
+**User Goal 6:** Como administrador de restaurante, quiero solicitar pedidos a mis proveedores.
 ![User Goal 6](assets/images/cap4/taskflow3_ug5.2.png)
 
-**User Goal 7:** Como administrador de restaurante, quiero evaluar los pedidos que recibo de los proveedores, para dejar retroalimentación y asegurar la calidad de los insumos en futuras compras.
+**User Goal 7:** Como administrador de restaurante, quiero evaluar los pedidos que recibo de los proveedores.
 ![User Goal 7](assets/images/cap4/taskflow3_ug6.png)
 
 ##### Task Flow 4: Gestionar el servicio del restaurante
@@ -755,10 +755,10 @@ Esta sección presenta la propuesta de Wireflows. Se ha considerado un Wireflow 
 7. Crear una nueva receta ingresando el nombre del plato, el costo total y los insumos utilizados.
 8. Guardar la receta para vincularla automáticamente con el inventario y controlar el consumo de insumos por plato.
 
-**User Goal 8:** Como administrador de restaurante, quiero que mi empleado registre ventas completas desde la carta (platos e insumos adicionales), para automatizar el descuento de stock y mantener el inventario sincronizado sin tener que gestionarlo manualmente.
+**User Goal 8:** Como administrador de restaurante, quiero que mi empleado registre ventas completas desde la carta (platos e insumos adicionales).
 ![User Goal 8](assets/images/cap4/taskflow4_ug7.png)
 
-**User Goal 8:** Como administrador de restaurante, quiero crear recetas vinculadas a insumos del inventario, para estandarizar los platos, calcular sus costos y controlar el consumo de ingredientes automáticamente.
+**User Goal 8:** Como administrador de restaurante, quiero crear recetas vinculadas a insumos del inventario.
 ![User Goal 9](assets/images/cap4/taskflow4_ug8.png)
 
 #### User Persona 2: Proveedores para restaurante
@@ -776,10 +776,10 @@ Esta sección presenta la propuesta de Wireflows. Se ha considerado un Wireflow 
 5. Desactivar temporalmente un producto para ocultarlo del catálogo cuando no esté disponible.
 6. Eliminar definitivamente un producto obsoleto o que ya no se desea ofrecer.
 
-**User Goal 10:** Como proveedor, quiero gestionar mi catálogo de productos (agregarlos, actualizarlos o desactivarlos temporalmente), para asegurar que los restaurantes vean solo productos disponibles y vigentes.
+**User Goal 10:** Como proveedor, quiero gestionar mi catálogo de productos (agregarlos, actualizarlos o desactivarlos temporalmente).
 ![User Goal 10](assets/images/cap4/taskflow5_ug9.png)
 
-**User Goal 11:** Como proveedor, quiero tener control total sobre los productos de mi inventario, para poder visualizar, actualizar o eliminar aquellos que ya no están disponibles o no deseo ofrecer.
+**User Goal 11:** Como proveedor, quiero tener control total sobre los productos de mi inventario.
 ![User Goal 11](assets/images/cap4/taskflow5_ug10.png)
 
 ##### Task Flow 6: Monitorear los pedidos
@@ -798,10 +798,10 @@ Esta sección presenta la propuesta de Wireflows. Se ha considerado un Wireflow 
 8. Consultar las calificaciones y comentarios recibidos de los restaurantes.
 9. Analizar la retroalimentación para tomar decisiones de mejora en productos y servicios.
 
-**User Goal 12:** Como proveedor, quiero gestionar y actualizar el estado de las órdenes recibidas, para organizar mis entregas, coordinar con los restaurantes y brindar visibilidad sobre el proceso de despacho.
+**User Goal 12:** Como proveedor, quiero gestionar y actualizar el estado de las órdenes recibidas.
 ![User Goal 12](assets/images/cap4/taskflow6_ug11.png)
 
-**User Goal 13:** Como proveedor, quiero analizar el rendimiento de mis ventas y el feedback de los restaurantes, para identificar a mis mejores clientes, mejorar mi servicio y fortalecer relaciones comerciales.
+**User Goal 13:** Como proveedor, quiero analizar el rendimiento de mis ventas y el feedback de los restaurantes.
 ![User Goal 13](assets/images/cap4/taskflow6_ug12.png)
 
 ### 4.4.3 Web Applications Mock-ups
