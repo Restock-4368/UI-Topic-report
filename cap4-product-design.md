@@ -339,69 +339,76 @@ Se aplicaron criterios de diseño visual, diseño inclusivo y arquitectura de in
 
 A continuación, se presentan los mock-ups de las principales secciones de la landing page. Cada imagen ilustra el diseño propuesto para las diferentes funcionalidades, flujos de navegación y elementos de interacción de la plataforma.
 
-![Bienvenida](assets/images/landing-page-mockups/Bienvenida.png)
+##### Versión Desktop Web Browser:
 
-![Beneficios](assets/images/landing-page-mockups/Beneficios.png)
+En esta primera sección se presenta la pantalla Home de la landing page, donde se puede observar un botón call-to-action para los visitantes de tipo emocional y recurrente. Del mismo modo, para los visitantes recurrentes se aprecia el botón call-to-action para registrarse en la plataforma en el toolbar, en la parte superior derecha.
 
-![Beneficios2](assets/images/landing-page-mockups/Beneficios2.png)
 
-![Cambio de idioma](assets/images/landing-page-mockups/Cambio%20Idioma.png)
+<img src="assets/images/cap4/landing-page/mockups/desktop/LP-1.png" alt="Home" width="600px">
 
-![Registro](assets/images/landing-page-mockups/Registro.png)
 
-![Inicio de sesión](assets/images/landing-page-mockups/Inicio%20de%20sesion.png)
+A continuación, se muestran los frames correspondientes al inicio de sesión, registro y olvido de contraseña.
 
-![Contraseña olvidada](assets/images/landing-page-mockups/Contraseña%20olvidada.png)
+Inicio de sesión: 
 
-![Testimonios](assets/images/landing-page-mockups/Testimonios.png)
+<img src="assets/images/cap4/landing-page/mockups/desktop/LP-2.png" alt="Inicio Sesion" width="600px">
 
-![Preguntas frecuentes](assets/images/landing-page-mockups/Preguntas%20frecuentes.png)
+Registro:
 
-![Tutorial](assets/images/landing-page-mockups/Tutorial.png)
+<img src="assets/images/cap4/landing-page/mockups/desktop/LP-3.png" alt=“Registro” width="600px">
 
-![Nosotros](assets/images/landing-page-mockups/Nosotros.png)
+Olvido contraseña:
 
-![Contacto](assets/images/landing-page-mockups/Contacto.png)
+<img src="assets/images/cap4/landing-page/mockups/desktop/LP-4.png" alt=“Olvido Contraseña” width="600px">
 
-![Descargar App](assets/images/landing-page-mockups/Descargar%20App.png)
+Se presenta la sección de propuesta de valor:
+ 
+<img src="assets/images/cap4/landing-page/mockups/desktop/LP-5.png" alt=“Propuesta de valor” width="600px">
+ 
+Se presenta la sección de integrantes del equipo:
 
-![Footer](assets/images/landing-page-mockups/Footer.png)
 
-![Lector texto](assets/images/landing-page-mockups/Lector%20texto.png)
+  <img src="assets/images/cap4/landing-page/mockups/desktop/LP-6.png" alt=“Equipo” width="600px">
 
-A continuación, se presentan los mock-ups de la versión móvil de la aplicación. Cada imagen muestra la adaptación responsiva de las principales funcionalidades y secciones diseñadas para ofrecer una experiencia de usuario optimizada en dispositivos móviles.
 
-![Bienvenida](assets/images/cap4/mobile/Bienvenida.jpg)
+Los siguientes frames corresponden a los beneficios que ofrece la plataforma Restock a cada uno de sus segmentos objetivos:
 
-![Beneficios para restaurantes](assets/images/cap4/mobile/Beneficios%20restaurantes.jpg)
+  <img src="assets/images/cap4/landing-page/mockups/desktop/LP-7.png" alt=“Beneficios administradores” width="600px">
 
-![Beneficios para proveedores](assets/images/cap4/mobile/Beneficios%20proveedores.jpg)
+  <img src="assets/images/cap4/landing-page/mockups/desktop/LP-8.png" alt=“Beneficios proveedores” width="600px">
 
-![Cambio de idioma](assets/images/cap4/mobile/Cambio%20idioma.jpg)
 
-![Registrarse](assets/images/cap4/mobile/Registrarse.jpg)
+A continuación, se presenta la sección de testimonios:
 
-![Inicio de sesión](assets/images/cap4/mobile/Inicio%20sesión.jpg)
+<img src="assets/images/cap4/landing-page/mockups/desktop/LP-9.png" alt=“Testimonios” width="600px">
 
-![Olvidar contraseña](assets/images/cap4/mobile/Olvidar%20contraseña.jpg)
+Se presenta la sección de preguntas frecuentes:
 
-![Testimonios](assets/images/cap4/mobile/Testimonios.jpg)
+<img src="assets/images/cap4/landing-page/mockups/desktop/LP-10.png" alt=“Preguntas” width="600px">
 
-![Preguntas frecuentes](assets/images/cap4/mobile/Preguntas%20frecuentes.jpg)
+Los siguientes frames corresponden al tutorial sobre el uso de la plataforma para los nuevos usuarios. Al final de esta sección se aprecia el botón call-to-action para registrarse dirigido a los visitantes de tipo racional.
 
-![Tutorial](assets/images/cap4/mobile/Tutorial.jpg)
+<img src="assets/images/cap4/landing-page/mockups/desktop/LP-11.png" alt=“Tutorial” width="600px">
 
-![Tutorial2](assets/images/cap4/mobile/Tutorial2.jpg)
+<br>
+<img src="assets/images/cap4/landing-page/mockups/desktop/LP-12.png" alt=“Ttutorial” width="600px">
 
-![Nosotros](assets/images/cap4/mobile/Nosotros.jpg)
 
-![Contacto](assets/images/cap4/mobile/Contacto.jpg)
+Se presenta la sección de contacto:
 
-![Descarga](assets/images/cap4/mobile/Descarga.jpg)
+<img src="assets/images/cap4/landing-page/mockups/desktop/LP-13.png" alt=“Contacto” width="600px">
 
-![Footer](assets/images/cap4/mobile/Footer.jpg)
 
-![Lector de voz](assets/images/cap4/mobile/Lector%20de%20voz.jpg)
+A continuación, se presenta la sección de descarga de la plataforma en formato móvil:
+
+<img src="assets/images/cap4/landing-page/mockups/desktop/LP-14.png" alt=“Descargar” width="600px">
+
+
+Se presenta la sección footer:
+
+<img src="assets/images/cap4/landing-page/mockups/desktop/LP-15.png" alt=“Footer” width="600px">
+
+
 
 ## 4.4 Web Applications UX/UI Design
 
