@@ -275,13 +275,6 @@ El contenido dentro de cada vista se organiza mediante tabs, filtros y botones d
 
 La navegación también se adapta según el tipo de usuario. Por ejemplo, los proveedores acceden a sus funciones desde una sección separada en el panel, asegurando que su recorrido dentro del sistema sea coherente con sus tareas específicas, como la gestión de productos ofrecidos o visualización de órdenes recibidas.
 
-## 4.3 Landing Page UI Design
-
-### 4.3.1 Landing Page Wireframe
-
-Los siguientes wireframes representan la estructura visual y de navegación propuesta para la Landing Page de Restock, adaptada a Desktop Web Browser y Mobile Web Browser.
-Se aplicaron criterios de diseño visual, diseño inclusivo y arquitectura de información para asegurar una experiencia accesible, intuitiva y coherente en ambos entornos.
-
 #### Principios Aplicados
 
 - **Jerarquía visual clara:**
@@ -295,45 +288,111 @@ Se aplicaron criterios de diseño visual, diseño inclusivo y arquitectura de in
 - **Diseño inclusivo:**
   Cada sección permite navegación intuitiva mediante teclado y está pensada para ser compatible con tecnologías de asistencia como lectores de pantalla.
 
-#### Wireframes de Landing Page:
+## 4.3 Landing Page UI Design
+
+### 4.3.1 Landing Page Wireframe
+
+A continuación, se presentan los wireframes de las principales secciones de la landing page. Cada imagen ilustra el diseño propuesto para las diferentes funcionalidades, flujos de navegación y elementos de interacción de la plataforma.
 
 ##### Versión Desktop Web Browser:
 
-![Wireframe Landing Page Bienvenida](assets/images/wireframes-landing/bienvenida.png)
-![Wireframe Landing Page Cambio de idioma](assets/images/wireframes-landing/cambio-idioma.png)
-![Wireframe Landing Page Lector de texto](assets/images/wireframes-landing/lector-texto.png)
-![Wireframe Landing Page Inicio de sesión](assets/images/wireframes-landing/inicio-sesion.png)
-![Wireframe Landing Page Registro](assets/images/wireframes-landing/registro.png)
-![Wireframe Landing Page Contraseña olvidada](assets/images/wireframes-landing/contraseña-olvidada.png)
-![Wireframe Landing Page Nosotros](assets/images/wireframes-landing/nosotros.png)
-![Wireframe Landing Page Beneficios1](assets/images/wireframes-landing/beneficios1.png)
-![Wireframe Landing Page Beneficios2](assets/images/wireframes-landing/beneficios2.png)
-![Wireframe Landing Page Testimonios](assets/images/wireframes-landing/testimonios.png)
-![Wireframe Landing Page Preguntas frecuentes](assets/images/wireframes-landing/preguntas-frecuentes.png)
-![Wireframe Landing Page Tutorial1](assets/images/wireframes-landing/tutorial1.png)
-![Wireframe Landing Page Tutorial2](assets/images/wireframes-landing/tutorial2.png)
-![Wireframe Landing Page Contacto](assets/images/wireframes-landing/contacto.png)
-![Wireframe Landing Page Descargar](assets/images/wireframes-landing/descargar.png)
-![Wireframe Landing Page Footer](assets/images/wireframes-landing/footer.png)
+En esta primera sección se presenta la pantalla Home de la landing page, donde se puede observar un botón call-to-action para los visitantes de tipo emocional y recurrente. Del mismo modo, para los visitantes recurrentes se aprecia el botón call-to-action para registrarse en la plataforma en el toolbar, en la parte superior derecha.
+
+  <img src="assets/images/cap4/landing-page/wireframes/desktop/LP-1.png" alt="Home" width="600px">
+
+A continuación, se muestran los frames correspondientes al inicio de sesión, registro y olvido de contraseña.
+
+Inicio de sesión: 
+
+  <img src="assets/images/cap4/landing-page/wireframes/desktop/LP-2.png" alt=“Inicio” width="600px">
+
+Registro:
+
+  <img src="assets/images/cap4/landing-page/wireframes/desktop/LP-3.png" alt=“Registro” width="600px">
+
+Olvido contraseña:
+
+  <img src="assets/images/cap4/landing-page/wireframes/desktop/LP-4.png" alt=“Olvido Contraseña” width="600px">
+
+Se presenta la sección de propuesta de valor:
+
+  <img src="assets/images/cap4/landing-page/wireframes/desktop/LP-5.png" alt=“Propuesta de valor” width="600px">
+
+Se presenta la sección de integrantes del equipo:
+
+  <img src="assets/images/cap4/landing-page/wireframes/desktop/LP-6.png" alt=“Equipo” width="600px">
+
+Los siguientes frames corresponden a los beneficios que ofrece la plataforma Restock a cada uno de sus segmentos objetivos:
+
+  <img src="assets/images/cap4/landing-page/wireframes/desktop/LP-7.png" alt=“Beneficios“ width="600px">
+
+  <img src="assets/images/cap4/landing-page/wireframes/desktop/LP-8.png" alt=“Beneficios“ width="600px">
+
+A continuación, se presenta la sección de testimonios:
+
+  <img src="assets/images/cap4/landing-page/wireframes/desktop/LP-9.png" alt=“Testimonios” width="600px">
+
+Se presenta la sección de preguntas frecuentes:
+
+  <img src="assets/images/cap4/landing-page/wireframes/desktop/LP-10.png" alt=“Preguntas” width="600px">
+
+Los siguientes frames corresponden al tutorial sobre el uso de la plataforma para los nuevos usuarios. Al final de esta sección se aprecia el botón call-to-action para registrarse dirigido a los visitantes de tipo racional.
+
+  <img src="assets/images/cap4/landing-page/wireframes/desktop/LP-11.png" alt=“Tutorial” width="600px">
+
+  <img src="assets/images/cap4/landing-page/wireframes/desktop/LP-12.png" alt=“Ttutorial” width="600px">
+
+Se presenta la sección de contacto:
+
+  <img src="assets/images/cap4/landing-page/wireframes/desktop/LP-13.png" alt=“Contacto” width="600px">
+
+A continuación, se presenta la sección de descarga de la plataforma en formato móvil:
+
+  <img src="assets/images/cap4/landing-page/wireframes/desktop/LP-14.png" alt=“Descargar” width="600px">
+
+Se presenta la sección footer:
+
+  <img src="assets/images/cap4/landing-page/wireframes/desktop/LP-15.png" alt=“Footer” width="600px">
 
 ##### Versión Mobile Web Browser
 
-![Wireframe Landing Page Bienvenida](assets/images/wireframes-landing/mobile/bienvenida.png)
-![Wireframe Landing Page Cambio de idioma](assets/images/wireframes-landing/mobile/cambio-idioma.png)
-![Wireframe Landing Page Lector de voz](assets/images/wireframes-landing/mobile/lector-voz.png)
-![Wireframe Landing Page Inicio de sesión](assets/images/wireframes-landing/mobile/inicio-sesion.png)
-![Wireframe Landing Page Registro](assets/images/wireframes-landing/mobile/registrarse.png)
-![Wireframe Landing Page Contraseña olvidada](assets/images/wireframes-landing/mobile/contraseña-olvidada.png)
-![Wireframe Landing Page Nosotros](assets/images/wireframes-landing/mobile/nosotros.png)
-![Wireframe Landing Page Beneficios1](assets/images/wireframes-landing/mobile/beneficios1.png)
-![Wireframe Landing Page Beneficios2](assets/images/wireframes-landing/mobile/beneficios2.png)
-![Wireframe Landing Page Testimonios](assets/images/wireframes-landing/mobile/testimonios.png)
-![Wireframe Landing Page Preguntas frecuentes](assets/images/wireframes-landing/mobile/preguntas-frecuentes.png)
-![Wireframe Landing Page Tutorial1](assets/images/wireframes-landing/mobile/tutorial1.png)
-![Wireframe Landing Page Tutorial2](assets/images/wireframes-landing/mobile/tutorial2.png)
-![Wireframe Landing Page Contacto](assets/images/wireframes-landing/mobile/contacto.png)
-![Wireframe Landing Page Descargar](assets/images/wireframes-landing/mobile/descargar.png)
-![Wireframe Landing Page Footer](assets/images/wireframes-landing/mobile/footer.png)
+A continuación, se presentan los wireframes de la versión móvil de la aplicación. Cada imagen muestra la adaptación responsiva de las principales funcionalidades y secciones diseñadasen Wireframes Desktop.
+
+Pantalla Home del landing page e inicio de sesión a la plataforma:
+
+  <img src="assets/images/cap4/landing-page/wireframes/mobile/LP-1.png" alt="Home" width="600px">
+
+A continuación, se muestran los frames correspondientes al registro y el sidebar con las secciones disponibles en el landing page.
+
+  <img src="assets/images/cap4/landing-page/wireframes/mobile/LP-2.png" alt=“Registro” width="600px">
+
+Secciones de olvido de contraseñas	y propuesta de valor de la plataforma:
+
+  <img src="assets/images/cap4/landing-page/wireframes/mobile/LP-3.png" alt="Nosotros" width="600px">
+
+Sección sobre información de nuestro equipo:
+
+  <img src="assets/images/cap4/landing-page/wireframes/mobile/LP-4.png" alt="Nosotros" width="600px">
+
+Sección acerca de los beneficios que brinda la plataforma para cada uno de sus segmentos objetivos:
+
+  <img src="assets/images/cap4/landing-page/wireframes/mobile/LP-5.png" alt="Beneficios" width="600px">
+
+Se presentan las secciones de testimonios y preguntas frecuentes:
+
+  <img src="assets/images/cap4/landing-page/wireframes/mobile/LP-6.png" alt=“Testimonios” width="600px">
+
+Sección de tutorial acerca de cómo usar la plataforma:
+
+  <img src="assets/images/cap4/landing-page/wireframes/mobile/LP-7.png" alt=“Tutorial” width="600px">
+
+Sección de contacto y de descarga de la plataforma en versión móvil:
+
+  <img src="assets/images/cap4/landing-page/wireframes/mobile/LP-8.png" alt=“Contacto” width="600px">
+
+Sección de footer:
+
+  <img src="assets/images/cap4/landing-page/wireframesmo/mobile/LP-9.png" alt=“Footer” width="600px">
 
 ### 4.3.2 Landing Page Mock-up
 
@@ -365,9 +424,7 @@ Se presenta la sección de propuesta de valor:
  
 Se presenta la sección de integrantes del equipo:
 
-
   <img src="assets/images/cap4/landing-page/mockups/desktop/LP-6.png" alt=“Equipo” width="600px">
-
 
 Los siguientes frames corresponden a los beneficios que ofrece la plataforma Restock a cada uno de sus segmentos objetivos:
 
@@ -444,7 +501,7 @@ Sección de contacto y de descarga de la plataforma en versión móvil:
 
 Sección de footer:
 
-  <img src="assets/images/cap4/landing-page/mockups/mobile/LP-9.png" alt=“Footer” width="300px">
+  <img src="assets/images/cap4/landing-page/mockups/mobile/LP-9.png" alt=“Footer” width="600pxpx">
 
 ## 4.4 Web Applications UX/UI Design
 
