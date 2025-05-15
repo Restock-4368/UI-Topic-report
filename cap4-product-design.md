@@ -312,11 +312,11 @@ Registro:
 
 Olvido contraseña:
 
-  <img src="assets/images/cap4/landing-page/wireframes/desktop/LP-4.png" alt=“Olvido Contraseña” width="600px">
+  <img src="assets/images/cap4/landing-page/wireframes/desktop/LP-4.png" alt=“Olvido” width="600px">
 
 Se presenta la sección de propuesta de valor:
 
-  <img src="assets/images/cap4/landing-page/wireframes/desktop/LP-5.png" alt=“Propuesta de valor” width="600px">
+  <img src="assets/images/cap4/landing-page/wireframes/desktop/LP-5.png" alt=“Propuesta” width="600px">
 
 Se presenta la sección de integrantes del equipo:
 
@@ -392,7 +392,7 @@ Sección de contacto y de descarga de la plataforma en versión móvil:
 
 Sección de footer:
 
-  <img src="assets/images/cap4/landing-page/wireframesmo/mobile/LP-9.png" alt=“Footer” width="600px">
+  <img src="assets/images/cap4/landing-page/wireframes/mobile/LP-9.png" alt=“Footer” width="300px">
 
 ### 4.3.2 Landing Page Mock-up
 
@@ -448,16 +448,13 @@ Los siguientes frames corresponden al tutorial sobre el uso de la plataforma par
 <br>
 <img src="assets/images/cap4/landing-page/mockups/desktop/LP-12.png" alt=“Ttutorial” width="600px">
 
-
 Se presenta la sección de contacto:
 
 <img src="assets/images/cap4/landing-page/mockups/desktop/LP-13.png" alt=“Contacto” width="600px">
 
-
 A continuación, se presenta la sección de descarga de la plataforma en formato móvil:
 
 <img src="assets/images/cap4/landing-page/mockups/desktop/LP-14.png" alt=“Descargar” width="600px">
-
 
 Se presenta la sección footer:
 
@@ -501,7 +498,7 @@ Sección de contacto y de descarga de la plataforma en versión móvil:
 
 Sección de footer:
 
-  <img src="assets/images/cap4/landing-page/mockups/mobile/LP-9.png" alt=“Footer” width="600pxpx">
+  <img src="assets/images/cap4/landing-page/mockups/mobile/LP-9.png" alt=“Footer” width="300px">
 
 ## 4.4 Web Applications UX/UI Design
 
