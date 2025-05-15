@@ -357,11 +357,11 @@ Registro:
 
 Olvido contraseña:
 
-<img src="assets/images/cap4/landing-page/mockups/desktop/LP-4.png" alt=“Olvido Contraseña” width="600px">
+<img src="assets/images/cap4/landing-page/mockups/desktop/LP-4.png" alt=“Olvido“ width="600px">
 
 Se presenta la sección de propuesta de valor:
  
-<img src="assets/images/cap4/landing-page/mockups/desktop/LP-5.png" alt=“Propuesta de valor” width="600px">
+<img src="assets/images/cap4/landing-page/mockups/desktop/LP-5.png" alt=“Nosotros“ width="600px">
  
 Se presenta la sección de integrantes del equipo:
 
@@ -371,9 +371,9 @@ Se presenta la sección de integrantes del equipo:
 
 Los siguientes frames corresponden a los beneficios que ofrece la plataforma Restock a cada uno de sus segmentos objetivos:
 
-  <img src="assets/images/cap4/landing-page/mockups/desktop/LP-7.png" alt=“Beneficios administradores” width="600px">
+  <img src="assets/images/cap4/landing-page/mockups/desktop/LP-7.png" alt=“Beneficios“ width="600px">
 
-  <img src="assets/images/cap4/landing-page/mockups/desktop/LP-8.png" alt=“Beneficios proveedores” width="600px">
+  <img src="assets/images/cap4/landing-page/mockups/desktop/LP-8.png" alt=“Beneficios“ width="600px">
 
 
 A continuación, se presenta la sección de testimonios:
@@ -428,7 +428,7 @@ Sección sobre información de nuestro equipo:
 
 Sección acerca de los beneficios que brinda la plataforma para cada uno de sus segmentos objetivos:
 
-  <img src="assets/images/cap4/landing-page/mockups/mobile/LP-5.png" alt="Beneficios” width="600px">
+  <img src="assets/images/cap4/landing-page/mockups/mobile/LP-5.png" alt="Beneficios" width="600px">
 
 Se presentan las secciones de testimonios y preguntas frecuentes:
 
