@@ -365,7 +365,7 @@ Sección sobre información de nuestro equipo:
 
 Sección acerca de los beneficios que brinda la plataforma para cada uno de sus segmentos objetivos:
 
-  <img src="assets/images/cap4/landing-page/mockups/mobile/LP-5.png" alt="Beneficios” width="600px">
+  <img src="assets/images/cap4/landing-page/mockups/mobile/LP-5.png" alt="Beneficios" width="600px">
 
 Se presentan las secciones de testimonios y preguntas frecuentes:
 
