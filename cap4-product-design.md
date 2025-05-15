@@ -343,9 +343,7 @@ A continuación, se presentan los mock-ups de las principales secciones de la la
 
 En esta primera sección se presenta la pantalla Home de la landing page, donde se puede observar un botón call-to-action para los visitantes de tipo emocional y recurrente. Del mismo modo, para los visitantes recurrentes se aprecia el botón call-to-action para registrarse en la plataforma en el toolbar, en la parte superior derecha.
 
-
 <img src="assets/images/cap4/landing-page/mockups/desktop/LP-1.png" alt="Home" width="600px">
-
 
 A continuación, se muestran los frames correspondientes al inicio de sesión, registro y olvido de contraseña.
 
@@ -408,7 +406,45 @@ Se presenta la sección footer:
 
 <img src="assets/images/cap4/landing-page/mockups/desktop/LP-15.png" alt=“Footer” width="600px">
 
+##### Versión Mobile Web Browser
 
+A continuación, se presentan los mock-ups de la versión móvil de la aplicación. Cada imagen muestra la adaptación responsiva de las principales funcionalidades y secciones diseñadas para ofrecer una experiencia de usuario optimizada en dispositivos móviles.
+
+Pantalla Home del landing page e inicio de sesión a la plataforma:
+
+  <img src="assets/images/cap4/landing-page/mockups/mobile/LP-1.png" alt="Home" width="600px">
+
+A continuación, se muestran los frames correspondientes al registro y el sidebar con las secciones disponibles en el landing page.
+
+  <img src="assets/images/cap4/landing-page/mockups/mobile/LP-2.png" alt=“Registro” width="600px">
+
+Secciones de olvido de contraseñas	y propuesta de valor de la plataforma:
+
+  <img src="assets/images/cap4/landing-page/mockups/mobile/LP-3.png" alt="Nosotros" width="600px">
+
+Sección sobre información de nuestro equipo:
+
+  <img src="assets/images/cap4/landing-page/mockups/mobile/LP-4.png" alt="Nosotros" width="600px">
+
+Sección acerca de los beneficios que brinda la plataforma para cada uno de sus segmentos objetivos:
+
+  <img src="assets/images/cap4/landing-page/mockups/mobile/LP-5.png" alt="Beneficios” width="600px">
+
+Se presentan las secciones de testimonios y preguntas frecuentes:
+
+  <img src="assets/images/cap4/landing-page/mockups/mobile/LP-6.png" alt=“Testimonios” width="600px">
+
+Sección de tutorial acerca de cómo usar la plataforma:
+
+  <img src="assets/images/cap4/landing-page/mockups/mobile/LP-7.png" alt=“Tutorial” width="600px">
+
+Sección de contacto y de descarga de la plataforma en versión móvil:
+
+  <img src="assets/images/cap4/landing-page/mockups/mobile/LP-8.png" alt=“Contacto” width="600px">
+
+Sección de footer:
+
+  <img src="assets/images/cap4/landing-page/mockups/mobile/LP-9.png" alt=“Footer” width="300px">
 
 ## 4.4 Web Applications UX/UI Design
 
