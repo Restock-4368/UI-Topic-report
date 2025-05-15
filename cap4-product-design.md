@@ -1157,6 +1157,12 @@ A continuación, se presenta el video de prototipado de la aplicación web en su
 
 ![Database diagram](assets/images/cap4/database_diagram.png)
 
+#### Bounded Context: Planning
+Este esquema representa la lógica del contexto de planificación. La tabla recipes almacena recetas con su información básica y usuario asociado. La tabla recipes_supplies define los insumos necesarios para cada receta, permitiendo planificar cantidades específicas.
+
+![Database diagram](assets\images\cap4\dbd_bc\dbd_planning_bc.png "Planning")
+
+
 ## 4.9 DDD Estratégico
 
 A continuación, se presenta el Event Storming de Restock, en el cual se identifican los eventos clave, actores, acciones, decisiones, reglas y relaciones entre partes del sistema. Se establecieron 7 bounded context:  Subscriptions and Payments, Identity and Access Management, Profiles and Preferences, Service Design and Planning, Asset Operation and Monitoring, Service Operation and Monitoring y Analytics.
