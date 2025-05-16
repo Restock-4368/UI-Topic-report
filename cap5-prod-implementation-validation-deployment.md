@@ -429,3 +429,18 @@ Esto se confirmará cuando los usuarios puedan autenticarse, navegar por el pane
 #### 5.2.2.7 Software Deployment Evidence for Sprint Review
 
 #### 5.2.2.8 Team Collaboration Insights during Sprint.
+
+Se crearon ramas específicas para cada sección o funcionalidad (feature/[nombre-de-seccion]), permitiendo un trabajo paralelo organizado.
+Cada miembro del equipo asumió la responsabilidad de desarrollar una o más secciones del Frontend.
+Se realizaron commits frecuentes, registrando avances de manera continua y detallada.
+Las funcionalidades desarrolladas se integraron mediante Pull Requests hacia la rama develop.
+Se mantuvo una comunicación constante mediante la plataforma Discord para coordinar avances y resolver dudas en tiempo real.
+Se aplicaron buenas prácticas de programación, control de versiones y colaboración en equipo.
+
+**analíticos de colaboración**
+![Team Collaboration Insight](assets/images/cap-5/team_collaboration_insight.png)
+
+<br/>
+
+**analíticos de commits de github**
+![Team Collaboration Insight](assets/images/cap-5/team_collaboration_insight_2.png)
