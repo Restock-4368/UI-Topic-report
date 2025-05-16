@@ -8,7 +8,7 @@ A continuación, se listan las herramientas y estándares adoptados por el equip
 
 | Actividad               | Herramienta / Guía                                                                                                                                                               | Propósito                                                                    | Tipo de acceso / Ruta                                                                                                                                                                                               |
 | ----------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Project Management      | Jira Software                                                                                                                                                                     | Seguimiento de backlog, tareas y sprints.                                     | SaaS –[https://www.atlassian.com/software/jira](https://www.atlassian.com/software/jira)                                                                                                                              |
+| Project Management      | Trello Software                                                                                                                                                                     | Seguimiento de backlog, tareas y sprints.                                     | SaaS –[https://trello.com/](https://trello.com/software/jira)                                                                                                                              |
 | Requirements Management | Gherkin Conventions                                                                                                                                                               | Escritura legible de requisitos con formato Given/When/Then.                  | [https://cucumber.io/docs/gherkin/](https://cucumber.io/docs/gherkin/)                                                                                                                                                 |
 | Product UX/UI Design    | Figma                                                                                                                                                                             | Prototipos y diseño responsive.                                              | SaaS –[https://figma.com](https://figma.com)                                                                                                                                                                          |
 | Frontend Dev            | HTML, CSS, JavaScript, Vue                                                                                                                                                        | Construcción de la interfaz web.                                             | [https://vuejs.org/guide/introduction.html](https://vuejs.org/guide/introduction.html)                                                                                                                                 |
@@ -25,9 +25,9 @@ En esta sección el equipo establece los medios y esquema de organización que a
 
 A continuación se indican los URLs de los repositorios de GitHub para cada producto:
 
-- **Landing Page**: [URL del repositorio aquí]
-- **Web Services**: [URL del repositorio aquí]_(Incluye el proyecto y los archivos de pruebas unitarias e integración/aceptación)_
-- **Frontend Web Application**: [URL del repositorio aquí]
+- **Landing Page**: [https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-landing](https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-landing)
+
+- **Frontend Web Application**: [https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-frontend](https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-frontend)
 
 ### GitFlow Workflow
 
@@ -140,9 +140,22 @@ Para la Landing Page desarrollada en HTML, CSS y JavaScript, la configuración d
 Se debe crear un repositorio en GitHub y subir todos los archivos del proyecto (HTML, CSS, JS).
 Es obligatorio que el archivo `index.html` esté ubicado en la raíz del repositorio para poder realizar el despliegue correctamente.
 
-<br/>
-
 ![Software Deployment Configuration](assets/images/cap-5/repo-landing-github.png)
+
+#### **Frontend Principal (Vue + PrimeVue)**
+
+El frontend principal de la aplicación ha sido desarrollado utilizando **Vue 3** junto con **PrimeVue** como librería de componentes. El despliegue lo realizamos mediante **Vercel**.
+
+**Pasos para el despliegue**:
+
+1. Ejecutar el comando de compilación: 
+ npm run build
+
+2. Esto generará una carpeta dist/ con todos los archivos listos para producción.
+
+3. Subir el contenido de la carpeta dist y conectar el repositorio original a Vercel.
+
+![Software Deployment Configuration](assets/images/cap-5/vercel_dashboard.png)
 
 ## 5.2 Landing Page, Services & Applications Implementation
 
@@ -377,3 +390,43 @@ Además, se realizaron mejoras en el *landing page*, incluyendo la implementaci�
 ![Board Sprint Details 2](assets/images/cap-5/sprint-backlog2-2.png)
 
 [[Enlace al Trello Sprint 2](https://trello.com/invite/b/681ab5854ac93bbc3c456c4e/ATTI2ddc2248f5308bf6ee343af5c381ec7f2CE97AD8/sprint-backlog-2)]
+
+
+#### 5.2.2.4 Development Evidence for Sprint Review
+
+
+En esta sección se presentan los avances realizados durante el Sprint 2, centrado en el desarrollo de los módulos principales de la aplicación web interna de Restock.  
+El objetivo principal fue implementar funcionalidades claves para la gestión de productos, pedidos, inventario y compras, con el fin de mejorar la eficiencia operativa y la trazabilidad de los recursos dentro de los restaurantes.
+
+Durante este sprint se avanzó en la autenticación de usuarios, el diseño del panel principal y la implementación inicial de tres módulos funcionales clave.
+
+---
+
+#### Sprint 2 Goal
+
+Nuestro enfoque está en implementar los módulos centrales de la aplicación web interna de Restock, incluyendo la gestión de productos, pedidos, inventario y compras.  
+Creemos que esto brindará eficiencia operativa y una mejor trazabilidad del inventario a los administradores de restaurantes y su personal.  
+Esto se confirmará cuando los usuarios puedan autenticarse, navegar por el panel principal y acceder al menos a tres módulos clave con interfaces funcionales.
+
+---
+
+#### Commits Relevantes
+
+| Repository                   | Branch                   | Commit Id | Commit Message                                                        | Commit Message Body                                                                 | Commited on (Date) |
+|-----------------------------|--------------------------|-----------|------------------------------------------------------------------------|-------------------------------------------------------------------------------------|---------------------|
+| jahazielgg/UI-Topic-frontend | feature/auth-module       | a23f45d   | feat(auth): implement login and registration logic                     | Creación de flujo de autenticación con validaciones y redirecciones.               | 04-05-2025          |
+| GabrielaShapiama/UI-Topic-frontend | feature/dashboard-layout  | b76a2fc   | feat(dashboard): add layout and navigation                             | Estructura base del dashboard con navegación lateral y superior.                   | 05-05-2025          |
+| Williams/UI-Topic-frontend   | feature/inventory-module  | c98f312   | feat(inventory): initial inventory module                              | Implementación inicial de la vista de inventario con formulario de insumos.        | 06-05-2025          |
+| Yaku Guzman/UI-Topic-frontend | feature/orders-module     | d12e7af   | feat(orders): orders module view and status tracking                   | Desarrollo de listado de pedidos y seguimiento de estado.                          | 07-05-2025          |
+| jahazielgg/UI-Topic-frontend | feature/products-module   | e4501aa   | feat(products): create product management UI                           | Vista para gestión de productos del restaurante y filtros por proveedor.           | 07-05-2025          |
+| GabrielaShapiama/UI-Topic-frontend | feature/sidebar          | f12cbb9   | feat(ui): add sidebar navigation                                       | Integración de barra lateral con íconos y secciones principales.                   | 08-05-2025          |
+| Williams/UI-Topic-frontend   | main                     | 1349abc   | chore: merge feature branches to main                                  | Integración de módulos principales al branch principal.                            | 08-05-2025          |
+
+
+#### 5.2.2.5 Execution Evidence for Sprint Review
+
+#### 5.2.2.6 Services Documentation Evidence for Sprint Review.
+
+#### 5.2.2.7 Software Deployment Evidence for Sprint Review
+
+#### 5.2.2.8 Team Collaboration Insights during Sprint.
