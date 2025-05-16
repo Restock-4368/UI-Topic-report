@@ -418,7 +418,26 @@ Esto se confirmará cuando los usuarios puedan autenticarse, navegar por el pane
 
 #### 5.2.2.5 Execution Evidence for Sprint Review
 
-#### 5.2.2.6 Services Documentation Evidence for Sprint Review.
+#### 5.2.2.6 Services Documentation Evidence for Sprint Review
+
+Durante este sprint se completó al 100% el desarrollo del Landing Page del sistema, consolidando su estructura visual, diseño responsivo, traducción multilenguaje y funcionalidades de navegación. Asimismo, se avanzó de forma significativa en la construcción del frontend del sistema, incluyendo componentes claves como el menú lateral, el dashboard inicial, el módulo de gestión de insumos y la arquitectura modular en Vue.js bajo DDD (Domain-Driven Design).
+
+Aunque no se desplegaron endpoints REST aún, se documentan a continuación los recursos y avances relevantes del sprint, junto con evidencia de despliegue y repositorio de código.
+
+**Descripción del Logro:**
+
+- Finalización del Landing Page (100%).
+- Implementación completa de diseño responsivo, i18n, y redirecciones funcionales.
+- Estructura de frontend modular iniciada (menu sidebar, dashboard y componentes base).
+- Aplicación de buenas prácticas de organización por bounded contexts en Vue.
+- Integración visual basada en PrimeVue, PrimeFlex y PrimeIcons.
+
+### Recursos del Sprint
+
+| Recurso              | Acción implementada                                | Método HTTP | URL / Endpoint                                                 | Link de repositorio                                             |
+| -------------------- | --------------------------------------------------- | ------------ | -------------------------------------------------------------- | --------------------------------------------------------------- |
+| Landing Page         | Visualización completa y funcional del landing     | GET          | https://aplicaciones-web-curso-upc.github.io/UI-Topic-landing/ | https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-landing  |
+| UI del sistema (WIP) | Avance en el sistema (menú, dashboard, inventario) | GET          | https://ui-topic-frontend.vercel.app/dashboard                 | https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-frontend |
 
 #### 5.2.2.7 Software Deployment Evidence for Sprint Review
 
