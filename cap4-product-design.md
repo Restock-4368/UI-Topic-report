@@ -1147,45 +1147,167 @@ Valoraciones recibidas por parte de restaurantes con comentarios.
 
 ### 4.4.4 Web Applications User Flow Diagrams
 
+**Desktop User Flow 1:**  
+
+Este flujo se inicia cuando el usuario accede a la sección de configuración con el objetivo de actualizar su información personal. En esta sección, puede editar los datos de su perfil y cambiar su contraseña.
+
+![Desktop User Flow 1](assets/images/cap4/user-flows-desktop/UF_desktop_1.jpeg)
+
+**Desktop User Flow 2:**  
+
+En esta etapa, el usuario selecciona uno de los planes de suscripción disponibles. Tras la selección, se le dirige a la pasarela de pagos integrada (Stripe), donde debe proporcionar su información financiera y proceder con el pago.
+
+![Desktop User Flow 2](assets/images/cap4/user-flows-desktop/UF_desktop_2.jpeg)
+
+**Desktop User Flow 3:**  
+
+En la sección de gestión de inventario, el usuario (ya sea un administrador de restaurante o proveedor) debe registrar inicialmente los insumos ingresando su información correspondiente. Luego, podrá añadir múltiples unidades de cada insumo según sea necesario.
+La interfaz cuenta con herramientas de filtrado, búsqueda y funciones para editar o eliminar insumos y productos previamente añadidos al inventario.
+
+![Desktop User Flow 3 - Parte 1](assets/images/cap4/user-flows-desktop/UF_desktop_3.jpeg)  
+
+**Desktop User Flow 4:**  
+
+Tras iniciar sesión, el usuario es dirigido a la sección de resumen, que presenta datos clave como los pedidos recientes o las últimas órdenes registradas. En una sección adicional, el sistema muestra alertas destacadas, notificando al usuario sobre eventos críticos o información relevante para su operación.
+
+![Desktop User Flow 4](assets/images/cap4/user-flows-desktop/UF_desktop_4.jpeg)
+
+**Desktop User Flow 5:**  
+
+En la sección de proveedores, los administradores de restaurantes pueden visualizar un catálogo de productos por proveedor, comparar precios y seleccionar las mejores opciones según sus necesidades. También pueden acceder a información detallada de cada proveedor y añadirlos a su lista personalizada para facilitar la gestión de compras y relaciones comerciales.
+
+![Desktop User Flow 5](assets/images/cap4/user-flows-desktop/UF_desktop_5.jpeg)
+
+**Desktop User Flow 6:**  
+
+La sección de pedidos a proveedores permite a los administradores de restaurantes revisar el historial completo de solicitudes, consultar los pedidos en proceso y acceder a información detallada de cada uno. Además, se ofrece un sistema de seguimiento que permite monitorear el estado de los pedidos paso a paso.
+
+![Desktop User Flow 6](assets/images/cap4/user-flows-desktop/UF_desktop_6.jpeg)
+
+**Desktop User Flow 7:**  
+
+La sección de comentarios a proveedores permite a los usuarios registrar opiniones sobre los pedidos realizados, incluyendo valoraciones de la calidad del servicio y observaciones relevantes. Esta retroalimentación contribuye a mejorar la relación comercial y la toma de decisiones basada en experiencias previas.
+
+![Desktop User Flow 7](assets/images/cap4/user-flows-desktop/UF_desktop_7.jpeg)
+
+**Desktop User Flow 8:**  
+
+La funcionalidad de registro de ventas permite a los administradores ingresar las operaciones comerciales diarias. El sistema también proporciona un listado actualizado de las ventas del día, con acceso a información detallada de cada transacción, lo que facilita la gestión y análisis de las actividades comerciales.
+
+![Desktop User Flow 8 - Parte 1](assets/images/cap4/user-flows-desktop/UF_desktop_8.1.jpeg)  
+![Desktop User Flow 8 - Parte 2](assets/images/cap4/user-flows-desktop/UF_desktop_8.2.jpeg)
+
+**Desktop User Flow 9:**  
+
+La sección de recetas permite al administrador del restaurante crear y gestionar platos a partir de los insumos registrados, detallando precios, cantidades y porcentajes de uso de cada ingrediente. Además, es posible adjuntar imágenes representativas de los platos y mantener un catálogo estructurado de recetas, el cual puede integrarse posteriormente en el módulo de ventas.
+
+![Desktop User Flow 9](assets/images/cap4/user-flows-desktop/UF_desktop_9.jpeg)
+
+**Desktop User Flow 10:**  
+
+En la sección de catálogo de productos, el proveedor puede agregar y administrar los insumos que ofrece. Esta información se integra con el sistema, permitiendo que los administradores de restaurantes accedan al catálogo para consultar y adquirir productos. Esta funcionalidad es clave en la cadena de suministro y gestión de inventario.
+
+![Desktop User Flow 10](assets/images/cap4/user-flows-desktop/UF_desktop_10.jpeg)
+
+**Desktop User Flow 11:**  
+
+En la sección de catálogo de productos, el proveedor puede gestionar la eliminación de insumos registrados, asegurando que el catálogo refleje únicamente los productos disponibles para la venta y distribución. Esto contribuye a mantener la precisión y actualización del inventario.
+
+
+![Desktop User Flow 11](assets/images/cap4/user-flows-desktop/UF_desktop_11.jpeg)
+
+**Desktop User Flow 12:**  
+
+El proveedor cuenta con una sección dedicada a la gestión de las órdenes realizadas por los restaurantes. En esta área puede visualizar los pedidos recibidos, revisar detalles como cantidades, productos solicitados y fechas de entrega, así como actualizar el estado de cada orden para mantener una comunicación clara y eficiente con los clientes.
+
+![Desktop User Flow 12](assets/images/cap4/user-flows-desktop/UF_desktop_12.jpeg)
+
+**Desktop User Flow 13:**  
+
+Esta sección actúa como el panel principal del usuario al iniciar sesión. Proporciona una visión general clara y organizada de la información más relevante para su gestión diaria.
+
+![Desktop User Flow 13](assets/images/cap4/user-flows-desktop/UF_desktop_13.jpeg)
+
 #### User Flows Mobile
 
 **Mobile User Flow 1:**
+
+Este flujo se inicia cuando el usuario accede a la sección de configuración con el objetivo de actualizar su información personal. En esta sección, puede editar los datos de su perfil y cambiar su contraseña.
+
 ![Mobile User Flow 1](assets/images/cap4/mobile_ug1.png)
 
 **Mobile User Flow 2:**
+
+En esta etapa, el usuario selecciona uno de los planes de suscripción disponibles. Tras la selección, se le dirige a la pasarela de pagos integrada (Stripe), donde debe proporcionar su información financiera y proceder con el pago.
+
 ![Mobile User Flow 2](assets/images/cap4/mobile_ug2.png)
 
 **Mobile User Flow 3:**
+
+En la sección de gestión de inventario, el usuario (ya sea un administrador de restaurante o proveedor) debe registrar inicialmente los insumos ingresando su información correspondiente. Luego, podrá añadir múltiples unidades de cada insumo según sea necesario.
+La interfaz cuenta con herramientas de filtrado, búsqueda y funciones para editar o eliminar insumos y productos previamente añadidos al inventario.
+
 ![Mobile User Flow 3](assets/images/cap4/mobile_ug3.png)
 
 **Mobile User Flow 4:**
+
+Tras iniciar sesión, el usuario es dirigido a la sección de resumen, que presenta datos clave como los pedidos recientes o las últimas órdenes registradas. En una sección adicional, el sistema muestra alertas destacadas, notificando al usuario sobre eventos críticos o información relevante para su operación.
+
 ![Mobile User Flow 4](assets/images/cap4/mobile_ug4.png)
 
 **Mobile User Flow 5:**
+
+En la sección de proveedores, los administradores de restaurantes pueden visualizar un catálogo de productos por proveedor, comparar precios y seleccionar las mejores opciones según sus necesidades. También pueden acceder a información detallada de cada proveedor y añadirlos a su lista personalizada para facilitar la gestión de compras y relaciones comerciales.
+
 ![Mobile User Flow 5](assets/images/cap4/mobile_ug5.png)
 
 **Mobile User Flow 6:**
+
+La sección de pedidos a proveedores permite a los administradores de restaurantes revisar el historial completo de solicitudes, consultar los pedidos en proceso y acceder a información detallada de cada uno. Además, se ofrece un sistema de seguimiento que permite monitorear el estado de los pedidos paso a paso.
+
 ![Mobile User Flow 6](assets/images/cap4/mobile_ug6.png)
 
 **Mobile User Flow 7:**
+
+La sección de pedidos a proveedores permite a los administradores de restaurantes revisar el historial completo de solicitudes, consultar los pedidos en proceso y acceder a información detallada de cada uno. Además, se ofrece un sistema de seguimiento que permite monitorear el estado de los pedidos paso a paso.
+
 ![Mobile User Flow 7](assets/images/cap4/mobile_ug7.png)
 
 **Mobile User Flow 8:**
+
+La funcionalidad de registro de ventas permite a los administradores ingresar las operaciones comerciales diarias. El sistema también proporciona un listado actualizado de las ventas del día, con acceso a información detallada de cada transacción, lo que facilita la gestión y análisis de las actividades comerciales.
+
 ![Mobile User Flow 8](assets/images/cap4/mobile_ug8.png)
 
 **Mobile User Flow 9:**
+
+La sección de recetas permite al administrador del restaurante crear y gestionar platos a partir de los insumos registrados, detallando precios, cantidades y porcentajes de uso de cada ingrediente. Además, es posible adjuntar imágenes representativas de los platos y mantener un catálogo estructurado de recetas, el cual puede integrarse posteriormente en el módulo de ventas.
+
 ![Mobile User Flow 9](assets/images/cap4/mobile_ug9.png)
 
 **Mobile User Flow 10:**
+
+En la sección de catálogo de productos, el proveedor puede agregar y administrar los insumos que ofrece. Esta información se integra con el sistema, permitiendo que los administradores de restaurantes accedan al catálogo para consultar y adquirir productos. Esta funcionalidad es clave en la cadena de suministro y gestión de inventario.
+
+
 ![Mobile User Flow 10](assets/images/cap4/mobile_ug10.png)
 
 **Mobile User Flow 11:**
+
+En la sección de catálogo de productos, el proveedor puede gestionar la eliminación de insumos registrados, asegurando que el catálogo refleje únicamente los productos disponibles para la venta y distribución. Esto contribuye a mantener la precisión y actualización del inventario.
+
 ![Mobile User Flow 11](assets/images/cap4/mobile_ug11.png)
 
 **Mobile User Flow 12:**
+
+El proveedor cuenta con una sección dedicada a la gestión de las órdenes realizadas por los restaurantes. En esta área puede visualizar los pedidos recibidos, revisar detalles como cantidades, productos solicitados y fechas de entrega, así como actualizar el estado de cada orden para mantener una comunicación clara y eficiente con los clientes.
+
 ![Mobile User Flow 12](assets/images/cap4/mobile_ug12.png)
 
 **Mobile User Flow 13:**
+
+Esta sección actúa como el panel principal del usuario al iniciar sesión. Proporciona una visión general clara y organizada de la información más relevante para su gestión diaria.
+
 ![Mobile User Flow 13](assets/images/cap4/mobile_ug13.png)
 
 ## 4.5 Web Applications Prototyping
