@@ -1257,7 +1257,17 @@ A continuación, se presenta el video de prototipado de la aplicación web en su
 #### Bounded Context: Planning
 Este esquema representa la lógica del contexto de planificación. La tabla recipes almacena recetas con su información básica y usuario asociado. La tabla recipes_supplies define los insumos necesarios para cada receta, permitiendo planificar cantidades específicas.
 
-![Database diagram](assets\images\cap4\dbd_bc\dbd_planning_bc.png "Planning")
+![Database diagram](assets/images/cap4/dbd_bc/dbd_planning_bc.png "Planning")
+
+#### Bounded Context: Resource
+Este esquema representa la lógica del contexto de resources. Las tablas presentes son: unit_measurements, categories, supplies, alerts, alerts_states, batches, restaurant_contacts, inventories.
+
+![Database diagram](assets/images/cap4/dbd_bc/resource_bounded_context.jpg "Resource")
+
+#### Bounded Context: Monitoring
+Este esquema representa la lógica del contexto de monitoring. Las tablas presentes son: sales, sales_recipes, comments, ordertosuppliers, ordertosuppliers_supplies, orderToSupplier_status y order_payments.
+
+![Database diagram](assets/images/cap4/dbd_bc/monitoring_bounded_context.jpg "Monitoring")
 
 
 ## 4.9 DDD Estratégico
