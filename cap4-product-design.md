@@ -147,15 +147,15 @@ Se ha priorizado la claridad semántica y la coherencia con el lenguaje visual d
 
 ##### **Title (SEO)**
 
-    `<title>`UI-Topic | Automatiza el inventario y pedidos de tu restaurante `</title>`
+    `<title>`UI-Topic | Automate your restaurant’s inventory and orders`</title>`
 
 ##### **Meta Description (SEO)**
 
-    `<meta name="description" content="Plataforma para restaurantes que reduce desperdicios y mejora las ganancias mediante la gestión inteligente de inventarios y pedidos.">`
+    `<meta name="description" content="Platform for restaurants that reduces waste and increases profits through smart inventory and order management.">`
 
-##### **Meta Keywords (SEO, aunque en desuso para Google)**
+##### **Meta Keywords (SEO, though deprecated for Google)**
 
-    `<meta name="keywords" content="restaurantes, gestión de inventario, pedidos, automatización, proveedores, tecnología gastronómica">`
+    `<meta name="keywords" content="restaurants, inventory management, orders, automation, suppliers, food tech">`
 
 ##### **Meta Author**
 
@@ -167,7 +167,7 @@ Se ha priorizado la claridad semántica y la coherencia con el lenguaje visual d
 
 ##### **Meta Language**
 
-    `<meta name="language" content="es">`
+    `<meta name="language" content="en">`
 
 ##### **Meta Copyright**
 
@@ -185,11 +185,11 @@ Se ha priorizado la claridad semántica y la coherencia con el lenguaje visual d
 
 ##### **Title (SEO)**
 
-    `<title>`UI-Topic App | Panel de gestión `</title>`
+    `<title>`UI-Topic App | Management Panel`</title>`
 
 ##### **Meta Description (SEO)**
 
-    `<meta name="description" content="Panel interno de UI-Topic para gestionar inventario, pedidos y proveedores. Solo accesible para usuarios autorizados.">`
+    `<meta name="description" content="Internal UI-Topic panel for managing inventory, orders, and suppliers. Only accessible to authorized users.">`
 
 ##### **Meta Author**
 
@@ -201,11 +201,12 @@ Se ha priorizado la claridad semántica y la coherencia con el lenguaje visual d
 
 ##### **Meta Language**
 
-    `<meta name="language" content="es">`
+    `<meta name="language" content="en">`
 
 ##### **Meta Copyright**
 
     `<meta name="copyright" content="UI-Topic 2025">`
+
 
 ### 4.2.4 Searching Systems
 
