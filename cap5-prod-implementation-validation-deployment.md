@@ -177,7 +177,7 @@ El objetivo principal de este Sprint es diseñar, implementar y validar las secc
 
 ![board-sprint](assets/images/board-sprint.png)
 
-https://trello.com/invite/b/680c05f1fac416bfdb0ea024/ATTI41428da9336a1d11b0878438a247c3531DFD7E76/sprint-backlog-1
+https://trello.com/b/75YJ9YcB/sprint-backlog-2
 
 <br>
 
