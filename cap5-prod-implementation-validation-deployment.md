@@ -425,8 +425,46 @@ Esto se confirmará cuando los usuarios puedan autenticarse, navegar por el pane
 
 #### 5.2.2.5 Execution Evidence for Sprint Review
 
+A continuación, se presenta el video del frontend de la aplicación web interna. Este demuestra la interacción de los usuarios autenticados con los módulos principales del sistema, incluyendo la navegación por el panel de administración, la gestión de productos, el seguimiento de pedidos y el control de inventario.  
+
+**Video del frontend:**
+![Captura del video](assets/images/cap-5/evidence_sprint_2/video_evidence.png)
+[Enlace al video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202021885_upc_edu_pe/EY3GdWRDA0FFkne6vY7rA2YBNCogeN7uU70N4UnuxwgpAg?e=ZgvDYo&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
 #### 5.2.2.6 Services Documentation Evidence for Sprint Review.
 
 #### 5.2.2.7 Software Deployment Evidence for Sprint Review
+
+Durante este Sprint, se realizaron las actividades de despliegue del frontend de la aplicación web desarrollada con Vue 3 y PrimeVue utilizando la plataforma **Vercel**. A continuación, se detallan los pasos ejecutados:
+
+1. Se accedió a [https://vercel.com](https://vercel.com) e inició sesión con una cuenta de GitHub.  
+Luego, se seleccionó la opción **"Add New Project"** para importar el repositorio `UI-Topic-frontend`.
+
+![Vercel Deployment Step 1](assets/images/cap-5/evidence_sprint_2/evidence_1.png)
+
+2. Se seleccionó el repositorio `UI-Topic-frontend` y se configuró el proyecto.  
+Vercel detectó automáticamente que se trataba de un proyecto Vue 3, por lo que sugirió las configuraciones por defecto para el build.
+
+![Vercel Deployment Step 2](assets/images/cap-5/evidence_sprint_2/evidence_2.png)
+
+3. Se verificaron las configuraciones:  
+- **Framework**: Vue.js  
+- **Build Command**: `npm run build`  
+- **Output Directory**: `dist`  
+
+Se procedió a desplegar haciendo clic en **"Deploy"**.
+
+![Vercel Deployment Step 3](assets/images/cap-5/evidence_sprint_2/evidence_3.png)
+
+4. El proceso de build y despliegue fue iniciado por Vercel, mostrando en tiempo real los logs del pipeline.
+
+![Vercel Deployment Step 4](assets/images/cap-5/evidence_sprint_2/evidence_4.png)
+
+5. Una vez finalizado el despliegue, se mostró la URL pública de acceso a la aplicación.  
+Se probó exitosamente el funcionamiento de la aplicación en dicha URL.
+
+![Vercel Deployment Step 5](assets/images/cap-5/evidence_sprint_2/evidence_5.png)
+
+[https://ui-topic-frontend.vercel.app/](https://ui-topic-frontend.vercel.app/)
 
 #### 5.2.2.8 Team Collaboration Insights during Sprint.
