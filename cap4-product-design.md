@@ -1269,7 +1269,18 @@ Este esquema representa la lógica del contexto de monitoring. Las tablas presen
 
 ![Database diagram](assets/images/cap4/dbd_bc/monitoring_bounded_context.jpg "Monitoring")
 
+#### Bounded Context: Profile
+Este esquema representa la lógica del contexto de profile. Las tablas profile almacena: name, business_name, phone y address.
 
+![Database diagram](assets/images/cap4/dbd_bc/db_profile.jpg "Profile")
+
+#### Bounded Context: Subscription
+Este esquema representa la lógica del contexto de subscription. La tablas que se muestran son: subscriptions, subscriptions_payment_details, features y subscription_features.
+![Database diagram](assets/images/cap4/dbd_bc/db_subscription.jpg "Subscription")
+
+#### Bounded Context: Identity 
+Este esquema representa la lógica del contexto de identity. Las tablas que se muestran son: users y roles.
+![Database diagram](assets/images/cap4/dbd_bc/db_iam.jpg "Identity")
 ## 4.9 DDD Estratégico
 
 A continuación, se presenta el Event Storming de Restock, en el cual se identifican los eventos clave, actores, acciones, decisiones, reglas y relaciones entre partes del sistema. Se establecieron 7 bounded context:  Subscriptions and Payments, Identity and Access Management, Profiles and Preferences, Service Design and Planning, Asset Operation and Monitoring, Service Operation and Monitoring y Analytics.
