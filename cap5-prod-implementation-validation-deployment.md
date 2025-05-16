@@ -398,9 +398,11 @@ Durante este sprint se avanzó en la autenticación de usuarios, el diseño del 
 
 ##### Sprint 2 Goal
 
-Nuestro enfoque está en implementar los módulos centrales de la aplicación web interna de Restock, incluyendo la gestión de productos, pedidos, inventario y compras.
-Creemos que esto brindará eficiencia operativa y una mejor trazabilidad del inventario a los administradores de restaurantes y su personal.
-Esto se confirmará cuando los usuarios puedan autenticarse, navegar por el panel principal y acceder al menos a tres módulos clave con interfaces funcionales.
+Nuestro enfoque está en  brindar información clara y detallada a los visitantes de la plataforma, así como habilitar funcionalidades clave para los usuarios del sistema interno.
+
+Creemos que esto proporciona  mayor comprensión del propósito de la solución a los visitantes y mejora la eficiencia operativa del personal de los restaurantes.
+
+Esto se confirmará cuando  los visitantes puedan explorar contenido relevante desde el acceso público, y los usuarios autenticados naveguen por el panel principal y accedan a al menos tres módulos funcionales del sistema.
 
 ---
 
@@ -438,32 +440,33 @@ Aunque no se desplegaron endpoints REST aún, se documentan a continuación los 
 | -------------------- | --------------------------------------------------- | ------------ | -------------------------------------------------------------- | --------------------------------------------------------------- |
 | Landing Page         | Visualización completa y funcional del landing     | GET          | https://aplicaciones-web-curso-upc.github.io/UI-Topic-landing/ | https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-landing  |
 | UI del sistema (WIP) | Avance en el sistema (menú, dashboard, inventario) | GET          | https://ui-topic-frontend.vercel.app/dashboard                 | https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-frontend |
+
 =======
-A continuación, se presenta el video del frontend de la aplicación web interna. Este demuestra la interacción de los usuarios autenticados con los módulos principales del sistema, incluyendo la navegación por el panel de administración, la gestión de productos, el seguimiento de pedidos y el control de inventario.  
+A continuación, se presenta el video del frontend de la aplicación web interna. Este demuestra la interacción de los usuarios autenticados con los módulos principales del sistema, incluyendo la navegación por el panel de administración, la gestión de productos, el seguimiento de pedidos y el control de inventario.
 
 **Video del frontend:**
 ![Captura del video](assets/images/cap-5/evidence_sprint_2/video_evidence.png)
 [Enlace al video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202021885_upc_edu_pe/EY3GdWRDA0FFkne6vY7rA2YBNCogeN7uU70N4UnuxwgpAg?e=ZgvDYo&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
-
 #### 5.2.2.7 Software Deployment Evidence for Sprint Review
 
 Durante este Sprint, se realizaron las actividades de despliegue del frontend de la aplicación web desarrollada con Vue 3 y PrimeVue utilizando la plataforma **Vercel**. A continuación, se detallan los pasos ejecutados:
 
-1. Se accedió a [https://vercel.com](https://vercel.com) e inició sesión con una cuenta de GitHub.  
-Luego, se seleccionó la opción **"Add New Project"** para importar el repositorio `UI-Topic-frontend`.
+1. Se accedió a [https://vercel.com](https://vercel.com) e inició sesión con una cuenta de GitHub.
+   Luego, se seleccionó la opción **"Add New Project"** para importar el repositorio `UI-Topic-frontend`.
 
 ![Vercel Deployment Step 1](assets/images/cap-5/evidence_sprint_2/evidence_1.png)
 
-2. Se seleccionó el repositorio `UI-Topic-frontend` y se configuró el proyecto.  
-Vercel detectó automáticamente que se trataba de un proyecto Vue 3, por lo que sugirió las configuraciones por defecto para el build.
+2. Se seleccionó el repositorio `UI-Topic-frontend` y se configuró el proyecto.
+   Vercel detectó automáticamente que se trataba de un proyecto Vue 3, por lo que sugirió las configuraciones por defecto para el build.
 
 ![Vercel Deployment Step 2](assets/images/cap-5/evidence_sprint_2/evidence_2.png)
 
-3. Se verificaron las configuraciones:  
-- **Framework**: Vue.js  
-- **Build Command**: `npm run build`  
-- **Output Directory**: `dist`  
+3. Se verificaron las configuraciones:
+
+- **Framework**: Vue.js
+- **Build Command**: `npm run build`
+- **Output Directory**: `dist`
 
 Se procedió a desplegar haciendo clic en **"Deploy"**.
 
@@ -473,8 +476,8 @@ Se procedió a desplegar haciendo clic en **"Deploy"**.
 
 ![Vercel Deployment Step 4](assets/images/cap-5/evidence_sprint_2/evidence_4.png)
 
-5. Una vez finalizado el despliegue, se mostró la URL pública de acceso a la aplicación.  
-Se probó exitosamente el funcionamiento de la aplicación en dicha URL.
+5. Una vez finalizado el despliegue, se mostró la URL pública de acceso a la aplicación.
+   Se probó exitosamente el funcionamiento de la aplicación en dicha URL.
 
 ![Vercel Deployment Step 5](assets/images/cap-5/evidence_sprint_2/evidence_5.png)
 
