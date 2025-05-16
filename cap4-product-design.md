@@ -686,81 +686,63 @@ Los siguientes wireframes corresponden a la aplicación web de Restock
 
 #### Versión Mobile Web Browser
 
-**Segmento objetivo: Dueño o Administrador de Restaurante (User Persona 1)**
+**Módulo Inventario - Admin**  
+Pantallas del módulo de Inventario para administrador: permite visualizar la lista de insumos, editar cantidades y registrar nuevos productos.  
+![w_admin_inventory](assets/images/cap4/mobile_wireframes/w_admin_inventory.png)
 
-**Perfil**
+**Flujo Inventario - Admin (Crear/Editar)**  
+Pantallas del flujo de edición y creación de inventario: muestra formularios detallados con campos como nombre, unidad, categoría y fecha.  
+![w_admin_inventory2](assets/images/cap4/mobile_wireframes/w_admin_inventory2.png)
 
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/1.png)
+**Módulo Pedidos - Admin**  
+Pantallas del módulo de Pedidos para administrador: lista de pedidos, detalles individuales, y estado del pedido.  
+![w_admin_orders](assets/images/cap4/mobile_wireframes/w_admin_orders.png)
 
-**Suscripciones**
+**Flujo Pedidos - Admin (Editar)**  
+Pantallas complementarias del flujo de pedidos: edición de pedidos, selección de proveedores y fechas estimadas.  
+![w_admin_orders2](assets/images/cap4/mobile_wireframes/w_admin_orders2.png)
 
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/2.png)
+**Perfil - Admin**  
+Pantallas del perfil del administrador: incluye información personal, configuración de cuenta y opciones de cerrar sesión.  
+![w_admin_profile](assets/images/cap4/mobile_wireframes/w_admin_profile.png)
 
-**Resumen**
+**Módulo Recetas - Admin**  
+Pantallas del módulo de Recetas: listado de recetas con detalles sobre los insumos requeridos y porciones.  
+![w_admin_recipes](assets/images/cap4/mobile_wireframes/w_admin_recipes.png)
 
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/3.png)
+**Flujo Recetas - Admin (Crear/Editar)**  
+Flujo de creación y edición de recetas: permite agregar o editar insumos y cantidades requeridas por receta.  
+![w_admin_recipes2](assets/images/cap4/mobile_wireframes/w_admin_recipes2.png)
 
-**Inventario**
+**Módulo Ventas - Admin**  
+Pantallas del módulo de Ventas: muestra historial de ventas, métricas clave y búsqueda por rango de fechas.  
+![w_admin_sales](assets/images/cap4/mobile_wireframes/w_admin_sales.png)
 
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/4.png)
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/5.png)
+**Confirmación de acción en Ventas - Admin**  
+Popup de advertencia para confirmar acciones destructivas en la sección de ventas.  
+![w_admin_sales2](assets/images/cap4/mobile_wireframes/w_admin_sales2.png)
 
-**Provedores**
+**Módulo Suscripciones - Admin**  
+Pantallas de Suscripciones: incluye vista de planes activos, cambios de plan y pagos asociados.  
+![w_admin_subs](assets/images/cap4/mobile_wireframes/w_admin_subs.png)
 
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/6.png)
+**Dashboard / Resumen - Admin**  
+Dashboard/resumen para administrador: muestra órdenes pendientes, alertas y notificaciones clave.  
+![w_admin_summary](assets/images/cap4/mobile_wireframes/w_admin_summary.png)
 
-**Alertas**
+**Módulo Inventario - Proveedor**  
+Pantallas de Inventario para proveedor: gestión de productos ofrecidos, precios, y actualización de stock.  
+![w_supplier_inventory](assets/images/cap4/mobile_wireframes/w_supplier_inventory.png)
 
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/7.png)
+**Módulo Pedidos - Proveedor**  
+Pedidos para proveedores: lista de pedidos realizados por restaurantes, detalles de cada uno y fechas.  
+![w_supplier_orders](assets/images/cap4/mobile_wireframes/w_supplier_orders.png)
 
-**Pedidos**
+**Perfil - Proveedor**  
+Perfil del proveedor: información personal, métricas de ventas, y accesos rápidos a historial.  
+![w_supplier_profile](assets/images/cap4/mobile_wireframes/w_supplier_profile.png)
 
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/8.png)
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/9.png)
 
-**Recetas**
-
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/10.png)
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/11.png)
-
-**Ventas**
-
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/12.png)
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/13.png)
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/14.png)
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20restaurante/15.png)
-
-**Segmento objetivo: Proveedores para Restaurantes (User Persona 2)**
-
-**Perfil**
-
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20proovedor/1.png)
-
-**Suscripciones**
-
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20proovedor/2.png)
-
-**Resumen**
-
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20proovedor/3.png)
-
-**Inventario**
-
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20proovedor/4.png)
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20proovedor/5.png)
-
-**Alertas**
-
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20proovedor/6.png)
-
-**Ordenes**
-
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20proovedor/7.png)
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20proovedor/8.png)
-
-**Calificaciones**
-
-![Web app wireframes mobile](assets/images/cap4/mobile-wireframe-segmento%20proovedor/9.png)
 
 ### 4.4.2 Web Applications Wireflow Diagrams
 
@@ -1066,83 +1048,102 @@ Esta sección presenta la propuesta de Wireflows. Se ha considerado un Wireflow 
 
 ![Mockups-Proveedor-Calificaciones](assets/images/cap4/desktop-mockups-segmento-proveedor/calificaciones.png)
 
-#### Versión Mobile Web Browser
+#### Versión Mobile Mockups
 
-**Segmento objetivo: Dueño o Administrador de Restaurante (User Persona 1)**
+**Alertas - Admin**  
+Vista general de alertas importantes para el administrador, con indicadores visuales de color.  
+![admin_alerts](assets/images/cap4/mobile_mockups/admin_alerts.png)
 
-**Perfil**
+**Inventario - Admin**  
+Listado general de insumos con opciones para editar, buscar y ver detalles.  
+![admin_inventory](assets/images/cap4/mobile_mockups/admin_inventory.png)
 
-![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/1.png)
+**Inventario (Editar/Crear) - Admin**  
+Flujo para registrar o editar un insumo, incluye calendario para fecha de expiración.  
+![admin_inventory2](assets/images/cap4/mobile_mockups/admin_inventory2.png)
 
-**Suscripciones**
+**Pedidos - Admin**  
+Visualización de pedidos realizados, con filtros por estado.  
+![admin_orders](assets/images/cap4/mobile_mockups/admin_orders.png)
 
-![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/2.png)
+**Pedidos (Detalle/Editar) - Admin**  
+Flujo detallado para ver y modificar un pedido específico.  
+![admin_orders2](assets/images/cap4/mobile_mockups/admin_orders2.png)
 
-**Resumen**
+**Recetas - Admin**  
+Listado de recetas disponibles, con imágenes y composición de insumos.  
+![admin_recipes](assets/images/cap4/mobile_mockups/admin_recipes.png)
 
-![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/3.png)
+**Recetas (Editar/Ver) - Admin**  
+Flujo detallado para modificar recetas o ver su detalle completo.  
+![admin_recipes2](assets/images/cap4/mobile_mockups/admin_recipes2.png)
 
-**Inventario**
+**Ventas - Admin**  
+Historial de ventas con filtros por fecha y montos.  
+![admin_sale](assets/images/cap4/mobile_mockups/admin_sale.png)
 
-![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/4.png)
-![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/5.png)
+**Ventas (Detalle) - Admin**  
+Detalle específico de una venta con totales y acciones.  
+![admin_sale2](assets/images/cap4/mobile_mockups/admin_sale2.png)
 
-**Provedores**
+**Ventas (Popup acción) - Admin**  
+Confirmación para anular una venta mediante un diálogo de alerta.  
+![admin_sale3](assets/images/cap4/mobile_mockups/admin_sale3.png)
 
-![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/6.png)
+**Suscripciones - Admin**  
+Vista de gestión de suscripciones y planes de pago.  
+![admin_subscriptions](assets/images/cap4/mobile_mockups/admin_subscriptions.png)
 
-**Alertas**
+**Dashboard / Resumen - Admin**  
+Pantalla de resumen con estadísticas clave como pedidos pendientes y capacidad de stock.  
+![admin_summary](assets/images/cap4/mobile_mockups/admin_summary.png)
 
-![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/7.png)
+**Proveedores - Admin**  
+Listado de proveedores registrados con métricas de ventas.  
+![admin_supplier](assets/images/cap4/mobile_mockups/admin_supplier.png)
 
-**Pedidos**
+**Alertas - Proveedor**  
+Resumen de alertas generadas por parte del restaurante.  
+![supplier_alerts](assets/images/cap4/mobile_mockups/supplier_alerts.png)
 
-![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/8.png)
-![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/9.png)
+**Inventario - Proveedor**  
+Vista del inventario ofrecido por el proveedor.  
+![supplier_inventory](assets/images/cap4/mobile_mockups/supplier_inventory.png)
 
-**Recetas**
+**Inventario (Editar) - Proveedor**  
+Formulario para edición o creación de productos ofrecidos.  
+![supplier_inventory2](assets/images/cap4/mobile_mockups/supplier_inventory2.png)
 
-![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/10.png)
-![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/11.png)
+**Pedidos - Proveedor**  
+Vista general de pedidos recibidos, con estado y fechas.  
+![supplier_orders](assets/images/cap4/mobile_mockups/supplier_orders.png)
 
-**Ventas**
+**Pedidos (Detalle) - Proveedor**  
+Vista ampliada para gestión individual de cada pedido.  
+![supplier_orders2](assets/images/cap4/mobile_mockups/supplier_orders2.png)
 
-![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/12.png)
-![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/13.png)
-![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/14.png)
-![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20restaurante/15.png)
+**Pedidos (Historial) - Proveedor**  
+Listado cronológico de pedidos con estado y detalles.  
+![supplier_orders3](assets/images/cap4/mobile_mockups/supplier_orders3.png)
 
-**Segmento objetivo: Proveedores para Restaurantes (User Persona 2)**
+**Perfil - Proveedor**  
+Datos personales, empresa, y configuración de cuenta.  
+![supplier_profile](assets/images/cap4/mobile_mockups/supplier_profile.png)
 
-**Perfil**
+**Suscripciones - Proveedor**  
+Panel para gestionar el plan de suscripción del proveedor.  
+![supplier_subscriptions](assets/images/cap4/mobile_mockups/supplier_subscriptions.png)
 
-![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20proovedor/1.png)
+**Dashboard / Resumen - Proveedor**  
+Resumen financiero y de pedidos con métricas clave para proveedores.  
+![supplier_summary](assets/images/cap4/mobile_mockups/supplier_summary.png)
 
-**Suscripciones**
+**Calificaciones - Proveedor**  
+Valoraciones recibidas por parte de restaurantes con comentarios.  
+![suppliers_rating](assets/images/cap4/mobile_mockups/suppliers_rating.png)
 
-![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20proovedor/2.png)
 
-**Resumen**
 
-![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20proovedor/3.png)
-
-**Inventario**
-
-![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20proovedor/4.png)
-![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20proovedor/5.png)
-
-**Alertas**
-
-![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20proovedor/6.png)
-
-**Ordenes**
-
-![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20proovedor/7.png)
-![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20proovedor/8.png)
-
-**Calificaciones**
-
-![Web app mock-ups mobile](assets/images/cap4/mobile-mockups-segmento%20proovedor/9.png)
 
 ### 4.4.4 Web Applications User Flow Diagrams
 
