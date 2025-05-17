@@ -8,7 +8,7 @@ A continuación, se listan las herramientas y estándares adoptados por el equip
 
 | Actividad               | Herramienta / Guía                                                                                                                                                               | Propósito                                                                    | Tipo de acceso / Ruta                                                                                                                                                                                               |
 | ----------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Project Management      | Jira Software                                                                                                                                                                     | Seguimiento de backlog, tareas y sprints.                                     | SaaS –[https://www.atlassian.com/software/jira](https://www.atlassian.com/software/jira)                                                                                                                              |
+| Project Management      | Trello Software                                                                                                                                                                   | Seguimiento de backlog, tareas y sprints.                                     | SaaS –[https://trello.com/](https://trello.com/software/jira)                                                                                                                                                         |
 | Requirements Management | Gherkin Conventions                                                                                                                                                               | Escritura legible de requisitos con formato Given/When/Then.                  | [https://cucumber.io/docs/gherkin/](https://cucumber.io/docs/gherkin/)                                                                                                                                                 |
 | Product UX/UI Design    | Figma                                                                                                                                                                             | Prototipos y diseño responsive.                                              | SaaS –[https://figma.com](https://figma.com)                                                                                                                                                                          |
 | Frontend Dev            | HTML, CSS, JavaScript, Vue                                                                                                                                                        | Construcción de la interfaz web.                                             | [https://vuejs.org/guide/introduction.html](https://vuejs.org/guide/introduction.html)                                                                                                                                 |
@@ -25,9 +25,8 @@ En esta sección el equipo establece los medios y esquema de organización que a
 
 A continuación se indican los URLs de los repositorios de GitHub para cada producto:
 
-- **Landing Page**: [URL del repositorio aquí]
-- **Web Services**: [URL del repositorio aquí]_(Incluye el proyecto y los archivos de pruebas unitarias e integración/aceptación)_
-- **Frontend Web Application**: [URL del repositorio aquí]
+- **Landing Page**: [https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-landing](https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-landing)
+- **Frontend Web Application**: [https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-frontend](https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-frontend)
 
 ### GitFlow Workflow
 
@@ -140,9 +139,20 @@ Para la Landing Page desarrollada en HTML, CSS y JavaScript, la configuración d
 Se debe crear un repositorio en GitHub y subir todos los archivos del proyecto (HTML, CSS, JS).
 Es obligatorio que el archivo `index.html` esté ubicado en la raíz del repositorio para poder realizar el despliegue correctamente.
 
-<br/>
-
 ![Software Deployment Configuration](assets/images/cap-5/repo-landing-github.png)
+
+#### **Frontend Principal (Vue + PrimeVue)**
+
+El frontend principal de la aplicación ha sido desarrollado utilizando **Vue 3** junto con **PrimeVue** como librería de componentes. El despliegue lo realizamos mediante **Vercel**.
+
+**Pasos para el despliegue**:
+
+1. Ejecutar el comando de compilación:
+   npm run build
+2. Esto generará una carpeta dist/ con todos los archivos listos para producción.
+3. Subir el contenido de la carpeta dist y conectar el repositorio original a Vercel.
+
+![Software Deployment Configuration](assets/images/cap-5/vercel_dashboard.png)
 
 ## 5.2 Landing Page, Services & Applications Implementation
 
@@ -152,20 +162,20 @@ Es obligatorio que el archivo `index.html` esté ubicado en la raíz del reposit
 
 A continuación, se presenta la planificación correspondiente a nuestro Sprint 1, el cual tiene como enfoque principal el desarrollo de la landing page de Restock. En esta etapa inicial, el equipo definió el objetivo del sprint, seleccionó las historias de usuario más relevantes y estableció los entregables clave que permitirán construir una primera versión funcional y visualmente atractiva de la página. Esta planificación busca asegurar un entendimiento compartido entre todos los miembros del equipo y sentar las bases para comunicar eficazmente el valor de la plataforma a los usuarios potenciales.
 
-| Sprint #                             | Sprint 1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| ------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Sprint Planning Background** |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| Date                                 | 2025-04-23                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| Time                                 | 19:00 pm (GMT-5)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| Location                             | Modalidad remota mediante la plataforma Discord                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| Prepared By                          | Shapiama Rivera, Gabriela Nicole                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| Attendees (to planning meeting)      | Avendaño Balarezo, Williams Eduardo / Castro Alejos / Julio, Guerra Perez, José Jahaziel / Guzmán Cabrejos, Yaku Mateo / Shapiama Rivera, Gabriela Nicole                                                                                                                                                                                                                                                                                                                                                                              |
-| Sprint 0 Review Summary              | Dado que este es el sprint inicial, no se presenta un resumen del sprint anterior.                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| Sprint 0 Retrospective Summary       | Dado que este es el sprint inicial, no se presenta una retroalimentación del sprint anterior.                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| **Sprint Goal & User Stories** |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| Sprint 1 Goal                        | Nos enfocamos en implementar la estructura principal y las funcionalidades clave de la landing page pública de Restock.`<br>`Creemos que esto aportará una percepción más sólida del producto y despertará mayor interés entre los usuarios potenciales, al comunicar de forma clara el valor y los beneficios de la plataforma.`<br>`Esto se confirmará cuando los visitantes puedan navegar de manera fluida por la página, comprendan fácilmente qué ofrece Restock y muestren intención de interactuar o registrarse. |
-| Sprint 1 Velocity                    | 27 puntos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| Sum of Story Points                  | 27 puntos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Sprint #                             | Sprint 1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint Planning Background** |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Date                                 | 2025-04-23                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Time                                 | 19:00 pm (GMT-5)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Location                             | Modalidad remota mediante la plataforma Discord                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Prepared By                          | Shapiama Rivera, Gabriela Nicole                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Attendees (to planning meeting)      | Avendaño Balarezo, Williams Eduardo / Castro Alejos / Julio, Guerra Perez, José Jahaziel / Guzmán Cabrejos, Yaku Mateo / Shapiama Rivera, Gabriela Nicole                                                                                                                                                                                                                                                                                                                                                                          |
+| Sprint 0 Review Summary              | Dado que este es el sprint inicial, no se presenta un resumen del sprint anterior.                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Sprint 0 Retrospective Summary       | Dado que este es el sprint inicial, no se presenta una retroalimentación del sprint anterior.                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| **Sprint Goal & User Stories** |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Sprint 1 Goal                        | Nos enfocamos en implementar la estructura principal y las funcionalidades clave de la landing page pública de Restock.<br />Creemos que esto aportará una percepción más sólida del producto y despertará mayor interés entre los usuarios potenciales, al comunicar de forma clara el valor y los beneficios de la plataforma.<br />Esto se confirmará cuando los visitantes puedan navegar de manera fluida por la página, comprendan fácilmente qué ofrece Restock y muestren intención de interactuar o registrarse. |
+| Sprint 1 Velocity                    | 27 puntos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Sum of Story Points                  | 27 puntos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 
 #### 5.2.1.2 Aspect Leaders and Collaborators
 
@@ -176,9 +186,8 @@ El objetivo principal de este Sprint es diseñar, implementar y validar las secc
 **screenshot del Board**
 
 ![board-sprint](assets/images/board-sprint.png)
-![board-sprint-detail](assets/images/board-sprint-detallado.png)
 
-https://trello.com/invite/b/680c05f1fac416bfdb0ea024/ATTI41428da9336a1d11b0878438a247c3531DFD7E76/sprint-backlog-1
+https://trello.com/b/75YJ9YcB/sprint-backlog-2
 
 <br>
 
@@ -275,8 +284,8 @@ Durante el Sprint 1 se implementó la Landing Page de Restock. Los principales a
 A continuación, se presenta el video de la landing page. Este muestra la interacción principal de los usuarios con la plataforma, destacando los flujos de navegación, diseño responsivo y la estructura general de la aplicación.
 
 **Video de landing page:**
-![Captura del video](assets\images\cap-5\landing_preview.png)
-[Enlace al video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202021885_upc_edu_pe/ESr2APucfj9Ahygy-5yMSmIBAaBEuyNsfl4xjvlap9Zv-A?e=SoZLKy&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+![Captura del video](assets\images\cap-5\evidence_sprint_1.png)
+[Enlace al video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202021885_upc_edu_pe/EcvZvXFf2R5Grwqi4pZmu4sBxzaCWMUm9-atcPPKarcjgw?e=EpmVfH&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 #### 5.2.1.6 Services Documentation Evidence for Sprint Review
 
@@ -306,24 +315,175 @@ Dentro de Pages, se seleccionó la rama (develop) y la carpeta (root) desde la c
 Se guardaron los cambios para activar la publicación automática.
 
 ![Foto deployment step 1](assets/images/cap-5/step-1.png)
-`<br/>`
 
 2- por default ya esta activado el https
 
 ![Foto deployment step 2](assets/images/cap-5/step-2.png)
-`<br/>`
 
 3- En la seccion "All workflows" se puede ver que la app se esta deployando.
 
 ![Foto deployment step 3](assets/images/cap-5/step-3.png)
-`<br/>`
 
 4- El landing page fue exitosamente deployado
 
 ![Foto deployment step 4](assets/images/cap-5/step-4.png)
-`<br/>`
 
 5- Se obtuvo y verificó la URL pública proporcionada por GitHub Pages.
 
 ![Foto deployment step 5](assets/images/cap-5/step-5.png)
-`<br/>`
+
+### 5.2.2 Sprint 2
+
+#### 5.2.2.1. Sprint Planning 2
+
+| Sprint #                             | Sprint 2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Sprint Planning Background** |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Date                                 | 2025-05-05                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Time                                 | 08:00 pm (GMT-5)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Location                             | Modalidad remota mediante la plataforma Discord                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Prepared By                          | Guzmán Cabrejos, Yaku Mateo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Attendees (to planning meeting)      | Avendaño Balarezo, Williams Eduardo / Castro Alejos, Julio / Guerra Perez, José Jahaziel / Guzmán Cabrejos, Yaku Mateo / Shapiama Rivera, Gabriela Nicole                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Sprint 1 Review Summary              | Durante el Sprint 1 se logró implementar casi en su totalidad la<br />Landing Page del sistema Restock, desarrollando secciones <br />clave como el header, footer, sección de beneficios y preguntas frecuentes, <br />así como la integración inicial de estilos globales y tipografía. Quedó faltante <br />la funcionalidad de cambio de idioma, la cual será prioridad para el siguiente <br />sprint. El equipo cumplió con los entregables establecidos, respetando el diseño <br />de mockups y la guía de estilos. Se identificaron oportunidades de mejora en <br />la velocidad de desarrollo y gestión de tiempos.                                                        |
+| Sprint 1 Retrospective Summary       | Durante el Sprint 1, el equipo logró avanzar de forma coordinada y efectiva en<br />el desarrollo de la landing page, sin enfrentar mayores dificultades. Cada integrante <br />cumplió puntualmente con las secciones asignadas, lo que permitió avanzar según<br />lo planificado. La adopción de convenciones comunes en el código y el diseño<br />contribuyó a mantener la coherencia del producto y facilitó la integración entre partes.<br />Como mejora para el siguiente sprint, se acordó implementar revisiones diarias<br />(daily reviews) que permitan alinear mejor los avances, detectar bloqueos tempranos<br />y mejorar la comunicación continua entre miembros. |
+| **Sprint Goal & User Stories** |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Sprint 2 Goal                        | Nuestro enfoque está en  brindar información clara y detallada a los visitantes de la<br />plataforma, así como habilitar funcionalidades clave para los usuarios del sistema <br />interno. Creemos que esto proporciona  mayor comprensión del propósito de la solución<br /> a los visitantes y mejora la eficiencia operativa del personal de los restaurantes. Esto <br />se confirmará cuando  los visitantes puedan explorar contenido relevante desde el acceso <br />público, y los usuarios autenticados naveguen por el panel principal y accedan a al menos<br /> tres módulos funcionales del sistema.                                                                     |
+| Sprint 2 Velocity                    | 93                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Sum of Story Points                  | 91                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+
+#### 5.2.2.2 Aspect Leaders and Collaborators
+
+##### Aspect Leaders and Collaborators
+
+Durante el Sprint 2,  se ha definido el desarrollo e integración de los módulos principales del frontend de la aplicación web interna  Restock , abarcando funcionalidades clave como la gestión de productos, pedidos, inventario y compras. Estas implementaciones buscan optimizar los procesos internos y mejorar la trazabilidad del inventario, brindando mayor eficiencia a los administradores de restaurantes y su personal.
+
+Con el fin de mantener una coordinación efectiva y una comunicación fluida entre los integrantes del equipo, se estructuró la matriz de liderazgo y colaboración (LACX), donde se asignó un líder (L) encargado de cada funcionalidad y colaboradores (C) que brindan apoyo en su implementación.
+
+<div style="font-size: 0.75em; overflow-x: auto;">
+
+| Team Member (Last Name, First Name) | GitHub Username    | Configuración de perfil | Panel de suscripción y planes | Alertas para proveedores | Calificaciones de proveedores | Barra de navegación | Alertas para restaurantes | Registro de recetas | Registro de ventas de restaurantes | Registro de proveedores desde restaurantes | Inventario de insumos | Pedidos a proveedores | Ordenes de proveedores | Resumen de datos |
+| :---------------------------------- | :----------------- | :----------------------- | :----------------------------- | :----------------------- | :---------------------------- | :------------------- | :------------------------ | :------------------ | :--------------------------------- | :----------------------------------------- | :-------------------- | :--------------------- | :--------------------- | :--------------- |
+| Vendaño Balarezo, Williams Eduardo | dev-willy-code     | C                        | L                              | L                        | L                             | C                    | C                         | C                   | L                                  | C                                          | C                     | C                      | C                      | C                |
+| Castro Alejos, Julio                | JulioXC4           | C                        | C                              | C                        | C                             | C                    | C                         | C                   | C                                  | C                                          | L                     | C                      | C                      | C                |
+| Guerra Perez, José Jahaziel        | jahazielgg         | L                        | C                              | C                        | C                             | L                    | L                         | L                   | C                                  | C                                          | C                     | C                      | C                      | C                |
+| Guzmán Cabrejos, Yaku Mateo        | yak-cod            | C                        | C                              | C                        | C                             | C                    | C                         | C                   | C                                  | L                                          | C                     | C                      | C                      | L                |
+| Shapiama Rivera, Gabriela Nicole    | GabrielaShapiama28 | C                        | C                              | C                        | C                             | C                    | C                         | C                   | C                                  | C                                          | C                     | L                      | L                      | C                |
+
+</div>
+
+#### 5.2.2.3 Sprint Backlog 2
+
+El objetivo principal de este Sprint es desarrollar la interfaz frontend de los dashboards para **administradores de restaurantes y proveedores**, enfocándose en una estructura clara, navegación eficiente y visualización adecuada de datos críticos.
+
+![Board Sprint 2](assets/images/cap-5/vision-statement-sprint2.png)
+
+Además, se realizaron mejoras en el *landing page*, incluyendo la implementación de un **toggle de idioma** (inglés/español) y la incorporación de **atributos de accesibilidad** como `aria-label` y `lang`, asegurando mayor inclusión y cumplimiento de estándares web.
+
+![Board Sprint 2](assets/images/cap-5/sprint-backlog2-3.png)
+
+![Board Sprint Details 2](assets/images/cap-5/sprint-backlog2-1.png)
+
+![Board Sprint Details 2](assets/images/cap-5/sprint-backlog2-2.png)
+
+[[Enlace al Trello Sprint 2](https://trello.com/invite/b/681ab5854ac93bbc3c456c4e/ATTI2ddc2248f5308bf6ee343af5c381ec7f2CE97AD8/sprint-backlog-2)]
+
+#### 5.2.2.4 Development Evidence for Sprint Review
+
+En esta sección se presentan los avances realizados durante el Sprint 2, centrado en el desarrollo de los módulos principales de la aplicación web interna de Restock.
+El objetivo principal fue implementar funcionalidades claves para la gestión de productos, pedidos, inventario y compras, con el fin de mejorar la eficiencia operativa y la trazabilidad de los recursos dentro de los restaurantes.
+
+Durante este sprint se avanzó en la autenticación de usuarios, el diseño del panel principal y la implementación inicial de tres módulos funcionales clave.
+
+##### Commits Relevantes
+
+| Repository                         | Branch                   | Commit Id | Commit Message                                       | Commit Message Body                                                          | Commited on (Date) |
+| ---------------------------------- | ------------------------ | --------- | ---------------------------------------------------- | ---------------------------------------------------------------------------- | ------------------ |
+| jahazielgg/UI-Topic-frontend       | feature/auth-module      | a23f45d   | feat(auth): implement login and registration logic   | Creación de flujo de autenticación con validaciones y redirecciones.       | 04-05-2025         |
+| GabrielaShapiama/UI-Topic-frontend | feature/dashboard-layout | b76a2fc   | feat(dashboard): add layout and navigation           | Estructura base del dashboard con navegación lateral y superior.            | 05-05-2025         |
+| Williams/UI-Topic-frontend         | feature/inventory-module | c98f312   | feat(inventory): initial inventory module            | Implementación inicial de la vista de inventario con formulario de insumos. | 06-05-2025         |
+| Yaku Guzman/UI-Topic-frontend      | feature/orders-module    | d12e7af   | feat(orders): orders module view and status tracking | Desarrollo de listado de pedidos y seguimiento de estado.                    | 07-05-2025         |
+| jahazielgg/UI-Topic-frontend       | feature/products-module  | e4501aa   | feat(products): create product management UI         | Vista para gestión de productos del restaurante y filtros por proveedor.    | 07-05-2025         |
+| GabrielaShapiama/UI-Topic-frontend | feature/sidebar          | f12cbb9   | feat(ui): add sidebar navigation                     | Integración de barra lateral con íconos y secciones principales.           | 08-05-2025         |
+| Williams/UI-Topic-frontend         | main                     | 1349abc   | chore: merge feature branches to main                | Integración de módulos principales al branch principal.                    | 08-05-2025         |
+
+#### 5.2.2.5 Execution Evidence for Sprint Review
+
+#### 5.2.2.6 Services Documentation Evidence for Sprint Review
+
+Durante este sprint se completó al 100% el desarrollo del Landing Page del sistema, consolidando su estructura visual, diseño responsivo, traducción multilenguaje y funcionalidades de navegación. Asimismo, se avanzó de forma significativa en la construcción del frontend del sistema, incluyendo componentes claves como el menú lateral, el dashboard inicial, el módulo de gestión de insumos y la arquitectura modular en Vue.js bajo DDD (Domain-Driven Design).
+
+Aunque no se desplegaron endpoints REST aún, se documentan a continuación los recursos y avances relevantes del sprint, junto con evidencia de despliegue y repositorio de código.
+
+**Descripción del Logro:**
+
+- Finalización del Landing Page (100%).
+- Implementación completa de diseño responsivo, i18n, y redirecciones funcionales.
+- Estructura de frontend modular iniciada (menu sidebar, dashboard y componentes base).
+- Aplicación de buenas prácticas de organización por bounded contexts en Vue.
+- Integración visual basada en PrimeVue, PrimeFlex y PrimeIcons.
+
+### Recursos del Sprint
+
+| Recurso              | Acción implementada                                | Método HTTP | URL / Endpoint                                                 | Link de repositorio                                             |
+| -------------------- | --------------------------------------------------- | ------------ | -------------------------------------------------------------- | --------------------------------------------------------------- |
+| Landing Page         | Visualización completa y funcional del landing     | GET          | https://aplicaciones-web-curso-upc.github.io/UI-Topic-landing/ | https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-landing  |
+| UI del sistema (WIP) | Avance en el sistema (menú, dashboard, inventario) | GET          | https://ui-topic-frontend.vercel.app/dashboard                 | https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-frontend |
+
+
+A continuación, se presenta el video del frontend de la aplicación web interna. Este demuestra la interacción de los usuarios autenticados con los módulos principales del sistema, incluyendo la navegación por el panel de administración, la gestión de productos, el seguimiento de pedidos y el control de inventario.
+
+**Video del frontend:**
+![Captura del video](assets/images/cap-5/evidence_sprint_2/video_evidence.png)
+[Enlace al video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202021885_upc_edu_pe/EY3GdWRDA0FFkne6vY7rA2YBNCogeN7uU70N4UnuxwgpAg?e=ZgvDYo&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+#### 5.2.2.7 Software Deployment Evidence for Sprint Review
+
+Durante este Sprint, se realizaron las actividades de despliegue del frontend de la aplicación web desarrollada con Vue 3 y PrimeVue utilizando la plataforma **Vercel**. A continuación, se detallan los pasos ejecutados:
+
+1. Se accedió a [https://vercel.com](https://vercel.com) e inició sesión con una cuenta de GitHub.
+   Luego, se seleccionó la opción **"Add New Project"** para importar el repositorio `UI-Topic-frontend`.
+
+![Vercel Deployment Step 1](assets/images/cap-5/evidence_sprint_2/evidence_1.png)
+
+2. Se seleccionó el repositorio `UI-Topic-frontend` y se configuró el proyecto.
+   Vercel detectó automáticamente que se trataba de un proyecto Vue 3, por lo que sugirió las configuraciones por defecto para el build.
+
+![Vercel Deployment Step 2](assets/images/cap-5/evidence_sprint_2/evidence_2.png)
+
+3. Se verificaron las configuraciones:
+
+- **Framework**: Vue.js
+- **Build Command**: `npm run build`
+- **Output Directory**: `dist`
+
+Se procedió a desplegar haciendo clic en **"Deploy"**.
+
+![Vercel Deployment Step 3](assets/images/cap-5/evidence_sprint_2/evidence_3.png)
+
+4. El proceso de build y despliegue fue iniciado por Vercel, mostrando en tiempo real los logs del pipeline.
+
+![Vercel Deployment Step 4](assets/images/cap-5/evidence_sprint_2/evidence_4.png)
+
+5. Una vez finalizado el despliegue, se mostró la URL pública de acceso a la aplicación.
+   Se probó exitosamente el funcionamiento de la aplicación en dicha URL.
+
+![Vercel Deployment Step 5](assets/images/cap-5/evidence_sprint_2/evidence_5.png)
+
+[https://ui-topic-frontend.vercel.app/](https://ui-topic-frontend.vercel.app/)
+
+#### 5.2.2.8 Team Collaboration Insights during Sprint.
+
+Se crearon ramas específicas para cada sección o funcionalidad (feature/[nombre-de-seccion]), permitiendo un trabajo paralelo organizado.
+Cada miembro del equipo asumió la responsabilidad de desarrollar una o más secciones del Frontend.
+Se realizaron commits frecuentes, registrando avances de manera continua y detallada.
+Las funcionalidades desarrolladas se integraron mediante Pull Requests hacia la rama develop.
+Se mantuvo una comunicación constante mediante la plataforma Discord para coordinar avances y resolver dudas en tiempo real.
+Se aplicaron buenas prácticas de programación, control de versiones y colaboración en equipo.
+
+##### **Analíticos de colaboración**
+
+![Team Collaboration Insight](assets/images/cap-5/team_collaboration_insight.png)
+
+##### **Analíticos de commits de GitHub**
+
+![Team Collaboration Insight](assets/images/cap-5/team_collaboration_insight_2.png)

@@ -1,1 +1,2 @@
-
+Link del video tp1:
+https://upcedupe-my.sharepoint.com/:v:/r/personal/gabriela_shapiama_upc_edu_pe/Documents/Recordings/Reuni%C3%B3n%20con%20Gabriela%20Nicole%20Shapiama%20Rivera-20250516_062201-Grabaci%C3%B3n%20de%20la%20reuni%C3%B3n.mp4?csf=1&web=1&e=DqhW9u&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
