@@ -766,7 +766,7 @@ Vista organizada de los pedidos recibidos por estado (nuevo, en proceso, entrega
 
 **Filtrar pedidos por nuevos y en proceso**  
 Interfaz para ordenar y filtrar los pedidos recibidos por estado.  
-![filter-orders-by-new-requests-order-and-processing](assets/images/cap4/desktop_wireframes_supplier/filter-orders-by-new-requests-order-and-processing.png)
+![filter-orders-by-new-requests-order-and-processing](assets/images/cap4/desktop_wireframes_supplier/filter-orders-by-new-requests-order-and-mine.png)
 
 **Mis pedidos ordenados por estado de envío**  
 Vista de pedidos enviados, ordenados según su progreso logístico.  
@@ -842,7 +842,7 @@ Historial y métodos de pago del proveedor respecto a su plan.
 
 **Reseñas de restaurantes al proveedor**  
 Vista donde el proveedor puede revisar las evaluaciones que recibió de los restaurantes.  
-![reviews+by-restaurants-to-supplier](assets/images/cap4/desktop_wireframes_supplier/reviews+by-restaurants-to-supplier.png)
+![reviews+by-restaurants-to-supplier](assets/images/cap4/desktop_wireframes_supplier/reviews-by-restaurants-to-supplier.png)
 
 ---
 
