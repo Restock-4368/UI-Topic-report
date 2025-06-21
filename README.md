@@ -1,4 +1,4 @@
-# Carátula
+Carátula
 
 _Universidad Peruana de Ciencias Aplicadas_
 _Ingeniería de Software_
@@ -78,12 +78,26 @@ _Abril 2025_
 |     8.3     | 14/05/25 | Julio Castro       | Se realizó Execution Evidence for Sprint 2 Review (frontend).                                                                                                                                                                                                    |
 |     8.4     | 14/05/25 | Gabriela Shapiama  | Se realizó Team Collaboration Insights during Sprint 2.                                                                                                                                                                                                          |
 |     8.5     | 14/05/25 | Yaku Guzmán       | Se realizó avance de conclusiones.                                                                                                                                                                                                                                |
+|     9.1     | 30/05/25 | Julio Castro       | Se actualizaron las user stories y se elaboró diseño de<br /> entrevistas.                                                                                                                                                                                             |
+|     9.2     | 31/05/25 | Jahaziel Guerra    | Se actualizó el Product Backlog y se elaboró el Sprint<br />Planning 3.                                                                                                                                                                                                |
+|     9.3     |  1/06/25  | Gabriela Shapiama  | Se elaboró Aspect Leaders and Collaborators.                                                                                                                                                                                                                            |
+|     9.4     |  2/06/25  | Yaku Guzmán       | Se agregó el Sprint Backlog 3.                                                                                                                                                                                                                                          |
+|     9.5     | 16/06/25 | Yaku Guzmán       | Se elaboró Development Evidence for Sprint Review 3.                                                                                                                                                                                                                    |
+|     9.6     | 16/06/25 | Julio Castro       | Se realizó Execution Evidence for Sprint Review y Team<br />Collaboration Insights during Sprint 3.                                                                                                                                                                    |
+|     9.7     | 19/06/25 | Williams Avendaño | Se elaboró Services Documentation Evidence for Sprint<br />Review y Software Deployment Evidence for Sprint Review 3.                                                                                                                                                   |
+|     9.8     | 20/06/25 | Williams Avendaño | Se registraron entrevistas.                                                                                                                                                                                                                                              |
+|     9.9     | 20/06/25 | Gabriela Shapiama  | Se registraron entrevistas.                                                                                                                                                                                                                                              |
+|     9.10     | 20/06/25 | Yaku Guzmán       | Se registraron entrevistas.                                                                                                                                                                                                                                              |
+|     9.11     | 20/06/25 | Jahaziel Guerra    | Se elaboraron las Evaluaciones según heurísticas.                                                                                                                                                                                                                      |
+|     9.12     | 20/06/25 | Julio Castro       | Se realizó Video About-the-Product.                                                                                                                                                                                                                                     |
+|     9.13     | 20/06/25 | Williams Avendaño | Se actualizaron las conclusiones                                                                                                                                                                                                                                         |
+|     9.14     | 20/06/25 | Gabriela Shapiama  | Se actualizaron los anexos.                                                                                                                                                                                                                                              |
 
 # Project Report Collaboration Insights
 
 Para el desarrollo del **Project Report**, se utilizó un repositorio en la organización de GitHub del equipo. A continuación, se presenta la evidencia de colaboración correspondiente a cada sprint del proyecto, en coherencia con el Registro de Versiones del Informe.
 
-Repositorio del informe del proyecto:  
+Repositorio del informe del proyecto:
 🔗 [https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-report](https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-report)
 
 ![Evidencia de commits del repositorio](assets/images/ci-report.png)
@@ -93,10 +107,9 @@ Repositorio del informe del proyecto:
 - Actividad repartida entre ramas para cada sección del informe
 - Todos los miembros participaron activamente en la redacción y revisión del contenido
 
-
 ## Sprint 1 - Informe inicial y Landing Page (27 de marzo - 27 de abril de 2025)
 
-Repositorio de el landing page:  
+Repositorio de el landing page:
 🔗 [https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-landing](https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-landing)
 
 Durante este primer sprint, el equipo se enfocó en la elaboración del informe base del proyecto, que incluye la definición del problema, justificación, objetivos, y el marco teórico. Paralelamente, se desarrolló la **Landing Page** de la aplicación utilizando tecnologías web como HTML5, CSS3 y JavaScript puro.
@@ -113,10 +126,9 @@ El trabajo del informe se organizó utilizando ramas separadas por secciones tem
 
 Este nivel de actividad evidencia una participación activa y equitativa de todos los miembros del equipo.
 
-
 ## Sprint 2 - Desarrollo del Frontend (28 de abril - 25 de mayo de 2025)
 
-Repositorio del frontend:  
+Repositorio del frontend:
 🔗 [https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-frontend](https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-frontend)
 
 En este sprint, el equipo centró sus esfuerzos en la construcción de la interfaz de usuario de la aplicación web. Utilizando **Vue 3 con Vite**, **PrimeVue**, **axios** e **i18n**, se implementaron los principales componentes de la interfaz, así como la estructura inicial basada en **domain-driven design** con subdominios `public` y `global`.
@@ -129,10 +141,9 @@ Para el informe, se documentó el diseño de la arquitectura frontend, la estruc
 - Se añadieron secciones al informe: Arquitectura del Frontend, Estructura de Componentes, y Descripción Técnica del Sprint 2.
 - Participación activa de los 5 miembros en los commits y revisión de PRs.
 
-
 ## Sprint 3 - Desarrollo del Backend (26 de mayo - 21 de junio de 2025)
 
-Repositorio del backend:  
+Repositorio del backend:
 🔗 [https://github.com/Aplicaciones-Web-Curso-UPC/restock-platform](https://github.com/Aplicaciones-Web-Curso-UPC/restock-platform)
 
 Durante el sprint final, se implementó el backend de la aplicación usando **ASP.NET Core Framework** con arquitectura DDD. Se diseñaron los agregados principales (`Recipes`), se definieron los servicios de comandos, consultas, y los controladores REST. También se integraron herramientas como **Swagger** para documentación automática de APIs.
