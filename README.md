@@ -81,20 +81,69 @@ _Abril 2025_
 
 # Project Report Collaboration Insights
 
-Para el desarrollo del **Project Report**, se utilizó un repositorio en la organización de GitHub del equipo. A continuación, se presenta la evidencia de colaboración correspondiente al periodo del **27 de marzo de 2025 al 27 de abril de 2025**.
+Para el desarrollo del **Project Report**, se utilizó un repositorio en la organización de GitHub del equipo. A continuación, se presenta la evidencia de colaboración correspondiente a cada sprint del proyecto, en coherencia con el Registro de Versiones del Informe.
 
-![Colaboraciones proyecto](assets/images/collaboration_insight.png)
+Repositorio del informe del proyecto:  
+🔗 [https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-report](https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-report)
 
-- 75 pull requests activos, todos fusionados exitosamente.
+![Evidencia de commits del repositorio](assets/images/ci-report.png)
+
+- Total de commits: **327 commits**
+- Autores contribuyentes: **5 miembros del equipo**
+- Actividad repartida entre ramas para cada sección del informe
+- Todos los miembros participaron activamente en la redacción y revisión del contenido
+
+
+## Sprint 1 - Informe inicial y Landing Page (27 de marzo - 27 de abril de 2025)
+
+Repositorio de el landing page:  
+🔗 [https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-landing](https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-landing)
+
+Durante este primer sprint, el equipo se enfocó en la elaboración del informe base del proyecto, que incluye la definición del problema, justificación, objetivos, y el marco teórico. Paralelamente, se desarrolló la **Landing Page** de la aplicación utilizando tecnologías web como HTML5, CSS3 y JavaScript puro.
+
+El trabajo del informe se organizó utilizando ramas separadas por secciones temáticas. Cada integrante del equipo aportó contenido específico y realizó revisiones cruzadas mediante pull requests. Las decisiones sobre estructura, estilo y contenido se discutieron mediante comentarios en los PRs.
+
+![Colaboraciones Sprint 1](assets/images/ci-landing.png)
+
+- 34 pull requests activos, todos fusionados exitosamente.
 - 0 issues abiertos, cerrados o nuevos.
 - 5 autores contribuyeron al repositorio.
-- 83 commits realizados en total (1 commit directo a main y 82 a otras ramas).
+- 57 commits realizados en total (1 commit directo a main y 56 en ramas).
 - No se registraron cambios en archivos en la rama principal (0 adiciones y 0 eliminaciones).
 
-Estas actividades evidencian la colaboración de todos los integrantes del equipo en la elaboración del informe, en coherencia con el Registro de Versiones del Informe.
+Este nivel de actividad evidencia una participación activa y equitativa de todos los miembros del equipo.
 
-A continuación, se presenta el enlace al repositorio del proyecto, donde se puede observar la actividad de cada integrante del equipo:
-[https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-report](https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-report)
+
+## Sprint 2 - Desarrollo del Frontend (28 de abril - 25 de mayo de 2025)
+
+Repositorio del frontend:  
+🔗 [https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-frontend](https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-frontend)
+
+En este sprint, el equipo centró sus esfuerzos en la construcción de la interfaz de usuario de la aplicación web. Utilizando **Vue 3 con Vite**, **PrimeVue**, **axios** e **i18n**, se implementaron los principales componentes de la interfaz, así como la estructura inicial basada en **domain-driven design** con subdominios `public` y `global`.
+
+Para el informe, se documentó el diseño de la arquitectura frontend, la estructura de carpetas, las decisiones tecnológicas y se agregaron capturas del prototipo funcional. La colaboración en esta entrega se reflejó en múltiples commits, donde cada miembro aportó a secciones específicas y revisó las contribuciones de los demás.
+
+![Colaboraciones Sprint 2](assets/images/ci-frontend.png)
+
+- 331 commits relacionados con la documentación de la arquitectura frontend y diseño de componentes.
+- Se añadieron secciones al informe: Arquitectura del Frontend, Estructura de Componentes, y Descripción Técnica del Sprint 2.
+- Participación activa de los 5 miembros en los commits y revisión de PRs.
+
+
+## Sprint 3 - Desarrollo del Backend (26 de mayo - 21 de junio de 2025)
+
+Repositorio del backend:  
+🔗 [https://github.com/Aplicaciones-Web-Curso-UPC/restock-platform](https://github.com/Aplicaciones-Web-Curso-UPC/restock-platform)
+
+Durante el sprint final, se implementó el backend de la aplicación usando **ASP.NET Core Framework** con arquitectura DDD. Se diseñaron los agregados principales (`Recipes`), se definieron los servicios de comandos, consultas, y los controladores REST. También se integraron herramientas como **Swagger** para documentación automática de APIs.
+
+En el informe se agregó una sección detallada sobre el backend, incluyendo los diagramas de contexto y contenedores generados con Structurizr, y descripciones del diseño orientado a dominios. Cada integrante contribuyó con documentación técnica del backend, integraciones y pruebas.
+
+![Colaboraciones Sprint 3](assets/images/ci-backend.png)
+
+- 62 commits adicionales con contenido del backend e imágenes de arquitectura.
+- Se incorporaron las secciones: Arquitectura Backend, Agregados DDD, y Documentación API.
+- Todos los integrantes participaron activamente con commits y revisión de secciones críticas del informe.
 
 # Tabla de contenidos
 
