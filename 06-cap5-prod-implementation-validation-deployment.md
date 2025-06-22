@@ -953,7 +953,7 @@ Por su parte, valora que el panel de análisis le proporciona métricas claras q
 **Carrera:** Ingeniería de Software
 **Curso:** Aplicaciones Web
 **Sección:** 4368
-**Profesores:** Todos
+**Profesores:** Angel Velasquez
 **Auditor:** Gabriela Nicole Shapiama Rivera y Yaku Mateo Guzman Cabrejos
 **Cliente(s):** Mery Pilar, Alfredo Barnouil y Flor Medina
 
