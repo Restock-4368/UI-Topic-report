@@ -939,7 +939,7 @@ Ver entrevista: https://lc.cx/YT7O8G
 
 **Resumen:**
 
-gerente de logistica y 7 años de experiencia
+Gerente de logistica y 7 años de experiencia
 
 Flor Medina tiene 28 años, vive en el distrito de San Miguel y es gerente de logistica de pedidos. Es una persona perseverante, responsable y amable. 
 
@@ -955,7 +955,7 @@ Por su parte, valora que el panel de análisis le proporciona métricas claras q
 **Sección:** 4368
 **Profesores:** Todos
 **Auditor:** Gabriela Nicole Shapiama Rivera y Yaku Mateo Guzman Cabrejos
-**Cliente(s):** Mery Pilar, Alfredo Barnouil
+**Cliente(s):** Mery Pilar, Alfredo Barnouil y Flor Medina
 
 **Site o App a evaluar:** Restock
 
@@ -983,7 +983,9 @@ Por su parte, valora que el panel de análisis le proporciona métricas claras q
 | 7  | Flujo de tareas puede ser poco guiado                           | 1                   | Information Architecture: Is it usable?                                         |
 | 8  | Modal de creación de insumos podría ser más informativo         | 1                   | Usabilidad: Ayuda y documentación                                               |
 | 9  | Notificaciones no especifican acción sugerida                   | 2                   | Usabilidad: Ayuda al usuario a reconocer, diagnosticar y recuperarse de errores |
-| 10 | Registro de ventas puede generar confusión por pasos implícitos | 2                   | Arquitectura de información: Es claro el flujo?                                 |
+| 10 | Registro de ventas puede generar confusión por pasos implícitos | 2                   | Arquitectura de información: Claridad del flujo                                 |
+| 11 | Panel de análisis no permite filtrar por tipo de cliente        | 2                   | Information Architecture: Is it findable?                                       |
+| 12 | Calendario de envíos carece de vista resumen o semanal          | 2                   | Usabilidad: Flexibilidad y eficiencia de uso        
 
 ---
 
@@ -1077,6 +1079,25 @@ Por su parte, valora que el panel de análisis le proporciona métricas claras q
 **Evidencia:** "...ventas registradas que no se han descontado del inventario..." sugiere un doble paso no evidente.
 **Recomendación:** Fusionar ambos pasos o hacer explícito el estado intermedio con instrucciones claras ("Venta pendiente de confirmación").
 
+---
+
+**PROBLEMA #11: Panel de análisis no permite filtrar por tipo de cliente**
+**Severidad:** 2
+**Heurística violada:** Arquitectura de información - Is it findable?
+**Problema:** El panel de métricas proporciona datos útiles, pero no permite segmentarlos por tipo de cliente, zona geográfica u otros criterios relevantes para la logística.
+**Evidencia:** Flor menciona que "el panel de análisis le proporciona métricas claras", pero sugiere que la información está centralizada sin filtros.
+**Recomendación:** Incluir filtros en el panel (por fecha, zona, tipo de restaurante, etc.) para mayor utilidad.
+
+---
+
+**PROBLEMA #12: Calendario de envíos carece de vista resumen o semanal**
+**Severidad:** 2
+**Heurística violada:** Usabilidad - Flexibilidad y eficiencia de uso
+**Problema:** Aunque se puede programar fechas de envío, no se ofrece una vista que permita ver de forma semanal o mensual todas las programaciones a la vez.
+**Evidencia:** Flor menciona que programa fechas de envío en un calendario interactivo, pero no indica capacidad de ver planificación agregada.
+**Recomendación:** Añadir vistas tipo "semana" o "mes" al calendario para facilitar la gestión logística de varios pedidos.
+
+
 ## 5.4. Video About-the-Product
 
 A continuación, se presenta el video "About the Product" del sistema Restock, una solución tecnológica desarrollada para digitalizar y automatizar la gestión de inventarios y pedidos en restaurantes. Este video está dirigido principalmente a los visitantes del Landing Page, quienes desean conocer el modelo de negocio y las principales funcionalidades de la plataforma, así como a los usuarios potenciales de las aplicaciones, interesados en realizar tareas relacionadas con los procesos soportados por la solución.
@@ -1088,4 +1109,3 @@ Como parte de la validación del producto, se incluye también el testimonio de 
 A continuación, se incluye un screenshot del video, junto con los enlaces de la versión publicada en Microsoft Stream y YouTube, y el detalle del timing.
 
 [https://shorturl.at/4827U](https://shorturl.at/4827U)
-
