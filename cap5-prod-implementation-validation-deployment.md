@@ -539,6 +539,31 @@ Se aplicaron buenas prácticas de programación, control de versiones y colabora
 | Sprint 3 Velocity                    | 90                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | Sum of Story Points                  | 88                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 
+#### 5.2.3.8. Execution Evidence for Sprint Review
+
+A continuación, se muestra un video con los avances realizados durante el Sprint 3, en el cual se trabajó en la landing page, así como en el desarrollo del frontend y backend.
+
+**Video del sprint 3:**
+![Captura del video](assets\images\cap-5\evidence_sprint_3.png)
+[Enlace al video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202021885_upc_edu_pe/ERTTRSgbgCNBvoh315CcNh4BzblifNL5_0A9GeLjPGmTHg?e=Evw91e&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint
+
+Seguimos usando ramas específicas para cada sección o funcionalidad (feature/[nombre-de-seccion]), permitiendo un trabajo paralelo organizado.
+
+Cada miembro del equipo asumió la responsabilidad de desarrollar una o más boundeds del Backend.
+Se realizaron commits frecuentes, registrando avances de manera continua y detallada.
+Las funcionalidades desarrolladas se integraron mediante Pull Requests hacia la rama develop.
+Se mantuvo una comunicación constante mediante la plataforma Discord para coordinar avances y resolver dudas en tiempo real.
+Se aplicaron buenas prácticas de programación, control de versiones y colaboración en equipo.
+
+##### **Analíticos de colaboración**
+
+![Team Collaboration Insight](assets/images/cap-5/team_ci_3_1.png)
+
+##### **Analíticos de commits de GitHub**
+
+![Team Collaboration Insight](assets/images/cap-5/team_ci_3_2.png)
 
 
 ## 5.3. Validation Interviews
@@ -620,3 +645,4 @@ Validar la usabilidad, comprensión y utilidad de las funcionalidades del sistem
 - **Grabación de pantalla y voz:** previa autorización, para análisis posterior.
 ### 5.3.2. Registro de Entrevistas
 ### 5.3.3. Evaluaciones según heurísticas
+
