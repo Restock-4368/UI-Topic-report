@@ -763,9 +763,82 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
 
 [Link Trello](https://trello.com/b/yD03C08R)
 
-#### 5.2.3.4. Development Evidence for Sprint Review
+#### 5.2.3.4 Development Evidence for Sprint Review
 
+En esta sección presentamos la evidencia de desarrollo correspondiente al Sprint, en forma de commits registrados en los distintos módulos del backend de la plataforma Restock.
 
+Cada entrada refleja avances funcionales importantes realizados por el equipo, incluyendo la implementación de agregados, comandos, endpoints, configuración del entorno, y mejoras en la estructura del código.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+| ---------- | ------ | ---------- | --------------- | -------------------- | ------------------ |
+| Julio Castro/restock-platform | develop | 28992e7 | feat(domain): create CustomerSupply aggregate and constructor from command |  | 22-06-2025 |
+| Julio Castro/restock-platform | develop | 8d2c0a6 | feat(bc-resource): add queries for retrieving batches and supplies |  | 22-06-2025 |
+| Julio Castro/restock-platform | develop | ca21492 | feat(bc-resource): implement commands for batch and supply creation and update |  | 22-06-2025 |
+| Gabriela Shapiama/restock-platform | develop | b313d35 | refactor(Program): simplify DbContext configuration and comment out HTTPS redirection |  | 22-06-2025 |
+| Gabriela Shapiama/restock-platform | develop | 04bdc72 | feat(server): configure Kestrel to listen on specified port from environment variable |  | 22-06-2025 |
+| Gabriela Shapiama/restock-platform | develop | 9012237 | feat(configuration): add appsettings for local and production environments |  | 22-06-2025 |
+| Gabriela Shapiama/restock-platform | develop | 9fd966d | feat: enhance JSON serialization settings and improve database context configuration |  | 21-06-2025 |
+| Gabriela Shapiama/restock-platform | develop | 322ac8e | feat(docker): add Dockerfile for building and running CatchUpPlatform.API |  | 21-06-2025 |
+| Gabriela Shapiama/restock-platform | develop | 000878d | feat(configuration): update appsettings for production environment and remove token settings |  | 21-06-2025 |
+| Jahaziel Guerra/restock-platform | develop | 467eb35 | feat(recipe): add AddRecipeSupplyCommand for adding supplies to recipes |  | 21-06-2025 |
+| Jahaziel Guerra/restock-platform | develop | a8fbb78 | feat(config): rename appsettings to appsettings.Production.json and update connection string for production environment |  | 21-06-2025 |
+| Jahaziel Guerra/restock-platform | develop | 3b07ed2 | feat(recipe): update AddSupplyToRecipe to accept multiple supplies and change supplyId type to int in update/delete endpoints |  | 20-06-2025 |
+| Jahaziel Guerra/restock-platform | develop | 0a4207b | feat(recipe): change SupplyId type from Guid to int in recipe supply commands and resources |  | 20-06-2025 |
+| Jahaziel Guerra/restock-platform | develop | 6c528c4 | feat(recipe): make recipe description optional and update related properties for nullable support |  | 19-06-2025 |
+| Jahaziel Guerra/restock-platform | develop | a49dd6a | feat(recipe): add endpoints for listing, updating, and deleting recipe supplies; support optional supply inclusion in queries |  | 18-06-2025 |
+| Jahaziel Guerra/restock-platform | develop | e097162 | feat(recipe): add UpdateRecipeSupplyResource and support optional supply inclusion in assembler |  | 18-06-2025 |
+| Jahaziel Guerra/restock-platform | develop | e3cbd61 | feat(recipe): add command records for updating and deleting recipe supplies |  | 18-06-2025 |
+| Jahaziel Guerra/restock-platform | develop | cb9dd37 | feat(recipe): add service methods for updating, deleting, and querying recipe supplies |  | 18-06-2025 |
+| Jahaziel Guerra/restock-platform | develop | f7e4840 | feat(recipe): extend services and repository to support recipe supply update, delete, and querying |  | 18-06-2025 |
+| Jahaziel Guerra/restock-platform | develop | 1679ec6 | feat(recipe): add endpoint and service logic to add supply to recipe |  | 18-06-2025 |
+| Yaku Guzman/restock-platform | develop | 5fd1781 | refactor(resource): remove Supplies input from CreateRecipeResource |  | 18-06-2025 |
+| Yaku Guzman/restock-platform | develop | df20fbe | refactor(assembler): remove Supplies mapping from CreateRecipeCommandFromResourceAssembler |  | 18-06-2025 |
+| Julio Castro/restock-platform | develop | bdcb05a | refactor(command): remove Supplies input from CreateRecipeCommand and UpdateRecipeCommand |  | 18-06-2025 |
+| Julio Castro/restock-platform | develop | a102df6 | feat(resource): add AddRecipeSupplyResource record for recipe supply input |  | 18-06-2025 |
+| Julio Castro/restock-platform | develop | ac5c718 | feat: update AppDbContext to enforce generic DbContext options and clean up RecipeSupply configuration |  | 17-06-2025 |
+| Julio Castro/restock-platform | develop | 4a3b67d | feat: refactor Recipe and RecipeSupply entity configurations for improved relationships and clarity |  | 17-06-2025 |
+| Julio Castro/restock-platform | develop | 9460372 | feat: update Recipe and RecipeSupply entities for improved structure and validation |  | 17-06-2025 |
+| Julio Castro/restock-platform | develop | f1a57dc | feat(restock): add bounded context folders |  | 14-06-2025 |
+| Julio Castro/restock-platform | develop | 99d6426 | feat(resource): add supply entity. |  | 14-06-2025 |
+| Julio Castro/restock-platform | develop | c7eeb8a | feat(resource): add order to supplier batch entity. |  | 14-06-2025 |
+| Julio Castro/restock-platform | develop | 416b45b | feat(resource): add order to supplier entity. |  | 14-06-2025 |
+| Julio Castro/restock-platform | develop | dcc3a37 | feat(resource): add order to supplier states value object. |  | 14-06-2025 |
+| Julio Castro/restock-platform | develop | 63f1055 | feat(resource): add order to supplier situations value object. |  | 14-06-2025 |
+| Julio Castro/restock-platform | develop | edbb93b | feat(resource): add batch entity. |  | 14-06-2025 |
+| Julio Castro/restock-platform | develop | dda6d96 | chore: delete  files. |  | 14-06-2025 |
+| Julio Castro/restock-platform | develop | a744a30 | feat: improve database initialization and update API documentation for recipes |  | 13-06-2025 |
+| Yaku Guzman/restock-platform | develop | 656fcc5 | feat: add token settings and default connection string to appsettings.json |  | 13-06-2025 |
+| Yaku Guzman/restock-platform | develop | d6ace92 | feat: refactor Recipe and RecipeSupply entity configurations for improved clarity and consistency |  | 13-06-2025 |
+| Yaku Guzman/restock-platform | develop | e7c681f | feat: update connection string and upgrade package versions in project files |  | 13-06-2025 |
+| Yaku Guzman/restock-platform | develop | 5abad19 | feat: add Recipe and RecipeSupply entities with EF Core configuration |  | 13-06-2025 |
+| Gabriela Shapiama/restock-platform | develop | 212fcef | feat: change SupplyIdentifier to a record for improved immutability |  | 13-06-2025 |
+| Gabriela Shapiama/restock-platform | develop | cba2e4a | feat: add RecipesController for managing recipe operations |  | 13-06-2025 |
+| Gabriela Shapiama/restock-platform | develop | db32ad2 | feat: add RecipeRepository for managing recipe data persistence |  | 13-06-2025 |
+| Gabriela Shapiama/restock-platform | develop | af64949 | feat: implement RecipeCommandService and RecipeQueryService for recipe management |  | 13-06-2025 |
+| Gabriela Shapiama/restock-platform | develop | 0790773 | feat: add resource and assembler classes for creating and transforming recipe data |  | 13-06-2025 |
+| William Avendaño/restock-platform | develop | 567ab3b | feat: refactor query classes to use concise syntax |  | 13-06-2025 |
+| William Avendaño/restock-platform | develop | 3f13be2 | feat: add IRecipeCommandService and IRecipeQueryService interfaces for recipe management |  | 13-06-2025 |
+| William Avendaño/restock-platform | develop | f2e9aba | feat: rename RecipeAggregate to Recipe and enhance supply management methods |  | 13-06-2025 |
+| William Avendaño/restock-platform | develop | dce53a2 | feat: add IRecipeRepository interface for managing recipe data operations |  | 13-06-2025 |
+| William Avendaño/restock-platform | develop | c954b04 | feat(planning): add commands for creating, updating, and deleting recipes with supply management |  | 13-06-2025 |
+| William Avendaño/restock-platform | develop | 0ec9a0e | feat: update README and rename Ingredient to Supply for clarity |  | 10-06-2025 |
+| William Avendaño/restock-platform | develop | 4a559f5 | feat: add RecipeSupply entity for managing supply identifiers and quantities |  | 10-06-2025 |
+| William Avendaño/restock-platform | develop | f92c44f | feat: enhance RecipeAggregate with properties and supply management methods |  | 10-06-2025 |
+| William Avendaño/restock-platform | develop | 537ec3d | feat: add IRecipeService interface for handling recipe commands |  | 10-06-2025 |
+| William Avendaño/restock-platform | develop | e666b24 | feat: add command classes for updating recipes and supplies |  | 10-06-2025 |
+| Jahaziel/restock-platform | develop | fd5189e | feat: add query classes for retrieving recipes and supplies by user and ID |  | 10-06-2025 |
+| Jahaziel/restock-platform | develop | 2e46c52 | feat: add EUnitMeasurement value object for representing unit measurements |  | 10-06-2025 |
+| Jahaziel/restock-platform | develop | e099f32 | feat: add ECategories value object for managing recipe categories |  | 10-06-2025 |
+| Jahaziel/restock-platform | develop | 3d4d897 | feat: rename RecipeName to RecipeIdentifier and add new value objects for RecipeImageURL, RecipePrice, and RecipeQuantity |  | 10-06-2025 |
+| Julio-Castro/restock-platform | develop | 1f61a76 | feat: add command classes for managing supplies and recipes in the domain model |  | 10-06-2025 |
+| Julio-Castro/restock-platform | develop | 3f23e35 | feat: add folders for Commands and Queries in the domain model |  | 07-06-2025 |
+| Julio-Castro/restock-platform | develop | 91ae3a7 | feat: add Recipe class to represent recipe entities with properties and ingredients |  | 07-06-2025 |
+| Julio-Castro/restock-platform | develop | 00f6d90 | feat: add RecipeName value object to represent recipe names |  | 07-06-2025 |
+| Julio-Castro/restock-platform | develop | 4a43ace | feat: add methods to manage ingredients in Recipe class |  | 07-06-2025 |
+| Julio-Castro/restock-platform | develop | cc1745c | feat: add RecipeAggregate class to manage recipe entities |  | 07-06-2025 |
+| Julio-Castro/restock-platform | develop | 4037890 | feat: add Ingredient, IngredientName, and IngredientQuantity entities |  | 07-06-2025 |
+| Julio-Castro/restock-platform | develop | 6e7fbad | chore: initial commit |  | 03-06-2025 |
+| Jahaziel/restock-platform | develop | f629fef | chore: initial commit |  | 03-06-2025 |
 
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
@@ -774,6 +847,7 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
 
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
 
 #### 5.2.3.8. Execution Evidence for Sprint Review
  
