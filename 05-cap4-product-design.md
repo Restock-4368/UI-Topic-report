@@ -37,8 +37,7 @@ Asimismo, optamos por la tipografía "Inter" como fuente secundaria para los tex
 
 El branding de Restock está diseñado para reflejar simplicidad, confianza y profesionalismo. El logo y los íconos adoptan un enfoque minimalista, con líneas claras y formas simples que comunican el propósito de la plataforma. El diseño incluye la incial del nombre del producto ofrecido, representado de tal manera que simboliza gestión y orden con una apariencia limpia que es fácilmente reconocible, tanto en entornos web como móviles.
 
-&nbsp;
-`<img src="assets/images/cap4/logo.jpeg" alt="Foto de logo" width="200px" />`
+<img src="assets/images/cap4/logo.jpeg" alt="Foto de logo" width="200px" />
 
 #### Espaciado
 
