@@ -534,7 +534,6 @@ Se aplicaron buenas prácticas de programación, control de versiones y colabora
 | Sprint 3 Velocity                    | 90                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | Sum of Story Points                  | 88                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 
-
 #### 5.2.3.2. Aspect Leaders and Collaborators.
 
 Durante el Sprint 3,  se ha definido el desarrollo e integración de los módulos principales del frontend de la aplicación web interna  Restock  y del backend, abarcando funcionalidades clave como la gestión de productos, pedidos, inventario y compras. Estas implementaciones buscan optimizar los procesos internos y mejorar la trazabilidad del inventario, brindando mayor eficiencia a los administradores de restaurantes y su personal.
@@ -555,7 +554,6 @@ Con el fin de mantener una coordinación efectiva y una comunicación fluida ent
 
 #### 5.2.3.3. Sprint Backlog 3.
 
- 
 #### 5.2.3.3 Sprint Backlog 3
 
 El objetivo principal de este Sprint es consolidar una experiencia funcional completa para los distintos perfiles de usuario dentro de la plataforma Restock. Se prioriza la mejora de la landing page para comunicar eficazmente la propuesta de valor a nuevos visitantes, así como la habilitación de módulos clave como la gestión de ventas, recetas y pedidos para los administradores de restaurantes, y la gestión de órdenes para los proveedores.
@@ -765,26 +763,19 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
 
 #### 5.2.3.4. Development Evidence for Sprint Review
 
-
-
-
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review.
 
-
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
 #### 5.2.3.8. Execution Evidence for Sprint Review
- 
 
 A continuación, se muestra un video con los avances realizados durante el Sprint 3, en el cual se trabajó en la landing page, así como en el desarrollo del frontend y backend.
 
 **Video del sprint 3:**
 ![Captura del video](assets\images\cap-5\evidence_sprint_3.png)
 [https://shorturl.at/V5zDA](https://shorturl.at/V5zDA)
-
-
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 
@@ -895,10 +886,10 @@ Segmento 1: Dueños o administradores de Restaurantes
 
 ![Foto de Entrevista](assets/images/entrevistaFinal1.png)
 
-Ver entrevista: https://lc.cx/YT7O8G 
+Ver entrevista: https://lc.cx/YT7O8G
 
 **Resumen:**
-Alfredo Bernuy, administrador de restaurantes con 4 años de experiencia, tiene 52 años, es casado y vive en el distrito de Chorrillos, Lima. Es una persona comprometida y orientada a la mejora continua. 
+Alfredo Bernuy, administrador de restaurantes con 4 años de experiencia, tiene 52 años, es casado y vive en el distrito de Chorrillos, Lima. Es una persona comprometida y orientada a la mejora continua.
 
 Alfredo Bernuy destaca que la plataforma le resulta muy intuitiva desde el primer acceso: los menús están organizados de forma clara, los botones de acción son fácilmente reconocibles y el flujo para crear o modificar pedidos se siente natural y ágil. Valora especialmente la sección de gestión de stock, que le permite visualizar en tiempo real los niveles de inventario, recibir alertas automáticas al alcanzar el mínimo definido y filtrar por categorías o fechas para detectar tendencias.
 
@@ -913,16 +904,16 @@ Por otro lado, subraya que el diseño es moderno y atractivo: la paleta de color
 
 ![Foto de Entrevista](assets/images/entrevistaFinal2.png)
 
-Ver entrevista: https://lc.cx/YT7O8G 
+Ver entrevista: https://lc.cx/YT7O8G
 
 **Resumen:**
 
-Mery Pilar, administradora de restaurantes con 6 años de experiencia, tiene 49 años, es casada y vive en el distrito de Chorrillos, Lima. Es una persona responsable y orientada a la mejora continua e innovación.  
+Mery Pilar, administradora de restaurantes con 6 años de experiencia, tiene 49 años, es casada y vive en el distrito de Chorrillos, Lima. Es una persona responsable y orientada a la mejora continua e innovación.
 
 Mery Pilar resalta que la herramienta es sumamente sencilla de usar desde el primer contacto: los apartados están dispuestos de manera ordenada, los elementos interactivos resultan intuitivos y el proceso para generar o actualizar pedidos fluye de forma muy eficiente. Aprecia de forma especial el módulo de control de inventario, que le permite monitorear al instante las existencias, recibir notificaciones automáticas cuando un artículo llega al stock mínimo y aplicar filtros por categoría o periodo para identificar patrones de consumo.
 
 Además, enfatiza que la apariencia es fresca y profesional: los tonos empleados son elegantes sin dejar de ser actuales, la tipografía se lee con total nitidez y los iconos transmiten claramente su función. En su opinión, esta solución le proporciona el dominio completo sobre pedidos e inventario, optimiza su tiempo y le infunde la seguridad necesaria para mejorar sus operaciones diarias.
----
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 #### Segmento 2: Proveedores para Restaurantes
 
@@ -935,18 +926,17 @@ Además, enfatiza que la apariencia es fresca y profesional: los tonos empleados
 
 ![Foto de Entrevista](assets/images/entrevistaFinal3.png)
 
-Ver entrevista: https://lc.cx/YT7O8G 
+Ver entrevista: https://lc.cx/YT7O8G
 
 **Resumen:**
 
 Gerente de logistica y 7 años de experiencia
 
-Flor Medina tiene 28 años, vive en el distrito de San Miguel y es gerente de logistica de pedidos. Es una persona perseverante, responsable y amable. 
+Flor Medina tiene 28 años, vive en el distrito de San Miguel y es gerente de logistica de pedidos. Es una persona perseverante, responsable y amable.
 
 Comenta que la plataforma le facilita enormemente la gestión de sus pedidos entrantes: puede visualizar al instante las solicitudes de los restaurantes, confirmar o rechazar con un solo clic y programar fechas de envío en un calendario interactivo. Destaca el módulo de invetario, donde actualiza precios y descripciones de productos en tiempo real, y agradece las notificaciones automáticas que recibe cuando un cliente solicita pedidos.
 
 Por su parte, valora que el panel de análisis le proporciona métricas claras que le ayuda a ajustar su producción y planificar rutas de reparto más eficientes. En conjunto, considera que esta herramienta le otorga un control total de sus procesos de venta y logística, reduce errores administrativos y le brinda la confianza de ofrecer un servicio más ágil y profesional.
- 
 
 ### 5.3.3. Evaluaciones según heurísticas
 
@@ -966,30 +956,30 @@ Por su parte, valora que el panel de análisis le proporciona métricas claras q
 3. Recepción de notificaciones automáticas
 4. Realización de pedidos
 5. Creación de recetas
-6.  Registro de ventas
+6. Registro de ventas
 
 ---
 
-### TABLA RESUMEN
+#### TABLA RESUMEN
 
-| #  | Problema                                                        | Escala de severidad | Heurística / Principio violado                                                  |
-| -- | --------------------------------------------------------------- | ------------------- | ------------------------------------------------------------------------------- |
-| 1  | Uso de colores sin etiquetas para estados de pedido             | 2                   | Usabilidad: Visibilidad del estado del sistema                                  |
-| 2  | Falta de opciones rápidas para reutilizar recetas               | 1                   | Usabilidad: Reconocer mejor que recordar                                        |
-| 3  | No existen accesos directos ni funciones para expertos          | 3                   | Usabilidad: Flexibilidad y eficiencia de uso                                    |
-| 4  | Botones y acciones no están claramente etiquetados              | 2                   | Usabilidad: Correspondencia entre sistema y mundo real                          |
-| 5  | No se contempla accesibilidad visual o de navegación            | 2                   | Inclusive Design: Accesibilidad y compatibilidad                                |
-| 6  | Falta de opciones para editar o cancelar un pedido              | 2                   | Usabilidad: Libertad y control del usuario                                      |
-| 7  | Flujo de tareas puede ser poco guiado                           | 1                   | Information Architecture: Is it usable?                                         |
-| 8  | Modal de creación de insumos podría ser más informativo         | 1                   | Usabilidad: Ayuda y documentación                                               |
-| 9  | Notificaciones no especifican acción sugerida                   | 2                   | Usabilidad: Ayuda al usuario a reconocer, diagnosticar y recuperarse de errores |
-| 10 | Registro de ventas puede generar confusión por pasos implícitos | 2                   | Arquitectura de información: Claridad del flujo                                 |
-| 11 | Panel de análisis no permite filtrar por tipo de cliente        | 2                   | Information Architecture: Is it findable?                                       |
-| 12 | Calendario de envíos carece de vista resumen o semanal          | 2                   | Usabilidad: Flexibilidad y eficiencia de uso        
+| #  | Problema                                                          | Escala de severidad | Heurística / Principio violado                                                 |
+| -- | ----------------------------------------------------------------- | ------------------- | ------------------------------------------------------------------------------- |
+| 1  | Uso de colores sin etiquetas para estados de pedido               | 2                   | Usabilidad: Visibilidad del estado del sistema                                  |
+| 2  | Falta de opciones rápidas para reutilizar recetas                | 1                   | Usabilidad: Reconocer mejor que recordar                                        |
+| 3  | No existen accesos directos ni funciones para expertos            | 3                   | Usabilidad: Flexibilidad y eficiencia de uso                                    |
+| 4  | Botones y acciones no están claramente etiquetados               | 2                   | Usabilidad: Correspondencia entre sistema y mundo real                          |
+| 5  | No se contempla accesibilidad visual o de navegación             | 2                   | Inclusive Design: Accesibilidad y compatibilidad                                |
+| 6  | Falta de opciones para editar o cancelar un pedido                | 2                   | Usabilidad: Libertad y control del usuario                                      |
+| 7  | Flujo de tareas puede ser poco guiado                             | 1                   | Information Architecture: Is it usable?                                         |
+| 8  | Modal de creación de insumos podría ser más informativo        | 1                   | Usabilidad: Ayuda y documentación                                              |
+| 9  | Notificaciones no especifican acción sugerida                    | 2                   | Usabilidad: Ayuda al usuario a reconocer, diagnosticar y recuperarse de errores |
+| 10 | Registro de ventas puede generar confusión por pasos implícitos | 2                   | Arquitectura de información: Claridad del flujo                                |
+| 11 | Panel de análisis no permite filtrar por tipo de cliente         | 2                   | Information Architecture: Is it findable?                                       |
+| 12 | Calendario de envíos carece de vista resumen o semanal           | 2                   | Usabilidad: Flexibilidad y eficiencia de uso                                    |
 
 ---
 
-### DESCRIPCIÓN DE PROBLEMAS
+#### DESCRIPCIÓN DE PROBLEMAS
 
 **PROBLEMA #1: Uso de colores sin etiquetas para estados de pedido**
 **Severidad:** 2
@@ -1096,7 +1086,6 @@ Por su parte, valora que el panel de análisis le proporciona métricas claras q
 **Problema:** Aunque se puede programar fechas de envío, no se ofrece una vista que permita ver de forma semanal o mensual todas las programaciones a la vez.
 **Evidencia:** Flor menciona que programa fechas de envío en un calendario interactivo, pero no indica capacidad de ver planificación agregada.
 **Recomendación:** Añadir vistas tipo "semana" o "mes" al calendario para facilitar la gestión logística de varios pedidos.
-
 
 ## 5.4. Video About-the-Product
 
