@@ -534,6 +534,28 @@ Se aplicaron buenas prácticas de programación, control de versiones y colabora
 | Sprint 3 Velocity                    | 90                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | Sum of Story Points                  | 88                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 
+
+#### 5.2.3.2. Aspect Leaders and Collaborators.
+
+Durante el Sprint 3,  se ha definido el desarrollo e integración de los módulos principales del frontend de la aplicación web interna  Restock  y del backend, abarcando funcionalidades clave como la gestión de productos, pedidos, inventario y compras. Estas implementaciones buscan optimizar los procesos internos y mejorar la trazabilidad del inventario, brindando mayor eficiencia a los administradores de restaurantes y su personal.
+
+Con el fin de mantener una coordinación efectiva y una comunicación fluida entre los integrantes del equipo, se estructuró la matriz de liderazgo y colaboración (LACX), donde se asignó un líder (L) encargado de cada funcionalidad y colaboradores (C) que brindan apoyo en su implementación.
+
+<div style="font-size: 0.75em; overflow-x: auto;">
+
+| Team Member (Last Name, First Name) | GitHub Username    | Planning | Subscription | Profile | IAM | Analytics | Resource | Monitoring |
+| :---------------------------------- | :----------------- | :------- | :----------- | :------ | :-- | :-------- | :------- | :--------- |
+| Vendaño Balarezo, Williams Eduardo | dev-willy-code     | C        | L            | L       | L   | C         | C        | C          |
+| Castro Alejos, Julio                | JulioXC4           | C        | C            | C       | C   | C         | C        | C          |
+| Guerra Perez, José Jahaziel        | jahazielgg         | L        | C            | C       | C   | L         | L        | L          |
+| Guzmán Cabrejos, Yaku Mateo        | yak-cod            | C        | C            | C       | C   | C         | C        | C          |
+| Shapiama Rivera, Gabriela Nicole    | GabrielaShapiama28 | C        | C            | C       | C   | C         | C        | C          |
+
+</div>
+
+#### 5.2.3.3. Sprint Backlog 3.
+
+ 
 #### 5.2.3.3 Sprint Backlog 3
 
 El objetivo principal de este Sprint es consolidar una experiencia funcional completa para los distintos perfiles de usuario dentro de la plataforma Restock. Se prioriza la mejora de la landing page para comunicar eficazmente la propuesta de valor a nuevos visitantes, así como la habilitación de módulos clave como la gestión de ventas, recetas y pedidos para los administradores de restaurantes, y la gestión de órdenes para los proveedores.
@@ -741,13 +763,28 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
 
 [Link Trello](https://trello.com/b/yD03C08R)
 
+#### 5.2.3.4. Development Evidence for Sprint Review
+
+
+
+
+#### 5.2.3.5. Execution Evidence for Sprint Review
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review.
+
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
 #### 5.2.3.8. Execution Evidence for Sprint Review
+ 
 
 A continuación, se muestra un video con los avances realizados durante el Sprint 3, en el cual se trabajó en la landing page, así como en el desarrollo del frontend y backend.
 
 **Video del sprint 3:**
 ![Captura del video](assets\images\cap-5\evidence_sprint_3.png)
 [https://shorturl.at/V5zDA](https://shorturl.at/V5zDA)
+
+
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 
@@ -846,6 +883,70 @@ Validar la usabilidad, comprensión y utilidad de las funcionalidades del sistem
 - **Grabación de pantalla y voz:** previa autorización, para análisis posterior.
 
 ### 5.3.2. Registro de Entrevistas
+
+Segmento 1: Dueños o administradores de Restaurantes
+
+##### Entrevista 1:
+
+**Nombre:** Alfredo Bernuy
+**Edad:** 52 años
+**Distrito:** Chorrillos
+**Timing:** (00:00- 05:18 min)
+
+![Foto de Entrevista](assets/images/entrevistaFinal1.png)
+
+Ver entrevista: https://lc.cx/YT7O8G 
+
+**Resumen:**
+Alfredo Bernuy, administrador de restaurantes con 4 años de experiencia, tiene 52 años, es casado y vive en el distrito de Chorrillos, Lima. Es una persona comprometida y orientada a la mejora continua. 
+
+Alfredo Bernuy destaca que la plataforma le resulta muy intuitiva desde el primer acceso: los menús están organizados de forma clara, los botones de acción son fácilmente reconocibles y el flujo para crear o modificar pedidos se siente natural y ágil. Valora especialmente la sección de gestión de stock, que le permite visualizar en tiempo real los niveles de inventario, recibir alertas automáticas al alcanzar el mínimo definido y filtrar por categorías o fechas para detectar tendencias.
+
+Por otro lado, subraya que el diseño es moderno y atractivo: la paleta de colores es sobria pero actual, la tipografía resulta legible y los iconos comunican su función de un vistazo. Considera que la herramienta le brinda un control total sobre pedidos y stock, le ahorra tiempo y le transmite la confianza necesaria para optimizar sus operaciones diarias.
+
+##### Entrevista 2:
+
+**Nombre:** Mery Pilar
+**Edad:** 349 años
+**Distrito:** Chorrillos
+**Timing:** (05:19 - 10:50 min)
+
+![Foto de Entrevista](assets/images/entrevistaFinal2.png)
+
+Ver entrevista: https://lc.cx/YT7O8G 
+
+**Resumen:**
+
+Mery Pilar, administradora de restaurantes con 6 años de experiencia, tiene 49 años, es casada y vive en el distrito de Chorrillos, Lima. Es una persona responsable y orientada a la mejora continua e innovación.  
+
+Mery Pilar resalta que la herramienta es sumamente sencilla de usar desde el primer contacto: los apartados están dispuestos de manera ordenada, los elementos interactivos resultan intuitivos y el proceso para generar o actualizar pedidos fluye de forma muy eficiente. Aprecia de forma especial el módulo de control de inventario, que le permite monitorear al instante las existencias, recibir notificaciones automáticas cuando un artículo llega al stock mínimo y aplicar filtros por categoría o periodo para identificar patrones de consumo.
+
+Además, enfatiza que la apariencia es fresca y profesional: los tonos empleados son elegantes sin dejar de ser actuales, la tipografía se lee con total nitidez y los iconos transmiten claramente su función. En su opinión, esta solución le proporciona el dominio completo sobre pedidos e inventario, optimiza su tiempo y le infunde la seguridad necesaria para mejorar sus operaciones diarias.
+---
+
+#### Segmento 2: Proveedores para Restaurantes
+
+##### Entrevista 1:
+
+**Nombre:** Flor Medina
+**Edad:** 28 años
+**Distrito:** San Miguel
+**Timing:** (10:51 - 21:05 min)
+
+![Foto de Entrevista](assets/images/entrevistaFinal3.png)
+
+Ver entrevista: https://lc.cx/YT7O8G 
+
+**Resumen:**
+
+gerente de logistica y 7 años de experiencia
+
+Flor Medina tiene 28 años, vive en el distrito de San Miguel y es gerente de logistica de pedidos. Es una persona perseverante, responsable y amable. 
+
+Comenta que la plataforma le facilita enormemente la gestión de sus pedidos entrantes: puede visualizar al instante las solicitudes de los restaurantes, confirmar o rechazar con un solo clic y programar fechas de envío en un calendario interactivo. Destaca el módulo de invetario, donde actualiza precios y descripciones de productos en tiempo real, y agradece las notificaciones automáticas que recibe cuando un cliente solicita pedidos.
+
+Por su parte, valora que el panel de análisis le proporciona métricas claras que le ayuda a ajustar su producción y planificar rutas de reparto más eficientes. En conjunto, considera que esta herramienta le otorga un control total de sus procesos de venta y logística, reduce errores administrativos y le brinda la confianza de ofrecer un servicio más ágil y profesional.
+ 
 
 ### 5.3.3. Evaluaciones según heurísticas
 
@@ -987,3 +1088,4 @@ Como parte de la validación del producto, se incluye también el testimonio de 
 A continuación, se incluye un screenshot del video, junto con los enlaces de la versión publicada en Microsoft Stream y YouTube, y el detalle del timing.
 
 [https://shorturl.at/4827U](https://shorturl.at/4827U)
+
