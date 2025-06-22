@@ -1,21 +1,18 @@
-Carátula
+<img src="assets/images/logo-upc.png" alt="Logo UPC" style="width: 150px; height: auto;" />
 
 _Universidad Peruana de Ciencias Aplicadas_
+
 _Ingeniería de Software_
+
 _2025-10_
 
 **Código:** _1ASI0730_
+
 **Nombre:** _Aplicaciones Web_
 
 _Sección 4368
 
 _Prof. Velásquez Núñez, Ángel Augusto_
-
----
-
-# **Informe de Trabajo Final**
-
----
 
 ## Nombre del Startup
 
@@ -39,6 +36,8 @@ _Prof. Velásquez Núñez, Ángel Augusto_
 
 **Mes y Año**
 _Abril 2025_
+
+<div class="page"></div>
 
 ## **Registro de Versiones**
 
@@ -157,7 +156,7 @@ En el informe se agregó una sección detallada sobre el backend, incluyendo los
 - Todos los integrantes participaron activamente con commits y revisión de secciones críticas del informe.
 
 # Tabla de contenidos
-
+ 
 ## [Capítulo I: Introducción](cap1-introduction.md)
 
 - [1.1 Startup Profile](cap1-introduction.md#11-startup-profile)
@@ -249,16 +248,10 @@ En el informe se agregó una sección detallada sobre el backend, incluyendo los
 
 ## [Conclusiones](conclusiones.md)
 
-- [Conclusiones y recomendaciones](conclusiones.md#conclusiones-y-recomendaciones)
-- [Video About-the-Team](conclusiones.md#video-about-the-team)
-
-## [Bibliografía](bibliografia.md)
-
-Instituto Nacional de Estadística e Informática. (2023, 6 de junio). Negocios de restaurantes se incrementaron 9,16% en abril de 2023. https://m.inei.gob.pe/prensa/noticias/negocios-de-restaurantes-se-incrementaron-916-en-abril-de-2023-14439
-
-Instituto Nacional de Estadística e Informática. (2024, 6 de febrero). Actividad de restaurantes aumentó en 3,66% en diciembre 2023. https://m.inei.gob.pe/prensa/noticias/actividad-de-restaurantes-aumento-en-366-en-diciembre-2023-15025
+## [Bibliografía](bibliografia.md) 
 
 ## [Anexos](anexos.md)
+
 
 # ABET – EAC - Student Outcome 5
 
