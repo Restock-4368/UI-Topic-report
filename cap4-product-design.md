@@ -1820,6 +1820,12 @@ A continuación, se presenta el video de prototipado de la aplicación web en su
 
 ![Class diagram](assets/images/cap4/UML_C_sharp.png)
 
+#### Bounded Context: Resource
+
+El siguiente diagrama de clases representa la estructura orientada a objetos del contexto **Resource** en C#. Se modelan las entidades principales del dominio como clases, incluyendo `Supply`, `CustomerSupply`, `Batch`, `BatchNotification`, `OrderToSupplier`, `OrderToSupplierBatch`, `OrderToSupplierState`, `OrderToSupplierSituation` y `Comment`. Estas clases encapsulan atributos y comportamientos que reflejan las reglas de negocio del sistema de inventario, y se relacionan entre sí mediante asociaciones que representan dependencias, agregaciones o composiciones. Este diseño permite organizar la lógica del dominio de manera coherente, facilitando su implementación y mantenimiento en una arquitectura basada en DDD.
+
+![Class diagram](assets/images/cap4/class_diagram/resource_bounded_context-web.png "Resource Class Diagram")
+
 ### 4.7.2 Class Dictionary
 
 | Entidad                 | Descripción                                                                                                                                               |
@@ -1831,15 +1837,16 @@ A continuación, se presenta el video de prototipado de la aplicación web en su
 | RestaurantAdmin         | Representa a un suscriptor de tipo administrador de restaurante encargado de gestionar internamente el restaurante, sus operaciones, inventario y pedidos. |
 | Comment                 | Comentario hecho por un administrador de restaurante a un pedido de proveedor.                                                                             |
 | OrderToSupplier         | Pedido de productos o insumos realizado por el restaurante hacia un proveedor.                                                                             |
-| PaymentInfo             | Contiene los detalles de métodos y transacciones de pago.                                                                                                 |
-| Alert                   | Representa una notificación automática que informa al suscriptor sobre eventos importantes.                                                              |
+| Batch             | Contiene los detalles del lote del insumo del inventario.                                                                                                 |
+| Notification                   | Representa una notificación automática que informa al suscriptor sobre eventos importantes.                                                              |
 | Inventory               | Representa el registro de todos los insumos, productos y materiales disponibles del suscriptor.                                                            |
-| ProductCatalog          | Catálogo o listado de platos ofrecidos por el restaurante a sus clientes.                                                                                 |
+| DishesCatalog          | Catálogo o listado de platos ofrecidos por el restaurante a sus clientes.                                                                                 |
 | RestaurantCustomerOrder | Pedido que un cliente realiza al restaurante.                                                                                                              |
 | Report                  | Resumen generado sobre eventos o métricas del sistema.                                                                                                    |
 | Supply                  | Insumo o materia prima almacenada en el inventario.                                                                                                        |
 | RecipeIngredient        | Ingrediente específico que forma parte de una receta.                                                                                                     |
 | Recipe                  | Representa la receta de un plato del restaurante.                                                                                                          |
+
 
 ## 4.8 Database Design
 
