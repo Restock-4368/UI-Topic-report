@@ -1,21 +1,18 @@
-Carátula
+<img src="assets/images/logo-upc.png" alt="Logo UPC" style="width: 150px; height: auto;" />
 
 _Universidad Peruana de Ciencias Aplicadas_
+
 _Ingeniería de Software_
+
 _2025-10_
 
 **Código:** _1ASI0730_
+
 **Nombre:** _Aplicaciones Web_
 
 _Sección 4368
 
 _Prof. Velásquez Núñez, Ángel Augusto_
-
----
-
-# **Informe de Trabajo Final**
-
----
 
 ## Nombre del Startup
 
@@ -40,6 +37,8 @@ _Prof. Velásquez Núñez, Ángel Augusto_
 **Mes y Año**
 _Abril 2025_
 
+<div class="page"></div>
+
 ## **Registro de Versiones**
 
 | *Versión* | *Fecha* | *Autor*          | *Descripción de modificación*                                                                                                                                                                                                                                  |
@@ -54,7 +53,7 @@ _Abril 2025_
 |     2.3     | 11/04/25 | Julio Castro       | Se realizó User Personas, Empathy Mapping y User Stories.                                                                                                                                                                                                         |
 |     2.4     | 13/04/25 | Gabriela Shapiama  | Se registraron 2 entrevistas. Se elaboró el Impact Mapping<br /> y general Style Guidelines.                                                                                                                                                                     |
 |     3.1     | 13/04/25 | Jahaziel Guerra    | Se realizó el Ubiquitous Language, Product Backlog y Web<br />Style Guidelines.                                                                                                                                                                                   |
-|     3.2     | 16/04/25 | Yaku Guzmán       | Se redactó Labeling Systems y se realizaron Web Applications,`br`tanto Wireframes como Mock-ups.                                                                                                                                                                |
+|     3.2     | 16/04/25 | Yaku Guzmán       | Se redactó Labeling Systems y se realizaron Web Applications, tanto Wireframes como Mock-ups.                                                                                                                                                                     |
 |     3.5     | 16/04/25 | Jahaziel Guerra    | Se redactó Organization y Navigation Systems. Se realizaron<br />Software Architecture Container Diagrams y Web Applications,   tanto Wireframes como Mock-ups.                                                                                                   |
 |     3.6     | 16/04/25 | Williams Avendaño | Se realizaron SEO and Meta Tags, Searching Systems y Database<br />Diagram. También se realizaron Web Applications,<br />tanto Wireframes como Mock-ups.                                                                                                          |
 |     3.7     | 16/04/25 | Julio Castro       | Se realizó Software Architecture Context Diagram y Web<br />Applications, tanto Wireframes como Mock-ups.                                                                                                                                                         |
@@ -64,11 +63,11 @@ _Abril 2025_
 |     5.2     | 21/04/25 | Williams Avendaño | Se realizó Software Development Environment Configuration,<br />Source Code Style Guide & Conventions y Sprint Backlog.                                                                                                                                           |
 |     5.3     | 23/04/25 | Julio Castro       | Se realizó Source Code Management, Aspect Leaders and<br />Collaborators y Execution Evidence for Sprint Review.                                                                                                                                                  |
 |     5.4     | 24/04/25 | Jahaziel Guerra    | Se realizó Software Architecture Component Diagram, Web Applications Prototyping y Software Deployment<br />Evidence for Sprint Review.                                                                                                                           |
-|     5.5     | 25/04/25 | Yaku Guzmán       | Se realizaron Software Architecture Component Diagram, Development Evidence y Services Documentation<br />Evidence for Sprint Review. Se elaboró Team Collaboration `<br>` Insights during Sprint y Conclusiones.                                               |
-|     6.1     |  6/05/25  | Yaku Guzmán       | Se corrigió Task Matrix, redacción de Lean UX Assumptions,<br />formato de todo el documento y Services Documentation `<br>`Evidence for Sprint Review 1.                                                                                                     |
+|     5.5     | 25/04/25 | Yaku Guzmán       | Se realizaron Software Architecture Component Diagram, Development Evidence y Services Documentation<br />Evidence for Sprint Review. Se elaboró Team Collaboration Insights during Sprint y Conclusiones.                                                        |
+|     6.1     |  6/05/25  | Yaku Guzmán       | Se corrigió Task Matrix, redacción de Lean UX Assumptions,<br />formato de todo el documento y Services Documentation Evidence for Sprint Review 1.                                                                                                             |
 |     6.2     |  6/05/25  | Gabriela Shapiama  | Se agregó sección de equipo en el mockup y wireframe del<br />Landing Page, se tradujeron wireframes y mockups del Landing <br />Page, se actualizaron user flows Desktop, se corrigió Impact Mapping y <br />se corrigió formato de perfiles de integrantes. |
 |     6.3     |  6/05/25  | Williams Avendaño | Se tradujo mockups y wireframes del Web Application Mobile,<br />se corrigieron títulos del Sprint Bakclog 1, se corrigió diagrama <br />de base de datos y Source Code Management.                                                                              |
-|     6.4     |  7/05/25  | Jahaziel Guerra    | Se tradujo mockups y wireframes del Web Application Desktop,<br />se actualizaron Wireflows y User Flows Mobile, se actualizó video <br />de Web Application Prototyping Mobile y se corrigieron títulos de `<br>`los Tasks Flow                               |
+|     6.4     |  7/05/25  | Jahaziel Guerra    | Se tradujo mockups y wireframes del Web Application Desktop,<br />se actualizaron Wireflows y User Flows Mobile, se actualizó video <br />de Web Application Prototyping Mobile y se corrigieron títulos de los Tasks Flow                                       |
 |     6.5     |  7/05/25  | Julio Castro       | Se corrigió redacción de User Stories, se corrigieron aspectos de<br /> User Personas, se actualizaron wireframes y mockups del Landing <br /> Page Mobile y se actualizó Execution Evidence for Sprint Review 1.                                             |
 |     7.1     |  8/05/25  | Gabriela Shapiama  | Se actualizó Student Outcome y se realizó Event Storming                                                                                                                                                                                                         |
 |     7.2     |  8/05/25  | Yaku Guzmán       | Se realizó Sprint Planning 2.                                                                                                                                                                                                                                     |
@@ -78,20 +77,20 @@ _Abril 2025_
 |     8.3     | 14/05/25 | Julio Castro       | Se realizó Execution Evidence for Sprint 2 Review (frontend).                                                                                                                                                                                                    |
 |     8.4     | 14/05/25 | Gabriela Shapiama  | Se realizó Team Collaboration Insights during Sprint 2.                                                                                                                                                                                                          |
 |     8.5     | 14/05/25 | Yaku Guzmán       | Se realizó avance de conclusiones.                                                                                                                                                                                                                                |
-|     9.1     | 30/05/25 | Julio Castro       | Se actualizaron las user stories y se elaboró diseño de<br /> entrevistas.                                                                                                                                                                                             |
-|     9.2     | 31/05/25 | Jahaziel Guerra    | Se actualizó el Product Backlog y se elaboró el Sprint<br />Planning 3.                                                                                                                                                                                                |
-|     9.3     |  1/06/25  | Gabriela Shapiama  | Se elaboró Aspect Leaders and Collaborators.                                                                                                                                                                                                                            |
-|     9.4     |  2/06/25  | Yaku Guzmán       | Se agregó el Sprint Backlog 3.                                                                                                                                                                                                                                          |
-|     9.5     | 16/06/25 | Yaku Guzmán       | Se elaboró Development Evidence for Sprint Review 3.                                                                                                                                                                                                                    |
-|     9.6     | 16/06/25 | Julio Castro       | Se realizó Execution Evidence for Sprint Review y Team<br />Collaboration Insights during Sprint 3.                                                                                                                                                                    |
-|     9.7     | 19/06/25 | Williams Avendaño | Se elaboró Services Documentation Evidence for Sprint<br />Review y Software Deployment Evidence for Sprint Review 3.                                                                                                                                                   |
-|     9.8     | 20/06/25 | Williams Avendaño | Se registraron entrevistas.                                                                                                                                                                                                                                              |
-|     9.9     | 20/06/25 | Gabriela Shapiama  | Se registraron entrevistas.                                                                                                                                                                                                                                              |
-|     9.10     | 20/06/25 | Yaku Guzmán       | Se registraron entrevistas.                                                                                                                                                                                                                                              |
-|     9.11     | 20/06/25 | Jahaziel Guerra    | Se elaboraron las Evaluaciones según heurísticas.                                                                                                                                                                                                                      |
-|     9.12     | 20/06/25 | Julio Castro       | Se realizó Video About-the-Product.                                                                                                                                                                                                                                     |
-|     9.13     | 20/06/25 | Williams Avendaño | Se actualizaron las conclusiones                                                                                                                                                                                                                                         |
-|     9.14     | 20/06/25 | Gabriela Shapiama  | Se actualizaron los anexos.                                                                                                                                                                                                                                              |
+|     9.1     | 30/05/25 | Julio Castro       | Se actualizaron las user stories y se elaboró diseño de<br /> entrevistas.                                                                                                                                                                                       |
+|     9.2     | 31/05/25 | Jahaziel Guerra    | Se actualizó el Product Backlog y se elaboró el Sprint<br />Planning 3.                                                                                                                                                                                          |
+|     9.3     |  1/06/25  | Gabriela Shapiama  | Se elaboró Aspect Leaders and Collaborators.                                                                                                                                                                                                                      |
+|     9.4     |  2/06/25  | Yaku Guzmán       | Se agregó el Sprint Backlog 3.                                                                                                                                                                                                                                    |
+|     9.5     | 16/06/25 | Yaku Guzmán       | Se elaboró Development Evidence for Sprint Review 3.                                                                                                                                                                                                              |
+|     9.6     | 16/06/25 | Julio Castro       | Se realizó Execution Evidence for Sprint Review y Team<br />Collaboration Insights during Sprint 3.                                                                                                                                                              |
+|     9.7     | 19/06/25 | Williams Avendaño | Se elaboró Services Documentation Evidence for Sprint<br />Review y Software Deployment Evidence for Sprint Review 3.                                                                                                                                             |
+|     9.8     | 20/06/25 | Williams Avendaño | Se registraron entrevistas.                                                                                                                                                                                                                                        |
+|     9.9     | 20/06/25 | Gabriela Shapiama  | Se registraron entrevistas.                                                                                                                                                                                                                                        |
+|     9.10     | 20/06/25 | Yaku Guzmán       | Se registraron entrevistas.                                                                                                                                                                                                                                        |
+|     9.11     | 20/06/25 | Jahaziel Guerra    | Se elaboraron las Evaluaciones según heurísticas.                                                                                                                                                                                                                |
+|     9.12     | 20/06/25 | Julio Castro       | Se realizó Video About-the-Product.                                                                                                                                                                                                                               |
+|     9.13     | 20/06/25 | Williams Avendaño | Se actualizaron las conclusiones                                                                                                                                                                                                                                   |
+|     9.14     | 20/06/25 | Gabriela Shapiama  | Se actualizaron los anexos.                                                                                                                                                                                                                                        |
 
 # Project Report Collaboration Insights
 
@@ -157,7 +156,7 @@ En el informe se agregó una sección detallada sobre el backend, incluyendo los
 - Todos los integrantes participaron activamente con commits y revisión de secciones críticas del informe.
 
 # Tabla de contenidos
-
+ 
 ## [Capítulo I: Introducción](cap1-introduction.md)
 
 - [1.1 Startup Profile](cap1-introduction.md#11-startup-profile)
@@ -249,16 +248,10 @@ En el informe se agregó una sección detallada sobre el backend, incluyendo los
 
 ## [Conclusiones](conclusiones.md)
 
-- [Conclusiones y recomendaciones](conclusiones.md#conclusiones-y-recomendaciones)
-- [Video About-the-Team](conclusiones.md#video-about-the-team)
-
-## [Bibliografía](bibliografia.md)
-
-Instituto Nacional de Estadística e Informática. (2023, 6 de junio). Negocios de restaurantes se incrementaron 9,16% en abril de 2023. https://m.inei.gob.pe/prensa/noticias/negocios-de-restaurantes-se-incrementaron-916-en-abril-de-2023-14439
-
-Instituto Nacional de Estadística e Informática. (2024, 6 de febrero). Actividad de restaurantes aumentó en 3,66% en diciembre 2023. https://m.inei.gob.pe/prensa/noticias/actividad-de-restaurantes-aumento-en-366-en-diciembre-2023-15025
+## [Bibliografía](bibliografia.md) 
 
 ## [Anexos](anexos.md)
+
 
 # ABET – EAC - Student Outcome 5
 
