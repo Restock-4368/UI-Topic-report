@@ -1855,9 +1855,9 @@ Este esquema representa la lógica del contexto de planificación. La tabla reci
 
 #### Bounded Context: Resource
 
-Este esquema representa la lógica del contexto de resources. Las tablas presentes son: unit_measurements, categories, supplies, alerts, alerts_states, batches, restaurant_contacts, inventories.
+Este esquema representa el contexto **Resource** del sistema de gestión de inventario, incluyendo la gestión de insumos (`supplies`), su personalización por restaurante y proveedor (`customer_supplies`), y los lotes asociados (`batches`). También abarca las notificaciones de lote (`batch_notifications`), el sistema de órdenes a proveedores (`orders_to_suppliers` y `orders_to_supplier_batches`), y los estados y situaciones de estas órdenes. La tabla `comments` permite registrar opiniones sobre las órdenes. Este diseño permite una trazabilidad completa de insumos, lotes y pedidos en el sistema.
 
-![Database diagram](assets/images/cap4/dbd_bc/resource_bounded_context.jpg "Resource")
+![Database diagram](assets/images/cap4/dbd_bc/resource_bounded_context.png "Resource")
 
 #### Bounded Context: Monitoring
 
