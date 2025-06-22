@@ -285,7 +285,7 @@ A continuación, se presenta el video de la landing page. Este muestra la intera
 
 **Video de landing page:**
 ![Captura del video](assets\images\cap-5\evidence_sprint_1.png)
-[Enlace al video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202021885_upc_edu_pe/EcvZvXFf2R5Grwqi4pZmu4sBxzaCWMUm9-atcPPKarcjgw?e=EpmVfH&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+[https://shorturl.at/sFmpy](https://shorturl.at/sFmpy)
 
 #### 5.2.1.6 Services Documentation Evidence for Sprint Review
 
@@ -414,7 +414,7 @@ Además, se realizaron mejoras en el *landing page*, incluyendo la implementaci�
 ![Board Sprint Details 2](assets/images/cap-5/sprint-backlog2-1.png)
 
 
-[[Enlace al Trello Sprint 2](https://trello.com/invite/b/681ab5854ac93bbc3c456c4e/ATTI2ddc2248f5308bf6ee343af5c381ec7f2CE97AD8/sprint-backlog-2)]
+[[https://shorturl.at/X5KyX](https://shorturl.at/X5KyX)]
 
 #### 5.2.2.4 Development Evidence for Sprint Review
 
@@ -545,7 +545,7 @@ A continuación, se muestra un video con los avances realizados durante el Sprin
 
 **Video del sprint 3:**
 ![Captura del video](assets\images\cap-5\evidence_sprint_3.png)
-[Enlace al video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202021885_upc_edu_pe/ERTTRSgbgCNBvoh315CcNh4BzblifNL5_0A9GeLjPGmTHg?e=Evw91e&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+[https://shorturl.at/V5zDA](https://shorturl.at/V5zDA)
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 
@@ -645,4 +645,17 @@ Validar la usabilidad, comprensión y utilidad de las funcionalidades del sistem
 - **Grabación de pantalla y voz:** previa autorización, para análisis posterior.
 ### 5.3.2. Registro de Entrevistas
 ### 5.3.3. Evaluaciones según heurísticas
+
+## 5.4. Video About-the-Product
+
+A continuación, se presenta el video "About the Product" del sistema Restock, una solución tecnológica desarrollada para digitalizar y automatizar la gestión de inventarios y pedidos en restaurantes. Este video está dirigido principalmente a los visitantes del Landing Page, quienes desean conocer el modelo de negocio y las principales funcionalidades de la plataforma, así como a los usuarios potenciales de las aplicaciones, interesados en realizar tareas relacionadas con los procesos soportados por la solución.
+
+El video comunica de forma clara y dinámica el propósito del producto, mostrando cómo Restock ayuda a reducir el desperdicio, mejorar la eficiencia operativa y fortalecer la relación entre administradores de restaurantes y proveedores. Se utiliza un tono consistente con la propuesta visual y comunicacional del producto, combinando narración, demostraciones de uso y escenarios reales.
+
+Como parte de la validación del producto, se incluye también el testimonio de un administrador de restaurante entrevistado en la etapa de descubrimiento.
+
+A continuación, se incluye un screenshot del video, junto con los enlaces de la versión publicada en Microsoft Stream y YouTube, y el detalle del timing.
+
+
+[https://shorturl.at/4827U](https://shorturl.at/4827U)
 
