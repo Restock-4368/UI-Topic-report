@@ -539,6 +539,212 @@ Se aplicaron buenas prácticas de programación, control de versiones y colabora
 | Sprint 3 Velocity                    | 90                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | Sum of Story Points                  | 88                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 
+#### 5.2.3.3 Sprint Backlog 3
+El objetivo principal de este Sprint es consolidar una experiencia funcional completa para los distintos perfiles de usuario dentro de la plataforma Restock. Se prioriza la mejora de la landing page para comunicar eficazmente la propuesta de valor a nuevos visitantes, así como la habilitación de módulos clave como la gestión de ventas, recetas y pedidos para los administradores de restaurantes, y la gestión de órdenes para los proveedores.
+
+Asimismo, se trabajará en la integración del flujo de pagos por suscripción y en la provisión de APIs REST documentadas, permitiendo al equipo frontend consumir endpoints de forma eficiente para construir las vistas requeridas. Este enfoque integral busca mejorar la usabilidad, operatividad y cohesión entre el frontend y backend, facilitando la validación funcional de la plataforma y avanzando hacia su adopción por parte de los usuarios finales.
+
+![Sprint backlog 3](assets/images/cap-5/sprint-backlog3-1.png)
+
+| User Story ID | User Story Title                                                | Task ID | Task Title                | Task Description                                                                                          | Estimated Hours |
+| ------------- | --------------------------------------------------------------- | ------- | ------------------------- | --------------------------------------------------------------------------------------------------------- | --------------- |
+| US-02         | Recuperación de contraseña               | T001    |           Diseñar la pantalla de solicitud de recuperación de contraseña'.                  |          |  1h           |
+|          |                | T002    |           Conectar la pantalla con el endpoint /api/v1/auth/forgot-password.                           | | 1h           |
+|          |                | T003    |           Diseñar la pantalla de restablecimiento de contraseña (formulario de nueva contraseña).      |                      | 1h           |
+|          |                | T004    |           Implementar manejo de tokens inválidos o expirados en el frontend                          |  | 1h           |
+|          |                | T005    |           Conectar formulario de nueva contraseña con endpoint /api/v1/auth/reset-password             |               | 1h           |
+|               |     
+| US-03         | Soporte de acceso según estado de suscripción               | T001    |          | Consultar el estado de suscripción del usuario al iniciar sesión.                            |  1h           |
+|          |                | T002    |           Mostrar o restringir funcionalidades según el estado de suscripción                         |   | 1h           |
+|          |                | T003    |           Diseñar una vista de advertencia para usuarios con suscripción vencida o inactiva               |             | 1h           |
+|          |                | T004    |           Redirigir o bloquear el acceso a rutas protegidas si el estado no es válido                      |      | 1/2h           |
+|          |                | T005    |           Verificar y actualizar el acceso luego de la renovación                         |   | 1h           |
+| US-04         |      Gestión manual de stock e insumos          | T001    |   Implementar interfaz de edición de stock e insumo       | Diseñar y desarrollar un formulario o sección para que el administrador registre el stock actual, nivel máximo y descuentos manuales. Incluir campos necesarios y diseño validado con UX básico.                            |  1h           |
+|          |                | T002    |     Validar entradas de stock en frontend y backend     | Agregar validaciones tanto para evitar valores negativos o no numéricos en stock, nivel máximo y descuento. Incluir advertencias o bloqueos según corresponda.                            |1 h           |
+|          |                | T003    |  Desarrollar lógica de actualización de stock        | Implementar lógica para actualizar el stock de un insumo, aplicando registros nuevos, con control de errores y advertencias.                            | 1h           |
+|          |                | T004    |    Registrar compras y actualizar stock      | Crear el flujo completo para registrar una compra de insumo: formulario, validaciones, actualización de stock, y registro del costo en historial.                            | 1h           |
+|          |                | T005    |   Manejar mensajes de éxito y error en la interfaz       | Integrar mensajes visuales para notificar al usuario sobre operaciones exitosas (registro, actualización, descuento) y errores (validaciones, datos faltantes o inválidos).                            | 2h           |
+| US-05         |       Gestión integral de notificaciones de inventario         | T001    |   Mostrar alertas visuales en listado de inventario       | Implementar lógica y diseño en la vista de inventario                             |  1/2h           |
+|          |                | T002    |     Integrar bandera de vencimiento     | A partir de la fecha de vencimiento de cada insumo, calcular si debe marcarse como próximo a vencer. Mostrar tooltip o badge indicando días restantes si corresponde.                            | 2h           |
+|          |                | T003    |  Habilitar y mostrar configuración de notificaciones automáticas        | Agregar en una sección donde el administrador pueda habilitar/deshabilitar las notificaciones automáticas.                            | 2h           |
+|          |                | T004    |    Mostrar aviso en la interfaz si hay notificaciones recientes      | Agregar un componente de notificación que muestre alertas recientes de vencimiento o bajo stock si han sido enviadas.                            | 1h           |
+| US-06         |       Enviar comentarios y calificaciones sobre pedidos         | T001    |   Crear componente de retroalimentación para pedidos entregados       | Diseñar e implementar un componente reutilizable que permita al administrador de restaurante ver un pedido entregado.                             |  1h           |
+|          |                | T002    |     Validar calificación y comentario en frontend     | Agregar validaciones al formulario de retroalimentación                            | 1h           |
+|          |                | T003    |  Enviar retroalimentación y mostrar confirmación        | Registrar la retroalimentación asegurándose de enviar el ID del pedido, calificación y comentario.                            | 1h           |
+| US-07         |       Gestionar productos en el inventario         | T001    |   Implementar vista de listado y estados de productos del proveedor       | Crear una vista que muestre todos los productos registrados del proveedor                             |  2h           |
+|          |                | T002    |     Crear formulario unificado para registrar y editar productos     | Implementar un formulario reutilizable para crear o editar productos                            | 1h           |
+|          |                | T003    |  Integrar acciones CRUD en el catálogo del proveedor        |Desde la vista del listado: Permitir crear un nuevo producto (abre formulario), Permitir editar un producto existente, Permitir eliminar un producto con confirmación, Permitir activar/desactivar un producto con botones de cambio de estado.                           | h           |
+| US-07         |       Gestionar productos en el inventario         | T001    |   Implementar vista de listado y estados de productos del proveedor       | Crear una vista que muestre todos los productos registrados del proveedor                             |  2h           |
+|          |                | T002    |     Crear formulario unificado para registrar y editar productos     | Implementar un formulario reutilizable para crear o editar productos                            | 1h           |
+|          |                | T003    |  Integrar acciones CRUD en el catálogo del proveedor        |Desde la vista del listado: Permitir crear un nuevo producto (abre formulario), Permitir editar un producto existente, Permitir eliminar un producto con confirmación, Permitir activar/desactivar un producto con botones de cambio de estado.                           | h           |
+| US-15         |   Actualización manual de estado del inventario             | T001    |                  Diseñar pantalla de edición manual de inventario con campos editables por insumo.    |                |  2h           |
+|          |                | T002    |                Implementar la lógica de validación de cantidades ingresadas.              |       | 2h           |
+|          |                | T003    |                    Mostrar confirmación visual de inventario actualizado correctamente.     |            | 1/2h           |
+|          |                | T004    |                Agregar mensajes de error si los valores ingresados son inválidos.           |         | 1h           |
+|          |                | T005    |                    Integrar la pantalla a la vista principal de administración de insumos.  |               | 1h           |
+|          |                | T006    |                    Documentar el proceso de actualización manual desde el frontend.           |      | 1h           |
+| US-16         |   Gestión de ventas             | T001    |                  Implementar la lógica de validación de insumos disponibles antes de confirmar una venta.    |                |  1h           |
+|          |                | T002    |                Integrar el consumo de recetas asociadas para mostrar impacto en insumos.          |           | 2h           |
+|          |                | T003    |                    Documentar el flujo de gestión de ventas desde el frontend.            |     | 1h           |
+| US-17         |  Seguimiento de una orden         | T001    |                  Diseñar vista para mostrar y seleccionar el estado actual de cada orden.  |                  |  1h           |
+|          |                | T002    |                Implementar selector gráfico para cambiar el estado (en espera, preparando, en camino, entregado).  |                   | 1h           |
+|          |                | T003    |                    Actualizar colores de la fila de la orden de acuerdo al estado actual.          |      | 1h           |
+|          |                | T004    |                   Documentar el flujo visual de seguimiento de una orden.       |         | 1/2h           |
+| US-19         |  Visualizar y gestionar ordenes recibidas         | T001    |                  Crear pantalla con listado de órdenes solicitadas (tabla).             |       |  1h           |
+|          |                | T002    |                Implementar modal para actualizar la situación de una orden (aceptado o denegado) y establecer fecha estimada de entrega.             |        | 1h           |
+|          |                | T003    |                    Permitir ordenamiento por fecha.         |       | 2h           |
+|          |                | T004    |                    Permitir ordenamiento por fecha.       |         | 1/2h           |
+|          |                | T005    |                    Incluir botón de acceso rápido al detalle de cada orden.       |         | 1h           |
+|          |                | T006    |                    Actualizar automáticamente lista si hay cambios recientes.       |         | 1h           |
+|          |                | T007    |                   Documentar funcionalidad de visualización y gestión de órdenes.      |         | 1h           |
+| US-20         |  Visualizar información específica de una orden         | T001    |Diseñar vista detallada que muestre todos los campos de una orden (ítems, cantidades, cliente, etc.).|       |  1h           |
+|          |                | T002    |Implementar navegación desde listado general a detalle de orden.|        | 1h           |
+|          |                | T003    |Mostrar estado actual y fecha estimada de entrega.|       | 1h           |
+|          |                | T004    |Agregar sección para observaciones o notas de la orden.|         | 1/2h           |
+|          |                | T005    |Documentar visualización específica de orden por ID.|         | 1h           |
+| US-21         |  Visualizar historial de órdenes por restaurante         | T001    |Crear sección que agrupe órdenes completadas por restaurante.|       |  1h           |
+|          |                | T002    |Permitir búsqueda de restaurante por nombre.|        | 2h           |
+|          |                | T003    |Mostrar las órdenes en orden cronológico según se prefiera.|       | 1h           |
+|          |                | T004    |Incluir detalles básicos como fecha, monto y estado.|         | 1h           |
+|          |                | T005    |Implementar paginación para historial largo.|         | 2h           |
+|          |                | T006    |Documentar flujo del historial por restaurante.|         | 1h           |
+| US-22         |  Descargar reportes de historial de órdenes cumplidas         | T001    |Diseñar botón de exportación en pantalla de historial.|       |  1h           |
+|          |                | T002    |Solicitar confirmación antes de descargar reporte.|        | 1/2h           |
+|          |                | T003    |Dar feedback si la descarga fue exitosa o hubo errores.|       | 1h           |
+|          |                | T004    |Documentar proceso de descarga de reportes desde interfaz.|         | 1h           |
+| US-23         |  Cambio de contraseña         | T001    |Mostrar opción de “Cambiar contraseña” en la configuración de la cuenta|       |  1h           |
+|          |                | T002    |Validar que la nueva contraseña cumpla con los requisitos de seguridad|        | 2h           |
+|          |                | T003    |Verificar coincidencia entre nueva contraseña y su confirmación|       | 1h           |
+|          |                | T004    |Enviar solicitud de cambio de contraseña al servidor|         | 1h           |
+|          |                | T005    |Mostrar mensaje de éxito tras el cambio correcto o Mostrar mensaje de error si la contraseña actual es incorrecta|         | 1h           |
+| US-24         |  Eliminar cuenta         | T001    |Mostrar opción “Eliminar cuenta” en la configuración del perfil|       |  1h           |
+|          |                | T002    |Solicitar paso de verificación para confirmar la eliminación|        | 1h           |
+|          |                | T003    |Enviar la solicitud de eliminación de cuenta al servidor|       | 1h           |
+|          |                | T004    |Confirmar visualmente al usuario que la cuenta ha sido borrada.|         | 1h           |
+|          |                | T005    |Redirigir al usuario a la página de inicio o despedida tras eliminar la cuenta|         | 1/2h           |
+| TS-01         |  Registro y autenticación de usuarios mediante API RESTful         | T001    |Diseñar el modelo de usuario y estructura de base de datos|       |  2h           |
+|          |                | T002    |Implementar endpoint /api/v1/auth/register para registro de usuarios|        | 1h           |
+|          |                | T003    |Implementar endpoint /api/v1/auth/login para autenticación|       | 2h           |
+|          |                | T004    |Configurar control de errores y middleware de autenticación (JWT)|         | 1/2h           |
+| TS-02         |  Recuperar contraseña mediante API RESTful usando Resend         | T001    |Diseñar e implementar el endpoint /api/v1/auth/forgot-password|       |  1h           |
+|          |                | T002    |Integrar servicio de correo Resend para envío del enlace de recuperación|        | 2h           |
+|          |                | T003    |Implementar lógica de manejo de errores y respuestas HTTP estándar|       | 1h           |
+|          |                | T004    |Crear y almacenar tokens seguros de recuperación de contraseña|         | 1h           |
+| TS-03         |  Gestión del estado de suscripción mediante API RESTful         | T001    |Diseñar el modelo de suscripción de la base de datos|       |  1h           |
+|          |                | T002    |Implementar endpoint GET /api/v1/subscription/status/:id|        | 1h           |
+|          |                | T003    |Implementar endpoint POST /api/v1/subscription/renew|       | 1h           |
+|          |                | T004    |Agregar middleware o función auxiliar para evaluar el estado de la suscripción|         | 1/2h           |
+| TS-04         |  Sistema de notificaciones de inventario mediante API RESTful         | T001    |Implementar endpoint /api/v1/notifications/expiring-supplies|       |  1h           |
+|          |                | T002    |Implementar endpoint /api/v1/notifications/exceeding-stock|        | 1h           |
+|          |                | T003    |Diseñar y aplicar lógica de dominio para filtros de notificaciones|       | 1h           |
+|          |                | T004    |Escribir pruebas unitarias para lógica de notificaciones|         | 2h           |
+| TS-05         |  Gestión de proveedores mediante API RESTful         | T001    ||       |  1/2h           |
+| TS-06         |  Gestionar insumos  mediante API RESTful         | T001    |Implementar endpoint GET /api/v1/supplies/:id (Listar insumos del proveedor)|       |  1h           |
+|          |                | T002    |Implementar endpoint POST /api/v1/supplies (Crear nuevo insumo)| |h           |
+|          |                | T003    |Implementar endpoint PUT /api/v1/supplies/{id} (Actualizar insumo)|       | 1h           |
+|          |                | T004    |Implementar endpoint DELETE /api/v1/productos/{id} (Eliminar insumo)|| 2h           |
+|          |                | T005    |Implementar endpoint PATCH /api/v1/productos/{id}/estado (Cambiar estado del insumo)| |2h           |
+|          |                | T006    |Validación y manejo de errores para creación y actualización| |1h           |
+|          |                | T007    |Implementar pruebas unitarias para todos los endpoints|| 2h           |
+| TS-07         |  Registrar comentarios y calificaciones sobre pedidos mediante API RESTful         | T001    |Implementar endpoint POST /api/v1/feedback (Registrar retroalimentación)|       |  1h           |
+|          |                | T002    |Validar calificación y comentario en POST /api/v1/feedback|| 1h           |
+|          |                | T003    |Validar estado del pedido antes de aceptar feedback|       | 1h           |
+|          |                | T004    |Asociar retroalimentación al proveedor correspondiente| |1h           |
+|          |                | T005    |Implementar pruebas unitarias del endpoint| |1h           |
+| TS-08         |  Registro histórico de eventos críticos de insumos         | T001    |Crear colección supply_event_logs con campos: supplyId, type, detectedAt, details, severity.|       |  1h           |
+|          |                | T002    |Implementar lógica para detectar condiciones críticas en insumos y registrar evento automáticamente.|| 1h           |
+|          |                | T003    |Crear servicio RESTful GET /api/v1/supplies/events con filtros por tipo, insumo y rango de fechas.|       | 2h           |
+|          |                | T004    |Documentar tipos de eventos permitidos: "EXPIRATION_SOON", "LOW_STOCK", "OVERSTOCKED".| |2h           |
+|          |                | T005    |Agregar pruebas unitarias y de integración para asegurar el correcto registro de eventos críticos.|| 1/2h           |
+| TS-09         |  Crear recetas mediante API RESTful         | T001    |Definir endpoint POST /api/v1/recipes en el controlador|       |  2h           |
+| TS-12         |Eliminar una receta mediante API RESTful| T001    ||       |  1h           |
+|          |                | T002    |Validar campos requeridos en payload (nombre, ingredientes)| |1h           |
+|          |                | T003    |Crear lógica de persistencia con relación a insumos|       |2 h           |
+|          |                | T005    |Escribir test unitario y de integración para el endpoint| |1h           |
+| TS-13         |Obtener perfil mediante API RESTful| T001    |Implementar endpoint GET /api/v1/profile/:id protegido por JWT|       |  2h           |
+|          |                | T002    |Validar que el token sea correcto antes de procesar la solicitud| |1h           |
+|          |                | T003    |Consultar y devolver información del perfil (id, nombre, email, URL de imagen, estado)|       | 1h           |
+|          |                | T004    |Gestionar error 401 en caso de token inválido o expirado| |1h           |
+|          |                | T005    |Escribir test unitario y de integración para el endpoint| |1h           |
+| TS-14         |Actualizar perfil mediante API RESTful| T001    |Implementar endpoint PUT /api/v1/profile/:id con protección por JWT|       |  1/2h           |
+|          |                | T002    |Validar formato de campos| |1h           |
+|          |                | T003    |Actualizar los datos del perfil en la base de datos|       | 2h           |
+|          |                | T004    |Retornar los datos actualizados con código 200| |1h           |
+|          |                | T005    |Retornar errores 400 con detalles si hay datos inválidos| |1h           |
+| TS-15         |Subir imagen de perfil mediante API RESTful usando Cloudinary| T001    |Implementar endpoint POST /api/v1/profile/images/id.|       |  1h           |
+|          |                | T002    |Validar formato de archivo antes de subir (JPG, PNG, WEBP)| |1h           |
+|          |                | T003    |Asociar la URL retornada por Cloudinary al usuario correspondiente|       | 2h           |
+|          |                | T004    |Manejar errores por formato no soportado (415)| |1h           |
+| TS-16         |Obtener lista para ingredientes más usados mediante API RESTful| T001    |Implementar endpoint GET /api/v1/ingredients/most-used|       |  1h           |
+|          |                | T002    |Permitir parámetro ?period= con valores como 7d o 30d| |1h           |
+|          |                | T003    |Consultar datos agregados de ingredientes en base al periodo|       | 1/2h           |
+|          |                | T004    |Retornar JSON con lista de ingredientes, id, nombre y cantidad_utilizada| |2h           |
+| TS-17         |Obtener lista de alertas recientes  mediante API RESTful| T001    |Implementar endpoint GET /api/v1/alerts|       |  2h           |
+|          |                | T002    |Clasificar alertas por tipo: vencimiento, bajo stock, etc| |2h           |
+|          |                | T003    |Retornar lista de alertas como JSON|       | 2h           |
+|          |                | T004    |Retornar lista vacía si no hay alertas activas| |1h           |
+|          |                | T004    |Implementar filtros para pruebas| |1h           |
+| TS-18         |Obtener lista de mejores clientes mediante API RESTful| T001    |Implementar endpoint GET /api/v1/supplier/top-clients|       |  1/2h           |
+|          |                | T002    |Consultar base de datos y ordenar clientes por total de compras| |1h           |
+|          |                | T003    |Retornar JSON con campos: nombre_restaurante, total_compras| |2h           |
+|          |                | T004    |Agregar validación de fechas y manejo de errores| |1h           |
+| TS-19         |Actualizar estado de orden mediante API RESTful| T001    |Crear endpoint para cambiar estado de una orden por ID.|       | 1/2h           |
+|          |                | T002    |Aplicar lógica de seguridad (autenticación y permisos).| |1h           |
+|          |                | T003    |Manejar errores de estado inválido o inexistente.| |1h           |
+|          |                | T004    |Escribir pruebas para transiciones de estado comunes.| |2h           |
+|          |                | T005    |Documentar API de actualización de estado de órdenes.| |2h           |
+| TS-20         |Consultar estado de entrega mediante API RESTful| T001    |Crear endpoint para obtener estado actual de una orden.|       |  1h           |
+|          |                | T002    |Implementar control de acceso para proveedor o restaurante.| |1h           |
+|          |                | T003    |Optimizar respuesta solo con campos necesarios (estado, fecha).| |2h           |
+|          |                | T004    |Manejar errores si orden no existe.| |2h           |
+|          |                | T005    |Escribir pruebas unitarias del endpoint.| |1h           |
+|          |                | T006    |Documentar consulta del estado de entrega por ID.| |1h           |
+| TS-21         |Obtener calificaciones de servicios de proveedores mediante API RESTful| T001    |Crear endpoint para obtener calificaciones por proveedor ID.|       |  1h           |
+|          |                | T002    |Incluir datos como puntuación, comentario, fecha.| |1h           |
+|          |                | T003    |Agregar orden cronológico o filtros si se requiere.| |1h           |
+|          |                | T004    |Validar existencia del proveedor y autorización del solicitante.| |1h           |
+|          |                | T005    |Diseñar pruebas para distintos escenarios (sin calificaciones, múltiples).| |1/2h           |
+|          |                | T006    |Documentar la API de calificaciones del proveedor.| |2h           |
+| TS-22         |Gestionar órdenes recibidas mediante API RESTful| T001    |Crear endpoint para listar órdenes recibidas por proveedor.|       |  1h           |
+|          |                | T002    |Agregar filtros por estado, fecha o restaurante.| |2h           |
+|          |                | T003    |Manejar errores y datos faltantes en las solicitudes.| |1h           |
+|          |                | T004    |Probar la gestión completa de órdenes.| |h           |
+|          |                | T005    |Documentar endpoints RESTful para gestión de órdenes recibidas.| |1h           |
+| TS-23         | Consultar detalles de una orden mediante API RESTful| T001    |Crear endpoint para obtener datos completos de una orden por ID.|       |  2h           |
+|          |                | T002    |Validar existencia de la orden y su pertenencia al proveedor.| |2h           |
+|          |                | T003    |Incluir ítems, cantidades, fecha de creación, cliente, etc.| |2h           |
+|          |                | T004    |Escribir pruebas para orden encontrada y no encontrada.| |1h           |
+|          |                | T005    |Documentar la estructura de respuesta y ejemplos de consulta.| |1h           |
+| TS-24         | Obtener historial de ordenes mediante API RESTful| T001    |Crear endpoint que devuelva órdenes de un proveedor agrupadas por restaurante.|       |  1h           |
+|          |                | T002    |Ordenar por fecha de forma descendente.| |1h           |
+|          |                | T003    |Permitir incluir filtros como fechas o estado.| |2h           |
+|          |                | T004    |Validar autenticación y permisos del proveedor.| |1h           |
+|          |                | T005    |Documentar endpoint de historial cronológico de órdenes.| |2h           |
+| TS-25         | Exportar reporte de historial de órdenes completados mediante API RESTful| T001    |Crear endpoint para generar archivo Excel del historial de órdenes completadas.|       |  1h           |
+|          |                | T002    |Permitir parámetros de filtrado (fechas, restaurantes).| |2h           |
+|          |                | T003    |Formatear columnas y contenido de forma clara y legible.| |2h           |
+|          |                | T004    |Asegurar que el archivo se descargue correctamente.| |1h           |
+|          |                | T005    |Probar el export en distintos navegadores/sistemas.| |1h           |
+|          |                | T006    |Documentar generación y descarga del reporte Excel.| |1/2h           |
+| TS-26         | Gestionar ventas e inventario mediante API RESTful| T001    |Crear endpoints para registrar ventas.|       |  1h           |
+|          |                | T002    |Implementar lógica de validación y verificación de stock antes de registrar una venta en el inventario.| |2h           |
+|          |                | T003    |Crear endpoint para actualizar manualmente el inventario.| |1h           |
+|          |                | T004    |Aplicar manejo de errores para transacciones inválidas o datos incompletos.| |1/2h           |
+|          |                | T005    |Diseñar pruebas unitarias y de integración para ambos endpoints.| |1h           |
+|          |                | T006    |Documentar los endpoints RESTful de ventas.| |1h           |
+| TS-27         | Cambio de contraseña mediante API RESTful| T001    |Crear endpoint seguro /api/v1/auth/change-password|       |  1h           |
+|          |                | T002    |Diseñar estructura del cuerpo de la solicitud| |1h           |
+|          |                | T003    |Implementar validación de entrada| |1h           |
+|          |                | T004    |Verificar contraseña actual del usuario| |1h           |
+|          |                | T005    |Actualizar la contraseña en base de datos| |1h           |
+| TS-28         | Eliminar cuenta mediante API RESTful| T001    |Crear endpoint seguro /api/v1/auth/delete-account|       |  1h           |
+|          |                | T002    |Diseñar estructura del cuerpo de la solicitud| |1h           |
+|          |                | T003    |Validar autenticación del usuario| |1h           |
+|          |                | T004    |Eliminar o desactivar la cuenta del usuario| |2h           |
+|          |                | T005    |Revocar tokens activos y sesiones| |1/2h           |
+
+[Link Trello](https://trello.com/b/yD03C08R)
+
 #### 5.2.3.8. Execution Evidence for Sprint Review
 
 A continuación, se muestra un video con los avances realizados durante el Sprint 3, en el cual se trabajó en la landing page, así como en el desarrollo del frontend y backend.
