@@ -1822,6 +1822,48 @@ A continuación, se presenta el video de prototipado de la aplicación web en su
 
 ![Class diagram](assets/images/cap4/UML_C_sharp.png)
 
+#### Bounded Context: Resource
+
+El siguiente diagrama de clases representa la estructura orientada a objetos del contexto **Resource** en C#. Se modelan las entidades principales del dominio como clases, incluyendo `Supply`, `CustomerSupply`, `Batch`, `BatchNotification`, `OrderToSupplier`, `OrderToSupplierBatch`, `OrderToSupplierState`, `OrderToSupplierSituation` y `Comment`. Estas clases encapsulan atributos y comportamientos que reflejan las reglas de negocio del sistema de inventario, y se relacionan entre sí mediante asociaciones que representan dependencias, agregaciones o composiciones. Este diseño permite organizar la lógica del dominio de manera coherente, facilitando su implementación y mantenimiento en una arquitectura basada en DDD.
+
+![Class diagram](assets/images/cap4/class_diagram/resource_bounded_context-web.png "Resource Class Diagram")
+
+#### Bounded Context: "**Subscriptions and Payments"**
+
+El diagrama de clases presentado pertenece al contexto delimitado de  **Subscriptions and Payments** , el cual representa el núcleo de las funcionalidades relacionadas con la gestión de planes de suscripción, características asociadas y métodos de pago.
+
+Este contexto tiene como  **Aggregate Root principal a `Subscription`** , quien orquesta las relaciones con otras entidades y garantiza la consistencia del conjunto. Cada suscripción puede estar compuesta por múltiples funcionalidades (`Feature`), modeladas mediante la entidad asociativa `SubscriptionFeature`, lo que permite un diseño extensible y flexible para personalizar paquetes.
+
+Por otro lado, la entidad `SubscriptionPaymentDetail` encapsula los datos relacionados con el método de pago utilizado y la fecha en la que se efectuó el cobro. Esta clase podría representarse como una entidad o un Value Object, dependiendo del nivel de trazabilidad deseado.
+
+El diseño refleja un enfoque  **modular, desacoplado y alineado con las reglas del negocio** , donde cada entidad cumple una función específica dentro del ciclo de vida de una suscripción, permitiendo futuras integraciones con gateways de pago, facturación o sistemas externos mediante capas de infraestructura o anticorruption layers.
+
+![Class diagram](assets/images/cap4/class_diagram/subscription-csharp.jpg "Subscription Class Diagram")
+
+#### Bounded Context: "**Identity and Guess Managements"**
+
+Este diagrama representa el contexto de  **Identity and Guess Managements** , el cual centraliza la autenticación, autorización y administración de usuarios del sistema. En este contexto, el  **Aggregate Root es `User`** , el cual contiene la información sensible de acceso y sus vínculos directos con los roles del sistema (`Role`).
+
+El diseño separa claramente las responsabilidades: los datos de autenticación (correo, contraseña) y autorización (rol asignado) se concentran en esta entidad raíz, permitiendo gestionar con seguridad el acceso al sistema. A través de la relación con `Role`, se habilita un sistema de permisos escalable y desacoplado.
+
+Se incluyen también referencias al `subscriptionId` y al `subscriptionPaymentDetailsId`. Estas referencias no indican propiedad sobre los aggregates del contexto de "Subscriptions and Payments", sino únicamente enlaces de lectura. En una implementación robusta, estos campos deben gestionarse mediante anticorruption layers o servicios de consulta para mantener el aislamiento entre bounded contexts,  **preservando la integridad del modelo de dominio** .
+
+Este diseño es extensible a funcionalidades como manejo de invitados, recuperación de contraseñas, doble autenticación (MFA), etc., sin violar el principio de encapsulamiento de los aggregates.
+
+![Class diagram](assets/images/cap4/class_diagram/iam-csharp.jpg "Identity Class Diagram")
+
+#### Bounded Context: "**Profiles and Preferences"**
+
+El contexto **Profiles and Preferences** encapsula todo lo relacionado con la representación pública, preferencias de contacto y categorización de los usuarios en el sistema. Aquí, el  **Aggregate Root es `Profile`** , que contiene la información no sensible de los usuarios como nombres, ubicación, contacto y avatar.
+
+El perfil está relacionado con uno o más `BusinessCategory`, lo cual permite clasificar los perfiles de acuerdo con rubros o sectores. Esta relación está modelada a través de la clase asociativa `ProfilesBusinessCategory`, la cual puede ser gestionada como entidad o Value Object compuesto, según la lógica del negocio.
+
+Además, `Profile` se relaciona con `RestaurantContact`, entidad que representa las conexiones entre restaurantes y sus proveedores. En este diseño, ambos extremos podrían ser `Profile`, por lo que se plantea un modelo relacional flexible que podría expandirse a una red de contactos profesionales o recomendaciones.
+
+Este diseño permite a los usuarios personalizar su experiencia, categorizando sus intereses o sectores, y a la vez habilita integraciones futuras con módulos como Analytics, Notifications o Planning. Todo esto bajo una arquitectura de contexto delimitado que promueve la separación de responsabilidades y el modelado explícito del lenguaje ubicuo.
+
+![Class diagram](assets/images/cap4/class_diagram/profiles-csharp.jpg "Profile Class Diagram")
+
 ### 4.7.2 Class Dictionary
 
 | Entidad                 | Descripción                                                                                                                                               |
@@ -1833,15 +1875,16 @@ A continuación, se presenta el video de prototipado de la aplicación web en su
 | RestaurantAdmin         | Representa a un suscriptor de tipo administrador de restaurante encargado de gestionar internamente el restaurante, sus operaciones, inventario y pedidos. |
 | Comment                 | Comentario hecho por un administrador de restaurante a un pedido de proveedor.                                                                             |
 | OrderToSupplier         | Pedido de productos o insumos realizado por el restaurante hacia un proveedor.                                                                             |
-| PaymentInfo             | Contiene los detalles de métodos y transacciones de pago.                                                                                                 |
-| Alert                   | Representa una notificación automática que informa al suscriptor sobre eventos importantes.                                                              |
+| Batch             | Contiene los detalles del lote del insumo del inventario.                                                                                                 |
+| Notification                   | Representa una notificación automática que informa al suscriptor sobre eventos importantes.                                                              |
 | Inventory               | Representa el registro de todos los insumos, productos y materiales disponibles del suscriptor.                                                            |
-| ProductCatalog          | Catálogo o listado de platos ofrecidos por el restaurante a sus clientes.                                                                                 |
+| DishesCatalog          | Catálogo o listado de platos ofrecidos por el restaurante a sus clientes.                                                                                 |
 | RestaurantCustomerOrder | Pedido que un cliente realiza al restaurante.                                                                                                              |
 | Report                  | Resumen generado sobre eventos o métricas del sistema.                                                                                                    |
 | Supply                  | Insumo o materia prima almacenada en el inventario.                                                                                                        |
 | RecipeIngredient        | Ingrediente específico que forma parte de una receta.                                                                                                     |
 | Recipe                  | Representa la receta de un plato del restaurante.                                                                                                          |
+
 
 ## 4.8 Database Design
 
@@ -1857,9 +1900,9 @@ Este esquema representa la lógica del contexto de planificación. La tabla reci
 
 #### Bounded Context: Resource
 
-Este esquema representa la lógica del contexto de resources. Las tablas presentes son: unit_measurements, categories, supplies, alerts, alerts_states, batches, restaurant_contacts, inventories.
+Este esquema representa el contexto **Resource** del sistema de gestión de inventario, incluyendo la gestión de insumos (`supplies`), su personalización por restaurante y proveedor (`customer_supplies`), y los lotes asociados (`batches`). También abarca las notificaciones de lote (`batch_notifications`), el sistema de órdenes a proveedores (`orders_to_suppliers` y `orders_to_supplier_batches`), y los estados y situaciones de estas órdenes. La tabla `comments` permite registrar opiniones sobre las órdenes. Este diseño permite una trazabilidad completa de insumos, lotes y pedidos en el sistema.
 
-![Database diagram](assets/images/cap4/dbd_bc/resource_bounded_context.jpg "Resource")
+![Database diagram](assets/images/cap4/dbd_bc/resource_bounded_context.png "Resource")
 
 #### Bounded Context: Monitoring
 
