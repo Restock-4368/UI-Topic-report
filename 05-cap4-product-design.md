@@ -125,7 +125,6 @@ Se ha priorizado la claridad semántica y la coherencia con el lenguaje visual d
 - **Pedidos Recibidos:** Lista de órdenes enviadas por restaurantes. Incluye información de estado, entrega y productos solicitados.
 - **Mis Productos:** Catálogo editable con los productos que el proveedor ofrece. Incluye nombre, precio y stock.
 - **Historial de Ventas:** Registro de pedidos completados. Permite consultar por fechas o restaurante.
-- **Facturación:** Seguimiento de pagos, estado de facturas emitidas y recepción de transferencias.
 
 ### 4.2.3 SEO Tags and Meta Tags
 
