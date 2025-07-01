@@ -1119,8 +1119,8 @@ Por su parte, valora que el panel de análisis le proporciona métricas claras q
 
 **Carrera:** Ingeniería de Software
 
-**Curso:** Desarrollo de Aplicaciones Open Source
-**Sección:** 4292
+**Curso:** Aplicaciones Web
+**Sección:** 4368
 **Profesores:** Angel Velasquez
 **Auditor:** Gabriela Nicole Shapiama Rivera y Yaku Mateo Guzman Cabrejos
 **Cliente(s):** Mery Pilar, Alfredo Bernuy y Flor Medina
