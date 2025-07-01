@@ -707,7 +707,7 @@ Con el fin de mantener una coordinación efectiva y una comunicación fluida ent
 
 </div>
 
-#### 5.2.3.3. Sprint Backlog 3.
+
 
 #### 5.2.3.3 Sprint Backlog 3
 
