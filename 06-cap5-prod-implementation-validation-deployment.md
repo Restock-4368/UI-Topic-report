@@ -511,15 +511,48 @@ Durante este sprint se avanzó en la autenticación de usuarios, el diseño del 
 
 ##### Commits Relevantes
 
-| Repository                         | Branch                   | Commit Id | Commit Message                                       | Commit Message Body                                                          | Commited on (Date) |
-| ---------------------------------- | ------------------------ | --------- | ---------------------------------------------------- | ---------------------------------------------------------------------------- | ------------------ |
-| jahazielgg/UI-Topic-frontend       | feature/auth-module      | a23f45d   | feat(auth): implement login and registration logic   | Creación de flujo de autenticación con validaciones y redirecciones.       | 04-05-2025         |
-| GabrielaShapiama/UI-Topic-frontend | feature/dashboard-layout | b76a2fc   | feat(dashboard): add layout and navigation           | Estructura base del dashboard con navegación lateral y superior.            | 05-05-2025         |
-| Williams/UI-Topic-frontend         | feature/inventory-module | c98f312   | feat(inventory): initial inventory module            | Implementación inicial de la vista de inventario con formulario de insumos. | 06-05-2025         |
-| Yaku Guzman/UI-Topic-frontend      | feature/orders-module    | d12e7af   | feat(orders): orders module view and status tracking | Desarrollo de listado de pedidos y seguimiento de estado.                    | 07-05-2025         |
-| jahazielgg/UI-Topic-frontend       | feature/products-module  | e4501aa   | feat(products): create product management UI         | Vista para gestión de productos del restaurante y filtros por proveedor.    | 07-05-2025         |
-| GabrielaShapiama/UI-Topic-frontend | feature/sidebar          | f12cbb9   | feat(ui): add sidebar navigation                     | Integración de barra lateral con íconos y secciones principales.           | 08-05-2025         |
-| Williams/UI-Topic-frontend         | main                     | 1349abc   | chore: merge feature branches to main                | Integración de módulos principales al branch principal.                    | 08-05-2025         |
+| Yaku Guzman/UI-Topic-frontend | develop | Yaku Guzman | bd6c32e | feat(restaurant-analytics): add carrousel. |  | 16-05-2025 |
+| Yaku Guzman/UI-Topic-frontend | develop | Yaku Guzman | f8d1229 | feat(supplier-analytics): add json server behavior. |  | 16-05-2025 |
+| Williams/UI-Topic-frontend | develop | Williams | 36a496a | feat(mock): adding mock.user |  | 16-05-2025 |
+| Yaku Guzman/UI-Topic-frontend | develop | Yaku Guzman | 046f822 | routes: fix routes behavior. |  | 16-05-2025 |
+| Yaku Guzman/UI-Topic-frontend | develop | Yaku Guzman | 37843c2 | chore: fix behavior |  | 16-05-2025 |
+| Yaku Guzman/UI-Topic-frontend | develop | Yaku Guzman | 883367d | fix(restaurant-supplier): fix internal routing. |  | 16-05-2025 |
+| Yaku Guzman/UI-Topic-frontend | develop | Yaku Guzman | 61f2e4b | feat(restaurant-supplier): add restaurant supplier catalog. |  | 16-05-2025 |
+| jahazielgg/UI-Topic-frontend | develop | jahazielgg | 966f47a | fix(router): rename supplier reviews route to ratings |  | 16-05-2025 |
+| jahazielgg/UI-Topic-frontend | develop | jahazielgg | af04b7f | feat(router): update user data structure and add role-based routing |  | 16-05-2025 |
+| JulioXC4/UI-Topic-frontend | develop | JulioXC4 | 1c01a96 | fix: fix sidebar |  | 16-05-2025 |
+| Julio Castro Alejos/UI-Topic-frontend | develop | Julio Castro Alejos | cba3b83 | Update inventory-supply-create-and-edit.component.vue |  | 16-05-2025 |
+| Julio Castro Alejos/UI-Topic-frontend | develop | Julio Castro Alejos | 7564e45 | Update inventory-supply-add-and-edit.component.vue |  | 16-05-2025 |
+| Julio Castro Alejos/UI-Topic-frontend | develop | Julio Castro Alejos | 6d3c52e | Update inventory.component.vue |  | 16-05-2025 |
+| JulioXC4/UI-Topic-frontend | develop | JulioXC4 | 3623ec4 | fix: fix supplies |  | 16-05-2025 |
+| Yaku Guzman/UI-Topic-frontend | develop | Yaku Guzman | 340c7dd | feat(supplier-analytics-route): add supplier analytics route. |  | 16-05-2025 |
+| Yaku Guzman/UI-Topic-frontend | develop | Yaku Guzman | e225fbd | feat(supplier-analytics): add supplier analytics summary components and page |  | 16-05-2025 |
+| jahazielgg/UI-Topic-frontend | develop | jahazielgg | a2b2637 | fix(styles): update menu link padding and improve color consistency in styles |  | 16-05-2025 |
+| Yaku Guzman/UI-Topic-frontend | develop | Yaku Guzman | 90ff1c4 | feat(restaurant-analytics): add restaurant analytics summary components and page |  | 16-05-2025 |
+| JulioXC4/UI-Topic-frontend | develop | JulioXC4 | e415b5d | fix: fix color |  | 16-05-2025 |
+| JulioXC4/UI-Topic-frontend | develop | JulioXC4 | c7c86df | fix: fix functions |  | 16-05-2025 |
+| JulioXC4/UI-Topic-frontend | develop | JulioXC4 | 4fb746f | fix: fix delete function |  | 15-05-2025 |
+| JulioXC4/UI-Topic-frontend | develop | JulioXC4 | 6ad2d54 | fix: fix styles |  | 15-05-2025 |
+| JulioXC4/UI-Topic-frontend | develop | JulioXC4 | b13e97b | fix: fix styles |  | 15-05-2025 |
+| JulioXC4/UI-Topic-frontend | develop | JulioXC4 | 3c1f216 | fix: fix styles (sidebar, html components) |  | 15-05-2025 |
+| JulioXC4/UI-Topic-frontend | develop | JulioXC4 | 26904fc | chore: folder structure based on bounded context in the project |  | 15-05-2025 |
+| JulioXC4/UI-Topic-frontend | develop | JulioXC4 | 2099c0b | fix: fix add inventory (components) |  | 15-05-2025 |
+| JulioXC4/UI-Topic-frontend | develop | JulioXC4 | e8f17f2 | fix: fix add inventory modal (calendar) |  | 14-05-2025 |
+| JulioXC4/UI-Topic-frontend | develop | JulioXC4 | fd8a1cf | fix: fix inventory management with modal for adding and editing supplies, add search functionality, and connect modal to inventory actions |  | 14-05-2025 |
+| JulioXC4/UI-Topic-frontend | develop | JulioXC4 | 0d31b31 | feat: integrate inventory management with modal for adding and editing supplies, add search functionality, and connect modal to inventory actions |  | 13-05-2025 |
+| JulioXC4/UI-Topic-frontend | develop | JulioXC4 | 2f7cc13 | feat(inventory): add edit button to supply cards and integrate modal for editing |  | 13-05-2025 |
+| jahazielgg/UI-Topic-frontend | develop | jahazielgg | 55dbceb | feat(sidebar): restructure app layout with sidebar and router integration |  | 12-05-2025 |
+| jahazielgg/UI-Topic-frontend | develop | jahazielgg | a2e9a33 | feat(i18n): add language switcher component and update translations for sidebar |  | 12-05-2025 |
+| jahazielgg/UI-Topic-frontend | develop | jahazielgg | b0d0145 | feat(api): add mock user data with json-server and configure router |  | 12-05-2025 |
+| jahazielgg/UI-Topic-frontend | develop | jahazielgg | 5c22699 | feat(user): add user entity, service, and user card component for user data management. |  | 12-05-2025 |
+| JulioXC4/UI-Topic-frontend | develop | JulioXC4 | d787a0c | feat(inventory): implement supplies and inventory management section with modal form and carousel |  | 11-05-2025 |
+| JulioXC4/UI-Topic-frontend | develop | JulioXC4 | 458ec4a | feat(inventory): progress on empty state and ingredient creation UI |  | 10-05-2025 |
+| JulioXC4/UI-Topic-frontend | develop | JulioXC4 | 3645809 | chore: install dependencies and setup base tooling for Vue project |  | 10-05-2025 |
+| Julio Castro Alejos/UI-Topic-frontend | develop | Julio Castro Alejos | 50e43fd | Delete .vscode directory |  | 08-05-2025 |
+| Julio Castro Alejos/UI-Topic-frontend | develop | Julio Castro Alejos | 3274b65 | Delete package-lock.json |  | 08-05-2025 |
+| JulioXC4/UI-Topic-frontend | develop | JulioXC4 | 7e3e6c0 | chore: create Vue 3 project with Vite |  | 08-05-2025 |
+| Julio Castro Alejos/UI-Topic-frontend | develop | Julio Castro Alejos | 5ee5558 | Initial commit |  | 08-05-2025 |
+
 
 #### 5.2.2.5 Execution Evidence for Sprint Review
 
