@@ -427,13 +427,13 @@ Gracias a esta organización, se logró cumplir de manera efectiva el objetivo d
 
 Se presenta a continuación la captura de los insights del repositorio de GitHub, correspondiente al Sprint 1:
 
-![Captura Insights](assets/images/evidencia-Team-Collaboration-Insights-during-Sprint.png)
+![Captura Insights](assets/images/cap-5/team_ci_3_1.png)
 
 **Insights:**
 
-- **37 Pull Requests** fusionados correctamente.
+- **13 Pull Requests** fusionados correctamente.
 - **5 autores** contribuyendo al repositorio.
-- **56 commits** realizados en el periodo del Sprint.
+- **76 commits** realizados en el periodo del Sprint.
 - Participación activa de todos los miembros asignados al desarrollo de la Landing Page.
 
 ### 5.2.2 Sprint 2
@@ -916,6 +916,12 @@ Cada entrada refleja avances funcionales importantes realizados por el equipo, i
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
+A continuación, se muestra un video con los avances realizados durante el Sprint 3, en el cual se trabajó en la landing page, así como en el desarrollo del frontend y backend.
+
+**Video del sprint 3:**
+![Captura del video](assets/images/cap-5/evidence_sprint_3.png)
+[https://shorturl.at/V5zDA](https://shorturl.at/V5zDA)
+
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review.
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
@@ -945,14 +951,6 @@ Durante este sprint, se realizaron actividades de despliegue y pruebas de los se
 6. Verificación del despliegue: Se verificó que el servicio estuviera funcionando correctamente accediendo a la URL proporcionada por Render.
 
 ![Evidence Step 5](assets/images/cap-5/evidence-sprint3/evidence-step5.jpg)
-
-#### 5.2.3.8. Execution Evidence for Sprint Review
-
-A continuación, se muestra un video con los avances realizados durante el Sprint 3, en el cual se trabajó en la landing page, así como en el desarrollo del frontend y backend.
-
-**Video del sprint 3:**
-![Captura del video](assets\images\cap-5\evidence_sprint_3.png)
-[https://shorturl.at/V5zDA](https://shorturl.at/V5zDA)
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 
