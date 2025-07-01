@@ -131,74 +131,90 @@ Se ha priorizado la claridad semántica y la coherencia con el lenguaje visual d
 #### Landing Page
 
 ##### **Charset**
-`<meta charset="utf-8">`  
+
+`<meta charset="utf-8">`
 Define la codificación de caracteres del sitio web, permitiendo mostrar correctamente caracteres especiales.
 
 ##### **Viewport (responsive)**
-`<meta name="viewport" content="width=device-width, initial-scale=1">`  
+
+`<meta name="viewport" content="width=device-width, initial-scale=1">`
 Asegura que el sitio sea responsivo, adaptándose al tamaño de la pantalla del dispositivo.
 
 ##### **Title (SEO)**
-`<title>UI-Topic | Automate your restaurant’s inventory and orders</title>`  
+
+`<title>UI-Topic | Automate your restaurant’s inventory and orders</title>`
 Título que aparece en la pestaña del navegador y en resultados de búsqueda; clave para el SEO.
 
 ##### **Meta Description (SEO)**
-`<meta name="description" content="Platform for restaurants that reduces waste and increases profits through smart inventory and order management.">`  
+
+`<meta name="description" content="Platform for restaurants that reduces waste and increases profits through smart inventory and order management.">`
 Breve resumen del contenido de la página, mostrado por buscadores; influye en el CTR.
 
 ##### **Meta Keywords (SEO, though deprecated for Google)**
-`<meta name="keywords" content="restaurants, inventory management, orders, automation, suppliers, food tech">`  
+
+`<meta name="keywords" content="restaurants, inventory management, orders, automation, suppliers, food tech">`
 Lista de palabras clave relacionadas con el contenido.
 
 ##### **Meta Author**
-`<meta name="author" content="UI-Topic Team">`  
+
+`<meta name="author" content="UI-Topic Team">`
 Indica el autor del contenido de la página.
 
 ##### **Meta Robots**
-`<meta name="robots" content="index, follow">`  
+
+`<meta name="robots" content="index, follow">`
 Indica a los buscadores que pueden indexar la página y seguir los enlaces.
 
 ##### **Meta Language**
-`<meta name="language" content="en">`  
+
+`<meta name="language" content="en">`
 Define el idioma principal del contenido de la página.
 
 ##### **Meta Copyright**
-`<meta name="copyright" content="UI-Topic 2025">`  
-Especifica los derechos de autor del contenido de la página.
 
+`<meta name="copyright" content="UI-Topic 2025">`
+Especifica los derechos de autor del contenido de la página.
 
 #### Web Application
 
 ##### **Charset**
-`<meta charset="utf-8">`  
+
+`<meta charset="utf-8">`
 Define la codificación de caracteres del sitio web.
 
 ##### **Viewport (responsive)**
-`<meta name="viewport" content="width=device-width, initial-scale=1">`  
+
+`<meta name="viewport" content="width=device-width, initial-scale=1">`
 Permite que la aplicación se vea bien en diferentes dispositivos.
 
 ##### **Title (SEO)**
-`<title>UI-Topic App | Management Panel</title>`  
+
+`<title>UI-Topic App | Management Panel</title>`
 Título mostrado en la pestaña del navegador, aunque no se indexa por SEO si está bloqueado por robots.
 
 ##### **Meta Description (SEO)**
-`<meta name="description" content="Internal UI-Topic panel for managing inventory, orders, and suppliers. Only accessible to authorized users.">`  
+
+`<meta name="description" content="Internal UI-Topic panel for managing inventory, orders, and suppliers. Only accessible to authorized users.">`
 Descripción del panel interno; útil para documentación y control interno.
 
 ##### **Meta Author**
-`<meta name="author" content="UI-Topic Team">`  
+
+`<meta name="author" content="UI-Topic Team">`
 Indica el equipo creador de la aplicación web.
 
 ##### **Meta Robots**
-`<meta name="robots" content="noindex, nofollow">`  
+
+`<meta name="robots" content="noindex, nofollow">`
 Evita que los buscadores indexen la página o sigan sus enlaces (ideal para contenido interno).
 
 ##### **Meta Language**
-`<meta name="language" content="en">`  
+
+`<meta name="language" content="en">`
 Define el idioma principal de la aplicación.
 
 ##### **Meta Copyright**
-`<meta name="copyright" content="UI-Topic 2025">`  
+
+`<meta name="copyright" content="UI-Topic 2025">`
 Declara los derechos de autor del contenido de la aplicación.
 
 ### 4.2.4 Searching Systems
@@ -1617,17 +1633,23 @@ Valoraciones recibidas por parte de restaurantes con comentarios.
 
 **Desktop User Flow 1:**
 
+Relacionado con User Goal 1: Como suscriptor, quiero gestionar mi cuenta para tener acceso completo a la plataforma y asegurarme de que mis datos estén siempre actualizados.
+
 Este flujo se inicia cuando el usuario accede a la sección de configuración con el objetivo de actualizar su información personal. En esta sección, puede editar los datos de su perfil y cambiar su contraseña.
 
 ![Desktop User Flow 1](assets/images/cap4/user-flows-desktop/UF_desktop_1.jpeg)
 
 **Desktop User Flow 2:**
 
+Relacionado con User Goal 2: Como suscriptor, quiero gestionar mi plan de suscripción.
+
 En esta etapa, el usuario selecciona uno de los planes de suscripción disponibles. Tras la selección, se le dirige a la pasarela de pagos integrada (Stripe), donde debe proporcionar su información financiera y proceder con el pago.
 
 ![Desktop User Flow 2](assets/images/cap4/user-flows-desktop/UF_desktop_2.jpeg)
 
 **Desktop User Flow 3:**
+
+Relacionado con User Goal 3: Como usuario, quiero gestionar manualmente el inventario de insumos (ingresarlos, actualizarlos, descontarlos o registrar compras).
 
 En la sección de gestión de inventario, el usuario (ya sea un administrador de restaurante o proveedor) debe registrar inicialmente los insumos ingresando su información correspondiente. Luego, podrá añadir múltiples unidades de cada insumo según sea necesario.
 La interfaz cuenta con herramientas de filtrado, búsqueda y funciones para editar o eliminar insumos y productos previamente añadidos al inventario.
@@ -1636,11 +1658,15 @@ La interfaz cuenta con herramientas de filtrado, búsqueda y funciones para edit
 
 **Desktop User Flow 4:**
 
+Relacionado con User Goal 4: Como usuario, quiero consultar un panel que resuma datos importantes y acceder al historial de alertas.
+
 Tras iniciar sesión, el usuario es dirigido a la sección de resumen, que presenta datos clave como los pedidos recientes o las últimas órdenes registradas. En una sección adicional, el sistema muestra alertas destacadas, notificando al usuario sobre eventos críticos o información relevante para su operación.
 
 ![Desktop User Flow 4](assets/images/cap4/user-flows-desktop/UF_desktop_4.jpeg)
 
 **Desktop User Flow 5:**
+
+Relacionado con User Goal 5: Como administrador de restaurante, quiero consultar información de mis proveedores.
 
 En la sección de proveedores, los administradores de restaurantes pueden visualizar un catálogo de productos por proveedor, comparar precios y seleccionar las mejores opciones según sus necesidades. También pueden acceder a información detallada de cada proveedor y añadirlos a su lista personalizada para facilitar la gestión de compras y relaciones comerciales.
 
@@ -1648,17 +1674,23 @@ En la sección de proveedores, los administradores de restaurantes pueden visual
 
 **Desktop User Flow 6:**
 
+Relacionado con User Goal 6: Como administrador de restaurante, quiero solicitar pedidos a mis proveedores.
+
 La sección de pedidos a proveedores permite a los administradores de restaurantes revisar el historial completo de solicitudes, consultar los pedidos en proceso y acceder a información detallada de cada uno. Además, se ofrece un sistema de seguimiento que permite monitorear el estado de los pedidos paso a paso.
 
 ![Desktop User Flow 6](assets/images/cap4/user-flows-desktop/UF_desktop_6.jpeg)
 
 **Desktop User Flow 7:**
 
+Relacionado con User Goal 7: Como administrador de restaurante, quiero evaluar los pedidos que recibo de los proveedores.
+
 La sección de comentarios a proveedores permite a los usuarios registrar opiniones sobre los pedidos realizados, incluyendo valoraciones de la calidad del servicio y observaciones relevantes. Esta retroalimentación contribuye a mejorar la relación comercial y la toma de decisiones basada en experiencias previas.
 
 ![Desktop User Flow 7](assets/images/cap4/user-flows-desktop/UF_desktop_7.jpeg)
 
 **Desktop User Flow 8:**
+
+Relacionado con User Goal 8: Como administrador de restaurante, quiero que mi empleado registre ventas completas desde la carta (platos e insumos adicionales).
 
 La funcionalidad de registro de ventas permite a los administradores ingresar las operaciones comerciales diarias. El sistema también proporciona un listado actualizado de las ventas del día, con acceso a información detallada de cada transacción, lo que facilita la gestión y análisis de las actividades comerciales.
 
@@ -1667,11 +1699,15 @@ La funcionalidad de registro de ventas permite a los administradores ingresar la
 
 **Desktop User Flow 9:**
 
+Relacionado con User Goal 9: Como administrador de restaurante, quiero crear recetas vinculadas a insumos del inventario.
+
 La sección de recetas permite al administrador del restaurante crear y gestionar platos a partir de los insumos registrados, detallando precios, cantidades y porcentajes de uso de cada ingrediente. Además, es posible adjuntar imágenes representativas de los platos y mantener un catálogo estructurado de recetas, el cual puede integrarse posteriormente en el módulo de ventas.
 
 ![Desktop User Flow 9](assets/images/cap4/user-flows-desktop/UF_desktop_9.jpeg)
 
 **Desktop User Flow 10:**
+
+Relacionado con User Goal 10: Como proveedor, quiero gestionar mi catálogo de productos (agregarlos, actualizarlos o desactivarlos temporalmente).
 
 En la sección de catálogo de productos, el proveedor puede agregar y administrar los insumos que ofrece. Esta información se integra con el sistema, permitiendo que los administradores de restaurantes accedan al catálogo para consultar y adquirir productos. Esta funcionalidad es clave en la cadena de suministro y gestión de inventario.
 
@@ -1679,17 +1715,23 @@ En la sección de catálogo de productos, el proveedor puede agregar y administr
 
 **Desktop User Flow 11:**
 
+Relacionado con User Goal 11: Como proveedor, quiero tener control total sobre los productos de mi inventario.
+
 En la sección de catálogo de productos, el proveedor puede gestionar la eliminación de insumos registrados, asegurando que el catálogo refleje únicamente los productos disponibles para la venta y distribución. Esto contribuye a mantener la precisión y actualización del inventario.
 
 ![Desktop User Flow 11](assets/images/cap4/user-flows-desktop/UF_desktop_11.jpeg)
 
 **Desktop User Flow 12:**
 
+Relacionado con User Goal 12: Como proveedor, quiero gestionar y actualizar el estado de las órdenes recibidas.
+
 El proveedor cuenta con una sección dedicada a la gestión de las órdenes realizadas por los restaurantes. En esta área puede visualizar los pedidos recibidos, revisar detalles como cantidades, productos solicitados y fechas de entrega, así como actualizar el estado de cada orden para mantener una comunicación clara y eficiente con los clientes.
 
 ![Desktop User Flow 12](assets/images/cap4/user-flows-desktop/UF_desktop_12.jpeg)
 
 **Desktop User Flow 13:**
+
+Relacionado con User Goal 13: Como proveedor, quiero analizar el rendimiento de mis ventas y el feedback de los restaurantes.
 
 Esta sección actúa como el panel principal del usuario al iniciar sesión. Proporciona una visión general clara y organizada de la información más relevante para su gestión diaria.
 
@@ -1699,17 +1741,23 @@ Esta sección actúa como el panel principal del usuario al iniciar sesión. Pro
 
 **Mobile User Flow 1:**
 
+Relacionado con User Goal 1: Como suscriptor, quiero gestionar mi cuenta para tener acceso completo a la plataforma y asegurarme de que mis datos estén siempre actualizados.
+
 Este flujo se inicia cuando el usuario accede a la sección de configuración con el objetivo de actualizar su información personal. En esta sección, puede editar los datos de su perfil y cambiar su contraseña.
 
 ![Mobile User Flow 1](assets/images/cap4/mobile_ug1.png)
 
 **Mobile User Flow 2:**
 
+Relacionado con User Goal 2: Como suscriptor, quiero gestionar mi plan de suscripción.
+
 En esta etapa, el usuario selecciona uno de los planes de suscripción disponibles. Tras la selección, se le dirige a la pasarela de pagos integrada (Stripe), donde debe proporcionar su información financiera y proceder con el pago.
 
 ![Mobile User Flow 2](assets/images/cap4/mobile_ug2.png)
 
 **Mobile User Flow 3:**
+
+Relacionado con User Goal 3: Como usuario, quiero gestionar manualmente el inventario de insumos (ingresarlos, actualizarlos, descontarlos o registrar compras).
 
 En la sección de gestión de inventario, el usuario (ya sea un administrador de restaurante o proveedor) debe registrar inicialmente los insumos ingresando su información correspondiente. Luego, podrá añadir múltiples unidades de cada insumo según sea necesario.
 La interfaz cuenta con herramientas de filtrado, búsqueda y funciones para editar o eliminar insumos y productos previamente añadidos al inventario.
@@ -1718,11 +1766,15 @@ La interfaz cuenta con herramientas de filtrado, búsqueda y funciones para edit
 
 **Mobile User Flow 4:**
 
+Relacionado con User Goal 4: Como usuario, quiero consultar un panel que resuma datos importantes y acceder al historial de alertas.
+
 Tras iniciar sesión, el usuario es dirigido a la sección de resumen, que presenta datos clave como los pedidos recientes o las últimas órdenes registradas. En una sección adicional, el sistema muestra alertas destacadas, notificando al usuario sobre eventos críticos o información relevante para su operación.
 
 ![Mobile User Flow 4](assets/images/cap4/mobile_ug4.png)
 
 **Mobile User Flow 5:**
+
+Relacionado con User Goal 5: Como administrador de restaurante, quiero consultar información de mis proveedores.
 
 En la sección de proveedores, los administradores de restaurantes pueden visualizar un catálogo de productos por proveedor, comparar precios y seleccionar las mejores opciones según sus necesidades. También pueden acceder a información detallada de cada proveedor y añadirlos a su lista personalizada para facilitar la gestión de compras y relaciones comerciales.
 
@@ -1730,11 +1782,15 @@ En la sección de proveedores, los administradores de restaurantes pueden visual
 
 **Mobile User Flow 6:**
 
+Relacionado con User Goal 6: Como administrador de restaurante, quiero solicitar pedidos a mis proveedores.
+
 La sección de pedidos a proveedores permite a los administradores de restaurantes revisar el historial completo de solicitudes, consultar los pedidos en proceso y acceder a información detallada de cada uno. Además, se ofrece un sistema de seguimiento que permite monitorear el estado de los pedidos paso a paso.
 
 ![Mobile User Flow 6](assets/images/cap4/mobile_ug6.png)
 
 **Mobile User Flow 7:**
+
+Relacionado con User Goal 7: Como administrador de restaurante, quiero evaluar los pedidos que recibo de los proveedores.
 
 La sección de pedidos a proveedores permite a los administradores de restaurantes revisar el historial completo de solicitudes, consultar los pedidos en proceso y acceder a información detallada de cada uno. Además, se ofrece un sistema de seguimiento que permite monitorear el estado de los pedidos paso a paso.
 
@@ -1742,11 +1798,15 @@ La sección de pedidos a proveedores permite a los administradores de restaurant
 
 **Mobile User Flow 8:**
 
+Relacionado con User Goal 8: Como administrador de restaurante, quiero que mi empleado registre ventas completas desde la carta (platos e insumos adicionales).
+
 La funcionalidad de registro de ventas permite a los administradores ingresar las operaciones comerciales diarias. El sistema también proporciona un listado actualizado de las ventas del día, con acceso a información detallada de cada transacción, lo que facilita la gestión y análisis de las actividades comerciales.
 
 ![Mobile User Flow 8](assets/images/cap4/mobile_ug8.png)
 
 **Mobile User Flow 9:**
+
+Relacionado con User Goal 9: Como administrador de restaurante, quiero crear recetas vinculadas a insumos del inventario.
 
 La sección de recetas permite al administrador del restaurante crear y gestionar platos a partir de los insumos registrados, detallando precios, cantidades y porcentajes de uso de cada ingrediente. Además, es posible adjuntar imágenes representativas de los platos y mantener un catálogo estructurado de recetas, el cual puede integrarse posteriormente en el módulo de ventas.
 
@@ -1754,11 +1814,15 @@ La sección de recetas permite al administrador del restaurante crear y gestiona
 
 **Mobile User Flow 10:**
 
+Relacionado con User Goal 10: Como proveedor, quiero gestionar mi catálogo de productos (agregarlos, actualizarlos o desactivarlos temporalmente).
+
 En la sección de catálogo de productos, el proveedor puede agregar y administrar los insumos que ofrece. Esta información se integra con el sistema, permitiendo que los administradores de restaurantes accedan al catálogo para consultar y adquirir productos. Esta funcionalidad es clave en la cadena de suministro y gestión de inventario.
 
 ![Mobile User Flow 10](assets/images/cap4/mobile_ug10.png)
 
 **Mobile User Flow 11:**
+
+Relacionado con User Goal 11: Como proveedor, quiero tener control total sobre los productos de mi inventario.
 
 En la sección de catálogo de productos, el proveedor puede gestionar la eliminación de insumos registrados, asegurando que el catálogo refleje únicamente los productos disponibles para la venta y distribución. Esto contribuye a mantener la precisión y actualización del inventario.
 
@@ -1766,11 +1830,15 @@ En la sección de catálogo de productos, el proveedor puede gestionar la elimin
 
 **Mobile User Flow 12:**
 
+Relacionado con User Goal 12: Como proveedor, quiero gestionar y actualizar el estado de las órdenes recibidas.
+
 El proveedor cuenta con una sección dedicada a la gestión de las órdenes realizadas por los restaurantes. En esta área puede visualizar los pedidos recibidos, revisar detalles como cantidades, productos solicitados y fechas de entrega, así como actualizar el estado de cada orden para mantener una comunicación clara y eficiente con los clientes.
 
 ![Mobile User Flow 12](assets/images/cap4/mobile_ug12.png)
 
 **Mobile User Flow 13:**
+
+Relacionado con User Goal 13: Como proveedor, quiero analizar el rendimiento de mis ventas y el feedback de los restaurantes.
 
 Esta sección actúa como el panel principal del usuario al iniciar sesión. Proporciona una visión general clara y organizada de la información más relevante para su gestión diaria.
 
@@ -1783,12 +1851,14 @@ A continuación, se presenta el video de prototipado de la aplicación web en su
 **Video de prototipo mobile:**
 
 ![Captura del video](assets/images/cap4/evidence_prototyping_mobile.png)
-[Enlace al video] [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319831_upc_edu_pe/EQzRDCS2G9dMnPeFjvYtBxcBUPAW0gTeCzoypBvguA-1VA?e=Gatbh7&amp;nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319831_upc_edu_pe/EQzRDCS2G9dMnPeFjvYtBxcBUPAW0gTeCzoypBvguA-1VA?e=Gatbh7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+Enlace al video: https://short-link.me/16eTj
 
 **Video de prototipo desktop:**
 
 ![Captura del video](assets/images/cap4/evidence_prototyping_desktop.png)
-[Enlace al video] [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319448_upc_edu_pe/EQAZa2u5SHtBkX6IXs-LoyUB3eq_aW7yGUBVKdY-8990Hg?e=aQ6yPR](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319448_upc_edu_pe/EQAZa2u5SHtBkX6IXs-LoyUB3eq_aW7yGUBVKdY-8990Hg?e=aQ6yPR)
+
+Enlace al video: https://short-link.me/16eVg
 
 ## 4.6 Domain-Driven Software Architecture
 
@@ -1869,16 +1939,15 @@ Este diseño permite a los usuarios personalizar su experiencia, categorizando s
 | RestaurantAdmin         | Representa a un suscriptor de tipo administrador de restaurante encargado de gestionar internamente el restaurante, sus operaciones, inventario y pedidos. |
 | Comment                 | Comentario hecho por un administrador de restaurante a un pedido de proveedor.                                                                             |
 | OrderToSupplier         | Pedido de productos o insumos realizado por el restaurante hacia un proveedor.                                                                             |
-| Batch             | Contiene los detalles del lote del insumo del inventario.                                                                                                 |
-| Notification                   | Representa una notificación automática que informa al suscriptor sobre eventos importantes.                                                              |
+| Batch                   | Contiene los detalles del lote del insumo del inventario.                                                                                                  |
+| Notification            | Representa una notificación automática que informa al suscriptor sobre eventos importantes.                                                              |
 | Inventory               | Representa el registro de todos los insumos, productos y materiales disponibles del suscriptor.                                                            |
-| DishesCatalog          | Catálogo o listado de platos ofrecidos por el restaurante a sus clientes.                                                                                 |
+| DishesCatalog           | Catálogo o listado de platos ofrecidos por el restaurante a sus clientes.                                                                                 |
 | RestaurantCustomerOrder | Pedido que un cliente realiza al restaurante.                                                                                                              |
 | Report                  | Resumen generado sobre eventos o métricas del sistema.                                                                                                    |
 | Supply                  | Insumo o materia prima almacenada en el inventario.                                                                                                        |
 | RecipeIngredient        | Ingrediente específico que forma parte de una receta.                                                                                                     |
 | Recipe                  | Representa la receta de un plato del restaurante.                                                                                                          |
-
 
 ## 4.8 Database Design
 
@@ -1928,23 +1997,23 @@ A continuación, se presenta el Event Storming de Restock, en el cual se identif
 
 Identity and Access Management: Este bounded context contiene el proceso de ingreso del usuario a la plataforma, ya sea iniciando sesión o registrandose.
 
-![Identity and Guess Managments](assets/images/cap4/event_storming/event_storming_1.jpg "Identity and Guess Managments")
+<img src="assets/images/cap4/event_storming/event_storming_1.jpg" alt=“DDD” height="300px">
 
 Subscriptions and Payments: Este bounded context contiene el proceso de suscribirse a uno de los planes en la plataforma y pagar por dicho plan.
 
-![Subscriptions and Payments](assets/images/cap4/event_storming/event_storming_2.jpg "Subscriptions and Payments")
+<img src="assets/images/cap4/event_storming/event_storming_2.jpg" alt=“DDD” height="300px">
 
 Profiles and Preferences: Este bounded context contiene el proceso de configuración de datos personales en el perfil.
 
-![Profiles and Preferences](assets/images/cap4/event_storming/event_storming_3.jpg "Profiles and Preferences")
+<img src="assets/images/cap4/event_storming/event_storming_3.jpg" alt=“DDD” height="300px">
 
 Asset and Resource Management: Este bounded context contiene el proceso de gestionar los insumos en el inventario y realizar pedidos a un proveedor.
 
-![Asset and Resource Management](assets/images/cap4/event_storming/event_storming_4.png "Asset and Resource Management")
+<img src="assets/images/cap4/event_storming/event_storming_4.png" alt=“DDD”>
 
 Service Design and Planning: Este bounded context contiene el proceso de diseñar/crear una nueva receta en base a los insumos registrados en el inventario.
 
-![Service Design and Planning](assets/images/cap4/event_storming/event_storming_5.jpg "Service Design and Planning")
+<img src="assets/images/cap4/event_storming/event_storming_5.jpg" alt=“DDD” height="400px">
 
 Service Operation and Monitoring: Este bounded context contiene el proceso de registrar una nueva venta del administrador de restaurante y el proceso de gestionar las órdenes que recibe un proveedor.
 
@@ -1952,4 +2021,4 @@ Service Operation and Monitoring: Este bounded context contiene el proceso de re
 
 Analytics: Este bounded context contiene el proceso de mostrar información resumida e importante para los suscriptores.
 
-![Analytics](assets/images/cap4/event_storming/event_storming_7.jpg "Analytics")
+<img src="assets/images/cap4/event_storming/event_storming_7.jpg" alt=“DDD” height="500px">
