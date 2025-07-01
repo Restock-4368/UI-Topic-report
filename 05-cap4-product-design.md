@@ -131,74 +131,75 @@ Se ha priorizado la claridad semántica y la coherencia con el lenguaje visual d
 #### Landing Page
 
 ##### **Charset**
-
-    `<meta charset="utf-8">`
+`<meta charset="utf-8">`  
+Define la codificación de caracteres del sitio web, permitiendo mostrar correctamente caracteres especiales.
 
 ##### **Viewport (responsive)**
-
-    `<meta name="viewport" content="width=device-width, initial-scale=1">`
+`<meta name="viewport" content="width=device-width, initial-scale=1">`  
+Asegura que el sitio sea responsivo, adaptándose al tamaño de la pantalla del dispositivo.
 
 ##### **Title (SEO)**
-
-    `<title>`UI-Topic | Automate your restaurant’s inventory and orders `</title>`
+`<title>UI-Topic | Automate your restaurant’s inventory and orders</title>`  
+Título que aparece en la pestaña del navegador y en resultados de búsqueda; clave para el SEO.
 
 ##### **Meta Description (SEO)**
-
-    `<meta name="description" content="Platform for restaurants that reduces waste and increases profits through smart inventory and order management.">`
+`<meta name="description" content="Platform for restaurants that reduces waste and increases profits through smart inventory and order management.">`  
+Breve resumen del contenido de la página, mostrado por buscadores; influye en el CTR.
 
 ##### **Meta Keywords (SEO, though deprecated for Google)**
-
-    `<meta name="keywords" content="restaurants, inventory management, orders, automation, suppliers, food tech">`
+`<meta name="keywords" content="restaurants, inventory management, orders, automation, suppliers, food tech">`  
+Lista de palabras clave relacionadas con el contenido.
 
 ##### **Meta Author**
-
-    `<meta name="author" content="UI-Topic Team">`
+`<meta name="author" content="UI-Topic Team">`  
+Indica el autor del contenido de la página.
 
 ##### **Meta Robots**
-
-    `<meta name="robots" content="index, follow">`
+`<meta name="robots" content="index, follow">`  
+Indica a los buscadores que pueden indexar la página y seguir los enlaces.
 
 ##### **Meta Language**
-
-    `<meta name="language" content="en">`
+`<meta name="language" content="en">`  
+Define el idioma principal del contenido de la página.
 
 ##### **Meta Copyright**
+`<meta name="copyright" content="UI-Topic 2025">`  
+Especifica los derechos de autor del contenido de la página.
 
-    `<meta name="copyright" content="UI-Topic 2025">`
 
 #### Web Application
 
 ##### **Charset**
-
-    `<meta charset="utf-8">`
+`<meta charset="utf-8">`  
+Define la codificación de caracteres del sitio web.
 
 ##### **Viewport (responsive)**
-
-    `<meta name="viewport" content="width=device-width, initial-scale=1">`
+`<meta name="viewport" content="width=device-width, initial-scale=1">`  
+Permite que la aplicación se vea bien en diferentes dispositivos.
 
 ##### **Title (SEO)**
-
-    `<title>`UI-Topic App | Management Panel `</title>`
+`<title>UI-Topic App | Management Panel</title>`  
+Título mostrado en la pestaña del navegador, aunque no se indexa por SEO si está bloqueado por robots.
 
 ##### **Meta Description (SEO)**
-
-    `<meta name="description" content="Internal UI-Topic panel for managing inventory, orders, and suppliers. Only accessible to authorized users.">`
+`<meta name="description" content="Internal UI-Topic panel for managing inventory, orders, and suppliers. Only accessible to authorized users.">`  
+Descripción del panel interno; útil para documentación y control interno.
 
 ##### **Meta Author**
-
-    `<meta name="author" content="UI-Topic Team">`
+`<meta name="author" content="UI-Topic Team">`  
+Indica el equipo creador de la aplicación web.
 
 ##### **Meta Robots**
-
-    `<meta name="robots" content="noindex, nofollow">`
+`<meta name="robots" content="noindex, nofollow">`  
+Evita que los buscadores indexen la página o sigan sus enlaces (ideal para contenido interno).
 
 ##### **Meta Language**
-
-    `<meta name="language" content="en">`
+`<meta name="language" content="en">`  
+Define el idioma principal de la aplicación.
 
 ##### **Meta Copyright**
-
-    `<meta name="copyright" content="UI-Topic 2025">`
+`<meta name="copyright" content="UI-Topic 2025">`  
+Declara los derechos de autor del contenido de la aplicación.
 
 ### 4.2.4 Searching Systems
 
