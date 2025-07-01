@@ -532,17 +532,50 @@ A continuación, se presenta el video del frontend de la aplicación web interna
 
 #### 5.2.2.6 Services Documentation Evidence for Sprint Review
 
-Durante este sprint se completó al 100% el desarrollo del Landing Page del sistema, consolidando su estructura visual, diseño responsivo, traducción multilenguaje y funcionalidades de navegación. Asimismo, se avanzó de forma significativa en la construcción del frontend del sistema, incluyendo componentes claves como el menú lateral, el dashboard inicial, el módulo de gestión de insumos y la arquitectura modular en Vue.js bajo DDD (Domain-Driven Design).
-
-Aunque no se desplegaron endpoints REST aún, se documentan a continuación los recursos y avances relevantes del sprint, junto con evidencia de despliegue y repositorio de código.
+Durante este Sprint se avanzó en el desarrollo del **frontend interno de Restock**, habilitando múltiples rutas navegables para los usuarios autenticados (administradores de restaurante y proveedores), en una estructura basada en Vue Router, Domain-Driven Design y componentes cargados dinámicamente. Aunque aún no se han documentado endpoints REST con OpenAPI, se despliegan a continuación los recursos navegables disponibles, que forman parte del ecosistema de consumo de servicios web del sistema.
 
 **Descripción del Logro:**
 
-- Finalización del Landing Page (100%).
-- Implementación completa de diseño responsivo, i18n, y redirecciones funcionales.
-- Estructura de frontend modular iniciada (menu sidebar, dashboard y componentes base).
-- Aplicación de buenas prácticas de organización por bounded contexts en Vue.
-- Integración visual basada en PrimeVue, PrimeFlex y PrimeIcons.
+* Finalización del Landing Page e implementación multilenguaje.
+* Desarrollo modular del frontend con rutas específicas por rol (restaurante y proveedor).
+* Estructura basada en Vue Router, DDD y carga lazy de componentes.
+* Integración visual con PrimeVue y buenas prácticas de separación por contextos.
+
+##### Rutas accesibles del sistema (Frontend)
+
+| Recurso / Vista               | Acción implementada                        | Método HTTP | URL relativa                          | Propósito funcional                                   |
+| ----------------------------- | ------------------------------------------ | ----------- | ------------------------------------- | ----------------------------------------------------- |
+| Landing Page                  | Visualización pública inicial              | GET         | `/` (con redirección de rol)          | Acceso inicial y redirección por tipo de usuario      |
+| Supplier Inventory            | Visualización de inventario de proveedor   | GET         | `/dashboard/supplier/inventory`       | Gestión del inventario del proveedor                  |
+| Restaurant Inventory          | Visualización de inventario de restaurante | GET         | `/dashboard/restaurant/inventory`     | Control de insumos del restaurante                    |
+| Restaurant Summary Overview   | Resumen analítico del restaurante          | GET         | `/dashboard/restaurant/summary`       | Dashboard de datos clave del restaurante              |
+| Supplier Summary Overview     | Resumen analítico del proveedor            | GET         | `/dashboard/supplier/summary`         | Dashboard de datos clave del proveedor                |
+| Supplier Catalog (Restaurant) | Catálogo de proveedores                    | GET         | `/dashboard/restaurant/suppliers`     | Visualización y exploración de proveedores            |
+| Supplier Detail (Restaurant)  | Detalle de proveedor específico            | GET         | `/dashboard/restaurant/suppliers/:id` | Información detallada del proveedor y su catálogo     |
+| Supplier Reviews              | Visualización de calificaciones            | GET         | `/dashboard/supplier/ratings`         | Revisión de calificaciones recibidas por el proveedor |
+
+##### Despliegue de recursos
+
+| Recurso          | Acción implementada   | Método HTTP | URL / Endpoint                                                                | Repositorio                                                                            |
+| ---------------- | --------------------- | ----------- | ----------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| Landing Page     | Visualización inicial | GET         | [Landing URL](https://aplicaciones-web-curso-upc.github.io/UI-Topic-landing/) | [UI-Topic-landing](https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-landing.git) |
+| Frontend Interno | Navegación por rutas  | GET         | [App URL](https://ui-topic-frontend.vercel.app)                               | [UI-Topic-frontend](https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-frontend)   |
+
+##### Evidencia de interacción
+
+* Video de navegación por módulos del sistema:
+  [https://short-link.me/16eW0](https://short-link.me/16eW0)
+
+* Captura de la interfaz en funcionamiento:
+  ![Captura del video](assets/images/cap-5/evidence_sprint_2/video_evidence.png)
+
+##### Commits relacionados
+
+| Commit ID | Descripción                                                                 | Autor       |
+| --------- | --------------------------------------------------------------------------- | ----------- |
+| `0d31b31` | `feat(inventory): integrate inventory management with modal for adding and editing supplies`    | JulioXC4  |
+| `61f2e4b` | `feat(restaurant-supplier): add restaurant supplier catalog.`               | Yaku Guzman |
+| `55dbceb` | `feat(sidebar): restructure app layout with sidebar and router integration` | jahazielgg  |
 
 #### 5.2.2.7 Software Deployment Evidence for Sprint Review
 
