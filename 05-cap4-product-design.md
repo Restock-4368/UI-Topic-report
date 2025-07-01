@@ -83,12 +83,7 @@ En cuanto a la interactividad, los botones y enlaces son claramente identificabl
 
 ![Mockup Landing Page](assets/images/mockup_landingpage.png)
 ![Mockup Inicio de Sesión](assets/images/mockup_iniciosesion.png)
-
-![Mockup Registro](assets/images/mockup_registro.png)
-
-![Mockup Nosotros](assets/images/mockup_nosotros.png)
-
-![Mockup Footer](assets/images/mockup_footer.png)
+![Mockup Nosotros 1](assets/images/mockup_nosotros1.png)
 
 _Nota_: Elaboración propia.
 

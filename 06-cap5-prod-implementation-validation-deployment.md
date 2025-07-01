@@ -128,29 +128,119 @@ Se utilizará el estándar de **Conventional Commits** para los mensajes de comm
 - **Endpoints (URLs)**: `kebab-case` (ej. `/api/user-profile`)
 - **Namespaces**: `PascalCase` y estructurados jerárquicamente (ej. `ProjectName.ModuleName.FeatureName`)
 
-### 5.1.4 Software Deployment Configuration
+### 5.1.4. Software Deployment Configuration
 
-Para la Landing Page desarrollada en HTML, CSS y JavaScript, la configuración del despliegue en GitHub Pages se define de la siguiente manera:
+Esta sección detalla los pasos necesarios para desplegar de forma satisfactoria los productos digitales que componen la solución: el landing page, la aplicación web (frontend) y los Web Services (backend), partiendo desde sus respectivos repositorios de código fuente.
 
-**Repositorio de Código Fuente**
+**1. Landing Page – HTML, CSS y JavaScript**
 
-Se debe crear un repositorio en GitHub y subir todos los archivos del proyecto (HTML, CSS, JS).
-Es obligatorio que el archivo `index.html` esté ubicado en la raíz del repositorio para poder realizar el despliegue correctamente.
+**Tecnología Base**
 
-![Software Deployment Configuration](assets/images/cap-5/repo-landing-github.png)
+- Lenguajes: HTML5, CSS3, JavaScript
+- Hosting: GitHub Pages
 
-#### **Frontend Principal (Vue + PrimeVue)**
+**Configuración y Despliegue**
 
-El frontend principal de la aplicación ha sido desarrollado utilizando **Vue 3** junto con **PrimeVue** como librería de componentes. El despliegue lo realizamos mediante **Vercel**.
+*Repositorio de Código Fuente:*
+La Landing Page se desarrolla utilizando HTML, CSS y JavaScript puro. Todos los archivos del proyecto deben subirse a un repositorio público en GitHub. Es obligatorio que el archivo `index.html` esté ubicado en la raíz del repositorio (`/`) para que GitHub Pages lo detecte correctamente como punto de entrada del sitio.
 
-**Pasos para el despliegue**:
+*Pasos de despliegue en GitHub Pages:*
 
-1. Ejecutar el comando de compilación:
-   npm run build
-2. Esto generará una carpeta dist/ con todos los archivos listos para producción.
-3. Subir el contenido de la carpeta dist y conectar el repositorio original a Vercel.
+1. Acceder al repositorio en GitHub.
+2. Ir a la sección **Settings** del repositorio.
+3. En el menú lateral, seleccionar **Pages**.
+4. En el campo **Source**, elegir:
+   - Rama: `main`
+   - Carpeta: `/ (root)`
+5. Guardar los cambios.
 
-![Software Deployment Configuration](assets/images/cap-5/vercel_dashboard.png)
+*Publicación:*
+GitHub generará automáticamente una URL pública donde la Landing Page estará disponible, con el formato:
+`https://<usuario>.github.io/<repositorio>/`
+
+*Actualizaciones:*
+Cualquier nuevo commit en la rama `main` será desplegado automáticamente por GitHub Pages, sin necesidad de acciones adicionales.
+
+**2. Frontend Web Application – Vue**
+
+**Tecnología Base**
+
+- Framework: Vue 3
+- Build Tool: Vite / Vue CLI (`npm run build`)
+- Hosting: GitHub Pages
+
+**Configuración y Despliegue**
+
+*Repositorio de Código Fuente:*
+El proyecto frontend está alojado en GitHub. El directorio de salida del build (`/dist`) contiene los archivos que deben ser publicados.
+
+*Build:*
+Se ejecuta el comando:
+
+```bash
+npm run build
+```
+
+Esto genera los archivos estáticos listos para producción.
+
+*Despliegue en GitHub Pages:*
+Para publicar el contenido del directorio `/dist` en GitHub Pages, se puede usar la herramienta `gh-pages` (npm) o realizar el despliegue manual mediante una rama `gh-pages`. También se puede configurar una acción de GitHub Actions para automatizar el proceso.
+
+*Variables de entorno:*
+Las URLs de los servicios REST del backend están configuradas como variables de entorno (por ejemplo, `VITE_API_URL`) y no están hardcodeadas.
+
+*Entornos diferenciados:*
+
+- Desarrollo: Vue se ejecuta localmente (`npm run dev`) apuntando a un entorno de backend local.
+- Producción: El entorno de producción utiliza las variables definidas para apuntar al backend desplegado en Render.
+
+*Integración con backend:*
+La aplicación consume servicios expuestos por el backend a través de HTTP, usando los endpoints públicos definidos en la API REST.
+
+**3. Web Services – C# ASP.NET 9.0**
+
+**Tecnología Base**
+
+- Framework: ASP.NET Core 9.0
+- Lenguaje: C#
+- Build Tool: `dotnet build`
+- Contenedorización: Docker
+- Base de datos: MySQL (freesqldatabase.com)
+- Hosting: Render
+
+**Configuración y Despliegue**
+
+*Contenerización:*
+El proyecto backend contiene un archivo `Dockerfile` que define la imagen Docker a construir. Esta imagen se utiliza en Render para ejecutar la aplicación como contenedor.
+
+*Repositorio vinculado:*
+El servicio está vinculado directamente a un repositorio GitHub desde Render. Al detectar el `Dockerfile`, Render construye y despliega automáticamente la imagen.
+
+*Build:*
+Render ejecuta el proceso de build con:
+
+```bash
+dotnet build  
+```
+
+seguido del `dotnet run` o comandos equivalentes para levantar el servidor.
+
+*Variables de entorno:*En Render se configuran las credenciales necesarias para conectarse a la base de datos MySQL remota. Las variables incluyen:
+
+- `DB_HOST`
+- `DB_PORT`
+- `DB_NAME`
+- `DB_USERNAME`
+- `DB_PASSWORD`
+
+*Acceso a la base de datos:*
+Se usa una base de datos MySQL alojada en freesqldatabase.com. La conexión se configura a través del archivo `appsettings.json` o `appsettings.Production.json`, leyendo las variables de entorno.
+
+*Exposición de servicios:*
+El backend expone una API RESTful consumida por el frontend. Los endpoints siguen convenciones REST y están documentados usando Swagger u OpenAPI si corresponde.
+
+*Deploy automático:*
+Cada push en la rama principal del repositorio activa automáticamente un nuevo despliegue en Render, sin necesidad de configurar pipelines adicionales.
 
 ## 5.2 Landing Page, Services & Applications Implementation
 
@@ -190,45 +280,45 @@ https://trello.com/b/75YJ9YcB/sprint-backlog-1
 
 <br>
 
-| User Story ID | User Story Title                                                | Task ID | Task Title                | Task Description                                                                                          | Estimated Hours |
-| ------------- | --------------------------------------------------------------- | ------- | ------------------------- | --------------------------------------------------------------------------------------------------------- | --------------- |
-| US-001         | Ver testimonios de clientes               | T001    |  US001TASK001        | Diseñar una sección visualmente destacada para testimonios.                            | 1/2 h           |
-|               |                                                                 | T002    | US001TASK002 | Mostrar mínimo tres testimonios con nombre, rol y comentario.               | 1h              |
-|               |                                                                 | T003    | US001TASK003          | Aplicar estilos consistentes (tipografía, colores, disposición).                 | 1/2h            |
-| US-0002         | Consultar Preguntas Frecuentes              | T004    | US002TASK001         | Definir al menos tres preguntas frecuentes con sus respuestas claras y breves.                           | 1/2h            |
-|               |                                                                 | T005    | US002TASK002 | Incluir las preguntas y respuestas directamente en el contenido estático de la sección FAQ.              | 1h              |
-|               |                                                                 | T006    | US002TASK003         | Verificar que las respuestas estén visibles de forma directa sin necesidad de interacción.                | 1/2h            |
-| US-003         | Consultas directas al equipo de la plataforma | T007    | US003TASK001         | Diseñar un formulario limpio con campos de nombre, correo y mensaje.              | 1/2h            |
-|               |                                                                 | T008    | US003TASK002 | Aplicar validación visual (mensajes de error si faltan datos). | 1h              |
-|               |                                                                 | T009    | US003TASK003          | Mostrar un mensaje de confirmación claro tras el envío.   | 1/2h            |
-| US-004        | Visualización persistente de información institucional en todo el sitio                       | T010    | US004TASK001         | Implementar una sección fija en el pie de página con enlaces a redes sociales, contacto y aviso legal.                                    | 1/2h            |
-|               |                                                                 | T011    | US004TASK002 | Crear la sección de "Términos y Condiciones" con contenido legal claro y accesible.                       | 1h              |
-|               |                                                                 | T012    | US004TASK003          | Asegurar que la sección de información institucional esté visible en todas las vistas públicas del sitio.                         | 1/2h            |
-| US-005         | Acceso a secciones principales del sitio                      | T013    | US005TASK001        | Definir y estructurar las rutas internas para las secciones: Inicio, Beneficios, Cómo funciona y Contacto.                                   | 1/2h            |
-|               |                                                                 | T014    | US005TASK002 | Implementar un menú de navegación accesible desde la página principal que enlace a las secciones principales del sitio.                      | 1h              |
-|               |                                                                 | T015    | US005TASK003          | Asegurar que cada enlace de navegación redirija correctamente a su respectiva sección dentro del sitio.                       | 1/2h            |
-| US-006         | Conocer el funcionamiento general de la plataforma                               | T016    | US006TASK001         | Definir el contenido de las cuatro etapas que explican el funcionamiento general de la plataforma. explicativo'.                                            | 1/2h            |
-|               |                                                                 | T017    | US006TASK002 | Estructurar la sección informativa que describa paso a paso cómo utilizar la plataforma.                               | 1h              |
-|               |                                                                 | T018    | US006TASK003          | Implementar la visualización de las cuatro etapas de forma secuencial y clara dentro del sitio.                                 | 1/2h            |
-| US-007         | Opción de comprender el funcionamiento mediante recurso audiovisual                        | T019    | US007TASK001         | Implementación de estructura necesarios para asegurar que el video explicativo se muestre correctamente                                    | 1/2h            |            |
-| US-008         | Comprensión del propósito y valor desde el inicio                                     | T020    | US008TASK001         | Implementación de estructura necesarios para asegurar que los beneficios se muestren correctamente                                                  | 2h             ||      
-| US-009         | Visualización de beneficios según perfil de usuario                                  | T025    | US009TASK001         | Implementación de estructura necesarios para asegurar que los beneficios adaptados a mi perfil se muestre correctamente.                                               | 1/2h            ||
-| US-011         | Selección de idioma para una experiencia personalizada                                   | T028    | US011TASK001         | Preparar el contenido de la landing page y web application en dos idiomas (español e inglés).                                            | 1h              |
-|               |                                                                 | T029    | US011TASK002 | Implementar botón que permita cambiar entre ambos idiomas.                                   | 1/2h            |
-|               |                                                                 | T030    | US011TASK003          | Guardar la selección del idioma para que se mantenga al recargar la página.                                     | 1h              |
-| US012         | Navegación accesible para personas con discapacidad visual                              | T031    | US012TASK001         | Crear diseño visual para 'navegación fluida entre secciones'.                                           | 1/2h            |
-|               |                                                                 | T032    | US012TASK002 | Codificar el componente necesario para 'navegación fluida entre secciones'.                              | 1h              |
-|               |                                                                 | T033    | US012TASK003          | Verificar que 'navegación fluida entre secciones' funcione correctamente.                                | 1/2h            |
-| US-013         | Optimización para pantallas de escritorio                            | T034    | US013TASK001         | Definir breakpoint específico para resolución ≥ 1280px en hoja de estilos principal (ej. media queries o framework CSS utilizado)                                         | 1/2h            |
-|               |                                                                 | T035    | US013TASK002 | Reorganizar layout principal (header, sidebar, content) para aprovechar el espacio horizontal sin superposición ni columnas colapsadas                            | 1h              |
-|               |                                                                 | T036    | US013TASK003          | Ajustar tipografía, padding y márgenes para mejorar legibilidad en pantallas grandes                              | 1/2h            |
-| US-014         | Optimización para pantallas de tablet              | T037    | US014TASK001         | Definir breakpoint específico para resolución ≥ 1024px en hoja de estilos principal (ej. media queries o framework CSS utilizado)                           | 1h              |
-|               |                                                                 | T038    | US014TASK002 | Reorganizar layout principal (header, sidebar, content) para aprovechar el espacio horizontal sin superposición ni columnas colapsadas              | 1/2h            |
-|               |                                                                 | T039    | US014TASK003          | Ajustar tipografía, padding y márgenes para mejorar legibilidad en pantallas grandes                | 1/2h            |
-| US-015         | Optimización para dispositivos móviles                             | T040    | US015TASK001         | Definir breakpoint específico para resolución ≥ 768px en hoja de estilos principal (ej. media queries o framework CSS utilizado)                                    | 1/2h            |
-|               |                                                                 | T041    | US015TASK002 | Reorganizar layout principal (header, sidebar, content) para optimizar el espacio horizontal                             | 1h              |
-|               |                                                                 | T042    | US015TASK003          | Ajustar tipografía, padding y márgenes para mejorar legibilidad en pantallas pequeñas                               | 1/2h            |
-| US-016         | Navegación fluida entre secciones                                                        | T043    | US016TASK001         | Implementar una experiencia de navegación fluida y sin interrupciones entre las diferentes secciones de la aplicación, garantizando transiciones rápidas, suaves y coherentes con la interfaz de usuario.                                                                     | 2h              ||
+| User Story ID | User Story Title                                                          | Task ID | Task Title   | Task Description                                                                                                                                                                                             | Estimated Hours |
+| ------------- | ------------------------------------------------------------------------- | ------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------- |
+| US-001        | Ver testimonios de clientes                                               | T001    | US001TASK001 | Diseñar una sección visualmente destacada para testimonios.                                                                                                                                                | 1/2 h           |
+|               |                                                                           | T002    | US001TASK002 | Mostrar mínimo tres testimonios con nombre, rol y comentario.                                                                                                                                               | 1h              |
+|               |                                                                           | T003    | US001TASK003 | Aplicar estilos consistentes (tipografía, colores, disposición).                                                                                                                                           | 1/2h            |
+| US-0002       | Consultar Preguntas Frecuentes                                            | T004    | US002TASK001 | Definir al menos tres preguntas frecuentes con sus respuestas claras y breves.                                                                                                                               | 1/2h            |
+|               |                                                                           | T005    | US002TASK002 | Incluir las preguntas y respuestas directamente en el contenido estático de la sección FAQ.                                                                                                                | 1h              |
+|               |                                                                           | T006    | US002TASK003 | Verificar que las respuestas estén visibles de forma directa sin necesidad de interacción.                                                                                                                 | 1/2h            |
+| US-003        | Consultas directas al equipo de la plataforma                             | T007    | US003TASK001 | Diseñar un formulario limpio con campos de nombre, correo y mensaje.                                                                                                                                        | 1/2h            |
+|               |                                                                           | T008    | US003TASK002 | Aplicar validación visual (mensajes de error si faltan datos).                                                                                                                                              | 1h              |
+|               |                                                                           | T009    | US003TASK003 | Mostrar un mensaje de confirmación claro tras el envío.                                                                                                                                                    | 1/2h            |
+| US-004        | Visualización persistente de información institucional en todo el sitio | T010    | US004TASK001 | Implementar una sección fija en el pie de página con enlaces a redes sociales, contacto y aviso legal.                                                                                                     | 1/2h            |
+|               |                                                                           | T011    | US004TASK002 | Crear la sección de "Términos y Condiciones" con contenido legal claro y accesible.                                                                                                                        | 1h              |
+|               |                                                                           | T012    | US004TASK003 | Asegurar que la sección de información institucional esté visible en todas las vistas públicas del sitio.                                                                                                | 1/2h            |
+| US-005        | Acceso a secciones principales del sitio                                  | T013    | US005TASK001 | Definir y estructurar las rutas internas para las secciones: Inicio, Beneficios, Cómo funciona y Contacto.                                                                                                  | 1/2h            |
+|               |                                                                           | T014    | US005TASK002 | Implementar un menú de navegación accesible desde la página principal que enlace a las secciones principales del sitio.                                                                                   | 1h              |
+|               |                                                                           | T015    | US005TASK003 | Asegurar que cada enlace de navegación redirija correctamente a su respectiva sección dentro del sitio.                                                                                                    | 1/2h            |
+| US-006        | Conocer el funcionamiento general de la plataforma                        | T016    | US006TASK001 | Definir el contenido de las cuatro etapas que explican el funcionamiento general de la plataforma. explicativo'.                                                                                             | 1/2h            |
+|               |                                                                           | T017    | US006TASK002 | Estructurar la sección informativa que describa paso a paso cómo utilizar la plataforma.                                                                                                                   | 1h              |
+|               |                                                                           | T018    | US006TASK003 | Implementar la visualización de las cuatro etapas de forma secuencial y clara dentro del sitio.                                                                                                             | 1/2h            |
+| US-007        | Opción de comprender el funcionamiento mediante recurso audiovisual      | T019    | US007TASK001 | Implementación de estructura necesarios para asegurar que el video explicativo se muestre correctamente                                                                                                     | 1/2h            |
+| US-008        | Comprensión del propósito y valor desde el inicio                       | T020    | US008TASK001 | Implementación de estructura necesarios para asegurar que los beneficios se muestren correctamente                                                                                                          | 2h              |
+| US-009        | Visualización de beneficios según perfil de usuario                     | T025    | US009TASK001 | Implementación de estructura necesarios para asegurar que los beneficios adaptados a mi perfil se muestre correctamente.                                                                                    | 1/2h            |
+| US-011        | Selección de idioma para una experiencia personalizada                   | T028    | US011TASK001 | Preparar el contenido de la landing page y web application en dos idiomas (español e inglés).                                                                                                              | 1h              |
+|               |                                                                           | T029    | US011TASK002 | Implementar botón que permita cambiar entre ambos idiomas.                                                                                                                                                  | 1/2h            |
+|               |                                                                           | T030    | US011TASK003 | Guardar la selección del idioma para que se mantenga al recargar la página.                                                                                                                                | 1h              |
+| US012         | Navegación accesible para personas con discapacidad visual               | T031    | US012TASK001 | Crear diseño visual para 'navegación fluida entre secciones'.                                                                                                                                              | 1/2h            |
+|               |                                                                           | T032    | US012TASK002 | Codificar el componente necesario para 'navegación fluida entre secciones'.                                                                                                                                 | 1h              |
+|               |                                                                           | T033    | US012TASK003 | Verificar que 'navegación fluida entre secciones' funcione correctamente.                                                                                                                                   | 1/2h            |
+| US-013        | Optimización para pantallas de escritorio                                | T034    | US013TASK001 | Definir breakpoint específico para resolución ≥ 1280px en hoja de estilos principal (ej. media queries o framework CSS utilizado)                                                                         | 1/2h            |
+|               |                                                                           | T035    | US013TASK002 | Reorganizar layout principal (header, sidebar, content) para aprovechar el espacio horizontal sin superposición ni columnas colapsadas                                                                      | 1h              |
+|               |                                                                           | T036    | US013TASK003 | Ajustar tipografía, padding y márgenes para mejorar legibilidad en pantallas grandes                                                                                                                       | 1/2h            |
+| US-014        | Optimización para pantallas de tablet                                    | T037    | US014TASK001 | Definir breakpoint específico para resolución ≥ 1024px en hoja de estilos principal (ej. media queries o framework CSS utilizado)                                                                         | 1h              |
+|               |                                                                           | T038    | US014TASK002 | Reorganizar layout principal (header, sidebar, content) para aprovechar el espacio horizontal sin superposición ni columnas colapsadas                                                                      | 1/2h            |
+|               |                                                                           | T039    | US014TASK003 | Ajustar tipografía, padding y márgenes para mejorar legibilidad en pantallas grandes                                                                                                                       | 1/2h            |
+| US-015        | Optimización para dispositivos móviles                                  | T040    | US015TASK001 | Definir breakpoint específico para resolución ≥ 768px en hoja de estilos principal (ej. media queries o framework CSS utilizado)                                                                          | 1/2h            |
+|               |                                                                           | T041    | US015TASK002 | Reorganizar layout principal (header, sidebar, content) para optimizar el espacio horizontal                                                                                                                 | 1h              |
+|               |                                                                           | T042    | US015TASK003 | Ajustar tipografía, padding y márgenes para mejorar legibilidad en pantallas pequeñas                                                                                                                     | 1/2h            |
+| US-016        | Navegación fluida entre secciones                                        | T043    | US016TASK001 | Implementar una experiencia de navegación fluida y sin interrupciones entre las diferentes secciones de la aplicación, garantizando transiciones rápidas, suaves y coherentes con la interfaz de usuario. | 2h              |
 
 #### 5.2.1.4 Development Evidence for Sprint Review
 
@@ -753,77 +843,76 @@ En esta sección presentamos la evidencia de desarrollo correspondiente al Sprin
 
 Cada entrada refleja avances funcionales importantes realizados por el equipo, incluyendo la implementación de agregados, comandos, endpoints, configuración del entorno, y mejoras en la estructura del código.
 
-| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
-| ---------- | ------ | ---------- | --------------- | -------------------- | ------------------ |
-| Julio Castro/restock-platform | develop | 28992e7 | feat(domain): create CustomerSupply aggregate and constructor from command |  | 22-06-2025 |
-| Julio Castro/restock-platform | develop | 8d2c0a6 | feat(bc-resource): add queries for retrieving batches and supplies |  | 22-06-2025 |
-| Julio Castro/restock-platform | develop | ca21492 | feat(bc-resource): implement commands for batch and supply creation and update |  | 22-06-2025 |
-| Gabriela Shapiama/restock-platform | develop | b313d35 | refactor(Program): simplify DbContext configuration and comment out HTTPS redirection |  | 22-06-2025 |
-| Gabriela Shapiama/restock-platform | develop | 04bdc72 | feat(server): configure Kestrel to listen on specified port from environment variable |  | 22-06-2025 |
-| Gabriela Shapiama/restock-platform | develop | 9012237 | feat(configuration): add appsettings for local and production environments |  | 22-06-2025 |
-| Gabriela Shapiama/restock-platform | develop | 9fd966d | feat: enhance JSON serialization settings and improve database context configuration |  | 21-06-2025 |
-| Gabriela Shapiama/restock-platform | develop | 322ac8e | feat(docker): add Dockerfile for building and running CatchUpPlatform.API |  | 21-06-2025 |
-| Gabriela Shapiama/restock-platform | develop | 000878d | feat(configuration): update appsettings for production environment and remove token settings |  | 21-06-2025 |
-| Jahaziel Guerra/restock-platform | develop | 467eb35 | feat(recipe): add AddRecipeSupplyCommand for adding supplies to recipes |  | 21-06-2025 |
-| Jahaziel Guerra/restock-platform | develop | a8fbb78 | feat(config): rename appsettings to appsettings.Production.json and update connection string for production environment |  | 21-06-2025 |
-| Jahaziel Guerra/restock-platform | develop | 3b07ed2 | feat(recipe): update AddSupplyToRecipe to accept multiple supplies and change supplyId type to int in update/delete endpoints |  | 20-06-2025 |
-| Jahaziel Guerra/restock-platform | develop | 0a4207b | feat(recipe): change SupplyId type from Guid to int in recipe supply commands and resources |  | 20-06-2025 |
-| Jahaziel Guerra/restock-platform | develop | 6c528c4 | feat(recipe): make recipe description optional and update related properties for nullable support |  | 19-06-2025 |
-| Jahaziel Guerra/restock-platform | develop | a49dd6a | feat(recipe): add endpoints for listing, updating, and deleting recipe supplies; support optional supply inclusion in queries |  | 18-06-2025 |
-| Jahaziel Guerra/restock-platform | develop | e097162 | feat(recipe): add UpdateRecipeSupplyResource and support optional supply inclusion in assembler |  | 18-06-2025 |
-| Jahaziel Guerra/restock-platform | develop | e3cbd61 | feat(recipe): add command records for updating and deleting recipe supplies |  | 18-06-2025 |
-| Jahaziel Guerra/restock-platform | develop | cb9dd37 | feat(recipe): add service methods for updating, deleting, and querying recipe supplies |  | 18-06-2025 |
-| Jahaziel Guerra/restock-platform | develop | f7e4840 | feat(recipe): extend services and repository to support recipe supply update, delete, and querying |  | 18-06-2025 |
-| Jahaziel Guerra/restock-platform | develop | 1679ec6 | feat(recipe): add endpoint and service logic to add supply to recipe |  | 18-06-2025 |
-| Yaku Guzman/restock-platform | develop | 5fd1781 | refactor(resource): remove Supplies input from CreateRecipeResource |  | 18-06-2025 |
-| Yaku Guzman/restock-platform | develop | df20fbe | refactor(assembler): remove Supplies mapping from CreateRecipeCommandFromResourceAssembler |  | 18-06-2025 |
-| Julio Castro/restock-platform | develop | bdcb05a | refactor(command): remove Supplies input from CreateRecipeCommand and UpdateRecipeCommand |  | 18-06-2025 |
-| Julio Castro/restock-platform | develop | a102df6 | feat(resource): add AddRecipeSupplyResource record for recipe supply input |  | 18-06-2025 |
-| Julio Castro/restock-platform | develop | ac5c718 | feat: update AppDbContext to enforce generic DbContext options and clean up RecipeSupply configuration |  | 17-06-2025 |
-| Julio Castro/restock-platform | develop | 4a3b67d | feat: refactor Recipe and RecipeSupply entity configurations for improved relationships and clarity |  | 17-06-2025 |
-| Julio Castro/restock-platform | develop | 9460372 | feat: update Recipe and RecipeSupply entities for improved structure and validation |  | 17-06-2025 |
-| Julio Castro/restock-platform | develop | f1a57dc | feat(restock): add bounded context folders |  | 14-06-2025 |
-| Julio Castro/restock-platform | develop | 99d6426 | feat(resource): add supply entity. |  | 14-06-2025 |
-| Julio Castro/restock-platform | develop | c7eeb8a | feat(resource): add order to supplier batch entity. |  | 14-06-2025 |
-| Julio Castro/restock-platform | develop | 416b45b | feat(resource): add order to supplier entity. |  | 14-06-2025 |
-| Julio Castro/restock-platform | develop | dcc3a37 | feat(resource): add order to supplier states value object. |  | 14-06-2025 |
-| Julio Castro/restock-platform | develop | 63f1055 | feat(resource): add order to supplier situations value object. |  | 14-06-2025 |
-| Julio Castro/restock-platform | develop | edbb93b | feat(resource): add batch entity. |  | 14-06-2025 |
-| Julio Castro/restock-platform | develop | dda6d96 | chore: delete  files. |  | 14-06-2025 |
-| Julio Castro/restock-platform | develop | a744a30 | feat: improve database initialization and update API documentation for recipes |  | 13-06-2025 |
-| Yaku Guzman/restock-platform | develop | 656fcc5 | feat: add token settings and default connection string to appsettings.json |  | 13-06-2025 |
-| Yaku Guzman/restock-platform | develop | d6ace92 | feat: refactor Recipe and RecipeSupply entity configurations for improved clarity and consistency |  | 13-06-2025 |
-| Yaku Guzman/restock-platform | develop | e7c681f | feat: update connection string and upgrade package versions in project files |  | 13-06-2025 |
-| Yaku Guzman/restock-platform | develop | 5abad19 | feat: add Recipe and RecipeSupply entities with EF Core configuration |  | 13-06-2025 |
-| Gabriela Shapiama/restock-platform | develop | 212fcef | feat: change SupplyIdentifier to a record for improved immutability |  | 13-06-2025 |
-| Gabriela Shapiama/restock-platform | develop | cba2e4a | feat: add RecipesController for managing recipe operations |  | 13-06-2025 |
-| Gabriela Shapiama/restock-platform | develop | db32ad2 | feat: add RecipeRepository for managing recipe data persistence |  | 13-06-2025 |
-| Gabriela Shapiama/restock-platform | develop | af64949 | feat: implement RecipeCommandService and RecipeQueryService for recipe management |  | 13-06-2025 |
-| Gabriela Shapiama/restock-platform | develop | 0790773 | feat: add resource and assembler classes for creating and transforming recipe data |  | 13-06-2025 |
-| William Avendaño/restock-platform | develop | 567ab3b | feat: refactor query classes to use concise syntax |  | 13-06-2025 |
-| William Avendaño/restock-platform | develop | 3f13be2 | feat: add IRecipeCommandService and IRecipeQueryService interfaces for recipe management |  | 13-06-2025 |
-| William Avendaño/restock-platform | develop | f2e9aba | feat: rename RecipeAggregate to Recipe and enhance supply management methods |  | 13-06-2025 |
-| William Avendaño/restock-platform | develop | dce53a2 | feat: add IRecipeRepository interface for managing recipe data operations |  | 13-06-2025 |
-| William Avendaño/restock-platform | develop | c954b04 | feat(planning): add commands for creating, updating, and deleting recipes with supply management |  | 13-06-2025 |
-| William Avendaño/restock-platform | develop | 0ec9a0e | feat: update README and rename Ingredient to Supply for clarity |  | 10-06-2025 |
-| William Avendaño/restock-platform | develop | 4a559f5 | feat: add RecipeSupply entity for managing supply identifiers and quantities |  | 10-06-2025 |
-| William Avendaño/restock-platform | develop | f92c44f | feat: enhance RecipeAggregate with properties and supply management methods |  | 10-06-2025 |
-| William Avendaño/restock-platform | develop | 537ec3d | feat: add IRecipeService interface for handling recipe commands |  | 10-06-2025 |
-| William Avendaño/restock-platform | develop | e666b24 | feat: add command classes for updating recipes and supplies |  | 10-06-2025 |
-| Jahaziel/restock-platform | develop | fd5189e | feat: add query classes for retrieving recipes and supplies by user and ID |  | 10-06-2025 |
-| Jahaziel/restock-platform | develop | 2e46c52 | feat: add EUnitMeasurement value object for representing unit measurements |  | 10-06-2025 |
-| Jahaziel/restock-platform | develop | e099f32 | feat: add ECategories value object for managing recipe categories |  | 10-06-2025 |
-| Jahaziel/restock-platform | develop | 3d4d897 | feat: rename RecipeName to RecipeIdentifier and add new value objects for RecipeImageURL, RecipePrice, and RecipeQuantity |  | 10-06-2025 |
-| Julio-Castro/restock-platform | develop | 1f61a76 | feat: add command classes for managing supplies and recipes in the domain model |  | 10-06-2025 |
-| Julio-Castro/restock-platform | develop | 3f23e35 | feat: add folders for Commands and Queries in the domain model |  | 07-06-2025 |
-| Julio-Castro/restock-platform | develop | 91ae3a7 | feat: add Recipe class to represent recipe entities with properties and ingredients |  | 07-06-2025 |
-| Julio-Castro/restock-platform | develop | 00f6d90 | feat: add RecipeName value object to represent recipe names |  | 07-06-2025 |
-| Julio-Castro/restock-platform | develop | 4a43ace | feat: add methods to manage ingredients in Recipe class |  | 07-06-2025 |
-| Julio-Castro/restock-platform | develop | cc1745c | feat: add RecipeAggregate class to manage recipe entities |  | 07-06-2025 |
-| Julio-Castro/restock-platform | develop | 4037890 | feat: add Ingredient, IngredientName, and IngredientQuantity entities |  | 07-06-2025 |
-| Julio-Castro/restock-platform | develop | 6e7fbad | chore: initial commit |  | 03-06-2025 |
-| Jahaziel/restock-platform | develop | f629fef | chore: initial commit |  | 03-06-2025 |
-
+| Repository                         | Branch  | Commit Id | Commit Message                                                                                                                | Commit Message Body | Commited on (Date) |
+| ---------------------------------- | ------- | --------- | ----------------------------------------------------------------------------------------------------------------------------- | ------------------- | ------------------ |
+| Julio Castro/restock-platform      | develop | 28992e7   | feat(domain): create CustomerSupply aggregate and constructor from command                                                    |                     | 22-06-2025         |
+| Julio Castro/restock-platform      | develop | 8d2c0a6   | feat(bc-resource): add queries for retrieving batches and supplies                                                            |                     | 22-06-2025         |
+| Julio Castro/restock-platform      | develop | ca21492   | feat(bc-resource): implement commands for batch and supply creation and update                                                |                     | 22-06-2025         |
+| Gabriela Shapiama/restock-platform | develop | b313d35   | refactor(Program): simplify DbContext configuration and comment out HTTPS redirection                                         |                     | 22-06-2025         |
+| Gabriela Shapiama/restock-platform | develop | 04bdc72   | feat(server): configure Kestrel to listen on specified port from environment variable                                         |                     | 22-06-2025         |
+| Gabriela Shapiama/restock-platform | develop | 9012237   | feat(configuration): add appsettings for local and production environments                                                    |                     | 22-06-2025         |
+| Gabriela Shapiama/restock-platform | develop | 9fd966d   | feat: enhance JSON serialization settings and improve database context configuration                                          |                     | 21-06-2025         |
+| Gabriela Shapiama/restock-platform | develop | 322ac8e   | feat(docker): add Dockerfile for building and running CatchUpPlatform.API                                                     |                     | 21-06-2025         |
+| Gabriela Shapiama/restock-platform | develop | 000878d   | feat(configuration): update appsettings for production environment and remove token settings                                  |                     | 21-06-2025         |
+| Jahaziel Guerra/restock-platform   | develop | 467eb35   | feat(recipe): add AddRecipeSupplyCommand for adding supplies to recipes                                                       |                     | 21-06-2025         |
+| Jahaziel Guerra/restock-platform   | develop | a8fbb78   | feat(config): rename appsettings to appsettings.Production.json and update connection string for production environment       |                     | 21-06-2025         |
+| Jahaziel Guerra/restock-platform   | develop | 3b07ed2   | feat(recipe): update AddSupplyToRecipe to accept multiple supplies and change supplyId type to int in update/delete endpoints |                     | 20-06-2025         |
+| Jahaziel Guerra/restock-platform   | develop | 0a4207b   | feat(recipe): change SupplyId type from Guid to int in recipe supply commands and resources                                   |                     | 20-06-2025         |
+| Jahaziel Guerra/restock-platform   | develop | 6c528c4   | feat(recipe): make recipe description optional and update related properties for nullable support                             |                     | 19-06-2025         |
+| Jahaziel Guerra/restock-platform   | develop | a49dd6a   | feat(recipe): add endpoints for listing, updating, and deleting recipe supplies; support optional supply inclusion in queries |                     | 18-06-2025         |
+| Jahaziel Guerra/restock-platform   | develop | e097162   | feat(recipe): add UpdateRecipeSupplyResource and support optional supply inclusion in assembler                               |                     | 18-06-2025         |
+| Jahaziel Guerra/restock-platform   | develop | e3cbd61   | feat(recipe): add command records for updating and deleting recipe supplies                                                   |                     | 18-06-2025         |
+| Jahaziel Guerra/restock-platform   | develop | cb9dd37   | feat(recipe): add service methods for updating, deleting, and querying recipe supplies                                        |                     | 18-06-2025         |
+| Jahaziel Guerra/restock-platform   | develop | f7e4840   | feat(recipe): extend services and repository to support recipe supply update, delete, and querying                            |                     | 18-06-2025         |
+| Jahaziel Guerra/restock-platform   | develop | 1679ec6   | feat(recipe): add endpoint and service logic to add supply to recipe                                                          |                     | 18-06-2025         |
+| Yaku Guzman/restock-platform       | develop | 5fd1781   | refactor(resource): remove Supplies input from CreateRecipeResource                                                           |                     | 18-06-2025         |
+| Yaku Guzman/restock-platform       | develop | df20fbe   | refactor(assembler): remove Supplies mapping from CreateRecipeCommandFromResourceAssembler                                    |                     | 18-06-2025         |
+| Julio Castro/restock-platform      | develop | bdcb05a   | refactor(command): remove Supplies input from CreateRecipeCommand and UpdateRecipeCommand                                     |                     | 18-06-2025         |
+| Julio Castro/restock-platform      | develop | a102df6   | feat(resource): add AddRecipeSupplyResource record for recipe supply input                                                    |                     | 18-06-2025         |
+| Julio Castro/restock-platform      | develop | ac5c718   | feat: update AppDbContext to enforce generic DbContext options and clean up RecipeSupply configuration                        |                     | 17-06-2025         |
+| Julio Castro/restock-platform      | develop | 4a3b67d   | feat: refactor Recipe and RecipeSupply entity configurations for improved relationships and clarity                           |                     | 17-06-2025         |
+| Julio Castro/restock-platform      | develop | 9460372   | feat: update Recipe and RecipeSupply entities for improved structure and validation                                           |                     | 17-06-2025         |
+| Julio Castro/restock-platform      | develop | f1a57dc   | feat(restock): add bounded context folders                                                                                    |                     | 14-06-2025         |
+| Julio Castro/restock-platform      | develop | 99d6426   | feat(resource): add supply entity.                                                                                            |                     | 14-06-2025         |
+| Julio Castro/restock-platform      | develop | c7eeb8a   | feat(resource): add order to supplier batch entity.                                                                           |                     | 14-06-2025         |
+| Julio Castro/restock-platform      | develop | 416b45b   | feat(resource): add order to supplier entity.                                                                                 |                     | 14-06-2025         |
+| Julio Castro/restock-platform      | develop | dcc3a37   | feat(resource): add order to supplier states value object.                                                                    |                     | 14-06-2025         |
+| Julio Castro/restock-platform      | develop | 63f1055   | feat(resource): add order to supplier situations value object.                                                                |                     | 14-06-2025         |
+| Julio Castro/restock-platform      | develop | edbb93b   | feat(resource): add batch entity.                                                                                             |                     | 14-06-2025         |
+| Julio Castro/restock-platform      | develop | dda6d96   | chore: delete  files.                                                                                                         |                     | 14-06-2025         |
+| Julio Castro/restock-platform      | develop | a744a30   | feat: improve database initialization and update API documentation for recipes                                                |                     | 13-06-2025         |
+| Yaku Guzman/restock-platform       | develop | 656fcc5   | feat: add token settings and default connection string to appsettings.json                                                    |                     | 13-06-2025         |
+| Yaku Guzman/restock-platform       | develop | d6ace92   | feat: refactor Recipe and RecipeSupply entity configurations for improved clarity and consistency                             |                     | 13-06-2025         |
+| Yaku Guzman/restock-platform       | develop | e7c681f   | feat: update connection string and upgrade package versions in project files                                                  |                     | 13-06-2025         |
+| Yaku Guzman/restock-platform       | develop | 5abad19   | feat: add Recipe and RecipeSupply entities with EF Core configuration                                                         |                     | 13-06-2025         |
+| Gabriela Shapiama/restock-platform | develop | 212fcef   | feat: change SupplyIdentifier to a record for improved immutability                                                           |                     | 13-06-2025         |
+| Gabriela Shapiama/restock-platform | develop | cba2e4a   | feat: add RecipesController for managing recipe operations                                                                    |                     | 13-06-2025         |
+| Gabriela Shapiama/restock-platform | develop | db32ad2   | feat: add RecipeRepository for managing recipe data persistence                                                               |                     | 13-06-2025         |
+| Gabriela Shapiama/restock-platform | develop | af64949   | feat: implement RecipeCommandService and RecipeQueryService for recipe management                                             |                     | 13-06-2025         |
+| Gabriela Shapiama/restock-platform | develop | 0790773   | feat: add resource and assembler classes for creating and transforming recipe data                                            |                     | 13-06-2025         |
+| William Avendaño/restock-platform | develop | 567ab3b   | feat: refactor query classes to use concise syntax                                                                            |                     | 13-06-2025         |
+| William Avendaño/restock-platform | develop | 3f13be2   | feat: add IRecipeCommandService and IRecipeQueryService interfaces for recipe management                                      |                     | 13-06-2025         |
+| William Avendaño/restock-platform | develop | f2e9aba   | feat: rename RecipeAggregate to Recipe and enhance supply management methods                                                  |                     | 13-06-2025         |
+| William Avendaño/restock-platform | develop | dce53a2   | feat: add IRecipeRepository interface for managing recipe data operations                                                     |                     | 13-06-2025         |
+| William Avendaño/restock-platform | develop | c954b04   | feat(planning): add commands for creating, updating, and deleting recipes with supply management                              |                     | 13-06-2025         |
+| William Avendaño/restock-platform | develop | 0ec9a0e   | feat: update README and rename Ingredient to Supply for clarity                                                               |                     | 10-06-2025         |
+| William Avendaño/restock-platform | develop | 4a559f5   | feat: add RecipeSupply entity for managing supply identifiers and quantities                                                  |                     | 10-06-2025         |
+| William Avendaño/restock-platform | develop | f92c44f   | feat: enhance RecipeAggregate with properties and supply management methods                                                   |                     | 10-06-2025         |
+| William Avendaño/restock-platform | develop | 537ec3d   | feat: add IRecipeService interface for handling recipe commands                                                               |                     | 10-06-2025         |
+| William Avendaño/restock-platform | develop | e666b24   | feat: add command classes for updating recipes and supplies                                                                   |                     | 10-06-2025         |
+| Jahaziel/restock-platform          | develop | fd5189e   | feat: add query classes for retrieving recipes and supplies by user and ID                                                    |                     | 10-06-2025         |
+| Jahaziel/restock-platform          | develop | 2e46c52   | feat: add EUnitMeasurement value object for representing unit measurements                                                    |                     | 10-06-2025         |
+| Jahaziel/restock-platform          | develop | e099f32   | feat: add ECategories value object for managing recipe categories                                                             |                     | 10-06-2025         |
+| Jahaziel/restock-platform          | develop | 3d4d897   | feat: rename RecipeName to RecipeIdentifier and add new value objects for RecipeImageURL, RecipePrice, and RecipeQuantity     |                     | 10-06-2025         |
+| Julio-Castro/restock-platform      | develop | 1f61a76   | feat: add command classes for managing supplies and recipes in the domain model                                               |                     | 10-06-2025         |
+| Julio-Castro/restock-platform      | develop | 3f23e35   | feat: add folders for Commands and Queries in the domain model                                                                |                     | 07-06-2025         |
+| Julio-Castro/restock-platform      | develop | 91ae3a7   | feat: add Recipe class to represent recipe entities with properties and ingredients                                           |                     | 07-06-2025         |
+| Julio-Castro/restock-platform      | develop | 00f6d90   | feat: add RecipeName value object to represent recipe names                                                                   |                     | 07-06-2025         |
+| Julio-Castro/restock-platform      | develop | 4a43ace   | feat: add methods to manage ingredients in Recipe class                                                                       |                     | 07-06-2025         |
+| Julio-Castro/restock-platform      | develop | cc1745c   | feat: add RecipeAggregate class to manage recipe entities                                                                     |                     | 07-06-2025         |
+| Julio-Castro/restock-platform      | develop | 4037890   | feat: add Ingredient, IngredientName, and IngredientQuantity entities                                                         |                     | 07-06-2025         |
+| Julio-Castro/restock-platform      | develop | 6e7fbad   | chore: initial commit                                                                                                         |                     | 03-06-2025         |
+| Jahaziel/restock-platform          | develop | f629fef   | chore: initial commit                                                                                                         |                     | 03-06-2025         |
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
@@ -831,6 +920,31 @@ Cada entrada refleja avances funcionales importantes realizados por el equipo, i
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
+Durante este sprint, se realizaron actividades de despliegue y pruebas de los servicios desarrollados, asegurando que las funcionalidades del sistema estén operativas y accesibles para los usuarios finales. A continuación, se detallan los pasos realizados:
+
+1. Dockerfile: Se creó un Dockerfile para el backend del sistema, permitiendo la creación de una imagen que encapsula todas las dependencias y configuraciones necesarias para ejecutar el servicio.
+
+![Evidence Step 0](assets/images/cap-5/evidence-sprint3/evidence-step0.png)
+
+2. Iniciar un servicio en Render: Se creó un nuevo servicio en Render para el backend.
+
+![Evidence Step 1](assets/images/cap-5/evidence-sprint3/evidence-step1.png)
+
+3. Configurar el servicio: Se configuró el servicio en Render, especificando el nombre del servicio, la región y el tipo de instancia.
+
+![Evidence Step 2](assets/images/cap-5/evidence-sprint3/evidence-step2.jpg)
+
+4. Variables de entorno: Se añadieron las variables de entorno necesarias para la configuración del servicio, como las credenciales de la base de datos y las claves de API.
+
+![Evidence Step 3](assets/images/cap-5/evidence-sprint3/evidence-step3.png)
+
+5. Despliegue del servicio: Se inició el despliegue del servicio en Render, lo que permitió que el backend estuviera disponible en la URL proporcionada.
+
+![Evidence Step 4](assets/images/cap-5/evidence-sprint3/evidence-step4.jpg)
+
+6. Verificación del despliegue: Se verificó que el servicio estuviera funcionando correctamente accediendo a la URL proporcionada por Render.
+
+![Evidence Step 5](assets/images/cap-5/evidence-sprint3/evidence-step5.jpg)
 
 #### 5.2.3.8. Execution Evidence for Sprint Review
 
@@ -1004,13 +1118,41 @@ Por su parte, valora que el panel de análisis le proporciona métricas claras q
 ### 5.3.3. Evaluaciones según heurísticas
 
 **Carrera:** Ingeniería de Software
+
 **Curso:** Aplicaciones Web
 **Sección:** 4368
 **Profesores:** Angel Velasquez
 **Auditor:** Gabriela Nicole Shapiama Rivera y Yaku Mateo Guzman Cabrejos
-**Cliente(s):** Mery Pilar, Alfredo Barnouil y Flor Medina
+**Cliente(s):** Mery Pilar, Alfredo Bernuy y Flor Medina
 
 **Site o App a evaluar:** Restock
+
+**ESCALA DE SEVERIDAD:**
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
+
+<table>
+    <tr>
+        <td>Nivel</td>
+        <td>Descripción</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Problema superficial: puede ser fácilmente superador por el usuario ó ocurre con muy poco frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.</td>
+    </tr>
+</table>
 
 **Tareas evaluadas:**
 
@@ -1023,7 +1165,7 @@ Por su parte, valora que el panel de análisis le proporciona métricas claras q
 
 ---
 
-#### TABLA RESUMEN
+**TABLA RESUMEN**
 
 | #  | Problema                                                          | Escala de severidad | Heurística / Principio violado                                                 |
 | -- | ----------------------------------------------------------------- | ------------------- | ------------------------------------------------------------------------------- |
@@ -1042,7 +1184,7 @@ Por su parte, valora que el panel de análisis le proporciona métricas claras q
 
 ---
 
-#### DESCRIPCIÓN DE PROBLEMAS
+**DESCRIPCIÓN DE PROBLEMAS**
 
 **PROBLEMA #1: Uso de colores sin etiquetas para estados de pedido**
 **Severidad:** 2
