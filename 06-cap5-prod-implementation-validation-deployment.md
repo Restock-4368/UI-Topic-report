@@ -91,8 +91,8 @@ Se utilizará el estándar de **Conventional Commits** para los mensajes de comm
 
 ##### Estilo de código adoptado:
 
-- [Vue.js Style Guide (Oficial)](https://vuejs.org/guide/reusability/style-guide.html)
-- [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
+- Vue.js Style Guide (Oficial): https://vuejs.org/guide/reusability/style-guide.html
+- Airbnb JavaScript Style Guide: https://github.com/airbnb/javascript
 
 ##### Nomenclatura:
 
@@ -115,8 +115,8 @@ Se utilizará el estándar de **Conventional Commits** para los mensajes de comm
 
 ##### Estilo de código adoptado:
 
-- [Microsoft C# Coding Conventions](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions)
-- [ASP.NET Core Best Practices](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/index)
+- [Microsoft C# Coding Conventions](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions): https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions
+- ASP.NET Core Best Practices: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/index
 
 ##### Nomenclatura:
 
@@ -553,7 +553,6 @@ Durante este sprint se avanzó en la autenticación de usuarios, el diseño del 
 | JulioXC4/UI-Topic-frontend | develop | JulioXC4 | 7e3e6c0 | chore: create Vue 3 project with Vite |  | 08-05-2025 |
 | Julio Castro Alejos/UI-Topic-frontend | develop | Julio Castro Alejos | 5ee5558 | Initial commit |  | 08-05-2025 |
 
-
 #### 5.2.2.5 Execution Evidence for Sprint Review
 
 A continuación, se presenta el video del frontend de la aplicación web interna. Este demuestra la interacción de los usuarios autenticados con los módulos principales del sistema, incluyendo la navegación por el sidebar, la gestión de productos, el seguimiento de alertas y el control de inventario.
@@ -576,39 +575,38 @@ Durante este Sprint se avanzó en el desarrollo del **frontend interno de Restoc
 
 ##### Rutas accesibles del sistema (Frontend)
 
-| Recurso / Vista               | Acción implementada                        | Método HTTP | URL relativa                          | Propósito funcional                                   |
-| ----------------------------- | ------------------------------------------ | ----------- | ------------------------------------- | ----------------------------------------------------- |
-| Landing Page                  | Visualización pública inicial              | GET         | `/` (con redirección de rol)          | Acceso inicial y redirección por tipo de usuario      |
-| Supplier Inventory            | Visualización de inventario de proveedor   | GET         | `/dashboard/supplier/inventory`       | Gestión del inventario del proveedor                  |
-| Restaurant Inventory          | Visualización de inventario de restaurante | GET         | `/dashboard/restaurant/inventory`     | Control de insumos del restaurante                    |
-| Restaurant Summary Overview   | Resumen analítico del restaurante          | GET         | `/dashboard/restaurant/summary`       | Dashboard de datos clave del restaurante              |
-| Supplier Summary Overview     | Resumen analítico del proveedor            | GET         | `/dashboard/supplier/summary`         | Dashboard de datos clave del proveedor                |
-| Supplier Catalog (Restaurant) | Catálogo de proveedores                    | GET         | `/dashboard/restaurant/suppliers`     | Visualización y exploración de proveedores            |
-| Supplier Detail (Restaurant)  | Detalle de proveedor específico            | GET         | `/dashboard/restaurant/suppliers/:id` | Información detallada del proveedor y su catálogo     |
-| Supplier Reviews              | Visualización de calificaciones            | GET         | `/dashboard/supplier/ratings`         | Revisión de calificaciones recibidas por el proveedor |
+| Recurso / Vista               | Acción implementada                        | Método HTTP | URL relativa                            | Propósito funcional                                   |
+| ----------------------------- | ------------------------------------------- | ------------ | --------------------------------------- | ------------------------------------------------------ |
+| Landing Page                  | Visualización pública inicial             | GET          | `/` (con redirección de rol)         | Acceso inicial y redirección por tipo de usuario      |
+| Supplier Inventory            | Visualización de inventario de proveedor   | GET          | `/dashboard/supplier/inventory`       | Gestión del inventario del proveedor                  |
+| Restaurant Inventory          | Visualización de inventario de restaurante | GET          | `/dashboard/restaurant/inventory`     | Control de insumos del restaurante                     |
+| Restaurant Summary Overview   | Resumen analítico del restaurante          | GET          | `/dashboard/restaurant/summary`       | Dashboard de datos clave del restaurante               |
+| Supplier Summary Overview     | Resumen analítico del proveedor            | GET          | `/dashboard/supplier/summary`         | Dashboard de datos clave del proveedor                 |
+| Supplier Catalog (Restaurant) | Catálogo de proveedores                    | GET          | `/dashboard/restaurant/suppliers`     | Visualización y exploración de proveedores           |
+| Supplier Detail (Restaurant)  | Detalle de proveedor específico            | GET          | `/dashboard/restaurant/suppliers/:id` | Información detallada del proveedor y su catálogo    |
+| Supplier Reviews              | Visualización de calificaciones            | GET          | `/dashboard/supplier/ratings`         | Revisión de calificaciones recibidas por el proveedor |
 
 ##### Despliegue de recursos
 
-| Recurso          | Acción implementada   | Método HTTP | URL / Endpoint                                                                | Repositorio                                                                            |
-| ---------------- | --------------------- | ----------- | ----------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
-| Landing Page     | Visualización inicial | GET         | [Landing URL](https://aplicaciones-web-curso-upc.github.io/UI-Topic-landing/) | [UI-Topic-landing](https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-landing.git) |
-| Frontend Interno | Navegación por rutas  | GET         | [App URL](https://ui-topic-frontend.vercel.app)                               | [UI-Topic-frontend](https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-frontend)   |
+| Recurso          | Acción implementada   | Método HTTP | URL / Endpoint                                                             | Repositorio                                                                         |
+| ---------------- | ---------------------- | ------------ | -------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| Landing Page     | Visualización inicial | GET          | [Landing URL](https://aplicaciones-web-curso-upc.github.io/UI-Topic-landing/) | [UI-Topic-landing](https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-landing.git) |
+| Frontend Interno | Navegación por rutas  | GET          | [App URL](https://ui-topic-frontend.vercel.app)                               | [UI-Topic-frontend](https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-frontend)   |
 
 ##### Evidencia de interacción
 
 * Video de navegación por módulos del sistema:
   [https://short-link.me/16eW0](https://short-link.me/16eW0)
-
 * Captura de la interfaz en funcionamiento:
   ![Captura del video](assets/images/cap-5/evidence_sprint_2/video_evidence.png)
 
 ##### Commits relacionados
 
-| Commit ID | Descripción                                                                 | Autor       |
-| --------- | --------------------------------------------------------------------------- | ----------- |
-| `0d31b31` | `feat(inventory): integrate inventory management with modal for adding and editing supplies`    | JulioXC4  |
-| `61f2e4b` | `feat(restaurant-supplier): add restaurant supplier catalog.`               | Yaku Guzman |
-| `55dbceb` | `feat(sidebar): restructure app layout with sidebar and router integration` | jahazielgg  |
+| Commit ID   | Descripción                                                                                   | Autor       |
+| ----------- | ---------------------------------------------------------------------------------------------- | ----------- |
+| `0d31b31` | `feat(inventory): integrate inventory management with modal for adding and editing supplies` | JulioXC4    |
+| `61f2e4b` | `feat(restaurant-supplier): add restaurant supplier catalog.`                                | Yaku Guzman |
+| `55dbceb` | `feat(sidebar): restructure app layout with sidebar and router integration`                  | jahazielgg  |
 
 #### 5.2.2.7 Software Deployment Evidence for Sprint Review
 
@@ -706,8 +704,6 @@ Con el fin de mantener una coordinación efectiva y una comunicación fluida ent
 | Shapiama Rivera, Gabriela Nicole    | GabrielaShapiama28 | C        | C            | C       | C   | C         | C        | C          |
 
 </div>
-
-
 
 #### 5.2.3.3 Sprint Backlog 3
 
@@ -916,7 +912,6 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
 |               |                                                                            | T004    | Eliminar o desactivar la cuenta del usuario                                                                                |                                                                                                                                                                                                                                                  | 2h              |
 |               |                                                                            | T005    | Revocar tokens activos y sesiones                                                                                          |                                                                                                                                                                                                                                                  | 1/2h            |
 
-
 #### 5.2.3.4 Development Evidence for Sprint Review
 
 En esta sección presentamos la evidencia de desarrollo correspondiente al Sprint, en forma de commits registrados en los distintos módulos del backend de la plataforma Restock.
@@ -1054,24 +1049,24 @@ Se aplicaron buenas prácticas de programación, control de versiones y colabora
 
 #### 5.2.4.1. Sprint Planning 4
 
-| Sprint #                             | Sprint 4                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| ------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Sprint Planning Background** |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| Date                                 | 2025-06-21                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| Time                                 | 08:00 pm (GMT-5)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| Location                             | Modalidad remota mediante la plataforma Discord                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| Prepared By                          | Guerra Perez, José Jahaziel                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| Attendees (to planning meeting)      | Avendaño Balarezo, Williams Eduardo / Castro Alejos, Julio / Guerra Perez, José Jahaziel<br /> / Guzmán Cabrejos, Yaku Mateo / Shapiama Rivera, Gabriela Nicole                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| Sprint 3 Review Summary              | Durante el Sprint 2 se logró una mejora significativa en la experiencia de inicio para nuevos usuarios,<br /> al rediseñar e integrar la landing page con el frontend principal de la aplicación web Restock. Se<br /> avanzó considerablemente en el desarrollo del módulo frontend, incorporando funcionalidades clave <br />como la gestión de inventario, notificaciones, analíticas y suscripciones para los perfiles de administradores <br />y proveedores.<br />El equipo demostró una sólida coordinación y colaboración en la implementación de estos <br />componentes, respetando los lineamientos definidos en la planificación. Como oportunidad de <br />mejora, se identificó la necesidad de fortalecer aún más la alineación del equipo con los objetivos <br />priorizados del sprint, para asegurar una entrega aún más consistente en próximos ciclos. |
-| Sprint 3 Retrospective Summary       | Durante el Sprint 2, el equipo mantuvo una comunicación fluida y una coordinación efectiva,<br />lo cual permitió avanzar de forma sólida en varios módulos clave del frontend. La integración <br />continua, las revisiones cruzadas de código y la claridad en las responsabilidades asignadas <br />fueron aspectos destacados que facilitaron un buen ritmo de trabajo.<br />Como oportunidad de mejora, se identificó la necesidad de reforzar el seguimiento y <br />cumplimiento de los objetivos priorizados, así como de mejorar la estimación de tiempos en <br />algunos flujos más complejos. También se mencionó la importancia de alinear aún más los <br />esfuerzos individuales con los objetivos de entrega colectivos.                                                                                                                                       |
-| **Sprint Goal & User Stories** |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| Sprint 4 Goal                        | Nuestro enfoque                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| Sprint 4 Velocity                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| Sum of Story Points                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Sprint #                             | Sprint 4                                                                                                                                                           |
+| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Sprint Planning Background** |                                                                                                                                                                    |
+| Date                                 |                                                                                                                                                                    |
+| Time                                 | 08:00 pm (GMT-5)                                                                                                                                                   |
+| Location                             | Modalidad remota mediante la plataforma Discord                                                                                                                    |
+| Prepared By                          |                                                                                                                                                                    |
+| Attendees (to planning meeting)      | Avendaño Balarezo, Williams Eduardo / Castro Alejos, Julio / Guerra Perez, José Jahaziel<br /> / Guzmán Cabrejos, Yaku Mateo / Shapiama Rivera, Gabriela Nicole |
+| Sprint 3 Review Summary              | Durante el Sprint 3.,,,,,,,,,,,,,                                                                                                                                  |
+| Sprint 3 Retrospective Summary       | Durante el Sprint 3,......................                                                                                                                         |
+| **Sprint Goal & User Stories** |                                                                                                                                                                    |
+| Sprint 4 Goal                        | Nuestro enfoque                                                                                                                                                    |
+| Sprint 4 Velocity                    |                                                                                                                                                                    |
+| Sum of Story Points                  |                                                                                                                                                                    |
 
 #### 5.2.4.2. Aspect Leaders and Collaborators.
 
-Durante el Sprint 4, se ha definido el desarrollo de los últimos módulos principales del frontend de la aplicación web interna Restock y del backend, abarcando funcionalidades clave como la gestión de productos, pedidos, inventario y compras. Estas implementaciones buscan optimizar los procesos internos y brindar mayor eficiencia a los administradores de restaurantes y proveedores de restaurantesl.
+Durante el Sprint 4, se ha definido el desarrollo de los últimos módulos principales del frontend de la aplicación web interna Restock y del backend, abarcando funcionalidades clave como la gestión de productos, pedidos, inventario y compras. Estas implementaciones buscan optimizar los procesos internos y brindar mayor eficiencia a los administradores de restaurantes y proveedores de restaurantes.
 
 Con el fin de mantener una coordinación efectiva y una comunicación fluida entre los integrantes del equipo, se estructuró la matriz de liderazgo y colaboración (LACX), donde se asignó un líder (L) encargado de cada funcionalidad y colaboradores (C) que brindan apoyo en su implementación.
 
@@ -1079,37 +1074,24 @@ Con el fin de mantener una coordinación efectiva y una comunicación fluida ent
 
 | Team Member (Last Name, First Name) | GitHub Username    | Planning | Subscription | Profile | IAM | Analytics | Resource | Monitoring |
 | :---------------------------------- | :----------------- | :------- | :----------- | :------ | :-- | :-------- | :------- | :--------- |
-| Navarro Chinga, Antonio Jhair       | AntonioNavarro24   | C        | L            | C       | L   | C         | C        | C          |
-| Castro Alejos, Julio                | JulioXC4           | C        | C            | C       | C   | C         | L        | C          |
+| Castro Alejos, Julio                | JulioXC4           | C        | L            | C       | C   | C         | L        | C          |
 | Guerra Perez, José Jahaziel        | jahazielgg         | L        | C            | C       | C   | L         | C        | C          |
-| Guzmán Cabrejos, Yaku Mateo        | yak-cod            | C        | C            | C       | C   | C         | C        | C          |
+| Guzmán Cabrejos, Yaku Mateo        | yak-cod            | C        | C            | C       | L   | C         | C        | C          |
 | Shapiama Rivera, Gabriela Nicole    | GabrielaShapiama28 | C        | C            | L       | C   | C         | C        | L          |
 
 </div>
 
 #### 5.2.4.3. Sprint Backlog 4
 
-
-
-
 #### 5.2.4.4. Development Evidence for Sprint Review
-
 
 #### 5.2.4.5. Execution Evidence for Sprint Review
 
-
-
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
-
-
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
 
-
-
 #### 5.2.4.8. Team Collaboration Insights during Sprint
-
-
 
 ## 5.3. Validation Interviews
 
