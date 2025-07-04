@@ -1855,49 +1855,55 @@ Enlace al video: https://short-link.me/16eVg
 
 ### 4.7.1 Class Diagrams
 
-![Class diagram](assets/images/cap4/UML_C_sharp.png)
+![Class diagram](assets/images/cap4/class_diagram/dc-web-general.png)
 
 #### Bounded Context: Resource
 
-El siguiente diagrama de clases representa la estructura orientada a objetos del contexto **Resource** en C#. Se modelan las entidades principales del dominio como clases, incluyendo `Supply`, `CustomerSupply`, `Batch`, `BatchNotification`, `OrderToSupplier`, `OrderToSupplierBatch`, `OrderToSupplierState`, `OrderToSupplierSituation` y `Comment`. Estas clases encapsulan atributos y comportamientos que reflejan las reglas de negocio del sistema de inventario, y se relacionan entre sí mediante asociaciones que representan dependencias, agregaciones o composiciones. Este diseño permite organizar la lógica del dominio de manera coherente, facilitando su implementación y mantenimiento en una arquitectura basada en DDD.
+El siguiente diagrama de clases representa la estructura orientada a objetos del contexto **Resource** en C#. Se modelan las entidades principales del dominio como clases, incluyendo `Supply`, `CustomSupply`, `Batch`, `OrderToSupplier`, `OrderToSupplierBatch` y `Comment`. Estas clases encapsulan atributos y comportamientos que reflejan las reglas de negocio del sistema de inventario, y se relacionan entre sí mediante asociaciones que representan dependencias, agregaciones o composiciones. Este diseño permite organizar la lógica del dominio de manera coherente, facilitando su implementación y mantenimiento en una arquitectura basada en DDD.
 
-![Class diagram](assets/images/cap4/class_diagram/resource_bounded_context-web.png "Resource Class Diagram")
+![Class diagram](assets/images/cap4/class_diagram/dc-web-resource.png "Resource Class Diagram")
 
-#### Bounded Context: "**Subscriptions and Payments"**
+#### Bounded Context: Subscriptions
 
 El diagrama de clases presentado pertenece al contexto delimitado de  **Subscriptions and Payments** , el cual representa el núcleo de las funcionalidades relacionadas con la gestión de planes de suscripción, características asociadas y métodos de pago.
 
 Este contexto tiene como  **Aggregate Root principal a `Subscription`** , quien orquesta las relaciones con otras entidades y garantiza la consistencia del conjunto. Cada suscripción puede estar compuesta por múltiples funcionalidades (`Feature`), modeladas mediante la entidad asociativa `SubscriptionFeature`, lo que permite un diseño extensible y flexible para personalizar paquetes.
 
-Por otro lado, la entidad `SubscriptionPaymentDetail` encapsula los datos relacionados con el método de pago utilizado y la fecha en la que se efectuó el cobro. Esta clase podría representarse como una entidad o un Value Object, dependiendo del nivel de trazabilidad deseado.
-
 El diseño refleja un enfoque  **modular, desacoplado y alineado con las reglas del negocio** , donde cada entidad cumple una función específica dentro del ciclo de vida de una suscripción, permitiendo futuras integraciones con gateways de pago, facturación o sistemas externos mediante capas de infraestructura o anticorruption layers.
 
-![Class diagram](assets/images/cap4/class_diagram/subscription-csharp.jpg "Subscription Class Diagram")
+![Class diagram](assets/images/cap4/class_diagram/dc-web-subscription.png "Subscription Class Diagram")
 
-#### Bounded Context: "**Identity and Guess Managements"**
+#### Bounded Context: Identity and Guess Managements
 
 Este diagrama representa el contexto de  **Identity and Guess Managements** , el cual centraliza la autenticación, autorización y administración de usuarios del sistema. En este contexto, el  **Aggregate Root es `User`** , el cual contiene la información sensible de acceso y sus vínculos directos con los roles del sistema (`Role`).
 
 El diseño separa claramente las responsabilidades: los datos de autenticación (correo, contraseña) y autorización (rol asignado) se concentran en esta entidad raíz, permitiendo gestionar con seguridad el acceso al sistema. A través de la relación con `Role`, se habilita un sistema de permisos escalable y desacoplado.
 
-Se incluyen también referencias al `subscriptionId` y al `subscriptionPaymentDetailsId`. Estas referencias no indican propiedad sobre los aggregates del contexto de "Subscriptions and Payments", sino únicamente enlaces de lectura. En una implementación robusta, estos campos deben gestionarse mediante anticorruption layers o servicios de consulta para mantener el aislamiento entre bounded contexts,  **preservando la integridad del modelo de dominio** .
-
 Este diseño es extensible a funcionalidades como manejo de invitados, recuperación de contraseñas, doble autenticación (MFA), etc., sin violar el principio de encapsulamiento de los aggregates.
 
-![Class diagram](assets/images/cap4/class_diagram/iam-csharp.jpg "Identity Class Diagram")
+![Class diagram](assets/images/cap4/class_diagram/dc-web-iam.png  "Identity Class Diagram")
 
-#### Bounded Context: "**Profiles and Preferences"**
+#### Bounded Context: Profiles and Preferences
 
 El contexto **Profiles and Preferences** encapsula todo lo relacionado con la representación pública, preferencias de contacto y categorización de los usuarios en el sistema. Aquí, el  **Aggregate Root es `Profile`** , que contiene la información no sensible de los usuarios como nombres, ubicación, contacto y avatar.
 
 El perfil está relacionado con uno o más `BusinessCategory`, lo cual permite clasificar los perfiles de acuerdo con rubros o sectores. Esta relación está modelada a través de la clase asociativa `ProfilesBusinessCategory`, la cual puede ser gestionada como entidad o Value Object compuesto, según la lógica del negocio.
 
-Además, `Profile` se relaciona con `RestaurantContact`, entidad que representa las conexiones entre restaurantes y sus proveedores. En este diseño, ambos extremos podrían ser `Profile`, por lo que se plantea un modelo relacional flexible que podría expandirse a una red de contactos profesionales o recomendaciones.
-
 Este diseño permite a los usuarios personalizar su experiencia, categorizando sus intereses o sectores, y a la vez habilita integraciones futuras con módulos como Analytics, Notifications o Planning. Todo esto bajo una arquitectura de contexto delimitado que promueve la separación de responsabilidades y el modelado explícito del lenguaje ubicuo.
 
-![Class diagram](assets/images/cap4/class_diagram/profiles-csharp.jpg "Profile Class Diagram")
+![Class diagram](assets/images/cap4/class_diagram/dc-web-profile.png  "Profile Class Diagram")
+#### Bounded Context: Planning
+
+El contexto **Planning** se encarga de la creación, edición y gestión de recetas culinarias dentro del sistema. A través de este contexto, los usuarios pueden estructurar recetas que combinan insumos específicos con cantidades determinadas. Estas recetas son utilizadas como base para la planificación de menús o preparación de platos, integrándose con otros contextos como Inventario y Monitoreo para estimar costos y requerimientos. Este diseño permite centralizar la lógica relacionada a la composición de platos y facilita el cálculo automatizado de precios y necesidades de insumos.
+
+![Class diagram](assets/images/cap4/class_diagram/dc-web-planning.png  "Planning Class Diagram")
+
+#### Bounded Context: Monitoring
+
+El contexto **Monitoring** gestiona el seguimiento y registro de las preparaciones realizadas. Cada preparación, conocida como un "dish", está asociada a una receta planificada y a los insumos utilizados desde el inventario. Este contexto permite auditar cuándo, qué y cómo se han preparado los platos, asegurando trazabilidad y control operativo. También sirve como fuente de datos para análisis posteriores, como consumo de inventario, costos por día y eficiencia del uso de recursos, integrándose con los contextos de Inventario y Planificación.
+
+![Class diagram](assets/images/cap4/class_diagram/dc-web-monitoring.png  "Monitoring Class Diagram")
+
 
 ### 4.7.2 Class Dictionary
 
@@ -1924,41 +1930,43 @@ Este diseño permite a los usuarios personalizar su experiencia, categorizando s
 
 ### 4.8.1 Database Diagram
 
-![Database diagram](assets/images/cap4/dbd_bc/diagrama_version_final.png)
+![Database diagram](assets/images/cap4/dbd_bc/dbd-general.png)
 
 #### Bounded Context: Planning
 
-Este esquema representa la lógica del contexto de planificación. La tabla recipes almacena recetas con su información básica y usuario asociado. La tabla recipes_supplies define los insumos necesarios para cada receta, permitiendo planificar cantidades específicas.
+Este esquema representa el contexto **Planning**, responsable de estructurar y almacenar las recetas definidas por los usuarios. Permite organizar los ingredientes necesarios para cada receta y establecer relaciones con los insumos del sistema. Este diseño facilita la planificación anticipada de preparaciones culinarias, promoviendo una gestión eficiente de recursos.
 
-![Database diagram](assets/images/cap4/dbd_bc/dbd_planning_bc.png "Planning")
+![Database diagram](assets/images/cap4/dbd_bc/dbd-planning.png "Planning")
 
 #### Bounded Context: Resource
 
-Este esquema representa el contexto **Resource** del sistema de gestión de inventario, incluyendo la gestión de insumos (`supplies`), su personalización por restaurante y proveedor (`customer_supplies`), y los lotes asociados (`batches`). También abarca las notificaciones de lote (`batch_notifications`), el sistema de órdenes a proveedores (`orders_to_suppliers` y `orders_to_supplier_batches`), y los estados y situaciones de estas órdenes. La tabla `comments` permite registrar opiniones sobre las órdenes. Este diseño permite una trazabilidad completa de insumos, lotes y pedidos en el sistema.
+Este esquema representa el contexto **Resource**, encargado de la gestión de insumos, lotes, personalización por restaurante o proveedor, y órdenes de abastecimiento. Permite registrar comentarios, notificaciones de lotes y trazabilidad completa de pedidos. El diseño ofrece una base robusta para el control del inventario y la interacción con proveedores.
 
-![Database diagram](assets/images/cap4/dbd_bc/resource_bounded_context.png "Resource")
+![Database diagram](assets/images/cap4/dbd_bc/dbd-resource.png "Resource")
 
 #### Bounded Context: Monitoring
 
-Este esquema representa la lógica del contexto de monitoring. Las tablas presentes son: sales, sales_recipes, comments, ordertosuppliers, ordertosuppliers_supplies, orderToSupplier_status y order_payments.
+Este esquema representa el contexto **Monitoring**, orientado al seguimiento de las actividades operativas, incluyendo ventas, preparaciones realizadas y uso de insumos. Registra datos relevantes para evaluar el rendimiento y controlar los costos, integrándose con recetas, órdenes y pagos.
 
-![Database diagram](assets/images/cap4/dbd_bc/monitoring_bounded_context.png "Monitoring")
+![Database diagram](assets/images/cap4/dbd_bc/dbd-monitoring.png "Monitoring")
 
 #### Bounded Context: Profile
 
-Este esquema representa la lógica del contexto de profile. Las tablas profile almacena: name, business_name, phone y address.
+Este esquema representa el contexto **Profile**, enfocado en la información pública y de contacto de los usuarios. Permite almacenar detalles como nombres, razón social, teléfono y dirección, facilitando la personalización de la experiencia del usuario y las relaciones comerciales dentro del sistema.
 
-![Database diagram](assets/images/cap4/dbd_bc/db_profile.png "Profile")
+![Database diagram](assets/images/cap4/dbd_bc/dbd-profile.png "Profile")
 
 #### Bounded Context: Subscription
 
-Este esquema representa la lógica del contexto de subscription. La tablas que se muestran son: subscriptions, subscriptions_payment_details, features y subscription_features.
-![Database diagram](assets/images/cap4/dbd_bc/db_subscription.jpg "Subscription")
+Este esquema representa el contexto **Subscription**, encargado de la gestión de planes de suscripción, características disponibles y métodos de pago. Permite una administración flexible de paquetes funcionales y suscripciones activas, apoyando el modelo de negocio basado en acceso por niveles o membresías.
+
+![Database diagram](assets/images/cap4/dbd_bc/dbd-subscription.png "Subscription")
 
 #### Bounded Context: Identity
 
-Este esquema representa la lógica del contexto de identity. Las tablas que se muestran son: users y roles.
-![Database diagram](assets/images/cap4/dbd_bc/db_iam.jpg "Identity")
+Este esquema representa el contexto **Identity**, centrado en la autenticación y autorización de usuarios. Administra credenciales y roles del sistema, habilitando un control de acceso seguro y escalable para las diferentes funcionalidades del sistema.
+
+![Database diagram](assets/images/cap4/dbd_bc/dbd-iam.png "Identity")
 
 ## 4.9 DDD Estratégico
 
