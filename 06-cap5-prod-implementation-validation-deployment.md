@@ -1106,20 +1106,60 @@ Se aplicaron buenas prácticas de programación, control de versiones y colabora
 
 #### 5.2.4.1. Sprint Planning 4
 
-| Sprint #                             | Sprint 4                                                                                                                                                           |
-| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Sprint Planning Background** |                                                                                                                                                                    |
-| Date                                 |                                                                                                                                                                    |
-| Time                                 | 08:00 pm (GMT-5)                                                                                                                                                   |
-| Location                             | Modalidad remota mediante la plataforma Discord                                                                                                                    |
-| Prepared By                          |                                                                                                                                                                    |
-| Attendees (to planning meeting)      | Avendaño Balarezo, Williams Eduardo / Castro Alejos, Julio / Guerra Perez, José Jahaziel<br /> / Guzmán Cabrejos, Yaku Mateo / Shapiama Rivera, Gabriela Nicole |
-| Sprint 3 Review Summary              | Durante el Sprint 3.,,,,,,,,,,,,,                                                                                                                                  |
-| Sprint 3 Retrospective Summary       | Durante el Sprint 3,......................                                                                                                                         |
-| **Sprint Goal & User Stories** |                                                                                                                                                                    |
-| Sprint 4 Goal                        | Nuestro enfoque                                                                                                                                                    |
-| Sprint 4 Velocity                    |                                                                                                                                                                    |
-| Sum of Story Points                  |                                                                                                                                                                    |
+<table>
+  <tr>
+    <td>Sprint #</td>
+    <td>Sprint 4</td>
+  </tr>
+  <tr>
+    <td><strong>Sprint Planning Background</strong></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Date</td>
+    <td>2025-07-05</td>
+  </tr>
+  <tr>
+    <td>Time</td>
+    <td>08:00 pm (GMT-5)</td>
+  </tr>
+  <tr>
+    <td>Location</td>
+    <td>Modalidad remota mediante la plataforma Discord</td>
+  </tr>
+  <tr>
+    <td>Prepared By</td>
+    <td>Guerra Perez, José Jahaziel</td>
+  </tr>
+  <tr>
+    <td>Attendees (to planning meeting)</td>
+    <td>.Castro Alejos, Julio / Guerra Perez, José Jahaziel<br/> / Guzmán Cabrejos, Yaku Mateo / Navarro, Antonio / Shapiama Rivera, Gabriela Nicole</td>
+  </tr>
+  <tr>
+    <td>Sprint 3 Review Summary</td>
+    <td>Durante el Sprint 3 se logró integrar las funcionalidades esenciales para la gestión de recetas, ventas y pedidos, así como la visualización de suscripciones y perfil. Se implementaron flujos completos en frontend y backend para los administradores de restaurantes y proveedores, habilitando además el pago de suscripciones. El equipo demostró gran compromiso y coordinación, permitiendo avances notables en la implementación de casos de uso claves. Sin embargo, se identificaron oportunidades de mejora en la automatización de pruebas y en la gestión de errores complejos.</td>
+  </tr>
+  <tr>
+    <td>Sprint 3 Retrospective Summary</td>
+    <td>El equipo mantuvo una comunicación activa y resolvió bloqueos técnicos con rapidez, destacando el soporte mutuo entre miembros. Se identificó que algunos endpoints requerían mejoras en validación y documentación, lo que motivó a priorizar en este nuevo sprint las tareas técnicas orientadas a robustecer los servicios RESTful, implementar nuevas funcionalidades de cuenta (recuperación, eliminación, cambio de contraseña) y finalizar la lógica de notificaciones y feedback. Como mejora clave se acordó dividir mejor las tareas de testing y codificación para asegurar calidad sin comprometer la velocidad de entrega.</td>
+  </tr>
+  <tr>
+    <td><strong>Sprint Goal &amp; User Stories</strong></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Sprint 4 Goal</td>
+    <td>Este sprint está enfocado en robustecer la experiencia de usuario mediante la implementación completa de funcionalidades clave del perfil: recuperación de contraseña, cambio y eliminación de cuenta; reforzar el control de acceso mediante suscripciones activas; además de completar flujos críticos del sistema como la gestión de ventas, retroalimentación y notificaciones por insumos. También se priorizará la entrega de endpoints RESTful estables y bien documentados, permitiendo la integración efectiva entre frontend y backend.<br/>El éxito de este sprint se medirá cuando los usuarios puedan recuperar, cambiar o eliminar sus cuentas correctamente; se restrinja el acceso por suscripciones vencidas; los administradores puedan vender solo si hay insumos disponibles; y los proveedores puedan recibir feedback validado correctamente. Además, cuando se logre obtener notificaciones sobre eventos críticos del inventario, y se validen todos estos flujos mediante pruebas automatizadas.</td>
+  </tr>
+  <tr>
+    <td>Sprint 4 Velocity</td>
+    <td>60</td>
+  </tr>
+  <tr>
+    <td>Sum of Story Points</td>
+    <td>59</td>
+  </tr>
+</table>
 
 #### 5.2.4.2. Aspect Leaders and Collaborators.
 
@@ -1140,11 +1180,1096 @@ Con el fin de mantener una coordinación efectiva y una comunicación fluida ent
 
 #### 5.2.4.3. Sprint Backlog 4
 
+El objetivo principal de este Sprint es implementar las funcionalidades restantes para completar la experiencia de usuario en la plataforma Restock, incluyendo la gestión de productos, pedidos y usuarios. Se priorizará la integración de los módulos desarrollados en Sprints anteriores y la validación de su funcionamiento en conjunto.
+
+![Sprint backlog 4](assets/images/cap-5/sprint-backlog4-1.png)
+
+<table>
+    <tr>
+        <td>User Story ID</td>
+        <td>User Story Title</td>
+        <td>Task ID</td>
+        <td>Task Title</td>
+        <td>Task Description</td>
+        <td>Estimated Hours</td>
+    </tr>  
+    <tr>
+        <td>US-02</td>
+        <td>Recuperación de contraseña</td>
+        <td>T001</td>
+        <td>Diseñar pantalla de solicitud de recuperación</td>
+        <td>Diseñar la pantalla de solicitud de recuperación de contraseña'.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Conectar solicitud de recuperación con backend</td>
+        <td>Conectar la pantalla con el endpoint /api/v1/auth/forgot-password.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Diseñar formulario de nueva contraseña</td>
+        <td>Diseñar la pantalla de restablecimiento de contraseña (formulario de nueva contraseña).</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Manejar tokens inválidos o expirados</td>
+        <td>Implementar manejo de tokens inválidos o expirados en el frontend</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T005</td>
+        <td>Conectar formulario de restablecimiento con backend</td>
+        <td>Conectar formulario de nueva contraseña con endpoint /api/v1/auth/reset-password</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td>US-03</td>
+        <td>Soporte de acceso según estado de suscripción</td>
+        <td>T001</td>
+        <td>Consultar estado de suscripción al iniciar sesión</td>
+        <td>Consultar el estado de suscripción del usuario al iniciar sesión.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Controlar acceso según suscripción</td>
+        <td>Mostrar o restringir funcionalidades según el estado de suscripción</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Diseñar vista de advertencia por suscripción inactiva</td>
+        <td>Diseñar una vista de advertencia para usuarios con suscripción vencida o inactiva</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Restringir acceso a rutas protegidas</td>
+        <td>Redirigir o bloquear el acceso a rutas protegidas si el estado no es válido</td>
+        <td>1/2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T005</td>
+        <td>Actualizar acceso tras renovación</td>
+        <td>Verificar y actualizar el acceso luego de la renovación</td>
+        <td>1h</td>
+    </tr>
+        <tr>
+        <td>US-16</td>
+        <td>Gestión de ventas</td>
+        <td>T001</td>
+        <td>Validar disponibilidad de insumos al vender</td>
+        <td>Implementar la lógica de validación de insumos disponibles antes de confirmar una venta.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Mostrar impacto de recetas en inventario</td>
+        <td>Integrar el consumo de recetas asociadas para mostrar impacto en insumos.</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Documentar flujo de gestión de ventas</td>
+        <td>Documentar el flujo de gestión de ventas desde el frontend.</td>
+        <td>1h</td>
+    </tr>
+        <tr>
+        <td>US-23</td>
+        <td>Cambio de contraseña</td>
+        <td>T001</td>
+        <td>Mostrar opción de cambio de contraseña en perfil</td>
+        <td>Mostrar opción de “Cambiar contraseña” en la configuración de la cuenta</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Validar nueva contraseña según políticas</td>
+        <td>Validar que la nueva contraseña cumpla con los requisitos de seguridad</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Verificar coincidencia entre nueva contraseña y confirmación</td>
+        <td>Verificar coincidencia entre nueva contraseña y su confirmación</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Enviar solicitud de cambio de contraseña al backend</td>
+        <td>Enviar solicitud de cambio de contraseña al servidor</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T005</td>
+        <td>Mostrar mensaje según resultado del cambio de contraseña</td>
+        <td>Mostrar mensaje de éxito tras el cambio correcto o Mostrar mensaje de error si la contraseña actual es incorrecta</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td>US-24</td>
+        <td>Eliminar cuenta</td>
+        <td>T001</td>
+        <td>Mostrar opción para eliminar cuenta desde perfil</td>
+        <td>Mostrar opción “Eliminar cuenta” en la configuración del perfil</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Implementar paso de verificación para confirmar eliminación</td>
+        <td>Solicitar paso de verificación para confirmar la eliminación</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Enviar solicitud de eliminación de cuenta al backend</td>
+        <td>Enviar la solicitud de eliminación de cuenta al servidor</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Mostrar confirmación de eliminación</td>
+        <td>Confirmar visualmente al usuario que la cuenta ha sido borrada.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T005</td>
+        <td>Redirigir tras eliminar cuenta</td>
+        <td>Redirigir al usuario a la página de inicio o despedida tras eliminar la cuenta</td>
+        <td>1/2h</td>
+    </tr>
+    <tr>
+        <td>TS-01</td>
+        <td>Registro y autenticación de usuarios mediante API RESTful</td>
+        <td>T001</td>
+        <td>Diseñar modelo de usuario y su persistencia</td>
+        <td>Diseñar el modelo de usuario y estructura de base de datos</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Crear endpoint de registro de usuarios</td>
+        <td>Implementar endpoint /api/v1/auth/register para registro de usuarios</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Crear endpoint de login de usuarios</td>
+        <td>Implementar endpoint /api/v1/auth/login para autenticación</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Configurar autenticación con JWT y manejo de errores</td>
+        <td>Configurar control de errores y middleware de autenticación (JWT)</td>
+        <td>1/2h</td>
+    </tr>
+    <tr>
+        <td>TS-02</td>
+        <td>Recuperar contraseña mediante API RESTful usando Resend</td>
+        <td>T001</td>
+        <td>Crear endpoint para recuperación de contraseña</td>
+        <td>Diseñar e implementar el endpoint /api/v1/auth/forgot-password</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Integrar servicio de correo Resend</td>
+        <td>Integrar servicio de correo Resend para envío del enlace de recuperación</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Manejar errores y respuestas en recuperación</td>
+        <td>Implementar lógica de manejo de errores y respuestas HTTP estándar</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Generar y guardar token seguro para recuperación</td>
+        <td>Crear y almacenar tokens seguros de recuperación de contraseña</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td>TS-03</td>
+        <td>Gestión del estado de suscripción mediante API RESTful</td>
+        <td>T001</td>
+        <td>Diseñar modelo de suscripción</td>
+        <td>Diseñar el modelo de suscripción de la base de datos</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Crear endpoint GET para estado de suscripción</td>
+        <td>Implementar endpoint GET /api/v1/subscription/status/:id</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Crear endpoint POST para renovación de suscripción</td>
+        <td>Implementar endpoint POST /api/v1/subscription/renew</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Evaluar estado de suscripción desde middleware</td>
+        <td>Agregar middleware o función auxiliar para evaluar el estado de la suscripción</td>
+        <td>1/2h</td>
+    </tr>
+    <tr>
+        <td>TS-04</td>
+        <td>Sistema de notificaciones de inventario mediante API RESTful</td>
+        <td>T001</td>
+        <td>Crear endpoint de insumos próximos a vencer</td>
+        <td>Implementar endpoint /api/v1/notifications/expiring-supplies</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Crear endpoint de insumos que exceden stock</td>
+        <td>Implementar endpoint /api/v1/notifications/exceeding-stock</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Diseñar lógica de negocio para filtros de notificaciones</td>
+        <td>Diseñar y aplicar lógica de dominio para filtros de notificaciones</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Escribir pruebas unitarias para lógica de notificaciones</td>
+        <td>Escribir pruebas unitarias para lógica de notificaciones</td>
+        <td>2h</td>
+    </tr>
+        <tr>
+        <td>TS-07</td>
+        <td>Registrar comentarios y calificaciones sobre pedidos mediante API RESTful</td>
+        <td>T001</td>
+        <td>Crear endpoint para registrar retroalimentación</td>
+        <td>Implementar endpoint POST /api/v1/feedback (Registrar retroalimentación)</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Validar calificación y comentario en feedback</td>
+        <td>Validar calificación y comentario en POST /api/v1/feedback</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Verificar estado del pedido antes de aceptar feedback</td>
+        <td>Validar estado del pedido antes de aceptar feedback</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Asociar feedback al proveedor correspondiente</td>
+        <td>Asociar retroalimentación al proveedor correspondiente</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T005</td>
+        <td>Escribir pruebas unitarias para endpoint de feedback</td>
+        <td>Implementar pruebas unitarias del endpoint</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td>TS-08</td>
+        <td>Registro histórico de eventos críticos de insumos</td>
+        <td>T001</td>
+        <td>Crear colección para eventos críticos de insumos</td>
+        <td>Crear colección supply_event_logs con campos: supplyId, type, detectedAt, details, severity.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Implementar lógica para registrar eventos críticos automáticamente</td>
+        <td>Implementar lógica para detectar condiciones críticas en insumos y registrar evento automáticamente.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Crear endpoint GET para consultar eventos críticos</td>
+        <td>Crear servicio RESTful GET /api/v1/supplies/events con filtros por tipo, insumo y rango de fechas.</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Documentar tipos de eventos críticos permitidos</td>
+        <td>Documentar tipos de eventos permitidos: "EXPIRATION_SOON", "LOW_STOCK", "OVERSTOCKED".</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T005</td>
+        <td>Escribir pruebas unitarias para eventos críticos</td>
+        <td>Agregar pruebas unitarias y de integración para asegurar el correcto registro de eventos críticos.</td>
+        <td>1/2h</td>
+    </tr>
+    <tr>
+        <td>TS-13</td>
+        <td>Obtener perfil mediante API RESTful</td>
+        <td>T001</td>
+        <td>Crear endpoint GET para obtener perfil protegido</td>
+        <td>Implementar endpoint GET /api/v1/profile/:id protegido por JWT</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Validar token JWT antes de procesar perfil</td>
+        <td>Validar que el token sea correcto antes de procesar la solicitud</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Consultar y retornar información del perfil</td>
+        <td>Consultar y devolver información del perfil (id, nombre, email, URL de imagen, estado)</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Gestionar errores 401 por token inválido</td>
+        <td>Gestionar error 401 en caso de token inválido o expirado</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T005</td>
+        <td>Escribir pruebas unitarias para endpoint de perfil</td>
+        <td>Escribir test unitario y de integración para el endpoint</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td>TS-14</td>
+        <td>Actualizar perfil mediante API RESTful</td>
+        <td>T001</td>
+        <td>Crear endpoint PUT para actualizar perfil</td>
+        <td>Implementar endpoint PUT /api/v1/profile/:id con protección por JWT</td>
+        <td>1/2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Validar formato de datos del perfil</td>
+        <td>Validar formato de campos</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Actualizar datos del perfil en base de datos</td>
+        <td>Actualizar los datos del perfil en la base de datos</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Retornar datos actualizados con código 200</td>
+        <td>Retornar los datos actualizados con código 200</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T005</td>
+        <td>Manejar errores 400 con detalles en perfil</td>
+        <td>Retornar errores 400 con detalles si hay datos inválidos</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td>TS-15</td>
+        <td>Subir imagen de perfil mediante API RESTful usando Cloudinary</td>
+        <td>T001</td>
+        <td>Crear endpoint POST para subir imagen de perfil</td>
+        <td>Implementar endpoint POST /api/v1/profile/images/id.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Validar formato de archivo de imagen</td>
+        <td>Validar formato de archivo antes de subir (JPG, PNG, WEBP)</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Asociar imagen de perfil subida al usuario</td>
+        <td>Asociar la URL retornada por Cloudinary al usuario correspondiente</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Manejar errores por formato no soportado (415)</td>
+        <td>Manejar errores por formato no soportado (415)</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td>TS-16</td>
+        <td>Obtener lista para ingredientes más usados mediante API RESTful</td>
+        <td>T001</td>
+        <td>Crear endpoint GET para ingredientes más usados</td>
+        <td>Implementar endpoint GET /api/v1/ingredients/most-used</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Permitir filtrado por periodo en ingredientes más usados</td>
+        <td>Permitir parámetro ?period= con valores como 7d o 30d</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Consultar uso agregado de ingredientes según periodo</td>
+        <td>Consultar datos agregados de ingredientes en base al periodo</td>
+        <td>1/2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Retornar lista JSON de ingredientes más usados</td>
+        <td>Retornar JSON con lista de ingredientes, id, nombre y cantidad_utilizada</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td>TS-17</td>
+        <td>Obtener lista de alertas recientes  mediante API RESTful</td>
+        <td>T001</td>
+        <td>Crear endpoint GET para alertas recientes</td>
+        <td>Implementar endpoint GET /api/v1/alerts</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Clasificar alertas por tipo</td>
+        <td>Clasificar alertas por tipo: vencimiento, bajo stock, etc</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Retornar lista de alertas como JSON</td>
+        <td>Retornar lista de alertas como JSON</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Retornar lista vacía si no hay alertas</td>
+        <td>Retornar lista vacía si no hay alertas activas</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Implementar filtros para pruebas de alertas</td>
+        <td>Implementar filtros para pruebas</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td>TS-18</td>
+        <td>Obtener lista de mejores clientes mediante API RESTful</td>
+        <td>T001</td>
+        <td>Crear endpoint para top clientes</td>
+        <td>Implementar endpoint GET /api/v1/supplier/top-clients</td>
+        <td>1/2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Consultar base y ordenar por total de compras</td>
+        <td>Consultar base de datos y ordenar clientes por total de compras</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Retornar JSON con nombre y total de compras</td>
+        <td>Retornar JSON con campos: nombre_restaurante, total_compras</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Validar fechas y manejar errores</td>
+        <td>Agregar validación de fechas y manejo de errores</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td>TS-19</td>
+        <td>Actualizar estado de orden mediante API RESTful</td>
+        <td>T001</td>
+        <td>Crear endpoint PATCH para actualizar estado de orden</td>
+        <td>Crear endpoint para cambiar estado de una orden por ID.</td>
+        <td>1/2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Validar autenticación y permisos antes de cambio de estado</td>
+        <td>Aplicar lógica de seguridad (autenticación y permisos).</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Validar estado válido antes de actualizar</td>
+        <td>Manejar errores de estado inválido o inexistente.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Escribir pruebas para cambios de estado</td>
+        <td>Escribir pruebas para transiciones de estado comunes.</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T005</td>
+        <td>Documentar API para actualizar estado de órdenes</td>
+        <td>Documentar API de actualización de estado de órdenes.</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td>TS-20</td>
+        <td>Consultar estado de entrega mediante API RESTful</td>
+        <td>T001</td>
+        <td>Crear endpoint GET para estado de entrega</td>
+        <td>Crear endpoint para obtener estado actual de una orden.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Aplicar control de acceso por rol (proveedor/restaurante)</td>
+        <td>Implementar control de acceso para proveedor o restaurante.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Optimizar respuesta con campos esenciales</td>
+        <td>Optimizar respuesta solo con campos necesarios (estado, fecha).</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Manejar errores por orden inexistente</td>
+        <td>Manejar errores si orden no existe.</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T005</td>
+        <td>Escribir pruebas unitarias para endpoint de estado</td>
+        <td>Escribir pruebas unitarias del endpoint.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T006</td>
+        <td>Documentar consulta de estado de entrega</td>
+        <td>Documentar consulta del estado de entrega por ID.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td>TS-21</td>
+        <td>Obtener calificaciones de servicios de proveedores mediante API RESTful</td>
+        <td>T001</td>
+        <td>Crear endpoint GET para calificaciones por proveedor</td>
+        <td>Crear endpoint para obtener calificaciones por proveedor ID.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Incluir detalles relevantes en la respuesta</td>
+        <td>Incluir datos como puntuación, comentario, fecha.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Permitir orden cronológico y filtros</td>
+        <td>Agregar orden cronológico o filtros si se requiere.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Validar proveedor existente y acceso autorizado</td>
+        <td>Validar existencia del proveedor y autorización del solicitante.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T005</td>
+        <td>Diseñar pruebas para distintos escenarios</td>
+        <td>Diseñar pruebas para distintos escenarios (sin calificaciones, múltiples).</td>
+        <td>1/2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T006</td>
+        <td>Documentar endpoint de calificaciones</td>
+        <td>Documentar la API de calificaciones del proveedor.</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td>TS-22</td>
+        <td>Gestionar órdenes recibidas mediante API RESTful</td>
+        <td>T001</td>
+        <td>Crear endpoint GET para listar órdenes recibidas</td>
+        <td>Crear endpoint para listar órdenes recibidas por proveedor.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Agregar filtros a las órdenes recibidas</td>
+        <td>Agregar filtros por estado, fecha o restaurante.</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Manejar errores en solicitudes de órdenes</td>
+        <td>Manejar errores y datos faltantes en las solicitudes.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Probar flujo completo de gestión de órdenes</td>
+        <td>Probar la gestión completa de órdenes.</td>
+        <td>h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T005</td>
+        <td>Documentar endpoints de órdenes recibidas</td>
+        <td>Documentar endpoints RESTful para gestión de órdenes recibidas.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td>TS-23</td>
+        <td>Consultar detalles de una orden mediante API RESTful</td>
+        <td>T001</td>
+        <td>Crear endpoint GET para detalles completos de una orden</td>
+        <td>Crear endpoint para obtener datos completos de una orden por ID.</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Verificar existencia y pertenencia de orden</td>
+        <td>Validar existencia de la orden y su pertenencia al proveedor.</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Incluir datos completos en respuesta</td>
+        <td>Incluir ítems, cantidades, fecha de creación, cliente, etc.</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Escribir pruebas para consulta de orden</td>
+        <td>Escribir pruebas para orden encontrada y no encontrada.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T005</td>
+        <td>Documentar estructura de detalle de orden</td>
+        <td>Documentar la estructura de respuesta y ejemplos de consulta.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td>TS-24</td>
+        <td>Obtener historial de ordenes mediante API RESTful</td>
+        <td>T001</td>
+        <td>Crear endpoint GET para historial agrupado por restaurante</td>
+        <td>Crear endpoint que devuelva órdenes de un proveedor agrupadas por restaurante.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Ordenar historial por fecha</td>
+        <td>Ordenar por fecha de forma descendente.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Agregar filtros a historial de órdenes</td>
+        <td>Permitir incluir filtros como fechas o estado.</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Validar autenticación del proveedor</td>
+        <td>Validar autenticación y permisos del proveedor.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T005</td>
+        <td>Documentar endpoint de historial de órdenes</td>
+        <td>Documentar endpoint de historial cronológico de órdenes.</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td>TS-25</td>
+        <td>Exportar reporte de historial de órdenes completados mediante API RESTful</td>
+        <td>T001</td>
+        <td>Crear endpoint para exportar historial en Excel</td>
+        <td>Crear endpoint para generar archivo Excel del historial de órdenes completadas.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Permitir filtros en generación de reporte</td>
+        <td>Permitir parámetros de filtrado (fechas, restaurantes).</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Formatear archivo Excel para reporte</td>
+        <td>Formatear columnas y contenido de forma clara y legible.</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Validar descarga correcta del archivo</td>
+        <td>Asegurar que el archivo se descargue correctamente.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T005</td>
+        <td>Probar descarga del reporte en distintos entornos</td>
+        <td>Probar el export en distintos navegadores/sistemas.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T006</td>
+        <td>Documentar generación del reporte Excel</td>
+        <td>Documentar generación y descarga del reporte Excel.</td>
+        <td>1/2h</td>
+    </tr>
+    <tr>
+        <td>TS-26</td>
+        <td>Gestionar ventas e inventario mediante API RESTful</td>
+        <td>T001</td>
+        <td>Crear endpoint POST para registrar ventas</td>
+        <td>Crear endpoints para registrar ventas.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Validar y verificar stock antes de registrar venta</td>
+        <td>Implementar lógica de validación y verificación de stock antes de registrar una venta en el inventario.</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Crear endpoint para actualizar inventario manualmente</td>
+        <td>Crear endpoint para actualizar manualmente el inventario.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Manejar errores comunes en ventas</td>
+        <td>Aplicar manejo de errores para transacciones inválidas o datos incompletos.</td>
+        <td>1/2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T005</td>
+        <td>Escribir pruebas para endpoints de ventas e inventario</td>
+        <td>Diseñar pruebas unitarias y de integración para ambos endpoints.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T006</td>
+        <td>Documentar endpoints de ventas e inventario</td>
+        <td>Documentar los endpoints RESTful de ventas.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td>TS-27</td>
+        <td>Cambio de contraseña mediante API RESTful</td>
+        <td>T001</td>
+        <td>Crear endpoint seguro para cambio de contraseña</td>
+        <td>Crear endpoint seguro /api/v1/auth/change-password</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Diseñar estructura del cuerpo para cambio de contraseña</td>
+        <td>Diseñar estructura del cuerpo de la solicitud</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Validar entrada del cambio de contraseña</td>
+        <td>Implementar validación de entrada</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Verificar contraseña actual</td>
+        <td>Verificar contraseña actual del usuario</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T005</td>
+        <td>Actualizar nueva contraseña en base de datos</td>
+        <td>Actualizar la contraseña en base de datos</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td>TS-28</td>
+        <td>Eliminar cuenta mediante API RESTful</td>
+        <td>T001</td>
+        <td>Crear endpoint seguro para eliminación de cuenta</td>
+        <td>Crear endpoint seguro /api/v1/auth/delete-account</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Diseñar estructura del cuerpo de solicitud para eliminación</td>
+        <td>Diseñar estructura del cuerpo de la solicitud</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Validar autenticación del usuario</td>
+        <td>Validar autenticación del usuario</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Eliminar o desactivar cuenta del usuario</td>
+        <td>Eliminar o desactivar la cuenta del usuario</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T005</td>
+        <td>Revocar tokens y cerrar sesiones activas</td>
+        <td>Revocar tokens activos y sesiones</td>
+        <td>1/2h</td>
+    </tr>
+</table>
+
 #### 5.2.4.4. Development Evidence for Sprint Review
 
 #### 5.2.4.5. Execution Evidence for Sprint Review
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+Durante este sprint se avanzó considerablemente en la implementación y documentación de los endpoints RESTful que soportan las funcionalidades de gestión de cuenta (recuperación, cambio y eliminación de contraseña), así como la gestión de ventas, feedback, notificaciones y control de acceso por suscripción. El equipo logró implementar y probar múltiples servicios que fortalecen la experiencia del usuario y la arquitectura de backend bajo principios DDD.
+
+### Descripción del Logro
+
+- Implementación completa de recuperación, cambio y eliminación de contraseña.
+- Validación de acceso y suscripciones con control de rutas protegidas.
+- Lógica de negocio para ventas e impacto en inventario.
+- Registro de feedback por parte de restaurantes hacia proveedores.
+- Notificaciones por stock crítico o insumos próximos a vencer.
+- Endpoints protegidos por JWT y validados con pruebas unitarias.
+- Documentación técnica de endpoints en repositorio backend.
+
+### Recursos del Sprint
+
+| Recurso                         | Acción implementada                                     | Método HTTP | Endpoint                                                                 | Repositorio Backend |
+|---------------------------------|----------------------------------------------------------|-------------|---------------------------------------------------------------------------|----------------------|
+| Recuperación de contraseña      | Enviar enlace de recuperación                            | POST        | `/api/v1/auth/forgot-password`                                           | [Repo](https://github.com/Restock-4368/restock-platform) |
+| Restablecer contraseña          | Registrar nueva contraseña con token                     | POST        | `/api/v1/auth/reset-password`                                            | [Repo](https://github.com/Restock-4368/restock-platform) |
+| Cambio de contraseña            | Actualizar contraseña autenticada                        | POST        | `/api/v1/auth/change-password`                                           | [Repo](https://github.com/Restock-4368/restock-platform) |
+| Eliminar cuenta                 | Eliminar o desactivar usuario actual                     | DELETE      | `/api/v1/auth/delete-account`                                            | [Repo](https://github.com/Restock-4368/restock-platform) |
+| Estado de suscripción           | Consultar suscripción por ID                             | GET         | `/api/v1/subscription/status/:id`                                        | [Repo](https://github.com/Restock-4368/restock-platform) |
+| Renovar suscripción             | Renovar suscripción del usuario                          | POST        | `/api/v1/subscription/renew`                                             | [Repo](https://github.com/Restock-4368/restock-platform) |
+| Registrar venta                 | Crear nueva venta con verificación de stock              | POST        | `/api/v1/sales`                                                          | [Repo](https://github.com/Restock-4368/restock-platform) |
+| Notificaciones de insumos       | Ver insumos por vencer o en exceso                       | GET         | `/api/v1/notifications/expiring-supplies`, `/exceeding-stock`           | [Repo](https://github.com/Restock-4368/restock-platform) |
+| Registro de feedback            | Registrar retroalimentación sobre pedidos                | POST        | `/api/v1/feedback`                                                       | [Repo](https://github.com/Restock-4368/restock-platform) |
+| Eventos críticos de insumos     | Consultar historial de eventos críticos                  | GET         | `/api/v1/supplies/events`                                                | [Repo](https://github.com/Restock-4368/restock-platform) |
+| Obtener perfil                  | Ver perfil de usuario autenticado                        | GET         | `/api/v1/profile/:id`                                                    | [Repo](https://github.com/Restock-4368/restock-platform) |
+| Actualizar perfil               | Modificar datos personales del usuario                   | PUT         | `/api/v1/profile/:id`                                                    | [Repo](https://github.com/Restock-4368/restock-platform) |
+| Subir imagen de perfil          | Subir y asociar imagen usando Cloudinary                 | POST        | `/api/v1/profile/images/:id`                                             | [Repo](https://github.com/Restock-4368/restock-platform) |
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
 
