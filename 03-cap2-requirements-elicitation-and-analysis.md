@@ -274,6 +274,8 @@ Se analizaron **3 entrevistas** a administradores con amplia experiencia en el m
 | Dificultades por complejidad o soporte deficiente | 2/3      | 66.7% | Señalan postventa lenta y sistemas poco intuitivos                                           |
 | Necesidad de personalización                     | 3/3      | 100%  | Indican que los sistemas son genéricos y complicados de adaptar                              |
 | Valor por facilidad de uso y adaptabilidad        | 3/3      | 100%  | Expresan deseo de una solución autogestionable                                               |
+| Canales usados                                    | 3/3      | 100%  | Usan Whatsapp, youtube, facebook                                                              |
+| Tecnología usada                                 | 3/3      | 100%  | Utilizan Android y Windows                                                                    |
 
 ##### Insights
 
@@ -308,6 +310,8 @@ Se analizaron **3 entrevistas** a proveedores de productos para restaurantes (ab
 | Importancia de la confianza con el cliente                 | 3/3      | 100%  | Señalan que la confianza es clave para continuidad y créditos        |
 | Valoración de la puntualidad y cumplimiento               | 3/3      | 100%  | Mencionan cumplimiento de horario y entregas completas como vitales    |
 | Necesidad de mejorar la facturación con tecnología       | 2/3      | 66.7% | Describen problemas con gestión manual de facturas y cobros           |
+| Tecnología usada                                          | 3/3      | 100%  | Utilizan Android y Windows                                             |
+| Canales usados                                             | 3/3      | 100%  | Whatsapp, telefono, facebook                                           |
 
 ##### Insights
 
