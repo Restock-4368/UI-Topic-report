@@ -1096,11 +1096,36 @@ Se aplicaron buenas prácticas de programación, control de versiones y colabora
 
 ##### **Analíticos de colaboración**
 
+**1. Landing Page:**
+
+![Team Collaboration Insight](assets/images/cap-5/collaboration-insight/sprint2-landing.png)
+
+- Total de commits realizados: **39**
+- Total de autores contribuyentes: **5**
+- Nivel de participación equilibrado entre todos los miembros
+- El gráfico muestra una distribución consistente de actividad a lo largo del sprint
+
+**2. Web Application (Frontend):**
+
+![Team Collaboration Insight](assets/images/cap-5/assets/images/cap-5/team_ci_3_1.png)
+
+- Total de commits realizados: **146**
+- Total de autores contribuyentes: **5**
+- Nivel de participación equilibrado entre todos los miembros
+- El gráfico muestra una distribución consistente de actividad a lo largo del sprint
+
+**3. Web Services (Backend):**
+
 ![Team Collaboration Insight](assets/images/cap-5/team_ci_3_1.png)
+
+- Total de commits realizados: **76**
+- Total de autores contribuyentes: **5**
+- Nivel de participación equilibrado entre todos los miembros
+- El gráfico muestra una distribución consistente de actividad a lo largo del sprint
 
 ##### **Analíticos de commits de GitHub**
 
-![Team Collaboration Insight](assets/images/cap-5/team_ci_3_2.png)
+![Team Collaboration Insight](assets/images/cap-5/team_ci_3_1.png)
 
 ### 5.2.4. Sprint 4
 
