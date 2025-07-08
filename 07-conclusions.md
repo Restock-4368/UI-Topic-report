@@ -1,7 +1,19 @@
 ## Conclusiones
 
-Durante este segundo Sprint se completó la primera versión funcional de la aplicación web interna de Restock utilizando Angular, priorizando la implementación de los módulos esenciales como inventario, pedidos y productos. Se consolidó una arquitectura modular basada en Domain-Driven Design, lo cual facilita la escalabilidad del sistema y el trabajo colaborativo. Se desarrollaron componentes reutilizables siguiendo las buenas prácticas recomendadas para Angular, optimizando el tiempo de desarrollo y la coherencia visual. La gestión del estado y el flujo de datos se manejaron eficientemente mediante los servicios y la comunicación entre componentes, característica propia de Angular. Además, se implementaron mejoras en la experiencia de usuario a través de técnicas como la carga perezosa (lazy loading), diseño responsivo y optimización del rendimiento. Estas acciones, junto con el uso de control de versiones en GitHub y una adecuada organización del proyecto, han establecido bases sólidas para una aplicación mantenible, escalable y lista para integrarse con servicios backend en los próximos sprints.
+**Conclusiones**
 
-## Recomendaciones
+El desarrollo de Restock ha permitido validar, a través de implementaciones concretas y funcionales, que existe una necesidad real y no resuelta en la gestión operativa de insumos en restaurantes. Durante el Sprint 4 se completó la arquitectura base para la gestión de cuentas, suscripciones, ventas, notificaciones críticas y retroalimentación, consolidando así los flujos fundamentales de valor para ambos segmentos: administradores y proveedores. Las validaciones realizadas demuestran que los usuarios perciben claramente el beneficio de contar con inventario en tiempo real, alertas automáticas y control digital de pedidos y pagos. Si bien el riesgo de adopción por baja familiaridad digital se hizo evidente, las funcionalidades clave fueron comprendidas y valoradas, especialmente cuando se implementaron con una interfaz simple, navegación modular y respuestas claras del sistema. Con todo, los assumptions iniciales —tanto de negocio como de usuario— han sido confirmados en su mayoría, y el producto demuestra estar alineado con una necesidad urgente del sector HORECA, aportando eficiencia, trazabilidad y ahorro operativo.
 
-Se recomienda realizar pruebas de usabilidad con usuarios reales para validar la experiencia ofrecida por la interfaz y detectar posibles puntos de mejora. Es fundamental continuar documentando cada módulo, servicio y componente desarrollado para facilitar la colaboración en futuros sprints. Además, se sugiere integrar herramientas de monitoreo y métricas de rendimiento que permitan evaluar el comportamiento de la aplicación en distintos dispositivos y entornos. En los próximos ciclos, debe priorizarse la integración entre el frontend y los servicios backend, asegurando una arquitectura robusta orientada a eventos y con manejo adecuado de errores. Finalmente, es recomendable revisar el roadmap general del producto tomando en cuenta los aprendizajes y avances obtenidos en este sprint, manteniendo la alineación entre la visión del producto, la experiencia de usuario y la estructura técnica.
+**Recomendaciones**
+
+Con una base técnica sólida y un MVP funcional validado, se recomienda avanzar hacia pilotos reales en restaurantes medianos para recoger métricas de uso, adopción y resultados operativos. Será clave optimizar la experiencia mobile, fortalecer el onboarding mediante flujos guiados y soporte activo, e integrar canales más directos como notificaciones móviles o correo para cerrar el ciclo operativo entre restaurante y proveedor. A nivel funcional, se debe priorizar el refinamiento de reportes KPI, la visualización de feedback, la gestión de suscripciones y la experiencia de usuario en cada módulo. Estas mejoras, sumadas a una estrategia comercial progresiva y basada en casos de éxito reales, permitirán escalar Restock como una plataforma SaaS ligera, accesible y centrada en resolver las fricciones más críticas de la gestión alimentaria profesional.
+
+ **Video About the team**
+
+A continuación, se presenta el video acerca del equipo de UI-Topic. Se especifica las tareas realizadas por cada integrante y el logro final del proyecto.
+
+![About the team](assets/images/cap-5/aboutTheTeam.png)
+
+Link del video en Youtube: https://youtu.be/1tkIrM1A4B4
+
+Link del video en Stream: https://rb.gy/w3fpku
