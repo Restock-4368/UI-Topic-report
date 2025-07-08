@@ -1093,6 +1093,64 @@ Con el fin de mantener una coordinación efectiva y una comunicación fluida ent
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint
 
+Se crearon ramas específicas para cada sección o funcionalidad (feature/[nombre-de-seccion]), permitiendo un trabajo paralelo organizado.
+
+Cada miembro del equipo asumió la responsabilidad de desarrollar una o más secciones del Landing page, Frontend y Backend.
+Se realizaron commits frecuentes, registrando avances de manera continua y detallada.
+Las funcionalidades desarrolladas se integraron mediante Pull Requests hacia la rama develop.
+Se mantuvo una comunicación constante mediante la plataforma Discord para coordinar avances y resolver dudas en tiempo real.
+Se aplicaron buenas prácticas de programación, control de versiones y colaboración en equipo.
+
+**Landing Page**
+
+***Analíticos de colaboración***
+
+Permite visualizar y analizar la participación del equipo en tareas colaborativas, identificando el nivel de actividad y compromiso de cada miembro para optimizar la coordinación y la productividad.
+
+![Team Collaboration Insight](assets/images/cap-5/collaborationLanding.png)
+
+***Analíticos de commits de GitHub***
+
+Muestra el historial y frecuencia de commits realizados en GitHub, ayudando a evaluar el ritmo de desarrollo, la contribución individual y detectar posibles cuellos de botella en el flujo de trabajo.
+
+![Team Collaboration Insight](assets/images/cap-5/collaborationLanding2.png)
+
+**Frontend**
+
+***Analíticos de colaboración***
+
+Permite monitorear de manera detallada la interacción y el aporte de cada miembro en las actividades conjuntas, facilitando la identificación de patrones de trabajo y fomentando una gestión más eficiente del equipo.
+
+![Team Collaboration Insight](assets/images/cap-5/collaborationFrontend.png)
+
+***Analíticos de commits de GitHub***
+
+Presenta un análisis claro del flujo de commits en GitHub, mostrando la frecuencia y volumen de contribuciones para evaluar el progreso del proyecto y detectar áreas que requieren mayor atención o soporte.
+
+![Team Collaboration Insight](assets/images/cap-5/collaborationFrontend2.png)
+
+**Backend**
+
+***Analíticos de colaboración***
+
+Ofrece una vista detallada sobre la participación de cada integrante en las actividades grupales, permitiendo identificar su nivel de implicación y colaboración para mejorar la organización y el rendimiento general del equipo.
+
+![Team Collaboration Insight](assets/images/cap-5/collaborationBackend.png)
+
+***Analíticos de commits de GitHub***
+
+Refleja el registro y la periodicidad de los commits realizados en el repositorio, facilitando el seguimiento del avance del desarrollo, la distribución de las contribuciones y la detección de posibles bloqueos o retrasos.
+
+![Team Collaboration Insight](assets/images/cap-5/collaborationBackend2.png)
+
+### Recursos del Sprint
+
+| Recurso      | Acción implementada                             | Método HTTP | URL / Endpoint                                           | Link de repositorio         |
+| ------------ | ------------------------------------------------ | ------------ | -------------------------------------------------------- | --------------------------- |
+| Landing Page | Visualización completa y funcional del landing  | GET          | https://restock-4368.github.io/landing-page/             | https://short-link.me/16WRW |
+| Frontend     | Visualización completa y funcional del frontend | GET          | https://restock-4368.github.io/UI-Topic-frontend/sign-in | https://short-link.me/16WS3 |
+| Backend      | Implementación completa del backend             | GET          | https://short-link.me/12JfP                              | https://short-link.me/16WSe |
+
 ## 5.3. Validation Interviews
 
 ### 5.3.1. Diseño de Entrevistas
