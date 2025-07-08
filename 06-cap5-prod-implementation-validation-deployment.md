@@ -374,6 +374,23 @@ Durante el Sprint 1 se implementó la Landing Page de Restock. Los principales a
 
 #### 5.2.1.5 Execution Evidence for Sprint Review
 
+En este primer sprint, se desarrolló la Landing Page de Restock, que sirve como punto de entrada para los usuarios interesados en la plataforma. Esto incluye la presentación de nuestro servicio, información sobre la empresa y acceso a funcionalidades clave.
+
+Se implementaron secciones como:
+
+**Hero Section**: Presentación visual atractiva con un llamado a la acción.
+![Hero Section](assets/images/cap5/execution-evidence/sprint1-hero.png)
+
+**Sobre Nosotros**: Información sobre la misión y visión de Restock.
+![Sobre Nosotros](assets/images/cap5/execution-evidence/sprint1-aboutus.png)
+
+**Beneficios**: Sección que destaca las ventajas de utilizar Restock.
+![Beneficios](assets/images/cap5/execution-evidence/sprint1-benefits-admins.png)
+![Beneficios](assets/images/cap5/execution-evidence/sprint1-benefits-suppliers.png)
+
+**Testimonios**: Opiniones de usuarios satisfechos con la plataforma.
+![Testimonios](assets/images/cap5/execution-evidence/sprint1-testimonials.png)
+
 A continuación, se presenta el video de la landing page. Este muestra la interacción principal de los usuarios con la plataforma, destacando los flujos de navegación, diseño responsivo y la estructura general de la aplicación.
 
 **Video de landing page:**
@@ -565,55 +582,143 @@ Trello: [https://shorturl.at/X5KyX](https://shorturl.at/X5KyX)
 #### 5.2.2.4 Development Evidence for Sprint Review
 
 En esta sección se presentan los avances realizados durante el Sprint 2, centrado en el desarrollo de los módulos principales de la aplicación web interna de Restock.
+
 El objetivo principal fue implementar funcionalidades claves para la gestión de productos, pedidos, inventario y compras, con el fin de mejorar la eficiencia operativa y la trazabilidad de los recursos dentro de los restaurantes.
 
 Durante este sprint se avanzó en la autenticación de usuarios, el diseño del panel principal y la implementación inicial de tres módulos funcionales clave.
 
-##### Commits Relevantes
+**1. Landing Page:**
+La siguiente tabla resume los commits realizados en el repositorio `UI-Topic-landing`, que incluyen mejoras en la accesibilidad, correcciones de errores y adición de nuevas funcionalidades.
 
-| Repository                            | Branch  | Author              | Commit Id | Commit Message                                                                                                                                    | Commit Message Body | Commited on (Date) |
-| ------------------------------------- | ------- | ------------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ------------------ |
-| Yaku Guzman/UI-Topic-frontend         | develop | Yaku Guzman         | bd6c32e   | feat(restaurant-analytics): add carrousel.                                                                                                        |                     | 16-05-2025         |
-| Yaku Guzman/UI-Topic-frontend         | develop | Yaku Guzman         | f8d1229   | feat(supplier-analytics): add json server behavior.                                                                                               |                     | 16-05-2025         |
-| Williams/UI-Topic-frontend            | develop | Williams            | 36a496a   | feat(mock): adding mock.user                                                                                                                      |                     | 16-05-2025         |
-| Yaku Guzman/UI-Topic-frontend         | develop | Yaku Guzman         | 046f822   | routes: fix routes behavior.                                                                                                                      |                     | 16-05-2025         |
-| Yaku Guzman/UI-Topic-frontend         | develop | Yaku Guzman         | 37843c2   | chore: fix behavior                                                                                                                               |                     | 16-05-2025         |
-| Yaku Guzman/UI-Topic-frontend         | develop | Yaku Guzman         | 883367d   | fix(restaurant-supplier): fix internal routing.                                                                                                   |                     | 16-05-2025         |
-| Yaku Guzman/UI-Topic-frontend         | develop | Yaku Guzman         | 61f2e4b   | feat(restaurant-supplier): add restaurant supplier catalog.                                                                                       |                     | 16-05-2025         |
-| jahazielgg/UI-Topic-frontend          | develop | jahazielgg          | 966f47a   | fix(router): rename supplier reviews route to ratings                                                                                             |                     | 16-05-2025         |
-| jahazielgg/UI-Topic-frontend          | develop | jahazielgg          | af04b7f   | feat(router): update user data structure and add role-based routing                                                                               |                     | 16-05-2025         |
-| JulioXC4/UI-Topic-frontend            | develop | JulioXC4            | 1c01a96   | fix: fix sidebar                                                                                                                                  |                     | 16-05-2025         |
-| Julio Castro Alejos/UI-Topic-frontend | develop | Julio Castro Alejos | cba3b83   | Update inventory-supply-create-and-edit.component.vue                                                                                             |                     | 16-05-2025         |
-| Julio Castro Alejos/UI-Topic-frontend | develop | Julio Castro Alejos | 7564e45   | Update inventory-supply-add-and-edit.component.vue                                                                                                |                     | 16-05-2025         |
-| Julio Castro Alejos/UI-Topic-frontend | develop | Julio Castro Alejos | 6d3c52e   | Update inventory.component.vue                                                                                                                    |                     | 16-05-2025         |
-| JulioXC4/UI-Topic-frontend            | develop | JulioXC4            | 3623ec4   | fix: fix supplies                                                                                                                                 |                     | 16-05-2025         |
-| Yaku Guzman/UI-Topic-frontend         | develop | Yaku Guzman         | 340c7dd   | feat(supplier-analytics-route): add supplier analytics route.                                                                                     |                     | 16-05-2025         |
-| Yaku Guzman/UI-Topic-frontend         | develop | Yaku Guzman         | e225fbd   | feat(supplier-analytics): add supplier analytics summary components and page                                                                      |                     | 16-05-2025         |
-| jahazielgg/UI-Topic-frontend          | develop | jahazielgg          | a2b2637   | fix(styles): update menu link padding and improve color consistency in styles                                                                     |                     | 16-05-2025         |
-| Yaku Guzman/UI-Topic-frontend         | develop | Yaku Guzman         | 90ff1c4   | feat(restaurant-analytics): add restaurant analytics summary components and page                                                                  |                     | 16-05-2025         |
-| JulioXC4/UI-Topic-frontend            | develop | JulioXC4            | e415b5d   | fix: fix color                                                                                                                                    |                     | 16-05-2025         |
-| JulioXC4/UI-Topic-frontend            | develop | JulioXC4            | c7c86df   | fix: fix functions                                                                                                                                |                     | 16-05-2025         |
-| JulioXC4/UI-Topic-frontend            | develop | JulioXC4            | 4fb746f   | fix: fix delete function                                                                                                                          |                     | 15-05-2025         |
-| JulioXC4/UI-Topic-frontend            | develop | JulioXC4            | 6ad2d54   | fix: fix styles                                                                                                                                   |                     | 15-05-2025         |
-| JulioXC4/UI-Topic-frontend            | develop | JulioXC4            | b13e97b   | fix: fix styles                                                                                                                                   |                     | 15-05-2025         |
-| JulioXC4/UI-Topic-frontend            | develop | JulioXC4            | 3c1f216   | fix: fix styles (sidebar, html components)                                                                                                        |                     | 15-05-2025         |
-| JulioXC4/UI-Topic-frontend            | develop | JulioXC4            | 26904fc   | chore: folder structure based on bounded context in the project                                                                                   |                     | 15-05-2025         |
-| JulioXC4/UI-Topic-frontend            | develop | JulioXC4            | 2099c0b   | fix: fix add inventory (components)                                                                                                               |                     | 15-05-2025         |
-| JulioXC4/UI-Topic-frontend            | develop | JulioXC4            | e8f17f2   | fix: fix add inventory modal (calendar)                                                                                                           |                     | 14-05-2025         |
-| JulioXC4/UI-Topic-frontend            | develop | JulioXC4            | fd8a1cf   | fix: fix inventory management with modal for adding and editing supplies, add search functionality, and connect modal to inventory actions        |                     | 14-05-2025         |
-| JulioXC4/UI-Topic-frontend            | develop | JulioXC4            | 0d31b31   | feat: integrate inventory management with modal for adding and editing supplies, add search functionality, and connect modal to inventory actions |                     | 13-05-2025         |
-| JulioXC4/UI-Topic-frontend            | develop | JulioXC4            | 2f7cc13   | feat(inventory): add edit button to supply cards and integrate modal for editing                                                                  |                     | 13-05-2025         |
-| jahazielgg/UI-Topic-frontend          | develop | jahazielgg          | 55dbceb   | feat(sidebar): restructure app layout with sidebar and router integration                                                                         |                     | 12-05-2025         |
-| jahazielgg/UI-Topic-frontend          | develop | jahazielgg          | a2e9a33   | feat(i18n): add language switcher component and update translations for sidebar                                                                   |                     | 12-05-2025         |
-| jahazielgg/UI-Topic-frontend          | develop | jahazielgg          | b0d0145   | feat(api): add mock user data with json-server and configure router                                                                               |                     | 12-05-2025         |
-| jahazielgg/UI-Topic-frontend          | develop | jahazielgg          | 5c22699   | feat(user): add user entity, service, and user card component for user data management.                                                           |                     | 12-05-2025         |
-| JulioXC4/UI-Topic-frontend            | develop | JulioXC4            | d787a0c   | feat(inventory): implement supplies and inventory management section with modal form and carousel                                                 |                     | 11-05-2025         |
-| JulioXC4/UI-Topic-frontend            | develop | JulioXC4            | 458ec4a   | feat(inventory): progress on empty state and ingredient creation UI                                                                               |                     | 10-05-2025         |
-| JulioXC4/UI-Topic-frontend            | develop | JulioXC4            | 3645809   | chore: install dependencies and setup base tooling for Vue project                                                                                |                     | 10-05-2025         |
-| Julio Castro Alejos/UI-Topic-frontend | develop | Julio Castro Alejos | 50e43fd   | Delete .vscode directory                                                                                                                          |                     | 08-05-2025         |
-| Julio Castro Alejos/UI-Topic-frontend | develop | Julio Castro Alejos | 3274b65   | Delete package-lock.json                                                                                                                          |                     | 08-05-2025         |
-| JulioXC4/UI-Topic-frontend            | develop | JulioXC4            | 7e3e6c0   | chore: create Vue 3 project with Vite                                                                                                             |                     | 08-05-2025         |
-| Julio Castro Alejos/UI-Topic-frontend | develop | Julio Castro Alejos | 5ee5558   | Initial commit                                                                                                                                    |                     | 08-05-2025         |
+<table>
+    <tr>
+        <td>Repository</td>
+        <td>Branch</td>
+        <td>Commit Id</td>
+        <td>Commit Message</td>
+        <td>Commit Message Body</td>
+        <td>Commited on (Date)</td>
+    </tr>
+    <tr>
+        <td>GabrielaShapiama/UI-Topic-landing</td>
+        <td>feature/acces</td>
+        <td>f3de2d0</td>
+        <td>fix(access): remove incorrect image.</td>
+        <td>Removed an incorrect image that was incorrectly placed in the access module.</td>
+        <td>26-04-2025</td>
+    </tr>
+    <tr>
+        <td>Yaku Guzman/UI-Topic-landing</td>
+        <td>feature/tutorial-section</td>
+        <td>1c1d5e2</td>
+        <td>fix(tutorial-section): fix tutorial links width</td>
+        <td>Fixed the width issue affecting the layout of tutorial links on different screens.</td>
+        <td>26-04-2025</td>
+    </tr>
+    <tr>
+        <td>Williams/UI-Topic-landing</td>
+        <td>feature/seo-tags-meta-tags</td>
+        <td>b50e3c3</td>
+        <td>feat(seo-tags-meta-tags): adding seo tags and meta tags</td>
+        <td>Added SEO and meta tags to improve page indexing and online visibility.</td>
+        <td>26-04-2025</td>
+    </tr>
+    <tr>
+        <td>JulioXC4/UI-Topic-landing</td>
+        <td>feature/voice-reader-accessibility</td>
+        <td>936c01d</td>
+        <td>feat(voice): add file voice.js</td>
+        <td>Added a new JavaScript file to handle voice-related functionalities.</td>
+        <td>26-04-2025</td>
+    </tr>
+    <tr>
+        <td>JulioXC4/UI-Topic-landing</td>
+        <td>feature/language-toggle</td>
+        <td>5bf2a4f</td>
+        <td>feat(navbar): add language switch icon and console log for future functionality</td>
+        <td>Introduced a language switcher icon and set up console logs for future multi-language support.</td>
+        <td>26-04-2025</td>
+    </tr>
+    <tr>
+        <td>GabrielaShapiama/UI-Topic-landing</td>
+        <td>feature/acces</td>
+        <td>4fd9958</td>
+        <td>fix(access): fix text position.</td>
+        <td>Adjusted the text alignment issues on the access screen.</td>
+        <td>26-04-2025</td>
+    </tr>
+    <tr>
+        <td>GabrielaShapiama/UI-Topic-landing</td>
+        <td>feature/acces</td>
+        <td>a9b89b2</td>
+        <td>fix(access): remove incorrect css.</td>
+        <td>Removed unnecessary or incorrect CSS rules from the access styles.</td>
+        <td>26-04-2025</td>
+    </tr>
+    <tr>
+        <td>GabrielaShapiama/UI-Topic-landing</td>
+        <td>feature/acces</td>
+        <td>c0f15db</td>
+        <td>style(access): change buttons format.</td>
+        <td>Updated the button styles to align with the platform's visual guidelines.</td>
+        <td>25-04-2025</td>
+    </tr>
+    <tr>
+        <td>jahazielgp/UI-Topic-landing</td>
+        <td>feature/fix-navbar</td>
+        <td>e293098</td>
+        <td>fix(navbar): fix navbar.</td>
+        <td>Fixed layout and functionality issues in the navigation bar.</td>
+        <td>25-04-2025</td>
+    </tr>
+</table>
+
+**2. Web Application (Frontend):**
+La siguiente tabla resume los commits realizados en el repositorio `UI-Topic-Frontend`, que incluyen la implementación de la gestión de productos, inventario y resumen, con el fin de mejorar la eficiencia operativa y la trazabilidad de los recursos dentro de los administradores de restaurantes y proveedores.
+
+| Repository                            | Branch  | Commit Id           | Commit Message | Commit Message Body                                                                                                                               | Commited on (Date) |
+| ------------------------------------- | ------- | ------------------- | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------ |
+| Yaku Guzman/UI-Topic-frontend         | develop | Yaku Guzman         | bd6c32e        | feat(restaurant-analytics): add carrousel.                                                                                                        |                    |
+| Yaku Guzman/UI-Topic-frontend         | develop | Yaku Guzman         | f8d1229        | feat(supplier-analytics): add json server behavior.                                                                                               |                    |
+| Williams/UI-Topic-frontend            | develop | Williams            | 36a496a        | feat(mock): adding mock.user                                                                                                                      |                    |
+| Yaku Guzman/UI-Topic-frontend         | develop | Yaku Guzman         | 046f822        | routes: fix routes behavior.                                                                                                                      |                    |
+| Yaku Guzman/UI-Topic-frontend         | develop | Yaku Guzman         | 37843c2        | chore: fix behavior                                                                                                                               |                    |
+| Yaku Guzman/UI-Topic-frontend         | develop | Yaku Guzman         | 883367d        | fix(restaurant-supplier): fix internal routing.                                                                                                   |                    |
+| Yaku Guzman/UI-Topic-frontend         | develop | Yaku Guzman         | 61f2e4b        | feat(restaurant-supplier): add restaurant supplier catalog.                                                                                       |                    |
+| jahazielgg/UI-Topic-frontend          | develop | jahazielgg          | 966f47a        | fix(router): rename supplier reviews route to ratings                                                                                             |                    |
+| jahazielgg/UI-Topic-frontend          | develop | jahazielgg          | af04b7f        | feat(router): update user data structure and add role-based routing                                                                               |                    |
+| JulioXC4/UI-Topic-frontend            | develop | JulioXC4            | 1c01a96        | fix: fix sidebar                                                                                                                                  |                    |
+| Julio Castro Alejos/UI-Topic-frontend | develop | Julio Castro Alejos | cba3b83        | Update inventory-supply-create-and-edit.component.vue                                                                                             |                    |
+| Julio Castro Alejos/UI-Topic-frontend | develop | Julio Castro Alejos | 7564e45        | Update inventory-supply-add-and-edit.component.vue                                                                                                |                    |
+| Julio Castro Alejos/UI-Topic-frontend | develop | Julio Castro Alejos | 6d3c52e        | Update inventory.component.vue                                                                                                                    |                    |
+| JulioXC4/UI-Topic-frontend            | develop | JulioXC4            | 3623ec4        | fix: fix supplies                                                                                                                                 |                    |
+| Yaku Guzman/UI-Topic-frontend         | develop | Yaku Guzman         | 340c7dd        | feat(supplier-analytics-route): add supplier analytics route.                                                                                     |                    |
+| Yaku Guzman/UI-Topic-frontend         | develop | Yaku Guzman         | e225fbd        | feat(supplier-analytics): add supplier analytics summary components and page                                                                      |                    |
+| jahazielgg/UI-Topic-frontend          | develop | jahazielgg          | a2b2637        | fix(styles): update menu link padding and improve color consistency in styles                                                                     |                    |
+| Yaku Guzman/UI-Topic-frontend         | develop | Yaku Guzman         | 90ff1c4        | feat(restaurant-analytics): add restaurant analytics summary components and page                                                                  |                    |
+| JulioXC4/UI-Topic-frontend            | develop | JulioXC4            | e415b5d        | fix: color                                                                                                                                        |                    |
+| JulioXC4/UI-Topic-frontend            | develop | JulioXC4            | c7c86df        | fix: functions                                                                                                                                    |                    |
+| JulioXC4/UI-Topic-frontend            | develop | JulioXC4            | 4fb746f        | fix: delete function                                                                                                                              |                    |
+| JulioXC4/UI-Topic-frontend            | develop | JulioXC4            | 6ad2d54        | fix: styles                                                                                                                                       |                    |
+| JulioXC4/UI-Topic-frontend            | develop | JulioXC4            | b13e97b        | fix: styles                                                                                                                                       |                    |
+| JulioXC4/UI-Topic-frontend            | develop | JulioXC4            | 3c1f216        | fix: styles (sidebar, html components)                                                                                                            |                    |
+| JulioXC4/UI-Topic-frontend            | develop | JulioXC4            | 26904fc        | chore: folder structure based on bounded context in the project                                                                                   |                    |
+| JulioXC4/UI-Topic-frontend            | develop | JulioXC4            | 2099c0b        | fix: add inventory (components)                                                                                                                   |                    |
+| JulioXC4/UI-Topic-frontend            | develop | JulioXC4            | e8f17f2        | fix: add inventory modal (calendar)                                                                                                               |                    |
+| JulioXC4/UI-Topic-frontend            | develop | JulioXC4            | fd8a1cf        | fix: inventory management with modal for adding and editing supplies, add search functionality, and connect modal to inventory actions            |                    |
+| JulioXC4/UI-Topic-frontend            | develop | JulioXC4            | 0d31b31        | feat: integrate inventory management with modal for adding and editing supplies, add search functionality, and connect modal to inventory actions |                    |
+| JulioXC4/UI-Topic-frontend            | develop | JulioXC4            | 2f7cc13        | feat(inventory): add edit button to supply cards and integrate modal for editing                                                                  |                    |
+| jahazielgg/UI-Topic-frontend          | develop | jahazielgg          | 55dbceb        | feat(sidebar): restructure app layout with sidebar and router integration                                                                         |                    |
+| jahazielgg/UI-Topic-frontend          | develop | jahazielgg          | a2e9a33        | feat(i18n): add language switcher component and update translations for sidebar                                                                   |                    |
+| jahazielgg/UI-Topic-frontend          | develop | jahazielgg          | b0d0145        | feat(api): add mock user data with json-server and configure router                                                                               |                    |
+| jahazielgg/UI-Topic-frontend          | develop | jahazielgg          | 5c22699        | feat(user): add user entity, service, and user card component for user data management.                                                           |                    |
+| JulioXC4/UI-Topic-frontend            | develop | JulioXC4            | d787a0c        | feat(inventory): implement supplies and inventory management section with modal form and carousel                                                 |                    |
+| JulioXC4/UI-Topic-frontend            | develop | JulioXC4            | 458ec4a        | feat(inventory): progress on empty state and ingredient creation UI                                                                               |                    |
+| JulioXC4/UI-Topic-frontend            | develop | JulioXC4            | 3645809        | chore: install dependencies and setup base tooling for Vue project                                                                                |                    |
+| Julio Castro Alejos/UI-Topic-frontend | develop | Julio Castro Alejos | 50e43fd        | Delete .vscode directory                                                                                                                          |                    |
+| Julio Castro Alejos/UI-Topic-frontend | develop | Julio Castro Alejos | 3274b65        | Delete package-lock.json                                                                                                                          |                    |
+| JulioXC4/UI-Topic-frontend            | develop | JulioXC4            | 7e3e6c0        | chore: create Vue 3 project with Vite                                                                                                             |                    |
+| Julio Castro Alejos/UI-Topic-frontend | develop | Julio Castro Alejos | 5ee5558        | Initial commit                                                                                                                                    |                    |
 
 #### 5.2.2.5 Execution Evidence for Sprint Review
 
@@ -707,20 +812,46 @@ Se procedió a desplegar haciendo clic en **"Deploy"**.
 
 #### 5.2.2.8 Team Collaboration Insights during Sprint.
 
-Se crearon ramas específicas para cada sección o funcionalidad (feature/[nombre-de-seccion]), permitiendo un trabajo paralelo organizado.
-Cada miembro del equipo asumió la responsabilidad de desarrollar una o más secciones del Frontend.
-Se realizaron commits frecuentes, registrando avances de manera continua y detallada.
-Las funcionalidades desarrolladas se integraron mediante Pull Requests hacia la rama develop.
-Se mantuvo una comunicación constante mediante la plataforma Discord para coordinar avances y resolver dudas en tiempo real.
-Se aplicaron buenas prácticas de programación, control de versiones y colaboración en equipo.
+Durante el sprint, se adoptaron estrategias de colaboración efectivas que permitieron un desarrollo fluido y bien organizado del proyecto. A continuación se detallan las prácticas aplicadas:
+
+- Se crearon ramas específicas por funcionalidad o sección, siguiendo la convención `feature/[nombre-de-seccion]`. Esto facilitó un trabajo paralelo sin conflictos y mantuvo el repositorio estructurado.
+- Cada integrante fue responsable del desarrollo de una o más secciones del frontend, distribuyéndose el trabajo de forma equitativa.
+- Se realizaron **commits frecuentes y atómicos**, lo que permitió un seguimiento detallado del progreso y facilitó la revisión del código.
+- Todas las funcionalidades fueron integradas a través de *pull requests* hacia la rama `develop`, garantizando control de calidad mediante revisiones cruzadas.
+- La comunicación entre los miembros del equipo fue constante, utilizando la plataforma **Discord** como canal principal para coordinación diaria, resolución de dudas y toma de decisiones técnicas.
+- Se aplicaron buenas prácticas de control de versiones con Git, como descripciones claras en los commits, ramas temáticas, y revisión colaborativa mediante PRs.
+- El equipo también se enfocó en la calidad del código, utilizando estructuras consistentes, siguiendo estándares de codificación, y asegurando coherencia en estilos y convenciones.
 
 ##### **Analíticos de colaboración**
 
-![Team Collaboration Insight](assets/images/cap-5/team_collaboration_insight.png)
+**1. Landing Page:**
 
-##### **Analíticos de commits de GitHub**
+![Team Collaboration Insight](assets/images/cap-5/collaboration-insight/sprint2-landing.png)
 
-![Team Collaboration Insight](assets/images/cap-5/team_collaboration_insight_2.png)
+- Total de commits realizados: **39**
+- Total de autores contribuyentes: **5**
+- Nivel de participación equilibrado entre todos los miembros
+- El gráfico muestra una distribución consistente de actividad a lo largo del sprint
+
+**2. Web Application (Frontend):**
+
+![Team Collaboration Insight](assets/images/cap-5/collaboration-insight/ci_1.png)
+
+- Total de commits realizados: **146**
+- Total de autores contribuyentes: **5**
+- Nivel de participación equilibrado entre todos los miembros
+- El gráfico muestra una distribución consistente de actividad a lo largo del sprint
+
+##### **Analíticos de *commits* y *pull requests* en GitHub**
+
+![Team Collaboration Insight](assets/images/cap-5/collaboration-insight/ci_2.png)
+
+- Total de *pull requests* registradas: **50**
+- *Pull requests* actualmente abiertas: **1**
+- Todas las PRs contaron con revisiones por al menos un miembro del equipo
+- El flujo de integración continua fue respetado en todas las funcionalidades importantes
+
+Estas métricas reflejan una colaboración activa, estructurada y bien gestionada por parte del equipo, lo que contribuyó significativamente a la calidad final del producto entregado.
 
 ### Recursos del Sprint
 
@@ -728,7 +859,6 @@ Se aplicaron buenas prácticas de programación, control de versiones y colabora
 | -------------------- | --------------------------------------------------- | ------------ | -------------------------------------------------------------- | --------------------------------------------------------------- |
 | Landing Page         | Visualización completa y funcional del landing     | GET          | https://aplicaciones-web-curso-upc.github.io/UI-Topic-landing/ | https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-landing  |
 | UI del sistema (WIP) | Avance en el sistema (menú, dashboard, inventario) | GET          | https://ui-topic-frontend.vercel.app/dashboard                 | https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-frontend |
-|                      |                                                     |              |                                                                |                                                                 |
 
 ### 5.2.3. Sprint 3
 
@@ -1791,7 +1921,7 @@ Se aplicaron buenas prácticas de programación, control de versiones y colabora
 
 **2. Web Application (Frontend):**
 
-![Team Collaboration Insight](assets/images/cap-5/assets/images/cap-5/team_ci_3_1.png)
+![Team Collaboration Insight](assets/images/cap-5/collaboration-insight/ci_1.png)
 
 - Total de commits realizados: **146**
 - Total de autores contribuyentes: **5**
@@ -1893,6 +2023,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
 
 ![Sprint backlog 4](assets/images/cap-5/sprint-backlog4-1.png)
 
+Trello: https:/linkcuts.org/dbgrf3vr
+
 <table>
     <tr>
         <td>User Story ID</td>
@@ -1901,7 +2033,9 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Task Title</td>
         <td>Task Description</td>
         <td>Estimated Hours</td>
-    </tr>  
+        <td>Assigned To</td>
+        <td>Status (To do / In-Process / To-Review / Done)</td>
+    </tr>
     <tr>
         <td>US-02</td>
         <td>Recuperación de contraseña</td>
@@ -1909,6 +2043,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Diseñar pantalla de solicitud de recuperación</td>
         <td>Diseñar la pantalla de solicitud de recuperación de contraseña'.</td>
         <td>1h</td>
+        <td>Antonio Navarro</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -1917,6 +2053,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Conectar solicitud de recuperación con backend</td>
         <td>Conectar la pantalla con el endpoint /api/v1/auth/forgot-password.</td>
         <td>1h</td>
+        <td>Antonio Navarro</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -1925,6 +2063,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Diseñar formulario de nueva contraseña</td>
         <td>Diseñar la pantalla de restablecimiento de contraseña (formulario de nueva contraseña).</td>
         <td>1h</td>
+        <td>Gabriela Shapiama</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td></td>
@@ -1933,6 +2073,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Manejar tokens inválidos o expirados</td>
         <td>Implementar manejo de tokens inválidos o expirados en el frontend</td>
         <td>1h</td>
+        <td>Gabriela Shapiama</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td></td>
@@ -1941,6 +2083,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Conectar formulario de restablecimiento con backend</td>
         <td>Conectar formulario de nueva contraseña con endpoint /api/v1/auth/reset-password</td>
         <td>1h</td>
+        <td>Jahaziel Guerra</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td>US-03</td>
@@ -1949,6 +2093,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Consultar estado de suscripción al iniciar sesión</td>
         <td>Consultar el estado de suscripción del usuario al iniciar sesión.</td>
         <td>1h</td>
+        <td>Antonio Navarro</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td></td>
@@ -1957,6 +2103,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Controlar acceso según suscripción</td>
         <td>Mostrar o restringir funcionalidades según el estado de suscripción</td>
         <td>1h</td>
+        <td>Yaku Guzman</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -1965,6 +2113,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Diseñar vista de advertencia por suscripción inactiva</td>
         <td>Diseñar una vista de advertencia para usuarios con suscripción vencida o inactiva</td>
         <td>1h</td>
+        <td>Jahaziel Guerra</td>
+        <td>In-Process</td>
     </tr>
     <tr>
         <td></td>
@@ -1973,6 +2123,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Restringir acceso a rutas protegidas</td>
         <td>Redirigir o bloquear el acceso a rutas protegidas si el estado no es válido</td>
         <td>1/2h</td>
+        <td>Antonio Navarro</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td></td>
@@ -1981,14 +2133,18 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Actualizar acceso tras renovación</td>
         <td>Verificar y actualizar el acceso luego de la renovación</td>
         <td>1h</td>
+        <td>Jahaziel Guerra</td>
+        <td>To-Review</td>
     </tr>
-        <tr>
+    <tr>
         <td>US-16</td>
         <td>Gestión de ventas</td>
         <td>T001</td>
         <td>Validar disponibilidad de insumos al vender</td>
         <td>Implementar la lógica de validación de insumos disponibles antes de confirmar una venta.</td>
         <td>1h</td>
+        <td>Jahaziel Guerra</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td></td>
@@ -1997,6 +2153,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Mostrar impacto de recetas en inventario</td>
         <td>Integrar el consumo de recetas asociadas para mostrar impacto en insumos.</td>
         <td>2h</td>
+        <td>Julio Castro</td>
+        <td>In-Process</td>
     </tr>
     <tr>
         <td></td>
@@ -2005,14 +2163,18 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Documentar flujo de gestión de ventas</td>
         <td>Documentar el flujo de gestión de ventas desde el frontend.</td>
         <td>1h</td>
+        <td>Julio Castro</td>
+        <td>Done</td>
     </tr>
-        <tr>
+    <tr>
         <td>US-23</td>
         <td>Cambio de contraseña</td>
         <td>T001</td>
         <td>Mostrar opción de cambio de contraseña en perfil</td>
         <td>Mostrar opción de “Cambiar contraseña” en la configuración de la cuenta</td>
         <td>1h</td>
+        <td>Yaku Guzman</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -2021,6 +2183,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Validar nueva contraseña según políticas</td>
         <td>Validar que la nueva contraseña cumpla con los requisitos de seguridad</td>
         <td>2h</td>
+        <td>Antonio Navarro</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -2029,6 +2193,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Verificar coincidencia entre nueva contraseña y confirmación</td>
         <td>Verificar coincidencia entre nueva contraseña y su confirmación</td>
         <td>1h</td>
+        <td>Yaku Guzman</td>
+        <td>To do</td>
     </tr>
     <tr>
         <td></td>
@@ -2037,6 +2203,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Enviar solicitud de cambio de contraseña al backend</td>
         <td>Enviar solicitud de cambio de contraseña al servidor</td>
         <td>1h</td>
+        <td>Julio Castro</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -2045,6 +2213,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Mostrar mensaje según resultado del cambio de contraseña</td>
         <td>Mostrar mensaje de éxito tras el cambio correcto o Mostrar mensaje de error si la contraseña actual es incorrecta</td>
         <td>1h</td>
+        <td>Julio Castro</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td>US-24</td>
@@ -2053,6 +2223,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Mostrar opción para eliminar cuenta desde perfil</td>
         <td>Mostrar opción “Eliminar cuenta” en la configuración del perfil</td>
         <td>1h</td>
+        <td>Gabriela Shapiama</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -2061,6 +2233,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Implementar paso de verificación para confirmar eliminación</td>
         <td>Solicitar paso de verificación para confirmar la eliminación</td>
         <td>1h</td>
+        <td>Gabriela Shapiama</td>
+        <td>To do</td>
     </tr>
     <tr>
         <td></td>
@@ -2069,6 +2243,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Enviar solicitud de eliminación de cuenta al backend</td>
         <td>Enviar la solicitud de eliminación de cuenta al servidor</td>
         <td>1h</td>
+        <td>Jahaziel Guerra</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td></td>
@@ -2077,6 +2253,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Mostrar confirmación de eliminación</td>
         <td>Confirmar visualmente al usuario que la cuenta ha sido borrada.</td>
         <td>1h</td>
+        <td>Jahaziel Guerra</td>
+        <td>In-Process</td>
     </tr>
     <tr>
         <td></td>
@@ -2085,6 +2263,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Redirigir tras eliminar cuenta</td>
         <td>Redirigir al usuario a la página de inicio o despedida tras eliminar la cuenta</td>
         <td>1/2h</td>
+        <td>Julio Castro</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td>TS-01</td>
@@ -2093,6 +2273,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Diseñar modelo de usuario y su persistencia</td>
         <td>Diseñar el modelo de usuario y estructura de base de datos</td>
         <td>2h</td>
+        <td>Gabriela Shapiama</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -2101,6 +2283,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Crear endpoint de registro de usuarios</td>
         <td>Implementar endpoint /api/v1/auth/register para registro de usuarios</td>
         <td>1h</td>
+        <td>Antonio Navarro</td>
+        <td>In-Process</td>
     </tr>
     <tr>
         <td></td>
@@ -2109,6 +2293,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Crear endpoint de login de usuarios</td>
         <td>Implementar endpoint /api/v1/auth/login para autenticación</td>
         <td>2h</td>
+        <td>Yaku Guzman</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -2117,6 +2303,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Configurar autenticación con JWT y manejo de errores</td>
         <td>Configurar control de errores y middleware de autenticación (JWT)</td>
         <td>1/2h</td>
+        <td>Gabriela Shapiama</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td>TS-02</td>
@@ -2125,6 +2313,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Crear endpoint para recuperación de contraseña</td>
         <td>Diseñar e implementar el endpoint /api/v1/auth/forgot-password</td>
         <td>1h</td>
+        <td>Gabriela Shapiama</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td></td>
@@ -2133,6 +2323,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Integrar servicio de correo Resend</td>
         <td>Integrar servicio de correo Resend para envío del enlace de recuperación</td>
         <td>2h</td>
+        <td>Gabriela Shapiama</td>
+        <td>To do</td>
     </tr>
     <tr>
         <td></td>
@@ -2141,6 +2333,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Manejar errores y respuestas en recuperación</td>
         <td>Implementar lógica de manejo de errores y respuestas HTTP estándar</td>
         <td>1h</td>
+        <td>Yaku Guzman</td>
+        <td>In-Process</td>
     </tr>
     <tr>
         <td></td>
@@ -2149,6 +2343,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Generar y guardar token seguro para recuperación</td>
         <td>Crear y almacenar tokens seguros de recuperación de contraseña</td>
         <td>1h</td>
+        <td>Yaku Guzman</td>
+        <td>In-Process</td>
     </tr>
     <tr>
         <td>TS-03</td>
@@ -2157,6 +2353,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Diseñar modelo de suscripción</td>
         <td>Diseñar el modelo de suscripción de la base de datos</td>
         <td>1h</td>
+        <td>Yaku Guzman</td>
+        <td>In-Process</td>
     </tr>
     <tr>
         <td></td>
@@ -2165,6 +2363,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Crear endpoint GET para estado de suscripción</td>
         <td>Implementar endpoint GET /api/v1/subscription/status/:id</td>
         <td>1h</td>
+        <td>Jahaziel Guerra</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -2173,6 +2373,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Crear endpoint POST para renovación de suscripción</td>
         <td>Implementar endpoint POST /api/v1/subscription/renew</td>
         <td>1h</td>
+        <td>Gabriela Shapiama</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -2181,6 +2383,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Evaluar estado de suscripción desde middleware</td>
         <td>Agregar middleware o función auxiliar para evaluar el estado de la suscripción</td>
         <td>1/2h</td>
+        <td>Antonio Navarro</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td>TS-04</td>
@@ -2189,6 +2393,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Crear endpoint de insumos próximos a vencer</td>
         <td>Implementar endpoint /api/v1/notifications/expiring-supplies</td>
         <td>1h</td>
+        <td>Jahaziel Guerra</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -2197,6 +2403,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Crear endpoint de insumos que exceden stock</td>
         <td>Implementar endpoint /api/v1/notifications/exceeding-stock</td>
         <td>1h</td>
+        <td>Julio Castro</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td></td>
@@ -2205,6 +2413,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Diseñar lógica de negocio para filtros de notificaciones</td>
         <td>Diseñar y aplicar lógica de dominio para filtros de notificaciones</td>
         <td>1h</td>
+        <td>Antonio Navarro</td>
+        <td>In-Process</td>
     </tr>
     <tr>
         <td></td>
@@ -2213,14 +2423,18 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Escribir pruebas unitarias para lógica de notificaciones</td>
         <td>Escribir pruebas unitarias para lógica de notificaciones</td>
         <td>2h</td>
+        <td>Antonio Navarro</td>
+        <td>Done</td>
     </tr>
-        <tr>
+    <tr>
         <td>TS-07</td>
         <td>Registrar comentarios y calificaciones sobre pedidos mediante API RESTful</td>
         <td>T001</td>
         <td>Crear endpoint para registrar retroalimentación</td>
         <td>Implementar endpoint POST /api/v1/feedback (Registrar retroalimentación)</td>
         <td>1h</td>
+        <td>Antonio Navarro</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td></td>
@@ -2229,6 +2443,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Validar calificación y comentario en feedback</td>
         <td>Validar calificación y comentario en POST /api/v1/feedback</td>
         <td>1h</td>
+        <td>Gabriela Shapiama</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -2237,6 +2453,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Verificar estado del pedido antes de aceptar feedback</td>
         <td>Validar estado del pedido antes de aceptar feedback</td>
         <td>1h</td>
+        <td>Antonio Navarro</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -2245,6 +2463,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Asociar feedback al proveedor correspondiente</td>
         <td>Asociar retroalimentación al proveedor correspondiente</td>
         <td>1h</td>
+        <td>Antonio Navarro</td>
+        <td>In-Process</td>
     </tr>
     <tr>
         <td></td>
@@ -2253,6 +2473,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Escribir pruebas unitarias para endpoint de feedback</td>
         <td>Implementar pruebas unitarias del endpoint</td>
         <td>1h</td>
+        <td>Antonio Navarro</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td>TS-08</td>
@@ -2261,6 +2483,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Crear colección para eventos críticos de insumos</td>
         <td>Crear colección supply_event_logs con campos: supplyId, type, detectedAt, details, severity.</td>
         <td>1h</td>
+        <td>Jahaziel Guerra</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td></td>
@@ -2269,6 +2493,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Implementar lógica para registrar eventos críticos automáticamente</td>
         <td>Implementar lógica para detectar condiciones críticas en insumos y registrar evento automáticamente.</td>
         <td>1h</td>
+        <td>Yaku Guzman</td>
+        <td>In-Process</td>
     </tr>
     <tr>
         <td></td>
@@ -2277,14 +2503,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Crear endpoint GET para consultar eventos críticos</td>
         <td>Crear servicio RESTful GET /api/v1/supplies/events con filtros por tipo, insumo y rango de fechas.</td>
         <td>2h</td>
-    </tr>
-    <tr>
-        <td></td>
-        <td></td>
-        <td>T004</td>
-        <td>Documentar tipos de eventos críticos permitidos</td>
-        <td>Documentar tipos de eventos permitidos: "EXPIRATION_SOON", "LOW_STOCK", "OVERSTOCKED".</td>
-        <td>2h</td>
+        <td>Yaku Guzman</td>
+        <td>In-Process</td>
     </tr>
     <tr>
         <td></td>
@@ -2293,6 +2513,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Escribir pruebas unitarias para eventos críticos</td>
         <td>Agregar pruebas unitarias y de integración para asegurar el correcto registro de eventos críticos.</td>
         <td>1/2h</td>
+        <td>Gabriela Shapiama</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td>TS-13</td>
@@ -2301,6 +2523,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Crear endpoint GET para obtener perfil protegido</td>
         <td>Implementar endpoint GET /api/v1/profile/:id protegido por JWT</td>
         <td>2h</td>
+        <td>Julio Castro</td>
+        <td>In-Process</td>
     </tr>
     <tr>
         <td></td>
@@ -2309,6 +2533,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Validar token JWT antes de procesar perfil</td>
         <td>Validar que el token sea correcto antes de procesar la solicitud</td>
         <td>1h</td>
+        <td>Antonio Navarro</td>
+        <td>In-Process</td>
     </tr>
     <tr>
         <td></td>
@@ -2317,6 +2543,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Consultar y retornar información del perfil</td>
         <td>Consultar y devolver información del perfil (id, nombre, email, URL de imagen, estado)</td>
         <td>1h</td>
+        <td>Yaku Guzman</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td></td>
@@ -2325,6 +2553,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Gestionar errores 401 por token inválido</td>
         <td>Gestionar error 401 en caso de token inválido o expirado</td>
         <td>1h</td>
+        <td>Yaku Guzman</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td></td>
@@ -2333,6 +2563,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Escribir pruebas unitarias para endpoint de perfil</td>
         <td>Escribir test unitario y de integración para el endpoint</td>
         <td>1h</td>
+        <td>Yaku Guzman</td>
+        <td>In-Process</td>
     </tr>
     <tr>
         <td>TS-14</td>
@@ -2341,6 +2573,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Crear endpoint PUT para actualizar perfil</td>
         <td>Implementar endpoint PUT /api/v1/profile/:id con protección por JWT</td>
         <td>1/2h</td>
+        <td>Julio Castro</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td></td>
@@ -2349,6 +2583,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Validar formato de datos del perfil</td>
         <td>Validar formato de campos</td>
         <td>1h</td>
+        <td>Gabriela Shapiama</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -2357,6 +2593,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Actualizar datos del perfil en base de datos</td>
         <td>Actualizar los datos del perfil en la base de datos</td>
         <td>2h</td>
+        <td>Jahaziel Guerra</td>
+        <td>In-Process</td>
     </tr>
     <tr>
         <td></td>
@@ -2365,6 +2603,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Retornar datos actualizados con código 200</td>
         <td>Retornar los datos actualizados con código 200</td>
         <td>1h</td>
+        <td>Yaku Guzman</td>
+        <td>In-Process</td>
     </tr>
     <tr>
         <td></td>
@@ -2373,6 +2613,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Manejar errores 400 con detalles en perfil</td>
         <td>Retornar errores 400 con detalles si hay datos inválidos</td>
         <td>1h</td>
+        <td>Jahaziel Guerra</td>
+        <td>To do</td>
     </tr>
     <tr>
         <td>TS-15</td>
@@ -2381,6 +2623,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Crear endpoint POST para subir imagen de perfil</td>
         <td>Implementar endpoint POST /api/v1/profile/images/id.</td>
         <td>1h</td>
+        <td>Jahaziel Guerra</td>
+        <td>To do</td>
     </tr>
     <tr>
         <td></td>
@@ -2389,6 +2633,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Validar formato de archivo de imagen</td>
         <td>Validar formato de archivo antes de subir (JPG, PNG, WEBP)</td>
         <td>1h</td>
+        <td>Gabriela Shapiama</td>
+        <td>To do</td>
     </tr>
     <tr>
         <td></td>
@@ -2397,6 +2643,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Asociar imagen de perfil subida al usuario</td>
         <td>Asociar la URL retornada por Cloudinary al usuario correspondiente</td>
         <td>2h</td>
+        <td>Yaku Guzman</td>
+        <td>To do</td>
     </tr>
     <tr>
         <td></td>
@@ -2405,6 +2653,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Manejar errores por formato no soportado (415)</td>
         <td>Manejar errores por formato no soportado (415)</td>
         <td>1h</td>
+        <td>Jahaziel Guerra</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td>TS-16</td>
@@ -2413,6 +2663,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Crear endpoint GET para ingredientes más usados</td>
         <td>Implementar endpoint GET /api/v1/ingredients/most-used</td>
         <td>1h</td>
+        <td>Jahaziel Guerra</td>
+        <td>To do</td>
     </tr>
     <tr>
         <td></td>
@@ -2421,6 +2673,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Permitir filtrado por periodo en ingredientes más usados</td>
         <td>Permitir parámetro ?period= con valores como 7d o 30d</td>
         <td>1h</td>
+        <td>Julio Castro</td>
+        <td>To do</td>
     </tr>
     <tr>
         <td></td>
@@ -2429,6 +2683,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Consultar uso agregado de ingredientes según periodo</td>
         <td>Consultar datos agregados de ingredientes en base al periodo</td>
         <td>1/2h</td>
+        <td>Yaku Guzman</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -2437,6 +2693,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Retornar lista JSON de ingredientes más usados</td>
         <td>Retornar JSON con lista de ingredientes, id, nombre y cantidad_utilizada</td>
         <td>2h</td>
+        <td>Yaku Guzman</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td>TS-17</td>
@@ -2445,6 +2703,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Crear endpoint GET para alertas recientes</td>
         <td>Implementar endpoint GET /api/v1/alerts</td>
         <td>2h</td>
+        <td>Antonio Navarro</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -2453,6 +2713,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Clasificar alertas por tipo</td>
         <td>Clasificar alertas por tipo: vencimiento, bajo stock, etc</td>
         <td>2h</td>
+        <td>Julio Castro</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td></td>
@@ -2461,6 +2723,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Retornar lista de alertas como JSON</td>
         <td>Retornar lista de alertas como JSON</td>
         <td>2h</td>
+        <td>Julio Castro</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td></td>
@@ -2469,6 +2733,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Retornar lista vacía si no hay alertas</td>
         <td>Retornar lista vacía si no hay alertas activas</td>
         <td>1h</td>
+        <td>Gabriela Shapiama</td>
+        <td>In-Process</td>
     </tr>
     <tr>
         <td></td>
@@ -2477,6 +2743,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Implementar filtros para pruebas de alertas</td>
         <td>Implementar filtros para pruebas</td>
         <td>1h</td>
+        <td>Julio Castro</td>
+        <td>To do</td>
     </tr>
     <tr>
         <td>TS-18</td>
@@ -2485,6 +2753,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Crear endpoint para top clientes</td>
         <td>Implementar endpoint GET /api/v1/supplier/top-clients</td>
         <td>1/2h</td>
+        <td>Yaku Guzman</td>
+        <td>In-Process</td>
     </tr>
     <tr>
         <td></td>
@@ -2493,6 +2763,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Consultar base y ordenar por total de compras</td>
         <td>Consultar base de datos y ordenar clientes por total de compras</td>
         <td>1h</td>
+        <td>Antonio Navarro</td>
+        <td>In-Process</td>
     </tr>
     <tr>
         <td></td>
@@ -2501,6 +2773,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Retornar JSON con nombre y total de compras</td>
         <td>Retornar JSON con campos: nombre_restaurante, total_compras</td>
         <td>2h</td>
+        <td>Julio Castro</td>
+        <td>In-Process</td>
     </tr>
     <tr>
         <td></td>
@@ -2509,6 +2783,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Validar fechas y manejar errores</td>
         <td>Agregar validación de fechas y manejo de errores</td>
         <td>1h</td>
+        <td>Gabriela Shapiama</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td>TS-19</td>
@@ -2517,6 +2793,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Crear endpoint PATCH para actualizar estado de orden</td>
         <td>Crear endpoint para cambiar estado de una orden por ID.</td>
         <td>1/2h</td>
+        <td>Yaku Guzman</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -2525,6 +2803,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Validar autenticación y permisos antes de cambio de estado</td>
         <td>Aplicar lógica de seguridad (autenticación y permisos).</td>
         <td>1h</td>
+        <td>Julio Castro</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -2533,6 +2813,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Validar estado válido antes de actualizar</td>
         <td>Manejar errores de estado inválido o inexistente.</td>
         <td>1h</td>
+        <td>Antonio Navarro</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -2541,6 +2823,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Escribir pruebas para cambios de estado</td>
         <td>Escribir pruebas para transiciones de estado comunes.</td>
         <td>2h</td>
+        <td>Antonio Navarro</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td></td>
@@ -2549,6 +2833,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Documentar API para actualizar estado de órdenes</td>
         <td>Documentar API de actualización de estado de órdenes.</td>
         <td>2h</td>
+        <td>Jahaziel Guerra</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td>TS-20</td>
@@ -2557,6 +2843,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Crear endpoint GET para estado de entrega</td>
         <td>Crear endpoint para obtener estado actual de una orden.</td>
         <td>1h</td>
+        <td>Antonio Navarro</td>
+        <td>In-Process</td>
     </tr>
     <tr>
         <td></td>
@@ -2565,6 +2853,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Aplicar control de acceso por rol (proveedor/restaurante)</td>
         <td>Implementar control de acceso para proveedor o restaurante.</td>
         <td>1h</td>
+        <td>Gabriela Shapiama</td>
+        <td>In-Process</td>
     </tr>
     <tr>
         <td></td>
@@ -2573,6 +2863,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Optimizar respuesta con campos esenciales</td>
         <td>Optimizar respuesta solo con campos necesarios (estado, fecha).</td>
         <td>2h</td>
+        <td>Antonio Navarro</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -2581,6 +2873,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Manejar errores por orden inexistente</td>
         <td>Manejar errores si orden no existe.</td>
         <td>2h</td>
+        <td>Jahaziel Guerra</td>
+        <td>In-Process</td>
     </tr>
     <tr>
         <td></td>
@@ -2589,6 +2883,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Escribir pruebas unitarias para endpoint de estado</td>
         <td>Escribir pruebas unitarias del endpoint.</td>
         <td>1h</td>
+        <td>Yaku Guzman</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td></td>
@@ -2597,6 +2893,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Documentar consulta de estado de entrega</td>
         <td>Documentar consulta del estado de entrega por ID.</td>
         <td>1h</td>
+        <td>Yaku Guzman</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td>TS-21</td>
@@ -2605,6 +2903,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Crear endpoint GET para calificaciones por proveedor</td>
         <td>Crear endpoint para obtener calificaciones por proveedor ID.</td>
         <td>1h</td>
+        <td>Jahaziel Guerra</td>
+        <td>In-Process</td>
     </tr>
     <tr>
         <td></td>
@@ -2613,6 +2913,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Incluir detalles relevantes en la respuesta</td>
         <td>Incluir datos como puntuación, comentario, fecha.</td>
         <td>1h</td>
+        <td>Gabriela Shapiama</td>
+        <td>In-Process</td>
     </tr>
     <tr>
         <td></td>
@@ -2621,6 +2923,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Permitir orden cronológico y filtros</td>
         <td>Agregar orden cronológico o filtros si se requiere.</td>
         <td>1h</td>
+        <td>Antonio Navarro</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td></td>
@@ -2629,6 +2933,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Validar proveedor existente y acceso autorizado</td>
         <td>Validar existencia del proveedor y autorización del solicitante.</td>
         <td>1h</td>
+        <td>Jahaziel Guerra</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td></td>
@@ -2637,6 +2943,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Diseñar pruebas para distintos escenarios</td>
         <td>Diseñar pruebas para distintos escenarios (sin calificaciones, múltiples).</td>
         <td>1/2h</td>
+        <td>Gabriela Shapiama</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -2645,6 +2953,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Documentar endpoint de calificaciones</td>
         <td>Documentar la API de calificaciones del proveedor.</td>
         <td>2h</td>
+        <td>Julio Castro</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td>TS-22</td>
@@ -2653,6 +2963,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Crear endpoint GET para listar órdenes recibidas</td>
         <td>Crear endpoint para listar órdenes recibidas por proveedor.</td>
         <td>1h</td>
+        <td>Gabriela Shapiama</td>
+        <td>To do</td>
     </tr>
     <tr>
         <td></td>
@@ -2661,6 +2973,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Agregar filtros a las órdenes recibidas</td>
         <td>Agregar filtros por estado, fecha o restaurante.</td>
         <td>2h</td>
+        <td>Yaku Guzman</td>
+        <td>To do</td>
     </tr>
     <tr>
         <td></td>
@@ -2669,6 +2983,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Manejar errores en solicitudes de órdenes</td>
         <td>Manejar errores y datos faltantes en las solicitudes.</td>
         <td>1h</td>
+        <td>Antonio Navarro</td>
+        <td>To do</td>
     </tr>
     <tr>
         <td></td>
@@ -2677,6 +2993,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Probar flujo completo de gestión de órdenes</td>
         <td>Probar la gestión completa de órdenes.</td>
         <td>h</td>
+        <td>Antonio Navarro</td>
+        <td>To do</td>
     </tr>
     <tr>
         <td></td>
@@ -2685,6 +3003,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Documentar endpoints de órdenes recibidas</td>
         <td>Documentar endpoints RESTful para gestión de órdenes recibidas.</td>
         <td>1h</td>
+        <td>Gabriela Shapiama</td>
+        <td>In-Process</td>
     </tr>
     <tr>
         <td>TS-23</td>
@@ -2693,6 +3013,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Crear endpoint GET para detalles completos de una orden</td>
         <td>Crear endpoint para obtener datos completos de una orden por ID.</td>
         <td>2h</td>
+        <td>Antonio Navarro</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -2701,6 +3023,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Verificar existencia y pertenencia de orden</td>
         <td>Validar existencia de la orden y su pertenencia al proveedor.</td>
         <td>2h</td>
+        <td>Jahaziel Guerra</td>
+        <td>To do</td>
     </tr>
     <tr>
         <td></td>
@@ -2709,6 +3033,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Incluir datos completos en respuesta</td>
         <td>Incluir ítems, cantidades, fecha de creación, cliente, etc.</td>
         <td>2h</td>
+        <td>Yaku Guzman</td>
+        <td>In-Process</td>
     </tr>
     <tr>
         <td></td>
@@ -2717,6 +3043,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Escribir pruebas para consulta de orden</td>
         <td>Escribir pruebas para orden encontrada y no encontrada.</td>
         <td>1h</td>
+        <td>Julio Castro</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td></td>
@@ -2725,6 +3053,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Documentar estructura de detalle de orden</td>
         <td>Documentar la estructura de respuesta y ejemplos de consulta.</td>
         <td>1h</td>
+        <td>Jahaziel Guerra</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td>TS-24</td>
@@ -2733,6 +3063,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Crear endpoint GET para historial agrupado por restaurante</td>
         <td>Crear endpoint que devuelva órdenes de un proveedor agrupadas por restaurante.</td>
         <td>1h</td>
+        <td>Julio Castro</td>
+        <td>To do</td>
     </tr>
     <tr>
         <td></td>
@@ -2741,6 +3073,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Ordenar historial por fecha</td>
         <td>Ordenar por fecha de forma descendente.</td>
         <td>1h</td>
+        <td>Antonio Navarro</td>
+        <td>In-Process</td>
     </tr>
     <tr>
         <td></td>
@@ -2749,6 +3083,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Agregar filtros a historial de órdenes</td>
         <td>Permitir incluir filtros como fechas o estado.</td>
         <td>2h</td>
+        <td>Jahaziel Guerra</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td></td>
@@ -2757,6 +3093,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Validar autenticación del proveedor</td>
         <td>Validar autenticación y permisos del proveedor.</td>
         <td>1h</td>
+        <td>Julio Castro</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td></td>
@@ -2765,6 +3103,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Documentar endpoint de historial de órdenes</td>
         <td>Documentar endpoint de historial cronológico de órdenes.</td>
         <td>2h</td>
+        <td>Julio Castro</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td>TS-25</td>
@@ -2773,6 +3113,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Crear endpoint para exportar historial en Excel</td>
         <td>Crear endpoint para generar archivo Excel del historial de órdenes completadas.</td>
         <td>1h</td>
+        <td>Jahaziel Guerra</td>
+        <td>To do</td>
     </tr>
     <tr>
         <td></td>
@@ -2781,6 +3123,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Permitir filtros en generación de reporte</td>
         <td>Permitir parámetros de filtrado (fechas, restaurantes).</td>
         <td>2h</td>
+        <td>Yaku Guzman</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td></td>
@@ -2789,6 +3133,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Formatear archivo Excel para reporte</td>
         <td>Formatear columnas y contenido de forma clara y legible.</td>
         <td>2h</td>
+        <td>Antonio Navarro</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td></td>
@@ -2797,6 +3143,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Validar descarga correcta del archivo</td>
         <td>Asegurar que el archivo se descargue correctamente.</td>
         <td>1h</td>
+        <td>Antonio Navarro</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td></td>
@@ -2805,6 +3153,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Probar descarga del reporte en distintos entornos</td>
         <td>Probar el export en distintos navegadores/sistemas.</td>
         <td>1h</td>
+        <td>Antonio Navarro</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -2813,6 +3163,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Documentar generación del reporte Excel</td>
         <td>Documentar generación y descarga del reporte Excel.</td>
         <td>1/2h</td>
+        <td>Antonio Navarro</td>
+        <td>In-Process</td>
     </tr>
     <tr>
         <td>TS-26</td>
@@ -2821,6 +3173,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Crear endpoint POST para registrar ventas</td>
         <td>Crear endpoints para registrar ventas.</td>
         <td>1h</td>
+        <td>Yaku Guzman</td>
+        <td>In-Process</td>
     </tr>
     <tr>
         <td></td>
@@ -2829,6 +3183,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Validar y verificar stock antes de registrar venta</td>
         <td>Implementar lógica de validación y verificación de stock antes de registrar una venta en el inventario.</td>
         <td>2h</td>
+        <td>Gabriela Shapiama</td>
+        <td>To do</td>
     </tr>
     <tr>
         <td></td>
@@ -2837,6 +3193,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Crear endpoint para actualizar inventario manualmente</td>
         <td>Crear endpoint para actualizar manualmente el inventario.</td>
         <td>1h</td>
+        <td>Gabriela Shapiama</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -2845,6 +3203,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Manejar errores comunes en ventas</td>
         <td>Aplicar manejo de errores para transacciones inválidas o datos incompletos.</td>
         <td>1/2h</td>
+        <td>Julio Castro</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td></td>
@@ -2853,6 +3213,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Escribir pruebas para endpoints de ventas e inventario</td>
         <td>Diseñar pruebas unitarias y de integración para ambos endpoints.</td>
         <td>1h</td>
+        <td>Antonio Navarro</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -2861,6 +3223,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Documentar endpoints de ventas e inventario</td>
         <td>Documentar los endpoints RESTful de ventas.</td>
         <td>1h</td>
+        <td>Yaku Guzman</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td>TS-27</td>
@@ -2869,6 +3233,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Crear endpoint seguro para cambio de contraseña</td>
         <td>Crear endpoint seguro /api/v1/auth/change-password</td>
         <td>1h</td>
+        <td>Yaku Guzman</td>
+        <td>To do</td>
     </tr>
     <tr>
         <td></td>
@@ -2877,6 +3243,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Diseñar estructura del cuerpo para cambio de contraseña</td>
         <td>Diseñar estructura del cuerpo de la solicitud</td>
         <td>1h</td>
+        <td>Julio Castro</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td></td>
@@ -2885,6 +3253,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Validar entrada del cambio de contraseña</td>
         <td>Implementar validación de entrada</td>
         <td>1h</td>
+        <td>Antonio Navarro</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -2893,6 +3263,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Verificar contraseña actual</td>
         <td>Verificar contraseña actual del usuario</td>
         <td>1h</td>
+        <td>Julio Castro</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td></td>
@@ -2901,6 +3273,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Actualizar nueva contraseña en base de datos</td>
         <td>Actualizar la contraseña en base de datos</td>
         <td>1h</td>
+        <td>Jahaziel Guerra</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td>TS-28</td>
@@ -2909,6 +3283,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Crear endpoint seguro para eliminación de cuenta</td>
         <td>Crear endpoint seguro /api/v1/auth/delete-account</td>
         <td>1h</td>
+        <td>Julio Castro</td>
+        <td>To-Review</td>
     </tr>
     <tr>
         <td></td>
@@ -2917,6 +3293,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Diseñar estructura del cuerpo de solicitud para eliminación</td>
         <td>Diseñar estructura del cuerpo de la solicitud</td>
         <td>1h</td>
+        <td>Gabriela Shapiama</td>
+        <td>To do</td>
     </tr>
     <tr>
         <td></td>
@@ -2925,6 +3303,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Validar autenticación del usuario</td>
         <td>Validar autenticación del usuario</td>
         <td>1h</td>
+        <td>Antonio Navarro</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -2933,6 +3313,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Eliminar o desactivar cuenta del usuario</td>
         <td>Eliminar o desactivar la cuenta del usuario</td>
         <td>2h</td>
+        <td>Julio Castro</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -2941,6 +3323,8 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
         <td>Revocar tokens y cerrar sesiones activas</td>
         <td>Revocar tokens activos y sesiones</td>
         <td>1/2h</td>
+        <td>Yaku Guzman</td>
+        <td>Done</td>
     </tr>
 </table>
 
