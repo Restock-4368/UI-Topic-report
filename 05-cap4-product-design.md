@@ -241,17 +241,13 @@ Esta línea de código establece el aviso de derechos de autor para el código y
 ##### 1. Medios de ayuda para la búsqueda de datos
 
 - Barra de búsqueda principal en cada módulo (Inventario, Pedidos, Proveedores).
-- Autocompletado inteligente: se muestran sugerencias conforme el usuario escribe.
-- Historial de búsquedas recientes.
 - Mensajes contextuales si no se encuentran resultados (“¿Desea agregar un nuevo insumo?”).
 
 ##### 2. Filtros y opciones
 
 - Por nombre de producto.
 - Por categoría de insumo (carnes, bebidas, verduras, etc.).
-- Por proveedor asociado.
 - Por estado de stock (stock bajo, suficiente, excedente).
-- Por fecha de vencimiento próxima.
 - Por pedidos con retraso o por llegar.
 
 ##### 3. Visualización de resultados
@@ -271,10 +267,8 @@ Esta línea de código establece el aviso de derechos de autor para el código y
 ##### 1. Medios de ayuda para la búsqueda de datos
 
 - Buscador centralizado para gestionar productos ofrecidos y pedidos recibidos.
-- Autocompletado para clientes, productos o pedidos.
-- Filtros combinables para analizar entregas, productos y clientes activos.
 
-##### 2. Filtros y opciones
+#### 2. Filtros y opciones
 
 - Por restaurante cliente.
 - Por producto ofrecido.
@@ -282,7 +276,7 @@ Esta línea de código establece el aviso de derechos de autor para el código y
 - Por fecha de entrega programada.
 - Por frecuencia de pedidos (clientes frecuentes o nuevos).
 
-##### 3. Visualización de resultados
+#### 3. Visualización de resultados
 
 - Listas de pedidos con:
   - Nombre del cliente (restaurante).
