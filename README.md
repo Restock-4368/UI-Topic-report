@@ -107,7 +107,7 @@ _Abril 2025_
 
 # Project Report Collaboration Insights
 
-Para el desarrollo del **Project Report**, se utilizó un repositorio dentro de la organización del equipo en GitHub. A continuación, se presenta la evidencia de colaboración correspondiente, en coherencia con el Registro de Versiones del Informe.
+Esta sección detalla cómo el equipo colaboró para construir el **Final Project Documentation Report** del sistema Restock, mostrando evidencia de trabajo conjunto mediante commits, revisiones, herramientas de organización y resultados integrados en el informe final. Se refleja la contribución de cada integrante en la planificación, desarrollo, documentación y presentación de la solución.
 
 **Repositorio del informe del proyecto:**  
 [https://shorturl.at/LteHd](https://shorturl.at/LteHd)
@@ -125,13 +125,19 @@ Para el desarrollo del **Project Report**, se utilizó un repositorio dentro de 
 - Todos los miembros participaron activamente en la redacción y revisión del contenido.
 
 
-## TB1 - Informe inicial y Landing Page (5 de abril - 27 de abril de 2025)
+## TB1 – Informe inicial y Landing Page  
+*Periodo:* 5 de abril – 27 de abril de 2025  
 
-Durante esta fase, el equipo elaboró el informe base del proyecto, abarcando la definición del problema, justificación, objetivos y marco teórico. Simultáneamente, se desarrolló la **Landing Page** utilizando HTML5, CSS3 y JavaScript puro.
-
-El trabajo fue organizado mediante ramas temáticas, permitiendo que cada integrante aportara contenido específico y realizara revisiones cruzadas mediante *pull requests*. Las decisiones sobre estructura, estilo y contenido se discutieron de forma colaborativa en los comentarios de los PRs.
+Se redactaron las secciones base del informe: Introducción, Justificación, Objetivos, Guias de estilo, Usuarios y Flujo de Valor. Se construyó una **Landing Page estática** con HTML5, CSS3 y JS. Las decisiones se documentaron en Trello, y se utilizó Figma para el primer prototipo visual. Cada sección del informe fue escrita en ramas separadas y luego unificada en `develop`.
 
 ![Colaboraciones TB1](assets/images/ci-tb1.png)
+
+- **Contribuciones destacadas del informe:**
+  - Definición de problema y objetivos.
+  - Análisis de herramientas similares.
+  - Diseño de flujo de valor y tipos de usuario.
+  - Prototipo inicial en Figma.
+  - Página informativa y formulario de contacto en Landing.
 
 - **Williams Avendaño (`dev-willy-code`)**: 23 commits, 636 adiciones, 155 eliminaciones  
 - **Yaku Guzmán (`yak-cod`)**: 20 commits, 600 adiciones, 49 eliminaciones  
@@ -143,13 +149,20 @@ El trabajo fue organizado mediante ramas temáticas, permitiendo que cada integr
 La colaboración fue activa y equitativa, con contribuciones sustanciales de todos los integrantes.
 
 
-## TP1 - Desarrollo del Frontend y mejoras en la Landing Page (28 de abril - 25 de mayo de 2025)
+## TP1 – Desarrollo del Frontend y mejoras al Landing Page  
+*Periodo:* 28 de abril – 25 de mayo de 2025  
 
-Durante este sprint, el equipo se enfocó en construir la interfaz de usuario de la aplicación web. Se utilizó **Vue 3 con Vite**, **PrimeVue**, **axios** e **i18n** para implementar los componentes principales, siguiendo principios de **domain-driven design** y organización por *bounded contexts*. También se realizaron correcciones y mejoras en la Landing Page, mejorando la accesibilidad, adaptabilidad móvil y tiempos de carga.
+Se desarrolló el **frontend** con Angular 19, Angular Material, PrimeNG y arquitectura basada en dominios (`public`, `global`). Se aplicaron patrones como *Request/Response* y *Assembler*. El informe fue ampliado con secciones sobre estructura técnica del frontend, componentes reutilizables, rutas, internacionalización (i18n), y control de roles.
 
-En el informe se documentó el diseño de la arquitectura del frontend, la estructura de carpetas y las decisiones tecnológicas adoptadas, incluyendo capturas del prototipo funcional. La colaboración se mantuvo mediante commits individuales y revisiones cruzadas de los PRs.
+Se añadieron diagramas de carpetas y estructuras en PlantUML. Se mejoró la Landing Page con animaciones y optimización SEO.
 
 ![Colaboraciones TP1](assets/images/ci-tp1.png)
+
+- **Contribuciones destacadas del informe:**
+  - Explicación de la estructura modular del frontend.
+  - Documentación de componentes, servicios y rutas protegidas.
+  - Capturas de vistas funcionales (`Home`, `Inventory`, `Orders`, etc.).
+  - Detalle de decisiones técnicas y librerías empleadas.
 
 - **Williams Avendaño (`dev-willy-code`)**: 8 commits, 265 adiciones, 47 eliminaciones  
 - **Yaku Guzmán (`yak-cod`)**: 17 commits, 1007 adiciones, 900 eliminaciones  
@@ -161,15 +174,21 @@ En el informe se documentó el diseño de la arquitectura del frontend, la estru
 Este nivel de actividad refleja un esfuerzo colaborativo significativo y una distribución equilibrada del trabajo.
 
 
-## TB2 - Desarrollo del Backend, mejoras en el frontend y Landing Page (26 de mayo - 21 de junio de 2025)
 
-Durante el sprint final, se desarrolló el backend utilizando **ASP.NET Core Framework** bajo una arquitectura DDD. Se diseñaron los agregados principales (`Recipes`), así como servicios de comandos, consultas y controladores REST. También se integró **Swagger** para la documentación automática de las APIs.
+## TB2 – Backend, mejoras e integración  
+*Periodo:* 26 de mayo – 21 de junio de 2025  
 
-Paralelamente, se realizaron mejoras finales tanto en el frontend como en la Landing Page, corrigiendo errores visuales, optimizando flujos y asegurando la integración entre frontend y backend.
+Se diseñó e implementó el **backend con Spring Boot**, siguiendo los principios de **Domain-Driven Design (DDD)**. Se construyeron los agregados `Supply`, `Batch`, `Recipe` y `Order`, junto a value objects (`UnitMeasurement`) y entidades referenciadas (`Category`). El equipo aplicó validaciones, control de excepciones personalizadas y estructura de paquetes clara (`aggregates`, `commands`, `resources`, etc.).
 
-El informe fue ampliado con una sección dedicada al backend, incluyendo diagramas de contexto y contenedores generados con Structurizr, además de descripciones detalladas sobre el diseño basado en dominios. Todos los miembros contribuyeron con documentación técnica, pruebas e integraciones.
+En el informe se documentó el trabajo realizado durante el **Sprint 3**, incluyendo el avance del *Product Backlog*, la implementación y despliegue de los primeros servicios del sistema. Se incluyeron diagramas de arquitectura generados con **Structurizr DSL**, abarcando los niveles C1 (Contexto), C2 (Contenedores) y C3 (Componentes), junto con capturas de Swagger UI y evidencia de los endpoints REST ya operativos.
+
 
 ![Colaboraciones TB2](assets/images/ci-tb2.png)
+
+- **Contribuciones destacadas del informe:**
+  - Correcciones y mejoras en los diagramas Structurizr C1 y C2.
+  - Descripción actualizada de la organización por boundeds del backend.
+  - Registro del trabajo realizado en el Sprint 3, incluyendo backlog, implementación de servicios y despliegue.
 
 - **Williams Avendaño (`dev-willy-code`)**: 2 commits, 77 adiciones, 91 eliminaciones  
 - **Yaku Guzmán (`yak-cod`)**: 3 commits, 500 adiciones, 216 eliminaciones  
@@ -181,102 +200,189 @@ El informe fue ampliado con una sección dedicada al backend, incluyendo diagram
 La colaboración fue continua y estratégica, con aportes clave en aspectos críticos del backend y del informe final.
 
 
+## TF – Integración final, autenticación y despliegue  
+**Periodo:** 22 de junio – 6 de julio de 2025  
+
+Durante esta etapa se consolidó el sistema completo, asegurando su funcionamiento integrado y seguro. Se implementó autenticación basada en **JWT (Bearer Tokens)**, gestión de roles, guards, validaciones y redirecciones. El frontend y backend se conectaron exitosamente, y se configuró el **despliegue final** de los productos digitales.
+
+Además, se completaron las secciones finales del informe, incluyendo la validación por entrevistas, resultados del proyecto, **Conclusiones**, **Bibliografía** y **Anexos**. Se incorporaron capturas funcionales del sistema, flujos de autenticación, y scripts de ejemplo. También se aplicó una revisión final al estilo Markdown y se actualizaron tablas y artefactos previos.
+
+![Colaboraciones TF](assets/images/ci-tf.jpeg)
+
+- **Contribuciones destacadas del informe:**
+  - Documentación de la arquitectura final integrada.
+  - Registro de actividades y evidencias correspondientes al Sprint 4.
+  - Validación de requisitos mediante entrevistas y user flows.
+  - Capturas funcionales de la aplicación desplegada, incluyendo autenticación.
+  - Versión final de Conclusiones, lecciones aprendidas, y evaluación de objetivos alcanzados.
+  - Bibliografía actualizada y créditos de herramientas utilizadas.
+
+- **Commits por integrante:**
+  - Yaku Guzmán: 6 commits – 438 adiciones / 400 eliminaciones  
+  - Julio Castro: 7 commits – 261 adiciones / 185 eliminaciones  
+  - Gabriela Shapiama: 5 commits – 772 adiciones / 602 eliminaciones  
+  - Jahaziel Guerra: 4 commits – 2582 adiciones / 392 eliminaciones  
+
+## Herramientas colaborativas utilizadas
+
+- **GitHub Projects & Branching:** Para control de versiones y revisiones.
+- **Trello:** Organización de tareas por entregas y responsables.
+- **Discord y Google Meet:** Reuniones periódicas para coordinación.
+- **Figma:** Bocetos y prototipos de interfaz.
+- **PlantUML & Draw.io:** Diagramas de arquitectura y flujo.
+- **Structurizr DSL:** Modelado de arquitectura de software (C4 Model).
+- **Swagger/OpenAPI:** Documentación interactiva de endpoints REST.
+- **Markdown Preview & VSCode:** Redacción técnica en equipo del informe.
+
+
 # Tabla de contenidos
 
-## [Capítulo I: Introducción](cap1-introduction.md)
+## [Capítulo I: Introducción](02-cap1-introduction.md#capítulo-i-introducción)
 
-- [1.1 Startup Profile](cap1-introduction.md#11-startup-profile)
-  - [1.1.1 Descripción de la Startup](cap1-introduction.md#111-descripción-de-la-startup)
-  - [1.1.2 Perfiles de integrantes del equipo](cap1-introduction.md#112-perfiles-de-integrantes-del-equipo)
-- [1.2 Solution Profile](cap1-introduction.md#12-solution-profile)
-  - [1.2.1 Antecedentes y problemática](cap1-introduction.md#121-antecedentes-y-problemática)
-  - [1.2.2 Lean UX](cap1-introduction.md#122-lean-ux)
-    - [1.2.2.1 Problem Statement](cap1-introduction.md#1221-lean-ux-problem-statement)
-    - [1.2.2.2 Assumptions](cap1-introduction.md#1222-lean-ux-assumptions)
-    - [1.2.2.3 Hypothesis](cap1-introduction.md#1223-lean-ux-hypothesis-statements)
-    - [1.2.2.4 Lean UX Canvas](cap1-introduction.md#1224-lean-ux-canvas)
-- [1.3 Segmentos Objetivos](cap1-introduction.md#13-segmentos-objetivos)
+* [1.1 Startup Profile](02-cap1-introduction.md#11-startup-profile)
 
-## [Capítulo II: Requirements Elicitation &amp; Analysis](cap2-requirements-elicitation-and-analysis.md)
+  * [1.1.1 Descripción de la Startup](02-cap1-introduction.md#111-descripción-de-la-startup)
+  * [1.1.2 Perfiles de integrantes del equipo](02-cap1-introduction.md#112-perfiles-de-integrantes-del-equipo)
+* [1.2 Solution Profile](02-cap1-introduction.md#12-solution-profile)
 
-- [2.1 Competidores](cap2-requirements-elicitation-and-analysis.md#21-competidores)
-  - [2.1.1 Análisis competitivo](cap2-requirements-elicitation-and-analysis.md#211-análisis-competitivo)
-  - [2.1.2 Estrategias y tácticas frente a competidores](cap2-requirements-elicitation-and-analysis.md#212-estrategias-y-tácticas-frente-a-competidores)
-- [2.2 Entrevistas](cap2-requirements-elicitation-and-analysis.md#22-entrevistas)
-  - [2.2.1 Diseño de entrevistas](cap2-requirements-elicitation-and-analysis.md#221-diseño-de-entrevistas)
-  - [2.2.2 Registro de entrevistas](cap2-requirements-elicitation-and-analysis.md#222-registro-de-entrevistas)
-  - [2.2.3 Análisis de entrevistas](cap2-requirements-elicitation-and-analysis.md#223-análisis-de-entrevistas)
-- [2.3 Needfinding](cap2-requirements-elicitation-and-analysis.md#23-needfinding)
-  - [2.3.1 User Personas](cap2-requirements-elicitation-and-analysis.md#231-user-personas)
-  - [2.3.2 User Task Matrix](cap2-requirements-elicitation-and-analysis.md#232-user-task-matrix)
-  - [2.3.3 User Journey Mapping](cap2-requirements-elicitation-and-analysis.md#233-user-journey-mapping)
-  - [2.3.4 Empathy Mapping](cap2-requirements-elicitation-and-analysis.md#234-empathy-mapping)
-  - [2.3.5 As-is Scenario Mapping](cap2-requirements-elicitation-and-analysis.md#235-as-is-scenario-mapping)
-- [2.4 Ubiquitous Language](cap2-requirements-elicitation-and-analysis.md#24-ubiquitous-language)
+  * [1.2.1 Antecedentes y problemática](02-cap1-introduction.md#121-antecedentes-y-problemática)
+  * [1.2.2 Lean UX](02-cap1-introduction.md#122-lean-ux)
 
-## [Capítulo III: Requirements Specification](cap3-requirements-specification.md)
+    * [1.2.2.1 Problem Statement](02-cap1-introduction.md#1221-problem-statement)
+    * [1.2.2.2 Assumptions](02-cap1-introduction.md#1222-assumptions)
+    * [1.2.2.3 Hypothesis](02-cap1-introduction.md#1223-hypothesis)
+    * [1.2.2.4 Lean UX Canvas](02-cap1-introduction.md#1224-lean-ux-canvas)
+* [1.3 Segmentos Objetivos](02-cap1-introduction.md#13-segmentos-objetivos)
 
-- [3.1 To-Be Scenario Mapping](cap3-requirements-specification.md#31-to-be-scenario-mapping)
-- [3.2 User Stories](cap3-requirements-specification.md#32-user-stories)
-- [3.3 Impact Mapping](cap3-requirements-specification.md#33-impact-mapping)
-- [3.4 Product Backlog](cap3-requirements-specification.md#34-product-backlog)
+## [Capítulo II: Requirements Elicitation & Analysis](03-cap2-requirements-elicitation-and-analysis.md#capítulo-ii-requirements-elicitation--analysis)
 
-## [Capítulo IV: Product Design](cap4-product-design.md)
+* [2.1 Competidores](03-cap2-requirements-elicitation-and-analysis.md#21-competidores)
 
-- [4.1 Style Guidelines](cap4-product-design.md#41-style-guidelines)
-  - [4.1.1 General Style Guidelines](cap4-product-design.md#411-general-style-guidelines)
-  - [4.1.2 Web Style Guidelines](cap4-product-design.md#412-web-style-guidelines)
-- [4.2 Information Architecture](cap4-product-design.md#42-information-architecture)
-  - [4.2.1 Organization Systems](cap4-product-design.md#421-organization-systems)
-  - [4.2.2 Labeling Systems](cap4-product-design.md#422-labeling-systems)
-  - [4.2.3 SEO Tags and Meta Tags](cap4-product-design.md#423-seo-tags-and-meta-tags)
-  - [4.2.4 Searching Systems](cap4-product-design.md#424-searching-systems)
-  - [4.2.5 Navigation Systems](cap4-product-design.md#425-navigation-systems)
-- [4.3 Landing Page UI Design](cap4-product-design.md#43-landing-page-ui-design)
-  - [4.3.1 Landing Page Wireframe](cap4-product-design.md#431-landing-page-wireframe)
-  - [4.3.2 Landing Page Mock-up](cap4-product-design.md#432-landing-page-mock-up)
-- [4.4 Web Applications UX/UI Design](cap4-product-design.md#44-web-applications-uxui-design)
-  - [4.4.1 Web Applications Wireframes](cap4-product-design.md#441-web-applications-wireframes)
-  - [4.4.2 Web Applications Wireflow Diagrams](cap4-product-design.md#442-web-applications-wireflow-diagrams)
-  - [4.4.3 Web Applications Mock-ups](cap4-product-design.md#443-web-applications-mock-ups)
-  - [4.4.4 Web Applications User Flow Diagrams](cap4-product-design.md#444-web-applications-user-flow-diagrams)
-- [4.5 Web Applications Prototyping](cap4-product-design.md#45-web-applications-prototyping)
-- [4.6 Domain-Driven Software Architecture](cap4-product-design.md#46-domain-driven-software-architecture)
-  - [4.6.1 Software Architecture Context Diagram](cap4-product-design.md#461-software-architecture-context-diagram)
-  - [4.6.2 Software Architecture Container Diagrams](cap4-product-design.md#462-software-architecture-container-diagrams)
-  - [4.6.3 Software Architecture Components Diagrams](cap4-product-design.md#463-software-architecture-components-diagrams)
-- [4.7 Software Object-Oriented Design](cap4-product-design.md#47-software-object-oriented-design)
-  - [4.7.1 Class Diagrams](cap4-product-design.md#471-class-diagrams)
-  - [4.7.2 Class Dictionary](cap4-product-design.md#472-class-dictionary)
-- [4.8 Database Design](cap4-product-design.md#48-database-design)
-  - [4.8.1 Database Diagram](cap4-product-design.md#481-database-diagram)
-- 4.9 DDD Estratégico
+  * [2.1.1 Análisis competitivo](03-cap2-requirements-elicitation-and-analysis.md#211-análisis-competitivo)
+  * [2.1.2 Estrategias y tácticas frente a competidores](03-cap2-requirements-elicitation-and-analysis.md#212-estrategias-y-tácticas-frente-a-competidores)
+* [2.2 Entrevistas](03-cap2-requirements-elicitation-and-analysis.md#22-entrevistas)
 
-## [Capítulo V: Product Implementation, Validation &amp; Deployment](cap5-prod-implementation-validation-deployment.md)
+  * [2.2.1 Diseño de entrevistas](03-cap2-requirements-elicitation-and-analysis.md#221-diseño-de-entrevistas)
+  * [2.2.2 Registro de entrevistas](03-cap2-requirements-elicitation-and-analysis.md#222-registro-de-entrevistas)
+  * [2.2.3 Análisis de entrevistas](03-cap2-requirements-elicitation-and-analysis.md#223-análisis-de-entrevistas)
+* [2.3 Needfinding](03-cap2-requirements-elicitation-and-analysis.md#23-needfinding)
 
-- [5.1 Software Configuration Management](cap5-prod-implementation-validation-deployment.md#51-software-configuration-management)
+  * [2.3.1 User Personas](03-cap2-requirements-elicitation-and-analysis.md#231-user-personas)
+  * [2.3.2 User Task Matrix](03-cap2-requirements-elicitation-and-analysis.md#232-user-task-matrix)
+  * [2.3.3 User Journey Mapping](03-cap2-requirements-elicitation-and-analysis.md#233-user-journey-mapping)
+  * [2.3.4 Empathy Mapping](03-cap2-requirements-elicitation-and-analysis.md#234-empathy-mapping)
+  * [2.3.5 As-is Scenario Mapping](03-cap2-requirements-elicitation-and-analysis.md#235-as-is-scenario-mapping)
+* [2.4 Ubiquitous Language](03-cap2-requirements-elicitation-and-analysis.md#24-ubiquitous-language)
 
-  - [5.1.1 Software Development Environment Configuration](cap5-prod-implementation-validation-deployment.md#511-software-development-environment-configuration)
-  - [5.1.2 Source Code Management](cap5-prod-implementation-validation-deployment.md#512-source-code-management)
-  - [5.1.3 Source Code Style Guide &amp; Conventions](cap5-prod-implementation-validation-deployment.md#513-source-code-style-guide--conventions)
-  - [5.1.4 Software Deployment Configuration](cap5-prod-implementation-validation-deployment.md#514-software-deployment-configuration)
-- [5.2 Landing Page, Services &amp; Applications Implementation](cap5-prod-implementation-validation-deployment.md#52-landing-page-services--applications-implementation)
+## [Capítulo III: Requirements Specification](04-cap3-requirements-specification.md#capítulo-iii-requirements-specification)
 
-  - [5.2.X Sprint n](cap5-prod-implementation-validation-deployment.md#521-sprint-1)
-    - [5.2.X.1 Sprint Planning n](cap5-prod-implementation-validation-deployment.md#5211-sprint-planning-1)
-    - [5.2.X.2 Aspect Leaders and Collaborators](cap5-prod-implementation-validation-deployment.md#5212-aspect-leaders-and-collaborators)
-    - [5.2.X.3 Sprint Backlog n](cap5-prod-implementation-validation-deployment.md#5213-sprint-backlog-1)
-    - [5.2.X.4 Development Evidence for Sprint Review](cap5-prod-implementation-validation-deployment.md#5214-development-evidence-for-sprint-review)
-    - [5.2.X.5 Execution Evidence for Sprint Review](cap5-prod-implementation-validation-deployment.md#5215-execution-evidence-for-sprint-review)
-    - [5.2.X.6 Services Documentation Evidence for Sprint Review](cap5-prod-implementation-validation-deployment.md#5216-services-documentation-evidence-for-sprint-review)
-    - [5.2.X.7 Software Deployment Evidence for Sprint Review](cap5-prod-implementation-validation-deployment.md#5217-software-deployment-evidence-for-sprint-review)
-    - [5.2.X.8 Team Collaboration Insights during Sprint](cap5-prod-implementation-validation-deployment.md#5218-team-collaboration-insights-during-sprint)
+* [3.1 To-Be Scenario Mapping](04-cap3-requirements-specification.md#31-to-be-scenario-mapping)
+* [3.2 User Stories](04-cap3-requirements-specification.md#32-user-stories)
+* [3.3 Impact Mapping](04-cap3-requirements-specification.md#33-impact-mapping)
+* [3.4 Product Backlog](04-cap3-requirements-specification.md#34-product-backlog)
 
-## [Conclusiones](conclusiones.md)
+## [Capítulo IV: Product Design](05-cap4-product-design.md#capítulo-iv-product-design)
 
-## [Bibliografía](bibliografia.md)
+* [4.1 Style Guidelines](05-cap4-product-design.md#41-style-guidelines)
 
-## [Anexos](anexos.md)
+  * [4.1.1 General Style Guidelines](05-cap4-product-design.md#411-general-style-guidelines)
+  * [4.1.2 Web Style Guidelines](05-cap4-product-design.md#412-web-style-guidelines)
+* [4.2 Information Architecture](05-cap4-product-design.md#42-information-architecture)
+
+  * [4.2.1 Organization Systems](05-cap4-product-design.md#421-organization-systems)
+  * [4.2.2 Labeling Systems](05-cap4-product-design.md#422-labeling-systems)
+  * [4.2.3 SEO Tags and Meta Tags](05-cap4-product-design.md#423-seo-tags-and-meta-tags)
+  * [4.2.4 Searching Systems](05-cap4-product-design.md#424-searching-systems)
+  * [4.2.5 Navigation Systems](05-cap4-product-design.md#425-navigation-systems)
+* [4.3 Landing Page UI Design](05-cap4-product-design.md#43-landing-page-ui-design)
+
+  * [4.3.1 Landing Page Wireframe](05-cap4-product-design.md#431-landing-page-wireframe)
+  * [4.3.2 Landing Page Mock-up](05-cap4-product-design.md#432-landing-page-mock-up)
+* [4.4 Web Applications UX/UI Design](05-cap4-product-design.md#44-web-applications-uxui-design)
+
+  * [4.4.1 Web Applications Wireframes](05-cap4-product-design.md#441-web-applications-wireframes)
+  * [4.4.2 Web Applications Wireflow Diagrams](05-cap4-product-design.md#442-web-applications-wireflow-diagrams)
+  * [4.4.3 Web Applications Mock-ups](05-cap4-product-design.md#443-web-applications-mock-ups)
+  * [4.4.4 Web Applications User Flow Diagrams](05-cap4-product-design.md#444-web-applications-user-flow-diagrams)
+* [4.5 Web Applications Prototyping](05-cap4-product-design.md#45-web-applications-prototyping)
+* [4.6 Domain-Driven Software Architecture](05-cap4-product-design.md#46-domain-driven-software-architecture)
+
+  * [4.6.1 Software Architecture Context Diagram](05-cap4-product-design.md#461-software-architecture-context-diagram)
+  * [4.6.2 Software Architecture Container Diagrams](05-cap4-product-design.md#462-software-architecture-container-diagrams)
+  * [4.6.3 Software Architecture Components Diagrams](05-cap4-product-design.md#463-software-architecture-components-diagrams)
+* [4.7 Software Object-Oriented Design](05-cap4-product-design.md#47-software-object-oriented-design)
+
+  * [4.7.1 Class Diagrams](05-cap4-product-design.md#471-class-diagrams)
+  * [4.7.2 Class Dictionary](05-cap4-product-design.md#472-class-dictionary)
+* [4.8 Database Design](05-cap4-product-design.md#48-database-design)
+
+  * [4.8.1 Database Diagram](05-cap4-product-design.md#481-database-diagram)
+* [4.9 DDD Estratégico](05-cap4-product-design.md#49-ddd-estratégico)
+
+## [Capítulo V: Product Implementation, Validation & Deployment](06-cap5-prod-implementation-validation-deployment.md#capítulo-v-product-implementation-validation--deployment)
+
+* [5.1 Software Configuration Management](06-cap5-prod-implementation-validation-deployment.md#51-software-configuration-management)
+
+  * [5.1.1 Software Development Environment Configuration](06-cap5-prod-implementation-validation-deployment.md#511-software-development-environment-configuration)
+  * [5.1.2 Source Code Management](06-cap5-prod-implementation-validation-deployment.md#512-source-code-management)
+  * [5.1.3 Source Code Style Guide & Conventions](06-cap5-prod-implementation-validation-deployment.md#513-source-code-style-guide--conventions)
+  * [5.1.4 Software Deployment Configuration](06-cap5-prod-implementation-validation-deployment.md#514-software-deployment-configuration)
+
+* [5.2 Landing Page, Services & Applications Implementation](06-cap5-prod-implementation-validation-deployment.md#52-landing-page-services--applications-implementation)
+
+  * [5.2.1 Sprint 1](06-cap5-prod-implementation-validation-deployment.md#521-sprint-1)
+    * [5.2.1.1 Sprint Planning 1](06-cap5-prod-implementation-validation-deployment.md#5211-sprint-planning-1)
+    * [5.2.1.2 Aspect Leaders and Collaborators](06-cap5-prod-implementation-validation-deployment.md#5212-aspect-leaders-and-collaborators)
+    * [5.2.1.3 Sprint Backlog 1](06-cap5-prod-implementation-validation-deployment.md#5213-sprint-backlog-1)
+    * [5.2.1.4 Development Evidence for Sprint Review](06-cap5-prod-implementation-validation-deployment.md#5214-development-evidence-for-sprint-review)
+    * [5.2.1.5 Execution Evidence for Sprint Review](06-cap5-prod-implementation-validation-deployment.md#5215-execution-evidence-for-sprint-review)
+    * [5.2.1.6 Services Documentation Evidence for Sprint Review](06-cap5-prod-implementation-validation-deployment.md#5216-services-documentation-evidence-for-sprint-review)
+    * [5.2.1.7 Software Deployment Evidence for Sprint Review](06-cap5-prod-implementation-validation-deployment.md#5217-software-deployment-evidence-for-sprint-review)
+    * [5.2.1.8 Team Collaboration Insights during Sprint](06-cap5-prod-implementation-validation-deployment.md#5218-team-collaboration-insights-during-sprint)
+
+  * [5.2.2 Sprint 2](06-cap5-prod-implementation-validation-deployment.md#522-sprint-2)
+    * [5.2.2.1 Sprint Planning 2](06-cap5-prod-implementation-validation-deployment.md#5221-sprint-planning-2)
+    * [5.2.2.2 Aspect Leaders and Collaborators](06-cap5-prod-implementation-validation-deployment.md#5222-aspect-leaders-and-collaborators)
+    * [5.2.2.3 Sprint Backlog 2](06-cap5-prod-implementation-validation-deployment.md#5223-sprint-backlog-2)
+    * [5.2.2.4 Development Evidence for Sprint Review](06-cap5-prod-implementation-validation-deployment.md#5224-development-evidence-for-sprint-review)
+    * [5.2.2.5 Execution Evidence for Sprint Review](06-cap5-prod-implementation-validation-deployment.md#5225-execution-evidence-for-sprint-review)
+    * [5.2.2.6 Services Documentation Evidence for Sprint Review](06-cap5-prod-implementation-validation-deployment.md#5226-services-documentation-evidence-for-sprint-review)
+    * [5.2.2.7 Software Deployment Evidence for Sprint Review](06-cap5-prod-implementation-validation-deployment.md#5227-software-deployment-evidence-for-sprint-review)
+    * [5.2.2.8 Team Collaboration Insights during Sprint](06-cap5-prod-implementation-validation-deployment.md#5228-team-collaboration-insights-during-sprint)
+
+  * [5.2.3 Sprint 3](06-cap5-prod-implementation-validation-deployment.md#523-sprint-3)
+    * [5.2.3.1 Sprint Planning 3](06-cap5-prod-implementation-validation-deployment.md#5231-sprint-planning-3)
+    * [5.2.3.2 Aspect Leaders and Collaborators](06-cap5-prod-implementation-validation-deployment.md#5232-aspect-leaders-and-collaborators)
+    * [5.2.3.3 Sprint Backlog 3](06-cap5-prod-implementation-validation-deployment.md#5233-sprint-backlog-3)
+    * [5.2.3.4 Development Evidence for Sprint Review](06-cap5-prod-implementation-validation-deployment.md#5234-development-evidence-for-sprint-review)
+    * [5.2.3.5 Execution Evidence for Sprint Review](06-cap5-prod-implementation-validation-deployment.md#5235-execution-evidence-for-sprint-review)
+    * [5.2.3.6 Services Documentation Evidence for Sprint Review](06-cap5-prod-implementation-validation-deployment.md#5236-services-documentation-evidence-for-sprint-review)
+    * [5.2.3.7 Software Deployment Evidence for Sprint Review](06-cap5-prod-implementation-validation-deployment.md#5237-software-deployment-evidence-for-sprint-review)
+    * [5.2.3.8 Team Collaboration Insights during Sprint](06-cap5-prod-implementation-validation-deployment.md#5238-team-collaboration-insights-during-sprint)
+
+  * [5.2.4 Sprint 4](06-cap5-prod-implementation-validation-deployment.md#524-sprint-4)
+    * [5.2.4.1 Sprint Planning 4](06-cap5-prod-implementation-validation-deployment.md#5241-sprint-planning-4)
+    * [5.2.4.2 Aspect Leaders and Collaborators](06-cap5-prod-implementation-validation-deployment.md#5242-aspect-leaders-and-collaborators)
+    * [5.2.4.3 Sprint Backlog 4](06-cap5-prod-implementation-validation-deployment.md#5243-sprint-backlog-4)
+    * [5.2.4.4 Development Evidence for Sprint Review](06-cap5-prod-implementation-validation-deployment.md#5244-development-evidence-for-sprint-review)
+    * [5.2.4.5 Execution Evidence for Sprint Review](06-cap5-prod-implementation-validation-deployment.md#5245-execution-evidence-for-sprint-review)
+    * [5.2.4.6 Services Documentation Evidence for Sprint Review](06-cap5-prod-implementation-validation-deployment.md#5246-services-documentation-evidence-for-sprint-review)
+    * [5.2.4.7 Software Deployment Evidence for Sprint Review](06-cap5-prod-implementation-validation-deployment.md#5247-software-deployment-evidence-for-sprint-review)
+    * [5.2.4.8 Team Collaboration Insights during Sprint](06-cap5-prod-implementation-validation-deployment.md#5248-team-collaboration-insights-during-sprint)
+
+* [5.3 Validation Interviews](06-cap5-prod-implementation-validation-deployment.md#53-validation-interviews)
+
+  * [5.3.1 Diseño de Entrevistas](06-cap5-prod-implementation-validation-deployment.md#531-diseño-de-entrevistas)
+  * [5.3.2 Registro de Entrevistas](06-cap5-prod-implementation-validation-deployment.md#532-registro-de-entrevistas)
+  * [5.3.3 Evaluaciones según heurísticas](06-cap5-prod-implementation-validation-deployment.md#533-evaluaciones-según-heurísticas)
+
+* [5.4 Video About-the-Product](06-cap5-prod-implementation-validation-deployment.md#54-video-about-the-product)
+
+## [Conclusiones](07-conclusions.md#conclusiones)
+
+## [Bibliografía](08-bibliography.md#bibliografía-del-proyecto-de-desarrollo-de-aplicaciones-open-source)
+
+## [Anexos](09-anexos.md#anexos)
 
 # ABET – EAC - Student Outcome 5
 
@@ -284,7 +390,7 @@ La colaboración fue continua y estratégica, con aportes clave en aspectos crí
 
 En el siguiente cuadro se describen las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el logro del ABET – EAC - Student Outcome 5.
 
-| **Criterio específico**                                                                                                          | **Acciones realizadas**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | **Conclusiones**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| --------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Trabaja en <br />equipo para <br />proporcionar liderazgo en forma <br />conjunta**                                             | **Yaku Guzmán**<br />TB1: Lideró la definición de Problem Statements y Assumptions, coordinando entrevistas de usuario y análisis conjunto.<br />TP: Corrigió y guió el formato de todo el documento. Aportó codificando el resumen de datos para cada segmento en el frontend.<br />TB2: Coordinó la integración de los módulos desarrollados y lideró la redacción final del informe entregable.<br /><br />**Gabriela Shapiama**<br />TB1: Facilitó la creación del Lean UX Canvas y la definición de objetivos comunes basados en entrevistas.<br />TP: Definió el Team Collaboration Insights durante el Sprint 2.<br />TB2: Lideró la sistematización de hallazgos de entrevistas y propuso ajustes de planificación para el Sprint final.<br /><br />**Williams Avendaño**<br />TB1: Condujo el diseño de entrevistas y colaboró en la planificación de Sprint Backlogs.<br />TP: Corrigió el Sprint Backlog 1 y el source code management.<br />TB2: Coordinó los despliegues técnicos y mantuvo sincronizados los ambientes de desarrollo.<br /><br />**Jahaziel Guerra**<br />TB1: Dirigió la estructuración del Product Backlog y la arquitectura de software en colaboración con el equipo.<br />TP: Condujo el apartado de Services Documentation Evidence for Sprint Review 2.<br />TB2: Lideró la implementación del módulo de recetas y brindó soporte técnico a los otros equipos.<br /><br />**Julio Castro**<br />TB1: Lideró la creación de user personas y apoyó en la planificación estratégica de tareas técnicas.<br />TP: Contribuyó corrigiendo la redacción de user stories y user flows.<br />TB2: Coordinó la priorización de tareas del Sprint 3 y lideró la edición de entregables finales. | **TB1:**<br />El equipo logró establecer un entorno de colaboración activa, propiciando un espacio inclusivo para la generación de ideas y toma de decisiones consensuadas. Los liderazgos emergentes facilitaron la definición de objetivos y el progreso hacia resultados compartidos.<br /><br />**TP:**<br />Todos los miembros del equipo colaboraron activamente propiciando el avance correcto del proyecto. Los aportes de cada integrante, tanto corrigiendo aspectos pendientes como agregando nuevos, permitieron un liderazgo en conjunto asertivo.<br /><br />**TB2:**<br />Durante TB2 se fortaleció el trabajo en equipo mediante una coordinación más fluida. Cada integrante asumió responsabilidades de liderazgo en distintos frentes, logrando un equilibrio entre ejecución, apoyo y toma de decisiones clave para la entrega final del producto. |
-| **Crea un entorno <br />colaborativo <br />e inclusivo, <br />establece metas, <br />planifica tareas y <br />cumple objetivos.** | **Yaku Guzmán**<br />TB1: Elaboración de la User Task Matrix y planificación de entregables para prototipos.<br />TP: Elaboración de Sprint Planning 2 y avance de conclusiones.<br />TB2: Definió los criterios de finalización de funcionalidades clave y ajustó el cronograma de tareas.<br /><br />**Gabriela Shapiama**<br />TB1: Desarrollo de Impact Mapping para definir prioridades de tareas.<br />TP: Definición de Event Storming para guiar planificación de tareas.<br />TB2: Coordinó el seguimiento de feedbacks y planificación del testing final del sistema.<br /><br />**Williams Avendaño**<br />TB1: Definición de estrategias SEO y planificación de optimización de sistemas de búsqueda.<br />TP: Establecimiento de Software Deployment Evidence for Sprint Review.<br />TB2: Redefinió el roadmap de despliegue del backend y mantuvo los scripts de sincronización.<br /><br />**Jahaziel Guerra**<br />TB1: Estructuración del backlog de tareas de arquitectura y despliegue.<br />TP: Elaboración de Services Documentation y Development Evidence for Sprint Review.<br />TB2: Ajustó tareas técnicas según prioridades emergentes y garantizó la estabilidad del sistema en producción.<br /><br />**Julio Castro**<br />TB1: Planificación de sprints y cronograma de entregables para el desarrollo de software.<br />TP: Establecimiento de Execution Evidence for Sprint Review.<br />TB2: Propuso mejoras en la organización del repositorio y gestionó la asignación de tareas según disponibilidad del equipo.                                                                                                                                                                                     | **TB1:**<br />Cada miembro contribuyó activamente en la planificación y ejecución de tareas, estableciendo objetivos claros para cada fase del Sprint. La organización eficiente permitió cumplir con los plazos acordados, manteniendo la calidad de los productos entregables.<br /><br />**TP:**<br />Los aportes de cada miembro permitieron trabajar en un entorno proactivo, en el cual se establecieron fechas para desarrollar los requisitos del Sprint 2. De esta manera, se cumplieron adecuadamente las metas del entregable.<br /><br />**TB2:**<br />Durante TB2, el equipo demostró madurez en la organización de tareas y cumplimiento de objetivos. La planificación fue más precisa, y cada integrante contribuyó activamente a resolver impedimentos, fortalecer la colaboración y alcanzar las metas establecidas dentro del plazo previsto.     |
+| **Criterio específico** | **Acciones realizadas** | **Conclusiones** |
+|-------------------------|--------------------------|------------------|
+| **Trabaja en <br />equipo para <br />proporcionar liderazgo en forma <br />conjunta** | **Yaku Guzmán**<br />TB1: Lideró la definición de Problem Statements y Assumptions, coordinando entrevistas de usuario y análisis conjunto.<br />TP: Corrigió y guió el formato de todo el documento. Aportó codificando el resumen de datos para cada segmento en el frontend.<br />TB2: Coordinó la integración de los módulos desarrollados y lideró la redacción final del informe entregable.<br />TF: Coordinó la edición integral de entregables y lideró la documentación final del sistema.<br /><br />**Gabriela Shapiama**<br />TB1: Facilitó la creación del Lean UX Canvas y la definición de objetivos comunes basados en entrevistas.<br />TP: Definió el Team Collaboration Insights durante el Sprint 2.<br />TB2: Lideró la sistematización de hallazgos de entrevistas y propuso ajustes de planificación para el Sprint final.<br />TF: Consolidó los aprendizajes de validación y lideró la sección de conclusiones del informe final.<br /><br />**Williams Avendaño**<br />TB1: Condujo el diseño de entrevistas y colaboró en la planificación de Sprint Backlogs.<br />TP: Corrigió el Sprint Backlog 1 y el source code management.<br />TB2: Coordinó los despliegues técnicos y mantuvo sincronizados los ambientes de desarrollo.<br /><br />**Jahaziel Guerra**<br />TB1: Dirigió la estructuración del Product Backlog y la arquitectura de software en colaboración con el equipo.<br />TP: Condujo el apartado de Services Documentation Evidence for Sprint Review 2.<br />TB2: Lideró la implementación del módulo de recetas y brindó soporte técnico a los otros equipos.<br />TF: Documentó la arquitectura final del sistema y garantizó la escalabilidad del módulo de recetas.<br /><br />**Julio Castro**<br />TB1: Lideró la creación de user personas y apoyó en la planificación estratégica de tareas técnicas.<br />TP: Contribuyó corrigiendo la redacción de user stories y user flows.<br />TB2: Coordinó la priorización de tareas del Sprint 3 y lideró la edición de entregables finales.<br />TF: Gestionó la consistencia narrativa y visual de los entregables finales.** | **TB1:**<br />El equipo logró establecer un entorno de colaboración activa, propiciando un espacio inclusivo para la generación de ideas y toma de decisiones consensuadas. Los liderazgos emergentes facilitaron la definición de objetivos y el progreso hacia resultados compartidos.<br /><br />**TP:**<br />Todos los miembros del equipo colaboraron activamente propiciando el avance correcto del proyecto. Los aportes de cada integrante, tanto corrigiendo aspectos pendientes como agregando nuevos, permitieron un liderazgo en conjunto asertivo.<br /><br />**TB2:**<br />Durante TB2 se fortaleció el trabajo en equipo mediante una coordinación más fluida. Cada integrante asumió responsabilidades de liderazgo en distintos frentes, logrando un equilibrio entre ejecución, apoyo y toma de decisiones clave para la entrega final del producto.<br /><br />**TF:**<br />En la fase final, el equipo consolidó su liderazgo conjunto para cerrar el proyecto. Se reforzó el enfoque colaborativo en la edición final de entregables, pruebas del sistema, documentación técnica y análisis de validación, asegurando una conclusión integral y sólida. |
+| **Crea un entorno <br />colaborativo <br />e inclusivo, <br />establece metas, <br />planifica tareas y <br />cumple objetivos.** | **Yaku Guzmán**<br />TB1: Elaboración de la User Task Matrix y planificación de entregables para prototipos.<br />TP: Elaboración de Sprint Planning 2 y avance de conclusiones.<br />TB2: Definió los criterios de finalización de funcionalidades clave y ajustó el cronograma de tareas.<br />TF: Refinó criterios de aceptación y cerró tareas pendientes en GitHub.<br /><br />**Gabriela Shapiama**<br />TB1: Desarrollo de Impact Mapping para definir prioridades de tareas.<br />TP: Definición de Event Storming para guiar planificación de tareas.<br />TB2: Coordinó el seguimiento de feedbacks y planificación del testing final del sistema.<br />TF: Dirigió la planificación del testing final y sistematización de evidencias de validación.<br /><br />**Williams Avendaño**<br />TB1: Definición de estrategias SEO y planificación de optimización de sistemas de búsqueda.<br />TP: Establecimiento de Software Deployment Evidence for Sprint Review.<br />TB2: Redefinió el roadmap de despliegue del backend y mantuvo los scripts de sincronización.<br /><br />**Jahaziel Guerra**<br />TB1: Estructuración del backlog de tareas de arquitectura y despliegue.<br />TP: Elaboración de Services Documentation y Development Evidence for Sprint Review.<br />TB2: Ajustó tareas técnicas según prioridades emergentes y garantizó la estabilidad del sistema en producción.<br />TF: Consolidó la documentación técnica y estructuró el código base para su futura escalabilidad.<br /><br />**Julio Castro**<br />TB1: Planificación de sprints y cronograma de entregables para el desarrollo de software.<br />TP: Establecimiento de Execution Evidence for Sprint Review.<br />TB2: Propuso mejoras en la organización del repositorio y gestionó la asignación de tareas según disponibilidad del equipo.<br />TF: Ordenó la estructura del repositorio y definió la estrategia de cierre de proyecto. | **TB1:**<br />Cada miembro contribuyó activamente en la planificación y ejecución de tareas, estableciendo objetivos claros para cada fase del Sprint. La organización eficiente permitió cumplir con los plazos acordados, manteniendo la calidad de los productos entregables.<br /><br />**TP:**<br />Los aportes de cada miembro permitieron trabajar en un entorno proactivo, en el cual se establecieron fechas para desarrollar los requisitos del Sprint 2. De esta manera, se cumplieron adecuadamente las metas del entregable.<br /><br />**TB2:**<br />Durante TB2, el equipo demostró madurez en la organización de tareas y cumplimiento de objetivos. La planificación fue más precisa, y cada integrante contribuyó activamente a resolver impedimentos, fortalecer la colaboración y alcanzar las metas establecidas dentro del plazo previsto.<br /><br />**TF:**<br />En esta fase final, el equipo logró consolidar un entorno colaborativo altamente eficaz. La planificación final, documentación técnica y cierre de tareas reflejan el cumplimiento exitoso de objetivos y una organización ejemplar centrada en la calidad y entrega del producto. |

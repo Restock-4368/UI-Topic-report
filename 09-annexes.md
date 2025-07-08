@@ -74,7 +74,7 @@
 
 ## Anexo J. Exposición TF
 
-- Link de Video exposición TF: 
+- Link de Video exposición TF: https://rb.gy/w4l7pr
 
 <img src="assets/images/annexes/anexoJ.png" alt=“Descargar” height="500px">
 
