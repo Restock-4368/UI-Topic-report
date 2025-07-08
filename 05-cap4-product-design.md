@@ -1850,6 +1850,8 @@ Enlace al video: https://short-link.me/16eVg
 **Component Diagram: SPA UI-Topic**
 ![Component diagram SPA](assets/images/web-component-spa.png)
 
+**Component Diagram: UI-Topic Platform**
+![Component Platform](assets/images/web-component-platform.png)
 ## 4.7 Software Object-Oriented Design
 
 ### 4.7.1 Class Diagrams
