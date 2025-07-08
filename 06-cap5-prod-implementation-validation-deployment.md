@@ -2904,6 +2904,111 @@ El objetivo principal de este Sprint es implementar las funcionalidades restante
 </table>
 
 #### 5.2.4.4. Development Evidence for Sprint Review
+Durante este sprint se desarrollaron y consolidaron múltiples funcionalidades en la aplicación web (frontend), enfocadas en los módulos de Inventario, Recetas, Resumen del Proveedor y Resumen del Restaurante. Se abordaron tareas de integración con servicios, estandarización de nombres de propiedades, refactorización de componentes y mejora en la experiencia de usuario, tanto en la navegación como en la presentación visual.
+#### FrontEnd
+La siguiente tabla presenta los commits realizados sobre el repositorio del frontend, detallando el autor, la rama, el identificador del commit, el mensaje principal y una breve descripción técnica del aporte. Esta evidencia respalda los avances implementados en la interfaz de usuario durante el sprint.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|------------|--------|-----------|----------------|----------------------|---------------------|
+| jahazielgg/UI-Topic-Frontend | develop | 2f7a3da | feat(inventory): update category display in batch and supply components | Updated how category information is shown in both batch and supply components for improved readability and UX. | 07/07/2025 |
+| JulioXC4/UI-Topic-Frontend | develop | 4a063da | fix(resource): fix category data | Resolved data inconsistency issues related to resource categories in inventory handling. | 07/07/2025 |
+| jahazielgg/UI-Topic-Frontend | develop | 4fb2e2d | feat(inventory): simplify category handling in supply entities and services | Refactored category logic to reduce complexity and improve maintainability in supply services. | 07/07/2025 |
+| jahazielgg/UI-Topic-Frontend | develop | 221df38 | feat(inventory): update batch and category entity methods for improved data handling and consistency | Adjusted methods in batch and category entities to ensure consistent data structure and better backend integration. | 07/07/2025 |
+| jahazielgg/UI-Topic-Frontend | develop | f1788fd | feat(inventory): enhance supply and category services with improved error handling and user ID integration | Improved error responses and linked user ID handling in supply and category services for better API robustness. | 07/07/2025 |
+| jahazielgg/UI-Topic-Frontend | develop | 71896aa | feat(inventory): standardize batch service method names for clarity | Renamed batch service methods to follow a consistent naming convention and improve developer clarity. | 07/07/2025 |
+| jahazielgg/UI-Topic-Frontend | develop | beafe36 | feat(inventory): refactor batch and custom supply handling with updated property naming and API integration | Refactored supply logic and renamed key properties to match backend API expectations. | 07/07/2025 |
+| JulioXC4/UI-Topic-Frontend | develop | 7b6f9b2 | feat(resource): partially integrate inventory module with backend API | Began integration of inventory-related components with the backend, including partial endpoint mapping. | 06/07/2025 |
+| JulioXC4/UI-Topic-Frontend | develop | 6d38012 | feat(iam): fix sign-in and sign-up wrapper | Fixed display and functional issues in the IAM wrapper handling login and registration. | 06/07/2025 |
+| JulioXC4/UI-Topic-Frontend | develop | 60ebc21 | feat(iam): add login and register sections, update sidebar to support roles, and store data in localStorage | Implemented login and register views, updated sidebar visibility based on roles, and added localStorage support. | 06/07/2025 |
+| jahazielgg/UI-Topic-Frontend | develop | 4d17b17 | feat(recipes): improve supply management in recipe form and enhance styling | Enhanced supply selection and validation in recipe forms and applied visual improvements. | 04/07/2025 |
+| jahazielgg/UI-Topic-Frontend | develop | 8a6d97a | feat(recipes): enhance recipe form with supplies management and localization support | Added dynamic supply management and translation support to the recipe form for multilingual compatibility. | 04/07/2025 |
+| jahazielgg/UI-Topic-Frontend | develop | d174d02 | feat(recipes): add custom field support and standardize recipe property naming | Introduced support for custom recipe fields and unified property naming conventions across components. | 04/07/2025 |
+| jahazielgg/UI-Topic-Frontend | develop | 4b7df6c | feat(recipes): update API endpoint and standardize recipe property naming | Updated recipe API integration and ensured all property names follow project standards. | 04/07/2025 |
+| jahazielgg/UI-Topic-Frontend | develop | a06682a | feat(orders): standardize total price property naming across components | Aligned total price property names across order components to ensure consistent formatting and logic. | 04/07/2025 |
+| jahazielgg/UI-Topic-Frontend | develop | 321cbcc | feat(inventory): update batch details layout and improve modal dimensions | Reworked the layout of batch detail modals to improve user experience and readability. | 02/07/2025 |
+| jahazielgg/UI-Topic-Frontend | develop | c7a8148 | feat(inventory): add batch details component with responsive design and translation support | Created a new batch details component supporting multiple languages and mobile layouts. | 02/07/2025 |
+| jahazielgg/UI-Topic-Frontend | develop | 24b8136 | feat(inventory): standardize supply ID property naming across components | Renamed supply ID-related properties for consistency throughout the codebase. | 02/07/2025 |
+| jahazielgg/UI-Topic-Frontend | develop | 970c4fe | feat(inventory): standardize supply ID property naming across components | Continued refactoring of supply ID fields to match the updated naming standard. | 02/07/2025 |
+| jahazielgg/UI-Topic-Frontend | develop | f391a4f | feat(inventory): standardize supply ID property naming across components | Finalized renaming of supply ID properties across remaining modules. | 02/07/2025 |
+| jahazielgg/UI-Topic-Frontend | develop | cbb2099 | feat(inventory): standardize supply ID property naming across components | Completed final adjustments to supply ID field naming for consistency across inventory modules. | 02/07/2025 |
+| jahazielgg/UI-Topic-Frontend | develop | b535dfc | feat(inventory): implement custom supply assembler and update service to integrate catalog supplies | Added a custom assembler for supplies and integrated catalog support into the inventory service. | 02/07/2025 |
+| jahazielgg/UI-Topic-Frontend | develop | 2379ee8 | feat(inventory): refactor supply ID property naming and update batch service to use custom supply service | Renamed supply ID fields and configured batch service to interact with the new custom supply service. | 02/07/2025 |
+| jahazielgg/UI-Topic-Frontend | develop | 9c7753f | feat(inventory): update supply data structure and enhance responsive design for inventory components | Reorganized supply model fields and improved mobile compatibility for key inventory components. | 02/07/2025 |
+| jahazielgg/UI-Topic-Frontend | develop | 4baf993 | feat(inventory): format expiration date in inventory table | Added formatted display for supply expiration dates in the inventory table. | 02/07/2025 |
+| jahazielgg/UI-Topic-Frontend | develop | e65a64f | feat(inventory): implement custom supply creation component and service integration | Created UI and backend connection for adding new custom supplies to the system. | 02/07/2025 |
+| jahazielgg/UI-Topic-Frontend | develop | 800ad6c | feat(inventory): enhance inventory form schema with step attributes and improve dialog handling | Added step-based attributes to the inventory form and improved dialog closing and validation behavior. | 02/07/2025 |
+| jahazielgg/UI-Topic-Frontend | develop | 6011737 | feat(recipes): implement RecipeAssembler and RecipeSupplyAssembler for DTO and entity transformations | Introduced assembler classes to convert between recipe DTOs and entities for cleaner data handling. | 30/06/2025 |
+| jahazielgg/UI-Topic-Frontend | develop | fcbbd1f | feat(recipes): enhance recipe and supply management with new API endpoints and error handling | Connected new backend endpoints for recipes and added fallback/error handling for supply linking. | 30/06/2025 |
+| Yaku Guzman/UI-Topic-Frontend | develop | c1be37a | feat(supplier-summary): comment datepicker and chart. | Temporarily disabled the datepicker and chart for testing or UI debugging purposes. | 30/06/2025 |
+| Yaku Guzman/UI-Topic-Frontend | develop | e010e9f | feat(supplier-summary): update dependencies. | Updated project dependencies to resolve compatibility or security issues. | 30/06/2025 |
+| Yaku Guzman/UI-Topic-Frontend | develop | c1a673b | feat(supplier-summary): comment datepicker and chart. | Same as previous commit: commented chart/datepicker elements in supplier summary view. | 30/06/2025 |
+| Yaku Guzman/UI-Topic-Frontend | develop | 956c346 | chore: update dependencies. | General dependency updates to maintain project stability. | 29/06/2025 |
+| Yaku Guzman/UI-Topic-Frontend | develop | d449dfd | chore: optimize imports. | Removed unused imports and reordered remaining ones for consistency. | 25/06/2025 |
+| Yaku Guzman/UI-Topic-Frontend | develop | 2f00609 | feat(supplier-summary): implement account overview logic to widget. | Developed logic for the account overview section in the supplier summary widget. | 25/06/2025 |
+| Yaku Guzman/UI-Topic-Frontend | develop | 2f37566 | feat(supplier-summary): implement frequent customers logic to widget. | Added frequent customers analytics logic and display to the supplier widget. | 24/06/2025 |
+| Yaku Guzman/UI-Topic-Frontend | develop | 3c7e364 | feat(supplier-summary): implement notilogic to widget. | Connected notification logic to the supplier summary component to reflect alerts. | 24/06/2025 |
+| Yaku Guzman/UI-Topic-Frontend | develop | 940f946 | feat(restaurant-summary): change alerts to notifications. | Replaced generic alert logic with standardized notification system in restaurant summary. | 24/06/2025 |
+| Yaku Guzman/UI-Topic-Frontend | develop | d8101e3 | feat(restaurant-summary): implement pending orders logic to widget. | Implemented logic to display the number and status of pending orders in the widget. | 24/06/2025 |
+| Yaku Guzman/UI-Topic-Frontend | develop | e37d6fb | feat(restaurant-summary): implement last supplies logic to widget. | Added feature to display recently received supplies in restaurant summary. | 24/06/2025 |
+| Yaku Guzman/UI-Topic-Frontend | develop | d840490 | feat(restaurant-summary): add restaurant notifications service. | Created a service to fetch and manage restaurant notifications from the backend. | 24/06/2025 |
+| Yaku Guzman/UI-Topic-Frontend | develop | 18b0d63 | feat(restaurant-summary): implement notifications logic to widget. | Integrated notification count and message logic into the restaurant dashboard widget. | 24/06/2025 |
+
+#### Backend
+Durante este sprint, se avanzó en la construcción de los servicios web de la plataforma, integrando funcionalidades clave a nivel de dominio, infraestructura y capa de aplicación. Se implementaron endpoints RESTful para módulos como Inventory, Recipes, IAM, y Orders, así como configuraciones necesarias para despliegue, seguridad, y CORS. Además, se incorporaron mejoras en la validación de entidades, manejo de errores, configuración del entorno y generación automática de documentación con OpenAPI.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|------------|--------|-----------|----------------|----------------------|---------------------|
+| Yaku Guzman/UI-Topic-Backend          | feature/profiles | 123f0cb | feat(profile): add interfaces resources and acl |  | 07/07/2025 |
+| Yaku Guzman/UI-Topic-Backend          | feature/profiles | e9f0a65 | feat(profile): add interfaces controller. |  | 07/07/2025 |
+| Yaku Guzman/UI-Topic-Backend          | feature/profiles | dff6ff4 | feat(profile): add interfaces transforms. |  | 07/07/2025 |
+| Yaku Guzman/UI-Topic-Backend          | feature/profiles | bd2f72b | feat(profile): infrastructure persistence jpa repositories and seeders |  | 07/07/2025 |
+| Yaku Guzman/UI-Topic-Backend          | feature/profiles | ed908c6 | feat(profile): add application acl, command and queries services |  | 07/07/2025 |
+| Yaku Guzman/UI-Topic-Backend          | feature/profiles | 3cd65df | feat(profile): add domain services. |  | 07/07/2025 |
+| Yaku Guzman/UI-Topic-Backend          | feature/profiles | 5b64fda | feat(profile): add domain entities and aggregates. |  | 07/07/2025 |
+| Yaku Guzman/UI-Topic-Backend          | feature/profiles | 64658af | feat(profile): add domain queries and value objects. |  | 07/07/2025 |
+| Yaku Guzman/UI-Topic-Backend          | feature/profiles | 7aaf2ff | feat(profile): add domain commands and queries. |  | 07/07/2025 |
+| jahazielgg/UI-Topic-Backend | inventory | 8de705b | fix(role): increase column length for role name to accommodate longer values |  | 07/07/2025 |
+| jahazielgg/UI-Topic-Backend | inventory | 7d7d054 | fix(role): increase column length for role name to accommodate longer values |  | 07/07/2025 |
+| jahazielgg/UI-Topic-Backend | inventory | dbe1b93 | fix(order): add validation for totalPrice and requestedProductsCount in Order constructor |  | 07/07/2025 |
+| jahazielgg/UI-Topic-Backend | inventory | c1e7473 | feat(api): update server URL in OpenAPI configuration for production deployment |  | 07/07/2025 |
+| JulioXC4/UI-Topic-Backend | inventory | ff71ad3 | fix(resource): fix custom supplies and add queries |  | 06/07/2025 |
+| JulioXC4/UI-Topic-Backend | inventory | b83d235 | feat(resource): updated batch, supply and custom supply endpoints |  | 06/07/2025 |
+| JulioXC4/UI-Topic-Backend | inventory | 7947a26 | fix(iam): updated roles to ensure each user has only one role |  | 06/07/2025 |
+| JulioXC4/UI-Topic-Backend | inventory | e152e61 | feat(resource): added error handlers for responses and updated role logic to support a single role per user |  | 06/07/2025 |
+| jahazielgg/UI-Topic-Backend | inventory | 1a48203 | feat(api): enhance OpenAPI configuration with security scheme and server details |  | 04/07/2025 |
+| Julio Castro Alejos/UI-Topic-Backend | inventory | 3579123 | Update CorsConfigProd.java |  | 04/07/2025 |
+| Julio Castro Alejos/UI-Topic-Backend | inventory | 08dd3a4 | Update CorsConfigDev.java |  | 04/07/2025 |
+| Julio Castro Alejos/UI-Topic-Backend | iam | 74cbd2f | Update CorsConfigProd.java |  | 04/07/2025 |
+| jahazielgg/UI-Topic-Backend | iam | 41ae6f1 | feat(config): add environment variable support for server port and database credentials |  | 04/07/2025 |
+| jahazielgg/UI-Topic-Backend | iam | 940e47a | feat(recipes): rename totalPrice to price in Recipe and related classes for consistency |  | 04/07/2025 |
+| JulioXC4/UI-Topic-Backend | iam | cdfbc69 | refactor(resource): removed getAllCustomSupplies endpoints and replaced with standard supplies routes |  | 04/07/2025 |
+| JulioXC4/UI-Topic-Backend | iam | 2a9b624 | feat(resource): add supplies endpoints |  | 04/07/2025 |
+| jahazielgg/UI-Topic-Backend | iam | 337f540 | feat(recipes): refactor Recipe and RecipeSupply classes to establish a proper relationship and enhance supply management |  | 04/07/2025 |
+| jahazielgg/UI-Topic-Backend | iam | c50b52a | feat(openapi): refactor OpenApiConfiguration to streamline server configuration and enhance application name usage |  | 04/07/2025 |
+| JulioXC4/UI-Topic-Backend | iam | a2d16c3 | feat(resource): implement orders batches in the API REST |  | 03/07/2025 |
+| JulioXC4/UI-Topic-Backend | iam | 413f6d3 | feat(resource): implement orders API REST (without ordersbatches) |  | 03/07/2025 |
+| JulioXC4/UI-Topic-Backend | iam | 698b25c | feat(resource): implement supply seeding and remove ReferenceSupply logic |  | 03/07/2025 |
+| JulioXC4/UI-Topic-Backend | iam | e0cfd5d | fix(resource): fix build |  | 03/07/2025 |
+| JulioXC4/UI-Topic-Backend | iam | 6354987 | fix(resource): resolve issues with supply and custom supply functionality |  | 03/07/2025 |
+| jahazielgg/UI-Topic-Backend | iam | 48eaee8 | feat(recipes): add CORS configuration for development and production environments, and refactor recipe command and resource classes for improved supply management |  | 02/07/2025 |
+| Julio Castro Alejos/UI-Topic-Backend | iam | 0d7545f | Update application-dev.properties |  | 30/06/2025 |
+| JulioXC4/UI-Topic-Backend | iam | ca2d835 | feat(iam): add authentication to the platform |  | 30/06/2025 |
+| JulioXC4/UI-Topic-Backend | iam | 376d862 | feat(iam): add user aggregates, model, entities, valueobjects, commands and queries |  | 24/06/2025 |
+| JulioXC4/UI-Topic-Backend | iam | 45b05d0 | feat(iam): add user class |  | 24/06/2025 |
+| jahazielgg/UI-Topic-Backend | iam | d3d9deb | feat(recipes): add Jackson configuration and enhance RecipesController with CRUD operations for recipes and supplies |  | 22/06/2025 |
+| jahazielgg/UI-Topic-Backend | iam | 5b1b4bb | feat(recipes): implement update, delete, and supply management methods in command and query services |  | 22/06/2025 |
+| jahazielgg/UI-Topic-Backend | iam | 62b0745 | feat(recipes): add update and remove methods for recipe supplies |  | 22/06/2025 |
+| jahazielgg/UI-Topic-Backend | iam | f94a0ea | feat(recipes): change supply ID types to enforce positive values |  | 22/06/2025 |
+| jahazielgg/UI-Topic-Backend | iam | 248492d | feat(recipes): add resources for adding and updating recipes and supplies |  | 22/06/2025 |
+| jahazielgg/UI-Topic-Backend | iam | b35ae1a | feat(recipes): add command assemblers for recipe supply management |  | 22/06/2025 |
+| jahazielgg/UI-Topic-Backend | iam | a9461d5 | feat(recipes): add command records for recipe supply management |  | 22/06/2025 |
+| jahazielgg/UI-Topic-Backend | iam | 7686e04 | feat(recipes): add RecipeRepository and RecipesController for recipe management |  | 22/06/2025 |
+| jahazielgg/UI-Topic-Backend | planning | 08ce9ad | feat(recipes): add CreateRecipeResource and RecipeResource records for recipe creation and representation |  | 22/06/2025 |
+| jahazielgg/UI-Topic-Backend | planning | ec4fda1 | feat(recipes): implement RecipeCommandService and RecipeQueryService for recipe management |  | 22/06/2025 |
+| jahazielgg/UI-Topic-Backend | planning | 9d599e9 | feat(recipes): refactor Recipe and RecipeSupply classes to improve supply management |  | 22/06/2025 |
+| jahazielgg/UI-Topic-Backend | planning | 768326c | feat(recipes): add assemblers for CreateRecipeCommand and RecipeResource transformation |  | 22/06/2025 |
+| jahazielgg/UI-Topic-Backend | planning | 6f268fc | feat(recipes): add CreateRecipeCommand and GetRecipeByIdQuery records |  | 22/06/2025 |
+| jahazielgg/UI-Topic-Backend | planning | eb1670f | feat(recipes): add CatalogSupplyId and RecipeSupplyId value objects with validation |  | 22/06/2025 |
 
 #### 5.2.4.5. Execution Evidence for Sprint Review
 
