@@ -1056,6 +1056,48 @@ A continuación, se muestra un video con los avances realizados durante el Sprin
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review.
 
+Durante este sprint se completó al 100% el desarrollo del Landing Page del sistema, consolidando su estructura visual, diseño responsivo, traducción multilenguaje y funcionalidades de navegación. Asimismo, se avanzó de forma significativa en la construcción del frontend del sistema, incluyendo componentes claves como el menú lateral, el dashboard inicial, el módulo de gestión de insumos y la arquitectura modular en Angular bajo DDD (Domain-Driven Design).
+
+Aunque no se desplegaron endpoints REST aún, se documentan a continuación los recursos y avances relevantes del sprint, junto con evidencia de despliegue y repositorio de código.
+
+**Descripción del Logro:**
+
+- Finalización del Landing Page (100%).
+- Implementación completa de diseño responsivo, i18n, y redirecciones funcionales.
+- Estructura de frontend modular iniciada (menu sidebar, dashboard y componentes base).
+- Aplicación de buenas prácticas de organización por bounded contexts en Angular.
+- Integración visual basada en Vue con VuePrime y Primeflex.
+
+### Recursos del Sprint
+
+| Recurso                 | Acción implementada                                | Método HTTP | URL / Endpoint                                                                            | Link de repositorio                              |
+| ----------------------- | --------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------- | ------------------------------------------------ |
+| Landing Page            | Visualización completa y funcional del landing     | GET          | https://github.com/Restock-4292UI-Topic-landing/                                          | https://github.com/Restock-4292                 |
+| UI del sistema (WIP)    | Avance en el sistema (menú, dashboard, inventario) | GET          | https://github.com/Restock-4368/UI-Topic-frontend                                         | https://github.com/Restock-4368/UI-Topic-frontend |
+| Get supply by ID        | Obtener un insumo por ID                            | GET          | https://restock-platform-production-9355.up.railway.app/api/v1/supplies/{id}             | https://github.com/Restock-4368/restock-platform |
+| Update a supply         | Actualizar un insumo                                | PUT          | https://restock-platform-production-9355.up.railway.app/api/v1/supplies/{id}             | https://github.com/Restock-4368/restock-platform |
+| Delete a supply         | Eliminar un insumo                                  | DELETE       | https://restock-platform-production-9355.up.railway.app/api/v1/supplies/{id}             | https://github.com/Restock-4368/restock-platform |
+| Get all supplies        | Listar todos los insumos                            | GET          | https://restock-platform-production-9355.up.railway.app/api/v1/supplies                  | https://github.com/Restock-4368/restock-platform |
+| Create a new supply     | Crear un nuevo insumo                               | POST         | https://restock-platform-production-9355.up.railway.app/api/v1/supplies                  | https://github.com/Restock-4368/restock-platform |
+| Get supplies by user ID | Listar insumos por ID de usuario                    | GET          | https://restock-platform-production-9355.up.railway.app/api/v1/supplies/user/{id}        | https://github.com/Restock-4368/restock-platform |
+| Get batch by ID         | Obtener un lote por ID                              | GET          | https://restock-platform-production-9355.up.railway.app/api/v1/batches/{id}              | https://github.com/Restock-4368/restock-platform |
+| Update a batch          | Actualizar un lote                                  | PUT          | https://restock-platform-production-9355.up.railway.app/api/v1/batches/{id}              | https://github.com/Restock-4368/restock-platform |
+| Delete a batch          | Eliminar un lote                                    | DELETE       | https://restock-platform-production-9355.up.railway.app/api/v1/batches/{id}              | https://github.com/Restock-4368/restock-platform |
+| Get all batches         | Listar todos los lotes                              | GET          | https://restock-platform-production-9355.up.railway.app/api/v1/batches                   | https://github.com/Restock-4368/restock-platform |
+| Create a new batch      | Crear un nuevo lote                                 | POST         | https://restock-platform-production-9355.up.railway.app/api/v1/batches                   | https://github.com/Restock-4368/restock-platform |
+| Get batches by user ID  | Listar lotes por ID de usuario                      | GET          | https://restock-platform-production-9355.up.railway.app/api/v1/batches/user/{id}         | https://github.com/Restock-4368/restock-platform |
+| Get all ref supplies    | Ver insumos de referencia                           | GET          | https://restock-platform-production-9355.up.railway.app/api/v1/reference-supplies        | https://github.com/Restock-4368/restock-platform |
+| Get all ref categories  | Ver categorías de referencia                        | GET          | https://restock-platform-production-9355.up.railway.app/api/v1/reference-categories      | https://github.com/Restock-4368/restock-platform |
+| Get recipe by ID        | Obtener receta por ID                               | GET          | https://restock-platform-production-9355.up.railway.app/api/v1/recipes/{id}              | https://github.com/Restock-4368/restock-platform |
+| Update recipe           | Actualizar receta                                   | PUT          | https://restock-platform-production-9355.up.railway.app/api/v1/recipes/{id}              | https://github.com/Restock-4368/restock-platform |
+| Delete recipe           | Eliminar receta                                     | DELETE       | https://restock-platform-production-9355.up.railway.app/api/v1/recipes/{id}              | https://github.com/Restock-4368/restock-platform |
+| Get all recipes         | Listar todas las recetas                            | GET          | https://restock-platform-production-9355.up.railway.app/api/v1/recipes                   | https://github.com/Restock-4368/restock-platform |
+| Create a new recipe     | Crear nueva receta                                  | POST         | https://restock-platform-production-9355.up.railway.app/api/v1/recipes                   | https://github.com/Restock-4368/restock-platform |
+| Get recipe supplies     | Obtener insumos de una receta                       | GET          | https://restock-platform-production-9355.up.railway.app/api/v1/recipes/{id}/supplies     | https://github.com/Restock-4368/restock-platform |
+| Add supply to recipe    | Agregar insumo a receta                             | POST         | https://restock-platform-production-9355.up.railway.app/api/v1/recipes/{id}/supplies     | https://github.com/Restock-4368/restock-platform |
+| Update recipe supply    | Actualizar insumo en receta                         | PUT          | https://restock-platform-production-9355.up.railway.app/api/v1/recipes/{id}/supplies/{supplyId} | https://github.com/Restock-4368/restock-platform |
+| Delete recipe supply    | Eliminar insumo de receta                           | DELETE       | https://restock-platform-production-9355.up.railway.app/api/v1/recipes/{id}/supplies/{supplyId} | https://github.com/Restock-4368/restock-platform |
+
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
 Durante este sprint, se realizaron actividades de despliegue y pruebas de los servicios desarrollados, asegurando que las funcionalidades del sistema estén operativas y accesibles para los usuarios finales. A continuación, se detallan los pasos realizados:
