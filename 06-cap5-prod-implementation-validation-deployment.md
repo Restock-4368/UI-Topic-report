@@ -17,7 +17,7 @@ A continuación, se listan las herramientas y estándares adoptados por el equip
 | Code Standards          | Google HTML/CSS Style Guide, Vue Style Guide, MDN Guidelines, W3C JavaScript Style Guide, Google JavaScript Style Guide, C# Coding Conventions, Microsoft ASP.NET Core Guidelines | Aplicación de buenas prácticas de desarrollo en frontend y backend.         | [https://developer.mozilla.org/](https://developer.mozilla.org/) / [https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style) |
 | Version Control         | Git + GitHub                                                                                                                                                                      | Control de versiones y trabajo colaborativo.                                  | SaaS –[https://github.com](https://github.com)                                                                                                                                                                        |
 | Software Deployment     | Github pages                                                                                                                                                                      | Despliegue continuo de la aplicación para ambientes de prueba y validación. | SaaS –[https://railway.app](https://railway.app) / [https://render.com](https://render.com)                                                                                                                              |
-| Software Documentation  | Notion + Postman                                                                                                                                                                  | Documentación técnica del sistema y pruebas de API.                         | SaaS –[https://www.notion.so](https://www.notion.so) / [https://www.postman.com](https://www.postman.com)                                                                                                                |
+| Software Documentation  | Swagger                                                                                                                                                                           | Documentación técnica del sistema y pruebas de API.                         | SaaS –[https://swagger.io/](https://swagger.io/)                                                                                                                                                                      |
 
 ### 5.1.2 Source Code Management
 
@@ -25,8 +25,9 @@ En esta sección el equipo establece los medios y esquema de organización que a
 
 A continuación se indican los URLs de los repositorios de GitHub para cada producto:
 
-- **Landing Page**: [https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-landing](https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-landing)
-- **Frontend Web Application**: [https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-frontend](https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-frontend)
+- **Landing Page**: [https://shorturl.at/eWhNT](https://shorturl.at/eWhNT)
+- **Frontend Web Application**: [https://shorturl.at/5DfMz](https://shorturl.at/5DfMz)
+- **Backend Web Service**:  [https://shorturl.at/dBz1w](https://shorturl.at/dBz1w)
 
 ### GitFlow Workflow
 
@@ -91,8 +92,8 @@ Se utilizará el estándar de **Conventional Commits** para los mensajes de comm
 
 ##### Estilo de código adoptado:
 
-- [Vue.js Style Guide (Oficial)](https://vuejs.org/guide/reusability/style-guide.html)
-- [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
+- Vue.js Style Guide (Oficial): https://vuejs.org/guide/reusability/style-guide.html
+- Airbnb JavaScript Style Guide: https://github.com/airbnb/javascript
 
 ##### Nomenclatura:
 
@@ -115,8 +116,8 @@ Se utilizará el estándar de **Conventional Commits** para los mensajes de comm
 
 ##### Estilo de código adoptado:
 
-- [Microsoft C# Coding Conventions](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions)
-- [ASP.NET Core Best Practices](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/index)
+- [Microsoft C# Coding Conventions](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions): https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions
+- ASP.NET Core Best Practices: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/index
 
 ##### Nomenclatura:
 
@@ -262,16 +263,28 @@ A continuación, se presenta la planificación correspondiente a nuestro Sprint 
 | Sprint 0 Retrospective Summary       | Dado que este es el sprint inicial, no se presenta una retroalimentación del sprint anterior.                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | **Sprint Goal & User Stories** |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | Sprint 1 Goal                        | Nos enfocamos en implementar la estructura principal y las funcionalidades clave de la landing page pública de Restock.<br />Creemos que esto aportará una percepción más sólida del producto y despertará mayor interés entre los usuarios potenciales, al comunicar de forma clara el valor y los beneficios de la plataforma.<br />Esto se confirmará cuando los visitantes puedan navegar de manera fluida por la página, comprendan fácilmente qué ofrece Restock y muestren intención de interactuar o registrarse. |
-| Sprint 1 Velocity                    | 27 puntos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| Sum of Story Points                  | 27 puntos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Sprint 1 Velocity                    | 18 puntos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Sum of Story Points                  | 18 puntos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 
 #### 5.2.1.2 Aspect Leaders and Collaborators
+
+Durante el Sprint 1, se han definido los principales aspectos a desarrollar, correspondientes a funcionalidades específicas como la visualización de contenido, navegación fluida, adaptabilidad responsiva y gestión de autenticación de usuarios.
+
+Con el objetivo de asegurar una comunicación clara y eficiente dentro del equipo, se elaboró la siguiente matriz de liderazgo y colaboración (LACX), asignando para cada aspecto un líder responsable (L) y colaboradores de apoyo (C).
+
+| Team Member (Last Name, First Name) | GitHub Username    | Questions and Tutorial | About us | Benefits | Testimonials | Contact and Download |
+| :---------------------------------- | :----------------- | :--------------------- | :------- | :------- | :----------- | :------------------- |
+| Vendaño Balarezo, Williams Eduardo | dev-willy-code     | L                      | C        | C        | C            | C                    |
+| Castro Alejos, Julio                | JulioXC4           | C                      | L        | C        | C            | C                    |
+| Guerra Perez, José Jahaziel        | jahazielgp         | C                      | C        | L        | C            |                      |
+| Guzmán Cabrejos, Yaku Mateo        | yak-cod            | C                      | C        | C        | L            | C                    |
+| Shapiama Rivera, Gabriela Nicole    | GabrielaShapiama28 | C                      | C        | C        | C            | L                    |
 
 #### 5.2.1.3 Sprint Backlog 1
 
 El objetivo principal de este Sprint es diseñar, implementar y validar las secciones del landing page, asegurando una navegación fluida, una experiencia responsiva en todos los dispositivos y funcionalidades críticas como registro, inicio de sesión y recuperación de contraseña. Se busca garantizar que el usuario final pueda interactuar de manera sencilla y eficiente con la plataforma, mejorando su satisfacción y promoviendo el cumplimiento de los objetivos de negocio.
 
-**screenshot del Board**
+**Screenshot del Board**
 
 ![board-sprint](assets/images/board-sprint.png)
 ![board-sprint](assets/images/board-sprint-detallado.png)
@@ -359,8 +372,9 @@ Durante el Sprint 1 se implementó la Landing Page de Restock. Los principales a
 A continuación, se presenta el video de la landing page. Este muestra la interacción principal de los usuarios con la plataforma, destacando los flujos de navegación, diseño responsivo y la estructura general de la aplicación.
 
 **Video de landing page:**
-![Captura del video](assets\images\cap-5\evidence_sprint_1.png)
+
 [https://shorturl.at/sFmpy](https://shorturl.at/sFmpy)
+![Captura del video](assets/images/cap-5/evidence_sprint_1.png)
 
 #### 5.2.1.6 Services Documentation Evidence for Sprint Review
 
@@ -427,33 +441,33 @@ Gracias a esta organización, se logró cumplir de manera efectiva el objetivo d
 
 Se presenta a continuación la captura de los insights del repositorio de GitHub, correspondiente al Sprint 1:
 
-![Captura Insights](assets/images/evidencia-Team-Collaboration-Insights-during-Sprint.png)
+![Captura Insights](assets/images/cap-5/team_ci_3_1.png)
 
 **Insights:**
 
-- **37 Pull Requests** fusionados correctamente.
+- **13 Pull Requests** fusionados correctamente.
 - **5 autores** contribuyendo al repositorio.
-- **56 commits** realizados en el periodo del Sprint.
+- **76 commits** realizados en el periodo del Sprint.
 - Participación activa de todos los miembros asignados al desarrollo de la Landing Page.
 
 ### 5.2.2 Sprint 2
 
 #### 5.2.2.1. Sprint Planning 2
 
-| Sprint #                             | Sprint 2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Sprint Planning Background** |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| Date                                 | 2025-05-05                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| Time                                 | 08:00 pm (GMT-5)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| Location                             | Modalidad remota mediante la plataforma Discord                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| Prepared By                          | Guzmán Cabrejos, Yaku Mateo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| Attendees (to planning meeting)      | Avendaño Balarezo, Williams Eduardo / Castro Alejos, Julio / Guerra Perez, José Jahaziel / Guzmán Cabrejos, Yaku Mateo / Shapiama Rivera, Gabriela Nicole                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| Sprint 1 Review Summary              | Durante el Sprint 1 se logró implementar casi en su totalidad la<br />Landing Page del sistema Restock, desarrollando secciones <br />clave como el header, footer, sección de beneficios y preguntas frecuentes, <br />así como la integración inicial de estilos globales y tipografía. Quedó faltante <br />la funcionalidad de cambio de idioma, la cual será prioridad para el siguiente <br />sprint. El equipo cumplió con los entregables establecidos, respetando el diseño <br />de mockups y la guía de estilos. Se identificaron oportunidades de mejora en <br />la velocidad de desarrollo y gestión de tiempos.                                                        |
-| Sprint 1 Retrospective Summary       | Durante el Sprint 1, el equipo logró avanzar de forma coordinada y efectiva en<br />el desarrollo de la landing page, sin enfrentar mayores dificultades. Cada integrante <br />cumplió puntualmente con las secciones asignadas, lo que permitió avanzar según<br />lo planificado. La adopción de convenciones comunes en el código y el diseño<br />contribuyó a mantener la coherencia del producto y facilitó la integración entre partes.<br />Como mejora para el siguiente sprint, se acordó implementar revisiones diarias<br />(daily reviews) que permitan alinear mejor los avances, detectar bloqueos tempranos<br />y mejorar la comunicación continua entre miembros. |
-| **Sprint Goal & User Stories** |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| Sprint 2 Goal                        | Nuestro enfoque está en  brindar información clara y detallada a los visitantes de la<br />plataforma, así como habilitar funcionalidades clave para los usuarios del sistema <br />interno. Creemos que esto proporciona  mayor comprensión del propósito de la solución<br /> a los visitantes y mejora la eficiencia operativa del personal de los restaurantes. Esto <br />se confirmará cuando  los visitantes puedan explorar contenido relevante desde el acceso <br />público, y los usuarios autenticados naveguen por el panel principal y accedan a al menos<br /> tres módulos funcionales del sistema.                                                                     |
-| Sprint 2 Velocity                    | 93                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| Sum of Story Points                  | 91                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Sprint #                             | Sprint 2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| ------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint Planning Background** |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Date                                 | 2025-05-05                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Time                                 | 07:00 pm (GMT-5)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Location                             | Modalidad remota mediante la plataforma Discord                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Prepared By                          | Guzmán Cabrejos, Yaku Mateo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Attendees (to planning meeting)      | Avendaño Balarezo, Williams Eduardo / Castro Alejos, Julio / Guerra Perez, José Jahaziel / Guzmán Cabrejos, Yaku Mateo / Shapiama Rivera, Gabriela Nicole                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Sprint 1 Review Summary              | Durante el Sprint 1 se logró implementar casi en su totalidad la Landing Page del sistema Restock, desarrollando secciones clave como el header, footer, sección de beneficios y preguntas frecuentes, así como la integración inicial de estilos globales y tipografía. Quedó faltante la funcionalidad de cambio de idioma, la cual será prioridad para el siguiente sprint. El equipo cumplió con los entregables establecidos, respetando el diseño de mockups y la guía de estilos. Se identificaron oportunidades de mejora en la velocidad de desarrollo y gestión de tiempos.                                                                                                                                                                                                   |
+| Sprint 1 Retrospective Summary       | Durante el Sprint 1, el equipo logró avanzar de forma coordinada y efectiva en el desarrollo de la landing page, sin enfrentar mayores dificultades. Cada integrante cumplió puntualmente con las secciones asignadas, lo que permitió avanzar según lo planificado. La adopción de convenciones comunes en el código y el diseño contribuyó a mantener la coherencia del producto y facilitó la integración entre partes. Como mejora para el siguiente sprint, se acordó implementar revisiones diarias (daily reviews) que permitan alinear mejor los avances, detectar bloqueos tempranos y mejorar la comunicación continua entre miembros.                                                                                                                                       |
+| **Sprint Goal & User Stories** |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Sprint 2 Goal                        | Nuestro enfoque está en  brindar información clara y detallada a los visitantes de la plataforma, así como habilitar la gestión de inventario, configuración de perfil, notificaciones, resumen de datos y gestión deventas para los usuarios del sistema  interno.<br />Creemos que esto proporciona  mayor comprensión del propósito de la solución a los visitantes y mejora la eficiencia operativa de insumos de los administradores de restaurantes y proveedores.<br />Esto se confirmará cuando  los visitantes puedan explorar contenido relevante desde el acceso  público, y los usuarios autenticados naveguen por el panel principal y accedan a los módulos de gestión de inventario, configuración de perfil, notificaciones, resumen de datos y ventas del sistema. |
+| Sprint 2 Velocity                    | 45                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Sum of Story Points                  | 42                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 
 #### 5.2.2.2 Aspect Leaders and Collaborators
 
@@ -465,13 +479,13 @@ Con el fin de mantener una coordinación efectiva y una comunicación fluida ent
 
 <div style="font-size: 0.75em; overflow-x: auto;">
 
-| Team Member (Last Name, First Name) | GitHub Username    | Configuración de perfil | Panel de suscripción y planes | Alertas para proveedores | Calificaciones de proveedores | Barra de navegación | Alertas para restaurantes | Registro de recetas | Registro de ventas de restaurantes | Registro de proveedores desde restaurantes | Inventario de insumos | Pedidos a proveedores | Ordenes de proveedores | Resumen de datos |
-| :---------------------------------- | :----------------- | :----------------------- | :----------------------------- | :----------------------- | :---------------------------- | :------------------- | :------------------------ | :------------------ | :--------------------------------- | :----------------------------------------- | :-------------------- | :--------------------- | :--------------------- | :--------------- |
-| Vendaño Balarezo, Williams Eduardo | dev-willy-code     | C                        | L                              | L                        | L                             | C                    | C                         | C                   | L                                  | C                                          | C                     | C                      | C                      | C                |
-| Castro Alejos, Julio                | JulioXC4           | C                        | C                              | C                        | C                             | C                    | C                         | C                   | C                                  | C                                          | L                     | C                      | C                      | C                |
-| Guerra Perez, José Jahaziel        | jahazielgg         | L                        | C                              | C                        | C                             | L                    | L                         | L                   | C                                  | C                                          | C                     | C                      | C                      | C                |
-| Guzmán Cabrejos, Yaku Mateo        | yak-cod            | C                        | C                              | C                        | C                             | C                    | C                         | C                   | C                                  | L                                          | C                     | C                      | C                      | L                |
-| Shapiama Rivera, Gabriela Nicole    | GabrielaShapiama28 | C                        | C                              | C                        | C                             | C                    | C                         | C                   | C                                  | C                                          | C                     | L                      | L                      | C                |
+| Team Member (Last Name, First Name) | GitHub Username    | Configuración de perfil | Panel de suscripción | Notificaciones y calificaciones | Registro de ventas | Registro de proveedores | Inventario | Resumen de datos |
+| :---------------------------------- | :----------------- | :----------------------- | :-------------------- | :------------------------------ | :----------------- | :---------------------- | :--------- | :--------------- |
+| Vendaño Balarezo, Williams Eduardo | dev-willy-code     | C                        | L                     | C                               | C                  | C                       | C          | C                |
+| Castro Alejos, Julio                | JulioXC4           | C                        | C                     | C                               | L                  | C                       | L          | C                |
+| Guerra Perez, José Jahaziel        | jahazielgg         | C                        | C                     | L                               | C                  | C                       | C          | C                |
+| Guzmán Cabrejos, Yaku Mateo        | yak-cod            | C                        | C                     | C                               | C                  | L                       | C          | L                |
+| Shapiama Rivera, Gabriela Nicole    | GabrielaShapiama28 | L                        | C                     | C                               | C                  | C                       | C          | C                |
 
 </div>
 
@@ -487,7 +501,63 @@ Además, se realizaron mejoras en el *landing page*, incluyendo la implementaci�
 
 ![Board Sprint Details 2](assets/images/cap-5/sprint-backlog2-1.png)
 
-[[https://shorturl.at/X5KyX](https://shorturl.at/X5KyX)]
+Trello: [https://shorturl.at/X5KyX](https://shorturl.at/X5KyX)
+
+
+| User Story ID | User Story Title                                      | Task ID | Task Title                | Task Description                                                                                          | Estimated Hours |
+| ------------- | ----------------------------------------------------- | ------- | ------------------------- | --------------------------------------------------------------------------------------------------------- | --------------- |
+| US-08         | Selector de idioma en landing page                    | T001    | Diseñar sección         | Crear diseño visual para 'mostrar mensaje de valor en la sección principal'.                            | 1/2 h           |
+|               |                                                       | T002    | Implementar funcionalidad | Codificar el componente necesario para 'mostrar mensaje de valor en la sección principal'.               | 1h              |
+|               |                                                       | T003    | Realizar pruebas          | Verificar que 'mostrar mensaje de valor en la sección principal' funcione correctamente.                 | 1/2h            |
+| US-09         | Optimización para pantallas de tablet                | T004    | Diseñar sección         | Crear diseño visual para 'mostrar beneficios segmentados por tipo de usuario'.                           | 1/2h            |
+|               |                                                       | T005    | Implementar funcionalidad | Codificar el componente necesario para 'mostrar beneficios segmentados por tipo de usuario'.              | 1h              |
+|               |                                                       | T006    | Realizar pruebas          | Verificar que 'mostrar beneficios segmentados por tipo de usuario' funcione correctamente.                | 1/2h            |
+| US-10         | Acceso limitado según estado de suscripción         | T007    | Diseñar sección         | Crear diseño visual para 'incluir llamados a la acción (cta) con redirección y descarga'.              | 1/2h            |
+|               |                                                       | T008    | Implementar funcionalidad | Codificar el componente necesario para 'incluir llamados a la acción (cta) con redirección y descarga'. | 1h              |
+|               |                                                       | T009    | Realizar pruebas          | Verificar que 'incluir llamados a la acción (cta) con redirección y descarga' funcione correctamente.   | 1/2h            |
+| US-05         | Registrar una compra de insumo                        | T010    | Diseñar sección         | Crear diseño visual para 'visualización de la barra de navegación'.                                    | 1/2h            |
+|               |                                                       | T011    | Implementar funcionalidad | Codificar el componente necesario para 'visualización de la barra de navegación'.                       | 1h              |
+|               |                                                       | T012    | Realizar pruebas          | Verificar que 'visualización de la barra de navegación' funcione correctamente.                         | 1/2h            |
+| US-06         | Gestión de perfil del restaurante                    | T013    | Diseñar sección         | Crear diseño visual para 'visualización de pasos del funcionamiento'.                                   | 1/2h            |
+|               |                                                       | T014    | Implementar funcionalidad | Codificar el componente necesario para 'visualización de pasos del funcionamiento'.                      | 1h              |
+|               |                                                       | T015    | Realizar pruebas          | Verificar que 'visualización de pasos del funcionamiento' funcione correctamente.                        | 1/2h            |
+| US-07         | Gestión de perfil del proveedor                      | T016    | Diseñar sección         | Crear diseño visual para 'alternativa con video explicativo'.                                            | 1/2h            |
+|               |                                                       | T017    | Implementar funcionalidad | Codificar el componente necesario para 'alternativa con video explicativo'.                               | 1h              |
+|               |                                                       | T018    | Realizar pruebas          | Verificar que 'alternativa con video explicativo' funcione correctamente.                                 | 1/2h            |
+| US-04         | Actualización manual y edición previa de inventario | T019    | Diseñar sección         | Crear diseño visual para 'visualización de footer en landing page'.                                     | 1/2h            |
+|               |                                                       | T020    | Implementar funcionalidad | Codificar el componente necesario para 'visualización de footer en landing page'.                        | 2h              |
+|               |                                                       | T021    | Realizar pruebas          | Verificar que 'visualización de footer en landing page' funcione correctamente.                          | 1/2h            |
+| US-01         | Visualizar ingredientes más usados                   | T022    | Diseñar sección         | Crear diseño visual para 'ver testimonios de clientes'.                                                  | 2h              |
+|               |                                                       | T023    | Implementar funcionalidad | Codificar el componente necesario para 'ver testimonios de clientes'.                                     | 1/2h            |
+|               |                                                       | T024    | Realizar pruebas          | Verificar que 'ver testimonios de clientes' funcione correctamente.                                       | 1h              |
+| US-02         | Consultar Preguntas Frecuentes                        | T025    | Diseñar sección         | Crear diseño visual para 'consultar preguntas frecuentes'.                                               | 1/2h            |
+|               |                                                       | T026    | Implementar funcionalidad | Codificar el componente necesario para 'consultar preguntas frecuentes'.                                  | 1h              |
+|               |                                                       | T027    | Realizar pruebas          | Verificar que 'consultar preguntas frecuentes' funcione correctamente.                                    | 1/2h            |
+| US-23         | Visualización de feedback                            | T028    | Diseñar sección         | Crear diseño visual para 'enviar formulario de contacto'.                                                | 1h              |
+|               |                                                       | T029    | Implementar funcionalidad | Codificar el componente necesario para 'enviar formulario de contacto'.                                   | 1/2h            |
+|               |                                                       | T030    | Realizar pruebas          | Verificar que 'enviar formulario de contacto' funcione correctamente.                                     | 1h              |
+| US-26         | Navegación fluida entre secciones                    | T031    | Diseñar sección         | Crear diseño visual para 'navegación fluida entre secciones'.                                           | 1/2h            |
+|               |                                                       | T032    | Implementar funcionalidad | Codificar el componente necesario para 'navegación fluida entre secciones'.                              | 1h              |
+|               |                                                       | T033    | Realizar pruebas          | Verificar que 'navegación fluida entre secciones' funcione correctamente.                                | 1/2h            |
+| US-13         | Visualización responsive en desktop                  | T034    | Diseñar sección         | Crear diseño visual para 'visualización responsive en desktop'.                                         | 1/2h            |
+|               |                                                       | T035    | Implementar funcionalidad | Codificar el componente necesario para 'visualización responsive en desktop'.                            | 1h              |
+|               |                                                       | T036    | Realizar pruebas          | Verificar que 'visualización responsive en desktop' funcione correctamente.                              | 1/2h            |
+| US-15         | Visualización responsive en dispositivos móviles    | T037    | Diseñar sección         | Crear diseño visual para 'visualización responsive en dispositivos móviles'.                           | 1h              |
+|               |                                                       | T038    | Implementar funcionalidad | Codificar el componente necesario para 'visualización responsive en dispositivos móviles'.              | 1/2h            |
+|               |                                                       | T039    | Realizar pruebas          | Verificar que 'visualización responsive en dispositivos móviles' funcione correctamente.                | 1/2h            |
+| US-14         | Visualización responsive en tablet                   | T040    | Diseñar sección         | Crear diseño visual para 'visualización responsive en tablet'.                                          | 1/2h            |
+|               |                                                       | T041    | Implementar funcionalidad | Codificar el componente necesario para 'visualización responsive en tablet'.                             | 1h              |
+|               |                                                       | T042    | Realizar pruebas          | Verificar que 'visualización responsive en tablet' funcione correctamente.                               | 1/2h            |
+| US-45         | Estado general del inventario                         | T043    | Diseñar sección         | Crear diseño visual para 'registro'.                                                                     | 2h              |
+|               |                                                       | T044    | Implementar funcionalidad | Codificar el componente necesario para 'registro'.                                                        | 2h              |
+|               |                                                       | T045    | Realizar pruebas          | Verificar que 'registro' funcione correctamente.                                                          | 1h              |
+| US-47         | Identificar a los Mejores Clientes                    | T046    | Diseñar sección         | Crear diseño visual para 'inicio de sesión'.                                                            | 2h              |
+|               |                                                       | T047    | Implementar funcionalidad | Codificar el componente necesario para 'inicio de sesión'.                                               | 1h              |
+|               |                                                       | T048    | Realizar pruebas          | Verificar que 'inicio de sesión' funcione correctamente.                                                 | 1h              |
+| US-49         | Búsqueda y Filtrado de Proveedores                   | T049    | Diseñar sección         | Crear diseño visual para 'recuperación de contraseña'.                                                 | 2h              |
+|               |                                                       | T050    | Implementar funcionalidad | Codificar el componente necesario para 'recuperación de contraseña'.                                    | 1/2h            |
+|               |                                                       | T051    | Realizar pruebas          | Verificar que 'recuperación de contraseña' funcione correctamente.                                      | 1h              |
+
 
 #### 5.2.2.4 Development Evidence for Sprint Review
 
@@ -498,15 +568,47 @@ Durante este sprint se avanzó en la autenticación de usuarios, el diseño del 
 
 ##### Commits Relevantes
 
-| Repository                         | Branch                   | Commit Id | Commit Message                                       | Commit Message Body                                                          | Commited on (Date) |
-| ---------------------------------- | ------------------------ | --------- | ---------------------------------------------------- | ---------------------------------------------------------------------------- | ------------------ |
-| jahazielgg/UI-Topic-frontend       | feature/auth-module      | a23f45d   | feat(auth): implement login and registration logic   | Creación de flujo de autenticación con validaciones y redirecciones.       | 04-05-2025         |
-| GabrielaShapiama/UI-Topic-frontend | feature/dashboard-layout | b76a2fc   | feat(dashboard): add layout and navigation           | Estructura base del dashboard con navegación lateral y superior.            | 05-05-2025         |
-| Williams/UI-Topic-frontend         | feature/inventory-module | c98f312   | feat(inventory): initial inventory module            | Implementación inicial de la vista de inventario con formulario de insumos. | 06-05-2025         |
-| Yaku Guzman/UI-Topic-frontend      | feature/orders-module    | d12e7af   | feat(orders): orders module view and status tracking | Desarrollo de listado de pedidos y seguimiento de estado.                    | 07-05-2025         |
-| jahazielgg/UI-Topic-frontend       | feature/products-module  | e4501aa   | feat(products): create product management UI         | Vista para gestión de productos del restaurante y filtros por proveedor.    | 07-05-2025         |
-| GabrielaShapiama/UI-Topic-frontend | feature/sidebar          | f12cbb9   | feat(ui): add sidebar navigation                     | Integración de barra lateral con íconos y secciones principales.           | 08-05-2025         |
-| Williams/UI-Topic-frontend         | main                     | 1349abc   | chore: merge feature branches to main                | Integración de módulos principales al branch principal.                    | 08-05-2025         |
+| Yaku Guzman/UI-Topic-frontend | develop | Yaku Guzman | bd6c32e | feat(restaurant-analytics): add carrousel. |  | 16-05-2025 |
+| Yaku Guzman/UI-Topic-frontend | develop | Yaku Guzman | f8d1229 | feat(supplier-analytics): add json server behavior. |  | 16-05-2025 |
+| Williams/UI-Topic-frontend | develop | Williams | 36a496a | feat(mock): adding mock.user |  | 16-05-2025 |
+| Yaku Guzman/UI-Topic-frontend | develop | Yaku Guzman | 046f822 | routes: fix routes behavior. |  | 16-05-2025 |
+| Yaku Guzman/UI-Topic-frontend | develop | Yaku Guzman | 37843c2 | chore: fix behavior |  | 16-05-2025 |
+| Yaku Guzman/UI-Topic-frontend | develop | Yaku Guzman | 883367d | fix(restaurant-supplier): fix internal routing. |  | 16-05-2025 |
+| Yaku Guzman/UI-Topic-frontend | develop | Yaku Guzman | 61f2e4b | feat(restaurant-supplier): add restaurant supplier catalog. |  | 16-05-2025 |
+| jahazielgg/UI-Topic-frontend | develop | jahazielgg | 966f47a | fix(router): rename supplier reviews route to ratings |  | 16-05-2025 |
+| jahazielgg/UI-Topic-frontend | develop | jahazielgg | af04b7f | feat(router): update user data structure and add role-based routing |  | 16-05-2025 |
+| JulioXC4/UI-Topic-frontend | develop | JulioXC4 | 1c01a96 | fix: fix sidebar |  | 16-05-2025 |
+| Julio Castro Alejos/UI-Topic-frontend | develop | Julio Castro Alejos | cba3b83 | Update inventory-supply-create-and-edit.component.vue |  | 16-05-2025 |
+| Julio Castro Alejos/UI-Topic-frontend | develop | Julio Castro Alejos | 7564e45 | Update inventory-supply-add-and-edit.component.vue |  | 16-05-2025 |
+| Julio Castro Alejos/UI-Topic-frontend | develop | Julio Castro Alejos | 6d3c52e | Update inventory.component.vue |  | 16-05-2025 |
+| JulioXC4/UI-Topic-frontend | develop | JulioXC4 | 3623ec4 | fix: fix supplies |  | 16-05-2025 |
+| Yaku Guzman/UI-Topic-frontend | develop | Yaku Guzman | 340c7dd | feat(supplier-analytics-route): add supplier analytics route. |  | 16-05-2025 |
+| Yaku Guzman/UI-Topic-frontend | develop | Yaku Guzman | e225fbd | feat(supplier-analytics): add supplier analytics summary components and page |  | 16-05-2025 |
+| jahazielgg/UI-Topic-frontend | develop | jahazielgg | a2b2637 | fix(styles): update menu link padding and improve color consistency in styles |  | 16-05-2025 |
+| Yaku Guzman/UI-Topic-frontend | develop | Yaku Guzman | 90ff1c4 | feat(restaurant-analytics): add restaurant analytics summary components and page |  | 16-05-2025 |
+| JulioXC4/UI-Topic-frontend | develop | JulioXC4 | e415b5d | fix: fix color |  | 16-05-2025 |
+| JulioXC4/UI-Topic-frontend | develop | JulioXC4 | c7c86df | fix: fix functions |  | 16-05-2025 |
+| JulioXC4/UI-Topic-frontend | develop | JulioXC4 | 4fb746f | fix: fix delete function |  | 15-05-2025 |
+| JulioXC4/UI-Topic-frontend | develop | JulioXC4 | 6ad2d54 | fix: fix styles |  | 15-05-2025 |
+| JulioXC4/UI-Topic-frontend | develop | JulioXC4 | b13e97b | fix: fix styles |  | 15-05-2025 |
+| JulioXC4/UI-Topic-frontend | develop | JulioXC4 | 3c1f216 | fix: fix styles (sidebar, html components) |  | 15-05-2025 |
+| JulioXC4/UI-Topic-frontend | develop | JulioXC4 | 26904fc | chore: folder structure based on bounded context in the project |  | 15-05-2025 |
+| JulioXC4/UI-Topic-frontend | develop | JulioXC4 | 2099c0b | fix: fix add inventory (components) |  | 15-05-2025 |
+| JulioXC4/UI-Topic-frontend | develop | JulioXC4 | e8f17f2 | fix: fix add inventory modal (calendar) |  | 14-05-2025 |
+| JulioXC4/UI-Topic-frontend | develop | JulioXC4 | fd8a1cf | fix: fix inventory management with modal for adding and editing supplies, add search functionality, and connect modal to inventory actions |  | 14-05-2025 |
+| JulioXC4/UI-Topic-frontend | develop | JulioXC4 | 0d31b31 | feat: integrate inventory management with modal for adding and editing supplies, add search functionality, and connect modal to inventory actions |  | 13-05-2025 |
+| JulioXC4/UI-Topic-frontend | develop | JulioXC4 | 2f7cc13 | feat(inventory): add edit button to supply cards and integrate modal for editing |  | 13-05-2025 |
+| jahazielgg/UI-Topic-frontend | develop | jahazielgg | 55dbceb | feat(sidebar): restructure app layout with sidebar and router integration |  | 12-05-2025 |
+| jahazielgg/UI-Topic-frontend | develop | jahazielgg | a2e9a33 | feat(i18n): add language switcher component and update translations for sidebar |  | 12-05-2025 |
+| jahazielgg/UI-Topic-frontend | develop | jahazielgg | b0d0145 | feat(api): add mock user data with json-server and configure router |  | 12-05-2025 |
+| jahazielgg/UI-Topic-frontend | develop | jahazielgg | 5c22699 | feat(user): add user entity, service, and user card component for user data management. |  | 12-05-2025 |
+| JulioXC4/UI-Topic-frontend | develop | JulioXC4 | d787a0c | feat(inventory): implement supplies and inventory management section with modal form and carousel |  | 11-05-2025 |
+| JulioXC4/UI-Topic-frontend | develop | JulioXC4 | 458ec4a | feat(inventory): progress on empty state and ingredient creation UI |  | 10-05-2025 |
+| JulioXC4/UI-Topic-frontend | develop | JulioXC4 | 3645809 | chore: install dependencies and setup base tooling for Vue project |  | 10-05-2025 |
+| Julio Castro Alejos/UI-Topic-frontend | develop | Julio Castro Alejos | 50e43fd | Delete .vscode directory |  | 08-05-2025 |
+| Julio Castro Alejos/UI-Topic-frontend | develop | Julio Castro Alejos | 3274b65 | Delete package-lock.json |  | 08-05-2025 |
+| JulioXC4/UI-Topic-frontend | develop | JulioXC4 | 7e3e6c0 | chore: create Vue 3 project with Vite |  | 08-05-2025 |
+| Julio Castro Alejos/UI-Topic-frontend | develop | Julio Castro Alejos | 5ee5558 | Initial commit |  | 08-05-2025 |
 
 #### 5.2.2.5 Execution Evidence for Sprint Review
 
@@ -515,21 +617,53 @@ A continuación, se presenta el video del frontend de la aplicación web interna
 **Video del frontend:**
 ![Captura del video](assets/images/cap-5/evidence_sprint_2/video_evidence.png)
 
-[Enlace al video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202021885_upc_edu_pe/ETDVDbf3CyRHspaBM0QOKCwBJu3DhOq9j9Un5OmGHZvtHA?e=4b2Tin&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+[https://short-link.me/16eW0](https://short-link.me/16eW0)
 
 #### 5.2.2.6 Services Documentation Evidence for Sprint Review
 
-Durante este sprint se completó al 100% el desarrollo del Landing Page del sistema, consolidando su estructura visual, diseño responsivo, traducción multilenguaje y funcionalidades de navegación. Asimismo, se avanzó de forma significativa en la construcción del frontend del sistema, incluyendo componentes claves como el menú lateral, el dashboard inicial, el módulo de gestión de insumos y la arquitectura modular en Vue.js bajo DDD (Domain-Driven Design).
-
-Aunque no se desplegaron endpoints REST aún, se documentan a continuación los recursos y avances relevantes del sprint, junto con evidencia de despliegue y repositorio de código.
+Durante este Sprint se avanzó en el desarrollo del **frontend interno de Restock**, habilitando múltiples rutas navegables para los usuarios autenticados (administradores de restaurante y proveedores), en una estructura basada en Vue Router, Domain-Driven Design y componentes cargados dinámicamente. Aunque aún no se han documentado endpoints REST con OpenAPI, se despliegan a continuación los recursos navegables disponibles, que forman parte del ecosistema de consumo de servicios web del sistema.
 
 **Descripción del Logro:**
 
-- Finalización del Landing Page (100%).
-- Implementación completa de diseño responsivo, i18n, y redirecciones funcionales.
-- Estructura de frontend modular iniciada (menu sidebar, dashboard y componentes base).
-- Aplicación de buenas prácticas de organización por bounded contexts en Vue.
-- Integración visual basada en PrimeVue, PrimeFlex y PrimeIcons.
+* Finalización del Landing Page e implementación multilenguaje.
+* Desarrollo modular del frontend con rutas específicas por rol (restaurante y proveedor).
+* Estructura basada en Vue Router, DDD y carga lazy de componentes.
+* Integración visual con PrimeVue y buenas prácticas de separación por contextos.
+
+##### Rutas accesibles del sistema (Frontend)
+
+| Recurso / Vista               | Acción implementada                        | Método HTTP | URL relativa                            | Propósito funcional                                   |
+| ----------------------------- | ------------------------------------------- | ------------ | --------------------------------------- | ------------------------------------------------------ |
+| Landing Page                  | Visualización pública inicial             | GET          | `/` (con redirección de rol)         | Acceso inicial y redirección por tipo de usuario      |
+| Supplier Inventory            | Visualización de inventario de proveedor   | GET          | `/dashboard/supplier/inventory`       | Gestión del inventario del proveedor                  |
+| Restaurant Inventory          | Visualización de inventario de restaurante | GET          | `/dashboard/restaurant/inventory`     | Control de insumos del restaurante                     |
+| Restaurant Summary Overview   | Resumen analítico del restaurante          | GET          | `/dashboard/restaurant/summary`       | Dashboard de datos clave del restaurante               |
+| Supplier Summary Overview     | Resumen analítico del proveedor            | GET          | `/dashboard/supplier/summary`         | Dashboard de datos clave del proveedor                 |
+| Supplier Catalog (Restaurant) | Catálogo de proveedores                    | GET          | `/dashboard/restaurant/suppliers`     | Visualización y exploración de proveedores           |
+| Supplier Detail (Restaurant)  | Detalle de proveedor específico            | GET          | `/dashboard/restaurant/suppliers/:id` | Información detallada del proveedor y su catálogo    |
+| Supplier Reviews              | Visualización de calificaciones            | GET          | `/dashboard/supplier/ratings`         | Revisión de calificaciones recibidas por el proveedor |
+
+##### Despliegue de recursos
+
+| Recurso          | Acción implementada   | Método HTTP | URL / Endpoint                                                             | Repositorio                                                                         |
+| ---------------- | ---------------------- | ------------ | -------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| Landing Page     | Visualización inicial | GET          | [Landing URL](https://aplicaciones-web-curso-upc.github.io/UI-Topic-landing/) | [UI-Topic-landing](https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-landing.git) |
+| Frontend Interno | Navegación por rutas  | GET          | [App URL](https://ui-topic-frontend.vercel.app)                               | [UI-Topic-frontend](https://github.com/Aplicaciones-Web-Curso-UPC/UI-Topic-frontend)   |
+
+##### Evidencia de interacción
+
+* Video de navegación por módulos del sistema:
+  [https://short-link.me/16eW0](https://short-link.me/16eW0)
+* Captura de la interfaz en funcionamiento:
+  ![Captura del video](assets/images/cap-5/evidence_sprint_2/video_evidence.png)
+
+##### Commits relacionados
+
+| Commit ID   | Descripción                                                                                   | Autor       |
+| ----------- | ---------------------------------------------------------------------------------------------- | ----------- |
+| `0d31b31` | `feat(inventory): integrate inventory management with modal for adding and editing supplies` | JulioXC4    |
+| `61f2e4b` | `feat(restaurant-supplier): add restaurant supplier catalog.`                                | Yaku Guzman |
+| `55dbceb` | `feat(sidebar): restructure app layout with sidebar and router integration`                  | jahazielgg  |
 
 #### 5.2.2.7 Software Deployment Evidence for Sprint Review
 
@@ -595,20 +729,20 @@ Se aplicaron buenas prácticas de programación, control de versiones y colabora
 
 #### 5.2.3.1. Sprint Planning 3
 
-| Sprint #                             | Sprint 2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| ------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Sprint Planning Background** |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| Date                                 | 2025-06-21                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| Time                                 | 08:00 pm (GMT-5)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| Location                             | Modalidad remota mediante la plataforma Discord                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| Prepared By                          | Guerra Perez, José Jahaziel                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| Attendees (to planning meeting)      | Avendaño Balarezo, Williams Eduardo / Castro Alejos, Julio / Guerra Perez, José Jahaziel<br /> / Guzmán Cabrejos, Yaku Mateo / Shapiama Rivera, Gabriela Nicole                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| Sprint 2 Review Summary              | Durante el Sprint 2 se logró una mejora significativa en la experiencia de inicio para nuevos usuarios,<br /> al rediseñar e integrar la landing page con el frontend principal de la aplicación web Restock. Se<br /> avanzó considerablemente en el desarrollo del módulo frontend, incorporando funcionalidades clave <br />como la gestión de inventario, notificaciones, analíticas y suscripciones para los perfiles de administradores <br />y proveedores.<br />El equipo demostró una sólida coordinación y colaboración en la implementación de estos <br />componentes, respetando los lineamientos definidos en la planificación. Como oportunidad de <br />mejora, se identificó la necesidad de fortalecer aún más la alineación del equipo con los objetivos <br />priorizados del sprint, para asegurar una entrega aún más consistente en próximos ciclos.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| Sprint 2 Retrospective Summary       | Durante el Sprint 2, el equipo mantuvo una comunicación fluida y una coordinación efectiva,<br />lo cual permitió avanzar de forma sólida en varios módulos clave del frontend. La integración <br />continua, las revisiones cruzadas de código y la claridad en las responsabilidades asignadas <br />fueron aspectos destacados que facilitaron un buen ritmo de trabajo.<br />Como oportunidad de mejora, se identificó la necesidad de reforzar el seguimiento y <br />cumplimiento de los objetivos priorizados, así como de mejorar la estimación de tiempos en <br />algunos flujos más complejos. También se mencionó la importancia de alinear aún más los <br />esfuerzos individuales con los objetivos de entrega colectivos.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| **Sprint Goal & User Stories** |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| Sprint 3 Goal                       | Nuestro enfoque está en entregar una experiencia funcional completa para los<br />principales segmentos de usuario de la plataforma: mejorar la landing page para <br />comunicar de forma clara nuestra propuesta de valor a nuevos visitantes; habilitar <br />la gestión de ventas, recetas y pedidos para los administradores de restaurantes; <br />permitir a los proveedores visualizar y gestionar las órdenes que reciben; e integrar <br />el flujo de pagos de suscripción para ambos perfiles. Además, buscamos proporcionar <br />APIs REST documentadas para que el equipo frontend pueda implementar las vistas <br />correspondientes de manera fluida.<br />Creemos que esto ofrece mayor usabilidad y operatividad para los administradores<br /> y proveedores, una mejor experiencia de entrada para los visitantes, y una integración <br />más eficiente entre el backend y el desarrollo frontend, a fin de facilitar la validación <br />de la plataforma, acelerar la adopción de usuarios y alinear a todos los equipos<br /> involucrados.<br />Esto se confirmará cuando los visitantes puedan acceder a la nueva landing page, <br />los administradores y proveedores puedan simular sus flujos clave (ventas, recetas, <br />pedidos, suscripciones), y el equipo frontend consuma exitosamente los endpoints <br />de backend para construir las vistas correspondientes. |
-| Sprint 3 Velocity                    | 90                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| Sum of Story Points                  | 88                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Sprint #                             | Sprint 3                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint Planning Background** |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Date                                 | 2025-06-21                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Time                                 | 08:00 pm (GMT-5)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Location                             | Modalidad remota mediante la plataforma Discord                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Prepared By                          | Guerra Perez, José Jahaziel                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Attendees (to planning meeting)      | Avendaño Balarezo, Williams Eduardo / Castro Alejos, Julio / Guerra Perez, José Jahaziel<br /> / Guzmán Cabrejos, Yaku Mateo / Shapiama Rivera, Gabriela Nicole                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Sprint 2 Review Summary              | Durante el Sprint 2 se logró una mejora significativa en la experiencia de inicio para nuevos usuarios,<br /> al rediseñar e integrar la landing page con el frontend principal de la aplicación web Restock. Se<br /> avanzó considerablemente en el desarrollo del módulo frontend, incorporando funcionalidades clave <br />como la gestión de inventario, notificaciones, analíticas y suscripciones para los perfiles de administradores <br />y proveedores.<br />El equipo demostró una sólida coordinación y colaboración en la implementación de estos <br />componentes, respetando los lineamientos definidos en la planificación. Como oportunidad de <br />mejora, se identificó la necesidad de fortalecer aún más la alineación del equipo con los objetivos <br />priorizados del sprint, para asegurar una entrega aún más consistente en próximos ciclos.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Sprint 2 Retrospective Summary       | Durante el Sprint 2, el equipo mantuvo una comunicación fluida y una coordinación efectiva,<br />lo cual permitió avanzar de forma sólida en varios módulos clave del frontend. La integración <br />continua, las revisiones cruzadas de código y la claridad en las responsabilidades asignadas <br />fueron aspectos destacados que facilitaron un buen ritmo de trabajo.<br />Como oportunidad de mejora, se identificó la necesidad de reforzar el seguimiento y <br />cumplimiento de los objetivos priorizados, así como de mejorar la estimación de tiempos en <br />algunos flujos más complejos. También se mencionó la importancia de alinear aún más los <br />esfuerzos individuales con los objetivos de entrega colectivos.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| **Sprint Goal & User Stories** |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Sprint 3 Goal                       | Nuestro enfoque está en presentar de forma efectiva nuestra propuesta de valor a los nuevos visitantes. También, habilitar la gestión de recetas y pedidos, así como mejorar la sección de ventas, para los administradores de restaurantes; incorporar la gestión de órdenes para los proveedores; y, en general, permitir a ambos segmentos realizar el pago de su suscripción. Asimismo, proporcionar, mediante el API de la plataforma, puntos de accesos a los desarrolladores frontend para que implementen funcionalidades relacionadas con gestión de pedidos, ventas, recetas, inventario, perfil y comentarios.<br />Creemos que esto ofrece a los visitantes mayor confianza hacia el equipo de trabajo y les permite conocer mejor la propuesta de valor. Del mismo modo, mejora los flujos de usuario, al permitir la realización de pagos de suscripción; agiliza las operaciones para los administradores de restaurantes, al facilitar la creación y gestión de ventas, la configuración de recetas y la gestión de pedidos; optimiza el tiempo operativo para los proveedores, al permitir el seguimiento de pedidos. Además, permite a los desarrolladores frontend implementar funcionalidades esenciales de forma más eficiente, incluyendo pedidos, ventas, recetas, inventario, perfil y comentarios.<br />Esto se confirmará cuando aumente la cantidad de visitantes que se registren en la plataforma. Del mismo modo, cuando se incremente la cantidad de ordenes, ventas e insumos que registran administradores de restaurantes en la plataforma; aumente el número de insumos registrados y órdenes gestionadas por los proveedores; y se incremente la cantidad de suscripciones por parte de ambos segmentos. Además, cuando los desarrolladores frontend aumenten la cantidad de funcionalidades relacionadas con el pedidos, ventas, recetas, inventario, perfil y comentarios en el frontend. |
+| Sprint 3 Velocity                    | 60                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Sum of Story Points                  | 57                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 
 #### 5.2.3.2. Aspect Leaders and Collaborators.
 
@@ -628,8 +762,6 @@ Con el fin de mantener una coordinación efectiva y una comunicación fluida ent
 
 </div>
 
-#### 5.2.3.3. Sprint Backlog 3.
-
 #### 5.2.3.3 Sprint Backlog 3
 
 El objetivo principal de este Sprint es consolidar una experiencia funcional completa para los distintos perfiles de usuario dentro de la plataforma Restock. Se prioriza la mejora de la landing page para comunicar eficazmente la propuesta de valor a nuevos visitantes, así como la habilitación de módulos clave como la gestión de ventas, recetas y pedidos para los administradores de restaurantes, y la gestión de órdenes para los proveedores.
@@ -637,6 +769,8 @@ El objetivo principal de este Sprint es consolidar una experiencia funcional com
 Asimismo, se trabajará en la integración del flujo de pagos por suscripción y en la provisión de APIs REST documentadas, permitiendo al equipo frontend consumir endpoints de forma eficiente para construir las vistas requeridas. Este enfoque integral busca mejorar la usabilidad, operatividad y cohesión entre el frontend y backend, facilitando la validación funcional de la plataforma y avanzando hacia su adopción por parte de los usuarios finales.
 
 ![Sprint backlog 3](assets/images/cap-5/sprint-backlog3-1.png)
+
+[https://short-link.me/122Hv](https://short-link.me/122Hv)
 
 | User Story ID | User Story Title                                                           | Task ID | Task Title                                                                                                                 | Task Description                                                                                                                                                                                                                                 | Estimated Hours |
 | ------------- | -------------------------------------------------------------------------- | ------- | -------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------- |
@@ -835,8 +969,6 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
 |               |                                                                            | T004    | Eliminar o desactivar la cuenta del usuario                                                                                |                                                                                                                                                                                                                                                  | 2h              |
 |               |                                                                            | T005    | Revocar tokens activos y sesiones                                                                                          |                                                                                                                                                                                                                                                  | 1/2h            |
 
-[Link Trello](https://trello.com/b/yD03C08R)
-
 #### 5.2.3.4 Development Evidence for Sprint Review
 
 En esta sección presentamos la evidencia de desarrollo correspondiente al Sprint, en forma de commits registrados en los distintos módulos del backend de la plataforma Restock.
@@ -916,6 +1048,12 @@ Cada entrada refleja avances funcionales importantes realizados por el equipo, i
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
+A continuación, se muestra un video con los avances realizados durante el Sprint 3, en el cual se trabajó en la landing page, así como en el desarrollo del frontend y backend.
+
+**Video del sprint 3:**
+![Captura del video](assets/images/cap-5/evidence_sprint_3.png)
+[https://shorturl.at/V5zDA](https://shorturl.at/V5zDA)
+
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review.
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
@@ -946,14 +1084,6 @@ Durante este sprint, se realizaron actividades de despliegue y pruebas de los se
 
 ![Evidence Step 5](assets/images/cap-5/evidence-sprint3/evidence-step5.jpg)
 
-#### 5.2.3.8. Execution Evidence for Sprint Review
-
-A continuación, se muestra un video con los avances realizados durante el Sprint 3, en el cual se trabajó en la landing page, así como en el desarrollo del frontend y backend.
-
-**Video del sprint 3:**
-![Captura del video](assets\images\cap-5\evidence_sprint_3.png)
-[https://shorturl.at/V5zDA](https://shorturl.at/V5zDA)
-
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 
 Seguimos usando ramas específicas para cada sección o funcionalidad (feature/[nombre-de-seccion]), permitiendo un trabajo paralelo organizado.
@@ -971,6 +1101,1179 @@ Se aplicaron buenas prácticas de programación, control de versiones y colabora
 ##### **Analíticos de commits de GitHub**
 
 ![Team Collaboration Insight](assets/images/cap-5/team_ci_3_2.png)
+
+### 5.2.4. Sprint 4
+
+#### 5.2.4.1. Sprint Planning 4
+
+<table>
+  <tr>
+    <td>Sprint #</td>
+    <td>Sprint 4</td>
+  </tr>
+  <tr>
+    <td><strong>Sprint Planning Background</strong></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Date</td>
+    <td>2025-07-05</td>
+  </tr>
+  <tr>
+    <td>Time</td>
+    <td>08:00 pm (GMT-5)</td>
+  </tr>
+  <tr>
+    <td>Location</td>
+    <td>Modalidad remota mediante la plataforma Discord</td>
+  </tr>
+  <tr>
+    <td>Prepared By</td>
+    <td>Guerra Perez, José Jahaziel</td>
+  </tr>
+  <tr>
+    <td>Attendees (to planning meeting)</td>
+    <td>.Castro Alejos, Julio / Guerra Perez, José Jahaziel<br/> / Guzmán Cabrejos, Yaku Mateo / Navarro, Antonio / Shapiama Rivera, Gabriela Nicole</td>
+  </tr>
+  <tr>
+    <td>Sprint 3 Review Summary</td>
+    <td>Durante el Sprint 3 se logró integrar las funcionalidades esenciales para la gestión de recetas, ventas y pedidos, así como la visualización de suscripciones y perfil. Se implementaron flujos completos en frontend y backend para los administradores de restaurantes y proveedores, habilitando además el pago de suscripciones. El equipo demostró gran compromiso y coordinación, permitiendo avances notables en la implementación de casos de uso claves. Sin embargo, se identificaron oportunidades de mejora en la automatización de pruebas y en la gestión de errores complejos.</td>
+  </tr>
+  <tr>
+    <td>Sprint 3 Retrospective Summary</td>
+    <td>El equipo mantuvo una comunicación activa y resolvió bloqueos técnicos con rapidez, destacando el soporte mutuo entre miembros. Se identificó que algunos endpoints requerían mejoras en validación y documentación, lo que motivó a priorizar en este nuevo sprint las tareas técnicas orientadas a robustecer los servicios RESTful, implementar nuevas funcionalidades de cuenta (recuperación, eliminación, cambio de contraseña) y finalizar la lógica de notificaciones y feedback. Como mejora clave se acordó dividir mejor las tareas de testing y codificación para asegurar calidad sin comprometer la velocidad de entrega.</td>
+  </tr>
+  <tr>
+    <td><strong>Sprint Goal &amp; User Stories</strong></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Sprint 4 Goal</td>
+    <td>Este sprint está enfocado en robustecer la experiencia de usuario mediante la implementación completa de funcionalidades clave del perfil: recuperación de contraseña, cambio y eliminación de cuenta; reforzar el control de acceso mediante suscripciones activas; además de completar flujos críticos del sistema como la gestión de ventas, retroalimentación y notificaciones por insumos. También se priorizará la entrega de endpoints RESTful estables y bien documentados, permitiendo la integración efectiva entre frontend y backend.<br/>El éxito de este sprint se medirá cuando los usuarios puedan recuperar, cambiar o eliminar sus cuentas correctamente; se restrinja el acceso por suscripciones vencidas; los administradores puedan vender solo si hay insumos disponibles; y los proveedores puedan recibir feedback validado correctamente. Además, cuando se logre obtener notificaciones sobre eventos críticos del inventario, y se validen todos estos flujos mediante pruebas automatizadas.</td>
+  </tr>
+  <tr>
+    <td>Sprint 4 Velocity</td>
+    <td>60</td>
+  </tr>
+  <tr>
+    <td>Sum of Story Points</td>
+    <td>59</td>
+  </tr>
+</table>
+
+#### 5.2.4.2. Aspect Leaders and Collaborators.
+
+Durante el Sprint 4, se ha definido el desarrollo de los últimos módulos principales del frontend de la aplicación web interna Restock y del backend, abarcando funcionalidades clave como la gestión de productos, pedidos, inventario y compras. Estas implementaciones buscan optimizar los procesos internos y brindar mayor eficiencia a los administradores de restaurantes y proveedores de restaurantes.
+
+Con el fin de mantener una coordinación efectiva y una comunicación fluida entre los integrantes del equipo, se estructuró la matriz de liderazgo y colaboración (LACX), donde se asignó un líder (L) encargado de cada funcionalidad y colaboradores (C) que brindan apoyo en su implementación.
+
+<div style="font-size: 0.75em; overflow-x: auto;">
+
+| Team Member (Last Name, First Name) | GitHub Username    | Planning | Subscription | Profile | IAM | Analytics | Resource | Monitoring |
+| :---------------------------------- | :----------------- | :------- | :----------- | :------ | :-- | :-------- | :------- | :--------- |
+| Castro Alejos, Julio                | JulioXC4           | C        | L            | C       | C   | C         | L        | C          |
+| Guerra Perez, José Jahaziel        | jahazielgg         | L        | C            | C       | C   | L         | C        | C          |
+| Guzmán Cabrejos, Yaku Mateo        | yak-cod            | C        | C            | C       | L   | C         | C        | C          |
+| Shapiama Rivera, Gabriela Nicole    | GabrielaShapiama28 | C        | C            | L       | C   | C         | C        | L          |
+
+</div>
+
+#### 5.2.4.3. Sprint Backlog 4
+
+El objetivo principal de este Sprint es implementar las funcionalidades restantes para completar la experiencia de usuario en la plataforma Restock, incluyendo la gestión de productos, pedidos y usuarios. Se priorizará la integración de los módulos desarrollados en Sprints anteriores y la validación de su funcionamiento en conjunto.
+
+![Sprint backlog 4](assets/images/cap-5/sprint-backlog4-1.png)
+
+<table>
+    <tr>
+        <td>User Story ID</td>
+        <td>User Story Title</td>
+        <td>Task ID</td>
+        <td>Task Title</td>
+        <td>Task Description</td>
+        <td>Estimated Hours</td>
+    </tr>  
+    <tr>
+        <td>US-02</td>
+        <td>Recuperación de contraseña</td>
+        <td>T001</td>
+        <td>Diseñar pantalla de solicitud de recuperación</td>
+        <td>Diseñar la pantalla de solicitud de recuperación de contraseña'.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Conectar solicitud de recuperación con backend</td>
+        <td>Conectar la pantalla con el endpoint /api/v1/auth/forgot-password.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Diseñar formulario de nueva contraseña</td>
+        <td>Diseñar la pantalla de restablecimiento de contraseña (formulario de nueva contraseña).</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Manejar tokens inválidos o expirados</td>
+        <td>Implementar manejo de tokens inválidos o expirados en el frontend</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T005</td>
+        <td>Conectar formulario de restablecimiento con backend</td>
+        <td>Conectar formulario de nueva contraseña con endpoint /api/v1/auth/reset-password</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td>US-03</td>
+        <td>Soporte de acceso según estado de suscripción</td>
+        <td>T001</td>
+        <td>Consultar estado de suscripción al iniciar sesión</td>
+        <td>Consultar el estado de suscripción del usuario al iniciar sesión.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Controlar acceso según suscripción</td>
+        <td>Mostrar o restringir funcionalidades según el estado de suscripción</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Diseñar vista de advertencia por suscripción inactiva</td>
+        <td>Diseñar una vista de advertencia para usuarios con suscripción vencida o inactiva</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Restringir acceso a rutas protegidas</td>
+        <td>Redirigir o bloquear el acceso a rutas protegidas si el estado no es válido</td>
+        <td>1/2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T005</td>
+        <td>Actualizar acceso tras renovación</td>
+        <td>Verificar y actualizar el acceso luego de la renovación</td>
+        <td>1h</td>
+    </tr>
+        <tr>
+        <td>US-16</td>
+        <td>Gestión de ventas</td>
+        <td>T001</td>
+        <td>Validar disponibilidad de insumos al vender</td>
+        <td>Implementar la lógica de validación de insumos disponibles antes de confirmar una venta.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Mostrar impacto de recetas en inventario</td>
+        <td>Integrar el consumo de recetas asociadas para mostrar impacto en insumos.</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Documentar flujo de gestión de ventas</td>
+        <td>Documentar el flujo de gestión de ventas desde el frontend.</td>
+        <td>1h</td>
+    </tr>
+        <tr>
+        <td>US-23</td>
+        <td>Cambio de contraseña</td>
+        <td>T001</td>
+        <td>Mostrar opción de cambio de contraseña en perfil</td>
+        <td>Mostrar opción de “Cambiar contraseña” en la configuración de la cuenta</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Validar nueva contraseña según políticas</td>
+        <td>Validar que la nueva contraseña cumpla con los requisitos de seguridad</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Verificar coincidencia entre nueva contraseña y confirmación</td>
+        <td>Verificar coincidencia entre nueva contraseña y su confirmación</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Enviar solicitud de cambio de contraseña al backend</td>
+        <td>Enviar solicitud de cambio de contraseña al servidor</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T005</td>
+        <td>Mostrar mensaje según resultado del cambio de contraseña</td>
+        <td>Mostrar mensaje de éxito tras el cambio correcto o Mostrar mensaje de error si la contraseña actual es incorrecta</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td>US-24</td>
+        <td>Eliminar cuenta</td>
+        <td>T001</td>
+        <td>Mostrar opción para eliminar cuenta desde perfil</td>
+        <td>Mostrar opción “Eliminar cuenta” en la configuración del perfil</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Implementar paso de verificación para confirmar eliminación</td>
+        <td>Solicitar paso de verificación para confirmar la eliminación</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Enviar solicitud de eliminación de cuenta al backend</td>
+        <td>Enviar la solicitud de eliminación de cuenta al servidor</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Mostrar confirmación de eliminación</td>
+        <td>Confirmar visualmente al usuario que la cuenta ha sido borrada.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T005</td>
+        <td>Redirigir tras eliminar cuenta</td>
+        <td>Redirigir al usuario a la página de inicio o despedida tras eliminar la cuenta</td>
+        <td>1/2h</td>
+    </tr>
+    <tr>
+        <td>TS-01</td>
+        <td>Registro y autenticación de usuarios mediante API RESTful</td>
+        <td>T001</td>
+        <td>Diseñar modelo de usuario y su persistencia</td>
+        <td>Diseñar el modelo de usuario y estructura de base de datos</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Crear endpoint de registro de usuarios</td>
+        <td>Implementar endpoint /api/v1/auth/register para registro de usuarios</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Crear endpoint de login de usuarios</td>
+        <td>Implementar endpoint /api/v1/auth/login para autenticación</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Configurar autenticación con JWT y manejo de errores</td>
+        <td>Configurar control de errores y middleware de autenticación (JWT)</td>
+        <td>1/2h</td>
+    </tr>
+    <tr>
+        <td>TS-02</td>
+        <td>Recuperar contraseña mediante API RESTful usando Resend</td>
+        <td>T001</td>
+        <td>Crear endpoint para recuperación de contraseña</td>
+        <td>Diseñar e implementar el endpoint /api/v1/auth/forgot-password</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Integrar servicio de correo Resend</td>
+        <td>Integrar servicio de correo Resend para envío del enlace de recuperación</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Manejar errores y respuestas en recuperación</td>
+        <td>Implementar lógica de manejo de errores y respuestas HTTP estándar</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Generar y guardar token seguro para recuperación</td>
+        <td>Crear y almacenar tokens seguros de recuperación de contraseña</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td>TS-03</td>
+        <td>Gestión del estado de suscripción mediante API RESTful</td>
+        <td>T001</td>
+        <td>Diseñar modelo de suscripción</td>
+        <td>Diseñar el modelo de suscripción de la base de datos</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Crear endpoint GET para estado de suscripción</td>
+        <td>Implementar endpoint GET /api/v1/subscription/status/:id</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Crear endpoint POST para renovación de suscripción</td>
+        <td>Implementar endpoint POST /api/v1/subscription/renew</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Evaluar estado de suscripción desde middleware</td>
+        <td>Agregar middleware o función auxiliar para evaluar el estado de la suscripción</td>
+        <td>1/2h</td>
+    </tr>
+    <tr>
+        <td>TS-04</td>
+        <td>Sistema de notificaciones de inventario mediante API RESTful</td>
+        <td>T001</td>
+        <td>Crear endpoint de insumos próximos a vencer</td>
+        <td>Implementar endpoint /api/v1/notifications/expiring-supplies</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Crear endpoint de insumos que exceden stock</td>
+        <td>Implementar endpoint /api/v1/notifications/exceeding-stock</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Diseñar lógica de negocio para filtros de notificaciones</td>
+        <td>Diseñar y aplicar lógica de dominio para filtros de notificaciones</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Escribir pruebas unitarias para lógica de notificaciones</td>
+        <td>Escribir pruebas unitarias para lógica de notificaciones</td>
+        <td>2h</td>
+    </tr>
+        <tr>
+        <td>TS-07</td>
+        <td>Registrar comentarios y calificaciones sobre pedidos mediante API RESTful</td>
+        <td>T001</td>
+        <td>Crear endpoint para registrar retroalimentación</td>
+        <td>Implementar endpoint POST /api/v1/feedback (Registrar retroalimentación)</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Validar calificación y comentario en feedback</td>
+        <td>Validar calificación y comentario en POST /api/v1/feedback</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Verificar estado del pedido antes de aceptar feedback</td>
+        <td>Validar estado del pedido antes de aceptar feedback</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Asociar feedback al proveedor correspondiente</td>
+        <td>Asociar retroalimentación al proveedor correspondiente</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T005</td>
+        <td>Escribir pruebas unitarias para endpoint de feedback</td>
+        <td>Implementar pruebas unitarias del endpoint</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td>TS-08</td>
+        <td>Registro histórico de eventos críticos de insumos</td>
+        <td>T001</td>
+        <td>Crear colección para eventos críticos de insumos</td>
+        <td>Crear colección supply_event_logs con campos: supplyId, type, detectedAt, details, severity.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Implementar lógica para registrar eventos críticos automáticamente</td>
+        <td>Implementar lógica para detectar condiciones críticas en insumos y registrar evento automáticamente.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Crear endpoint GET para consultar eventos críticos</td>
+        <td>Crear servicio RESTful GET /api/v1/supplies/events con filtros por tipo, insumo y rango de fechas.</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Documentar tipos de eventos críticos permitidos</td>
+        <td>Documentar tipos de eventos permitidos: "EXPIRATION_SOON", "LOW_STOCK", "OVERSTOCKED".</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T005</td>
+        <td>Escribir pruebas unitarias para eventos críticos</td>
+        <td>Agregar pruebas unitarias y de integración para asegurar el correcto registro de eventos críticos.</td>
+        <td>1/2h</td>
+    </tr>
+    <tr>
+        <td>TS-13</td>
+        <td>Obtener perfil mediante API RESTful</td>
+        <td>T001</td>
+        <td>Crear endpoint GET para obtener perfil protegido</td>
+        <td>Implementar endpoint GET /api/v1/profile/:id protegido por JWT</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Validar token JWT antes de procesar perfil</td>
+        <td>Validar que el token sea correcto antes de procesar la solicitud</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Consultar y retornar información del perfil</td>
+        <td>Consultar y devolver información del perfil (id, nombre, email, URL de imagen, estado)</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Gestionar errores 401 por token inválido</td>
+        <td>Gestionar error 401 en caso de token inválido o expirado</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T005</td>
+        <td>Escribir pruebas unitarias para endpoint de perfil</td>
+        <td>Escribir test unitario y de integración para el endpoint</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td>TS-14</td>
+        <td>Actualizar perfil mediante API RESTful</td>
+        <td>T001</td>
+        <td>Crear endpoint PUT para actualizar perfil</td>
+        <td>Implementar endpoint PUT /api/v1/profile/:id con protección por JWT</td>
+        <td>1/2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Validar formato de datos del perfil</td>
+        <td>Validar formato de campos</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Actualizar datos del perfil en base de datos</td>
+        <td>Actualizar los datos del perfil en la base de datos</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Retornar datos actualizados con código 200</td>
+        <td>Retornar los datos actualizados con código 200</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T005</td>
+        <td>Manejar errores 400 con detalles en perfil</td>
+        <td>Retornar errores 400 con detalles si hay datos inválidos</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td>TS-15</td>
+        <td>Subir imagen de perfil mediante API RESTful usando Cloudinary</td>
+        <td>T001</td>
+        <td>Crear endpoint POST para subir imagen de perfil</td>
+        <td>Implementar endpoint POST /api/v1/profile/images/id.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Validar formato de archivo de imagen</td>
+        <td>Validar formato de archivo antes de subir (JPG, PNG, WEBP)</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Asociar imagen de perfil subida al usuario</td>
+        <td>Asociar la URL retornada por Cloudinary al usuario correspondiente</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Manejar errores por formato no soportado (415)</td>
+        <td>Manejar errores por formato no soportado (415)</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td>TS-16</td>
+        <td>Obtener lista para ingredientes más usados mediante API RESTful</td>
+        <td>T001</td>
+        <td>Crear endpoint GET para ingredientes más usados</td>
+        <td>Implementar endpoint GET /api/v1/ingredients/most-used</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Permitir filtrado por periodo en ingredientes más usados</td>
+        <td>Permitir parámetro ?period= con valores como 7d o 30d</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Consultar uso agregado de ingredientes según periodo</td>
+        <td>Consultar datos agregados de ingredientes en base al periodo</td>
+        <td>1/2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Retornar lista JSON de ingredientes más usados</td>
+        <td>Retornar JSON con lista de ingredientes, id, nombre y cantidad_utilizada</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td>TS-17</td>
+        <td>Obtener lista de alertas recientes  mediante API RESTful</td>
+        <td>T001</td>
+        <td>Crear endpoint GET para alertas recientes</td>
+        <td>Implementar endpoint GET /api/v1/alerts</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Clasificar alertas por tipo</td>
+        <td>Clasificar alertas por tipo: vencimiento, bajo stock, etc</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Retornar lista de alertas como JSON</td>
+        <td>Retornar lista de alertas como JSON</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Retornar lista vacía si no hay alertas</td>
+        <td>Retornar lista vacía si no hay alertas activas</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Implementar filtros para pruebas de alertas</td>
+        <td>Implementar filtros para pruebas</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td>TS-18</td>
+        <td>Obtener lista de mejores clientes mediante API RESTful</td>
+        <td>T001</td>
+        <td>Crear endpoint para top clientes</td>
+        <td>Implementar endpoint GET /api/v1/supplier/top-clients</td>
+        <td>1/2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Consultar base y ordenar por total de compras</td>
+        <td>Consultar base de datos y ordenar clientes por total de compras</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Retornar JSON con nombre y total de compras</td>
+        <td>Retornar JSON con campos: nombre_restaurante, total_compras</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Validar fechas y manejar errores</td>
+        <td>Agregar validación de fechas y manejo de errores</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td>TS-19</td>
+        <td>Actualizar estado de orden mediante API RESTful</td>
+        <td>T001</td>
+        <td>Crear endpoint PATCH para actualizar estado de orden</td>
+        <td>Crear endpoint para cambiar estado de una orden por ID.</td>
+        <td>1/2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Validar autenticación y permisos antes de cambio de estado</td>
+        <td>Aplicar lógica de seguridad (autenticación y permisos).</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Validar estado válido antes de actualizar</td>
+        <td>Manejar errores de estado inválido o inexistente.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Escribir pruebas para cambios de estado</td>
+        <td>Escribir pruebas para transiciones de estado comunes.</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T005</td>
+        <td>Documentar API para actualizar estado de órdenes</td>
+        <td>Documentar API de actualización de estado de órdenes.</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td>TS-20</td>
+        <td>Consultar estado de entrega mediante API RESTful</td>
+        <td>T001</td>
+        <td>Crear endpoint GET para estado de entrega</td>
+        <td>Crear endpoint para obtener estado actual de una orden.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Aplicar control de acceso por rol (proveedor/restaurante)</td>
+        <td>Implementar control de acceso para proveedor o restaurante.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Optimizar respuesta con campos esenciales</td>
+        <td>Optimizar respuesta solo con campos necesarios (estado, fecha).</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Manejar errores por orden inexistente</td>
+        <td>Manejar errores si orden no existe.</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T005</td>
+        <td>Escribir pruebas unitarias para endpoint de estado</td>
+        <td>Escribir pruebas unitarias del endpoint.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T006</td>
+        <td>Documentar consulta de estado de entrega</td>
+        <td>Documentar consulta del estado de entrega por ID.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td>TS-21</td>
+        <td>Obtener calificaciones de servicios de proveedores mediante API RESTful</td>
+        <td>T001</td>
+        <td>Crear endpoint GET para calificaciones por proveedor</td>
+        <td>Crear endpoint para obtener calificaciones por proveedor ID.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Incluir detalles relevantes en la respuesta</td>
+        <td>Incluir datos como puntuación, comentario, fecha.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Permitir orden cronológico y filtros</td>
+        <td>Agregar orden cronológico o filtros si se requiere.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Validar proveedor existente y acceso autorizado</td>
+        <td>Validar existencia del proveedor y autorización del solicitante.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T005</td>
+        <td>Diseñar pruebas para distintos escenarios</td>
+        <td>Diseñar pruebas para distintos escenarios (sin calificaciones, múltiples).</td>
+        <td>1/2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T006</td>
+        <td>Documentar endpoint de calificaciones</td>
+        <td>Documentar la API de calificaciones del proveedor.</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td>TS-22</td>
+        <td>Gestionar órdenes recibidas mediante API RESTful</td>
+        <td>T001</td>
+        <td>Crear endpoint GET para listar órdenes recibidas</td>
+        <td>Crear endpoint para listar órdenes recibidas por proveedor.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Agregar filtros a las órdenes recibidas</td>
+        <td>Agregar filtros por estado, fecha o restaurante.</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Manejar errores en solicitudes de órdenes</td>
+        <td>Manejar errores y datos faltantes en las solicitudes.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Probar flujo completo de gestión de órdenes</td>
+        <td>Probar la gestión completa de órdenes.</td>
+        <td>h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T005</td>
+        <td>Documentar endpoints de órdenes recibidas</td>
+        <td>Documentar endpoints RESTful para gestión de órdenes recibidas.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td>TS-23</td>
+        <td>Consultar detalles de una orden mediante API RESTful</td>
+        <td>T001</td>
+        <td>Crear endpoint GET para detalles completos de una orden</td>
+        <td>Crear endpoint para obtener datos completos de una orden por ID.</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Verificar existencia y pertenencia de orden</td>
+        <td>Validar existencia de la orden y su pertenencia al proveedor.</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Incluir datos completos en respuesta</td>
+        <td>Incluir ítems, cantidades, fecha de creación, cliente, etc.</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Escribir pruebas para consulta de orden</td>
+        <td>Escribir pruebas para orden encontrada y no encontrada.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T005</td>
+        <td>Documentar estructura de detalle de orden</td>
+        <td>Documentar la estructura de respuesta y ejemplos de consulta.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td>TS-24</td>
+        <td>Obtener historial de ordenes mediante API RESTful</td>
+        <td>T001</td>
+        <td>Crear endpoint GET para historial agrupado por restaurante</td>
+        <td>Crear endpoint que devuelva órdenes de un proveedor agrupadas por restaurante.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Ordenar historial por fecha</td>
+        <td>Ordenar por fecha de forma descendente.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Agregar filtros a historial de órdenes</td>
+        <td>Permitir incluir filtros como fechas o estado.</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Validar autenticación del proveedor</td>
+        <td>Validar autenticación y permisos del proveedor.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T005</td>
+        <td>Documentar endpoint de historial de órdenes</td>
+        <td>Documentar endpoint de historial cronológico de órdenes.</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td>TS-25</td>
+        <td>Exportar reporte de historial de órdenes completados mediante API RESTful</td>
+        <td>T001</td>
+        <td>Crear endpoint para exportar historial en Excel</td>
+        <td>Crear endpoint para generar archivo Excel del historial de órdenes completadas.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Permitir filtros en generación de reporte</td>
+        <td>Permitir parámetros de filtrado (fechas, restaurantes).</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Formatear archivo Excel para reporte</td>
+        <td>Formatear columnas y contenido de forma clara y legible.</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Validar descarga correcta del archivo</td>
+        <td>Asegurar que el archivo se descargue correctamente.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T005</td>
+        <td>Probar descarga del reporte en distintos entornos</td>
+        <td>Probar el export en distintos navegadores/sistemas.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T006</td>
+        <td>Documentar generación del reporte Excel</td>
+        <td>Documentar generación y descarga del reporte Excel.</td>
+        <td>1/2h</td>
+    </tr>
+    <tr>
+        <td>TS-26</td>
+        <td>Gestionar ventas e inventario mediante API RESTful</td>
+        <td>T001</td>
+        <td>Crear endpoint POST para registrar ventas</td>
+        <td>Crear endpoints para registrar ventas.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Validar y verificar stock antes de registrar venta</td>
+        <td>Implementar lógica de validación y verificación de stock antes de registrar una venta en el inventario.</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Crear endpoint para actualizar inventario manualmente</td>
+        <td>Crear endpoint para actualizar manualmente el inventario.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Manejar errores comunes en ventas</td>
+        <td>Aplicar manejo de errores para transacciones inválidas o datos incompletos.</td>
+        <td>1/2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T005</td>
+        <td>Escribir pruebas para endpoints de ventas e inventario</td>
+        <td>Diseñar pruebas unitarias y de integración para ambos endpoints.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T006</td>
+        <td>Documentar endpoints de ventas e inventario</td>
+        <td>Documentar los endpoints RESTful de ventas.</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td>TS-27</td>
+        <td>Cambio de contraseña mediante API RESTful</td>
+        <td>T001</td>
+        <td>Crear endpoint seguro para cambio de contraseña</td>
+        <td>Crear endpoint seguro /api/v1/auth/change-password</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Diseñar estructura del cuerpo para cambio de contraseña</td>
+        <td>Diseñar estructura del cuerpo de la solicitud</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Validar entrada del cambio de contraseña</td>
+        <td>Implementar validación de entrada</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Verificar contraseña actual</td>
+        <td>Verificar contraseña actual del usuario</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T005</td>
+        <td>Actualizar nueva contraseña en base de datos</td>
+        <td>Actualizar la contraseña en base de datos</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td>TS-28</td>
+        <td>Eliminar cuenta mediante API RESTful</td>
+        <td>T001</td>
+        <td>Crear endpoint seguro para eliminación de cuenta</td>
+        <td>Crear endpoint seguro /api/v1/auth/delete-account</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T002</td>
+        <td>Diseñar estructura del cuerpo de solicitud para eliminación</td>
+        <td>Diseñar estructura del cuerpo de la solicitud</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T003</td>
+        <td>Validar autenticación del usuario</td>
+        <td>Validar autenticación del usuario</td>
+        <td>1h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T004</td>
+        <td>Eliminar o desactivar cuenta del usuario</td>
+        <td>Eliminar o desactivar la cuenta del usuario</td>
+        <td>2h</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>T005</td>
+        <td>Revocar tokens y cerrar sesiones activas</td>
+        <td>Revocar tokens activos y sesiones</td>
+        <td>1/2h</td>
+    </tr>
+</table>
+
+#### 5.2.4.4. Development Evidence for Sprint Review
+
+#### 5.2.4.5. Execution Evidence for Sprint Review
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+Durante este sprint se avanzó considerablemente en la implementación y documentación de los endpoints RESTful que soportan las funcionalidades de gestión de cuenta (recuperación, cambio y eliminación de contraseña), así como la gestión de ventas, feedback, notificaciones y control de acceso por suscripción. El equipo logró implementar y probar múltiples servicios que fortalecen la experiencia del usuario y la arquitectura de backend bajo principios DDD.
+
+### Descripción del Logro
+
+- Implementación completa de recuperación, cambio y eliminación de contraseña.
+- Validación de acceso y suscripciones con control de rutas protegidas.
+- Lógica de negocio para ventas e impacto en inventario.
+- Registro de feedback por parte de restaurantes hacia proveedores.
+- Notificaciones por stock crítico o insumos próximos a vencer.
+- Endpoints protegidos por JWT y validados con pruebas unitarias.
+- Documentación técnica de endpoints en repositorio backend.
+
+### Recursos del Sprint
+
+| Recurso                         | Acción implementada                                     | Método HTTP | Endpoint                                                                 | Repositorio Backend |
+|---------------------------------|----------------------------------------------------------|-------------|---------------------------------------------------------------------------|----------------------|
+| Recuperación de contraseña      | Enviar enlace de recuperación                            | POST        | `/api/v1/auth/forgot-password`                                           | [Repo](https://github.com/Restock-4368/restock-platform) |
+| Restablecer contraseña          | Registrar nueva contraseña con token                     | POST        | `/api/v1/auth/reset-password`                                            | [Repo](https://github.com/Restock-4368/restock-platform) |
+| Cambio de contraseña            | Actualizar contraseña autenticada                        | POST        | `/api/v1/auth/change-password`                                           | [Repo](https://github.com/Restock-4368/restock-platform) |
+| Eliminar cuenta                 | Eliminar o desactivar usuario actual                     | DELETE      | `/api/v1/auth/delete-account`                                            | [Repo](https://github.com/Restock-4368/restock-platform) |
+| Estado de suscripción           | Consultar suscripción por ID                             | GET         | `/api/v1/subscription/status/:id`                                        | [Repo](https://github.com/Restock-4368/restock-platform) |
+| Renovar suscripción             | Renovar suscripción del usuario                          | POST        | `/api/v1/subscription/renew`                                             | [Repo](https://github.com/Restock-4368/restock-platform) |
+| Registrar venta                 | Crear nueva venta con verificación de stock              | POST        | `/api/v1/sales`                                                          | [Repo](https://github.com/Restock-4368/restock-platform) |
+| Notificaciones de insumos       | Ver insumos por vencer o en exceso                       | GET         | `/api/v1/notifications/expiring-supplies`, `/exceeding-stock`           | [Repo](https://github.com/Restock-4368/restock-platform) |
+| Registro de feedback            | Registrar retroalimentación sobre pedidos                | POST        | `/api/v1/feedback`                                                       | [Repo](https://github.com/Restock-4368/restock-platform) |
+| Eventos críticos de insumos     | Consultar historial de eventos críticos                  | GET         | `/api/v1/supplies/events`                                                | [Repo](https://github.com/Restock-4368/restock-platform) |
+| Obtener perfil                  | Ver perfil de usuario autenticado                        | GET         | `/api/v1/profile/:id`                                                    | [Repo](https://github.com/Restock-4368/restock-platform) |
+| Actualizar perfil               | Modificar datos personales del usuario                   | PUT         | `/api/v1/profile/:id`                                                    | [Repo](https://github.com/Restock-4368/restock-platform) |
+| Subir imagen de perfil          | Subir y asociar imagen usando Cloudinary                 | POST        | `/api/v1/profile/images/:id`                                             | [Repo](https://github.com/Restock-4368/restock-platform) |
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint
 
 ## 5.3. Validation Interviews
 
@@ -1054,7 +2357,7 @@ Validar la usabilidad, comprensión y utilidad de las funcionalidades del sistem
 
 Segmento 1: Dueños o administradores de Restaurantes
 
-##### Entrevista 1:
+**ENTREVISTA 1:**
 
 **Nombre:** Alfredo Bernuy
 **Edad:** 52 años
@@ -1072,10 +2375,10 @@ Alfredo Bernuy destaca que la plataforma le resulta muy intuitiva desde el prime
 
 Por otro lado, subraya que el diseño es moderno y atractivo: la paleta de colores es sobria pero actual, la tipografía resulta legible y los iconos comunican su función de un vistazo. Considera que la herramienta le brinda un control total sobre pedidos y stock, le ahorra tiempo y le transmite la confianza necesaria para optimizar sus operaciones diarias.
 
-##### Entrevista 2:
+**ENTREVISTA 2:**
 
 **Nombre:** Mery Pilar
-**Edad:** 349 años
+**Edad:** 49 años
 **Distrito:** Chorrillos
 **Timing:** (05:19 - 10:50 min)
 
@@ -1094,7 +2397,7 @@ Además, enfatiza que la apariencia es fresca y profesional: los tonos empleados
 
 #### Segmento 2: Proveedores para Restaurantes
 
-##### Entrevista 1:
+**ENTREVISTA 1:**
 
 **Nombre:** Flor Medina
 **Edad:** 28 años
