@@ -421,7 +421,6 @@ En esta sección se presentan los términos clave del proyecto UI-Topic. Estos t
 | **Stock level** *(Nivel de stock)*                        | Cantidad disponible de un insumo o producto en el sistema.                                                          |
 | **Critical stock level** *(Nivel crítico de stock)*      | Umbral mínimo para un insumo; si se supera a la baja dispara una alerta.                                           |
 | **Supply request** *(Solicitud de insumos)*               | Pedido formal al proveedor cuando un insumo necesita reabastecerse.                                                 |
-| **Replenishment** *(Reposición)*                         | Proceso de reabastecimiento de un insumo tras recibir un pedido aprobado.                                           |
 | **Inventory alert** *(Alerta de inventario)*              | Notificación automática cuando un insumo llega a nivel crítico o se detecta consumo inesperado.                  |
 | **Verified supplier** *(Proveedor verificado)*            | Proveedor aprobado para recibir pedidos automáticos; cumple criterios de calidad y plazos.                         |
 | **Internal consumption** *(Consumo interno)*              | Uso de insumos que no genera ventas (p.ej. pruebas de recetas, merma, caducidad).                                   |
@@ -429,15 +428,11 @@ En esta sección se presentan los términos clave del proyecto UI-Topic. Estos t
 | **Menu dependency** *(Dependencia de menú)*              | Relación entre los platos del menú y los insumos requeridos para prepararlos.                                     |
 | **Order / Ticket** *(Comanda)*                            | Solicitud registrada que agrupa los platos y bebidas que un comensal o mesa desea consumir; se sigue hasta su pago. |
 | **Order item** *(Ítem de comanda)*                       | Elemento individual dentro de una comanda (plato o bebida) con cantidad y posibles modificadores.                   |
-| **Table** *(Mesa)*                                        | Recurso físico al que se asignan uno o varios comensales; puede tener varias comandas abiertas.                    |
-| **Guest / Diner** *(Comensal)*                            | Persona que consume los productos del restaurante; se asocia a una mesa y a una o varias comandas.                  |
 | **Waiter / Server** *(Mozo / Camarero)*                   | Personal que toma las comandas, entrega platos y atiende a los comensales en sala.                                  |
 | **Menu item** *(Plato del menú)*                         | Producto final listo para la venta; se deriva de uno o varios insumos y aparece impreso en la carta.                |
-| **Course** *(Tiempo)*                                     | Etapa de la comida (entrada, principal, postre) que agrupa varios*menu items*.                                    |
 | **Check / Bill** *(Cuenta)*                               | Documento que resume los ítems consumidos, impuestos y cargos; se presenta al cliente para pago.                   |
 | **Payment** *(Pago)*                                      | Transacción financiera que liquida una cuenta (efectivo, tarjeta, billetera digital, etc.).                        |
 | **Service charge / Tip** *(Cargo por servicio / Propina)* | Porcentaje o monto fijo añadido a la cuenta por concepto de atención.                                             |
 | **Promotion** *(Promoción)*                              | Regla o campaña que aplica descuentos o beneficios a ciertos ítems o cuentas.                                     |
 | **Reservation** *(Reserva)*                               | Bloqueo anticipado de una mesa y horario solicitado por uno o más comensales.                                      |
-| **Cover** *(Cubierto)*                                    | Cargo fijo por comensal que cubre aperitivos, pan o uso de la mesa.                                                 |
-| **POS terminal** *(Terminal POS)*                         | Dispositivo o software de punto de venta usado para registrar comandas y procesar pagos.                            |
+| **Sale** *(Venta)*                                        | Transacción que registra la venta de un ítem del menú a un comensal.                                             |
