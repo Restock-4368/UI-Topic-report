@@ -3483,6 +3483,38 @@ Durante este sprint se avanzó considerablemente en la implementación y documen
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
 
+Durante este sprint, se llevó a cabo el despliegue del backend del sistema utilizando Railway, una plataforma de integración y despliegue continuo. A continuación, se detallan los pasos realizados para asegurar el funcionamiento correcto del servicio backend con acceso a base de datos y documentación mediante Swagger.
+
+1. **Conexión del repositorio con Railway**Se creó un nuevo proyecto en Railway y se conectó directamente el repositorio del backend desde GitHub.
+
+   ![Evidence Step 1](assets/images/cap-5/evidence-sprint4-railway/evidence-step1.jpeg)
+2. **Selección de rama principal (`main`)**En la configuración del proyecto, se seleccionó la rama `main` como predeterminada para realizar el despliegue continuo.
+
+   ![Evidence Step 2](assets/images/cap-5/evidence-sprint4-railway/evidence-step2.jpeg)
+3. **Adición de base de datos al proyecto**Desde la opción "Add Plugin" en Railway, se añadió un servicio de base de datos para el proyecto.
+
+   ![Evidence Step 3](assets/images/cap-5/evidence-sprint4-railway/evidence-step3.jpeg)
+4. **Selección del tipo de base de datos (MySQL)**Se seleccionó el motor de base de datos **MySQL**.
+
+   ![Evidence Step 4](assets/images/cap-5/evidence-sprint4-railway/evidence-step4.jpeg)
+5. **Despliegue de imagen MySQL**Railway desplegó automáticamente una instancia de base de datos con sus credenciales correspondientes.
+
+   ![Evidence Step 5](assets/images/cap-5/evidence-sprint4-railway/evidence-step5.jpeg)
+6. **Obtención y configuración de credenciales**Se copiaron las credenciales de conexión (usuario, contraseña, host, puerto y nombre de base de datos) y se unificaron en una sola variable de entorno tipo `NET_DATASOURCE_URL`.
+
+   ![Evidence Step 7](assets/images/cap-5/evidence-sprint4-railway/evidence-step6.jpeg)
+7. **Creación de variables de entorno en Railway**Se añadieron manualmente todas las variables de entorno necesarias para que el backend funcione correctamente en Railway.
+
+   ![Evidence Step 8](assets/images/cap-5/evidence-sprint4-railway/evidence-step8.jpeg)
+8. **Despliegue del proyecto**Railway ejecutó el despliegue del backend de forma automática al detectar la rama principal. Se monitoreó el log para validar la correcta inicialización del contenedor.
+
+   ![Evidence Step 9](assets/images/cap-5/evidence-sprint4-railway/evidence-step9.jpeg)
+9.  **Verificación con Swagger**
+    Se accedió a la ruta `/swagger/index.html` del dominio generado por Railway, verificando el correcto funcionamiento de los endpoints expuestos por el sistema.
+
+   ![Evidence Step 10](assets/images/cap-5/evidence-sprint4-railway/evidence-step10.jpeg)
+
+
 #### 5.2.4.8. Team Collaboration Insights during Sprint
 
 Se crearon ramas específicas para cada sección o funcionalidad (feature/[nombre-de-seccion]), permitiendo un trabajo paralelo organizado.
