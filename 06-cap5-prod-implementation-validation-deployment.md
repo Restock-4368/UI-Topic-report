@@ -1,4 +1,6 @@
-# Capítulo V: Product Implementation, Validation & Deployment
+    
+
+# bCapítulo V: Product Implementation, Validation & Deployment
 
 ## 5.1 Software Configuration Management
 
@@ -776,14 +778,40 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
 ![Sprint backlog 3](assets/images/cap-5/sprint-backlog3-1.png)
 
 <table>
-    <tr>
-        <td>User Story ID</td>
-        <td>User Story Title</td>
-        <td>Task ID</td>
-        <td>Task Title</td>
-        <td>Task Description</td>
-        <td>Estimated Hours</td>
-    </tr>
+<thead>
+        <!-- Fila 1: Sprint # y Sprint n -->
+        <tr>
+            <th>Sprint #</th>
+            <th>Sprint n</th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <th>User Story</th>
+            <th></th>
+            <th>Work-item / Task</th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Estimation (hours)</th>
+            <th>Assigned To</th>
+            <th>Status (To-do / In-Process / To-Review / Done)</th>
+        </tr>
+    </thead>
+    <tbody>
     <tr>
         <td>US-04</td>
         <td>Gestión manual de stock e insumos</td>
@@ -791,6 +819,8 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
         <td>Implementar interfaz de edición de stock e insumo</td>
         <td>Diseñar y desarrollar un formulario o sección para que el administrador registre el stock actual, nivel máximo y descuentos manuales. Incluir campos necesarios y diseño validado con UX básico.</td>
         <td>1h</td>
+        <td>Jahaziel Guerra</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -799,6 +829,8 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
         <td>Validar entradas de stock en frontend y backend</td>
         <td>Agregar validaciones tanto para evitar valores negativos o no numéricos en stock, nivel máximo y descuento. Incluir advertencias o bloqueos según corresponda.</td>
         <td>1h</td>
+        <td>Jahaziel Guerra</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -807,6 +839,8 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
         <td>Desarrollar lógica de actualización de stock</td>
         <td>Implementar lógica para actualizar el stock de un insumo, aplicando registros nuevos, con control de errores y advertencias.</td>
         <td>1h</td>
+        <td>Jahaziel Guerra</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -815,6 +849,8 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
         <td>Registrar compras y actualizar stock</td>
         <td>Crear el flujo completo para registrar una compra de insumo: formulario, validaciones, actualización de stock, y registro del costo en historial.</td>
         <td>1h</td>
+        <td>Jahaziel Guerra</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -823,6 +859,8 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
         <td>Manejar mensajes de éxito y error en la interfaz</td>
         <td>Integrar mensajes visuales para notificar al usuario sobre operaciones exitosas (registro, actualización, descuento) y errores (validaciones, datos faltantes o inválidos).</td>
         <td>2h</td>
+        <td>Jahaziel Guerra</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td>US-05</td>
@@ -831,6 +869,8 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
         <td>Mostrar alertas visuales en listado de inventario</td>
         <td>Implementar lógica y diseño en la vista de inventario</td>
         <td>1/2h</td>
+        <td>Yaku Guzmán</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -839,6 +879,8 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
         <td>Integrar bandera de vencimiento</td>
         <td>A partir de la fecha de vencimiento de cada insumo, calcular si debe marcarse como próximo a vencer. Mostrar tooltip o badge indicando días restantes si corresponde.</td>
         <td>2h</td>
+        <td>Yaku Guzmán</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -847,6 +889,8 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
         <td>Habilitar y mostrar configuración de notificaciones automáticas</td>
         <td>Agregar en una sección donde el administrador pueda habilitar/deshabilitar las notificaciones automáticas.</td>
         <td>2h</td>
+        <td>Yaku Guzmán</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -855,6 +899,8 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
         <td>Mostrar aviso en la interfaz si hay notificaciones recientes</td>
         <td>Agregar un componente de notificación que muestre alertas recientes de vencimiento o bajo stock si han sido enviadas.</td>
         <td>1h</td>
+        <td>Yaku Guzmán</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td>US-06</td>
@@ -863,6 +909,8 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
         <td>Crear componente de retroalimentación para pedidos entregados</td>
         <td>Diseñar e implementar un componente reutilizable que permita al administrador de restaurante ver un pedido entregado.</td>
         <td>1h</td>
+        <td>Yaku Guzmán</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -871,6 +919,8 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
         <td>Validar calificación y comentario en frontend</td>
         <td>Agregar validaciones al formulario de retroalimentación</td>
         <td>1h</td>
+        <td>Yaku Guzmán</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -879,6 +929,8 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
         <td>Enviar retroalimentación y mostrar confirmación</td>
         <td>Registrar la retroalimentación asegurándose de enviar el ID del pedido, calificación y comentario.</td>
         <td>1h</td>
+        <td>Yaku Guzmán</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td>US-07</td>
@@ -887,6 +939,8 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
         <td>Implementar vista de listado y estados de productos del proveedor</td>
         <td>Crear una vista que muestre todos los productos registrados del proveedor</td>
         <td>2h</td>
+        <td>Julio Castro</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -895,6 +949,8 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
         <td>Crear formulario unificado para registrar y editar productos</td>
         <td>Implementar un formulario reutilizable para crear o editar productos</td>
         <td>1h</td>
+        <td>Julio Castro</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -903,6 +959,8 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
         <td>Integrar acciones CRUD en el catálogo del proveedor</td>
         <td>Desde la vista del listado: Permitir crear un nuevo producto (abre formulario), Permitir editar un producto existente, Permitir eliminar un producto con confirmación, Permitir activar/desactivar un producto con botones de cambio de estado.</td>
         <td>1h</td>
+        <td>Julio Castro</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td>US-15</td>
@@ -911,6 +969,8 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
         <td>Diseñar pantalla de edición manual de inventario</td>
         <td>Diseñar pantalla de edición manual de inventario con campos editables por insumo.</td>
         <td>2h</td>
+        <td>Julio Castro</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -919,6 +979,8 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
         <td>Validar cantidades ingresadas en pantalla de edición</td>
         <td>Implementar la lógica de validación de cantidades ingresadas.</td>
         <td>2h</td>
+        <td>Julio Castro</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -927,6 +989,8 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
         <td>Mostrar confirmación de inventario actualizado</td>
         <td>Mostrar confirmación visual de inventario actualizado correctamente.</td>
         <td>1/2h</td>
+        <td>Julio Castro</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -935,6 +999,8 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
         <td>Mostrar errores por valores inválidos</td>
         <td>Agregar mensajes de error si los valores ingresados son inválidos.</td>
         <td>1h</td>
+        <td>Julio Castro</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -943,6 +1009,8 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
         <td>Integrar pantalla de edición con vista principal</td>
         <td>Integrar la pantalla a la vista principal de administración de insumos.</td>
         <td>1h</td>
+        <td>Gabriela Shapiama</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -951,6 +1019,8 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
         <td>Documentar proceso de actualización manual</td>
         <td>Documentar el proceso de actualización manual desde el frontend.</td>
         <td>1h</td>
+        <td>Gabriela Shapiama</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td>US-17</td>
@@ -959,6 +1029,8 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
         <td>Diseñar vista de seguimiento de estado de orden</td>
         <td>Diseñar vista para mostrar y seleccionar el estado actual de cada orden.</td>
         <td>1h</td>
+        <td>Gabriela Shapiama</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -967,6 +1039,8 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
         <td>Implementar selector de estado gráfico</td>
         <td>Implementar selector gráfico para cambiar el estado (en espera, preparando, en camino, entregado).</td>
         <td>1h</td>
+        <td>Gabriela Shapiama</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -975,6 +1049,8 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
         <td>Actualizar color según estado</td>
         <td>Actualizar colores de la fila de la orden de acuerdo al estado actual.</td>
         <td>1h</td>
+        <td>Gabriela Shapiama</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -983,6 +1059,8 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
         <td>Documentar flujo de seguimiento de órdenes</td>
         <td>Documentar el flujo visual de seguimiento de una orden.</td>
         <td>1/2h</td>
+        <td>Gabriela Shapiama</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td>US-19</td>
@@ -991,6 +1069,8 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
         <td>Crear listado de órdenes recibidas</td>
         <td>Crear pantalla con listado de órdenes solicitadas (tabla).</td>
         <td>1h</td>
+        <td>Gabriela Shapiama</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -999,6 +1079,8 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
         <td>Implementar modal para actualizar situación de orden</td>
         <td>Implementar modal para actualizar la situación de una orden (aceptado o denegado) y establecer fecha estimada de entrega.</td>
         <td>1h</td>
+        <td>Williams Avendaño</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -1007,6 +1089,8 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
         <td>Habilitar ordenamiento por fecha</td>
         <td>Permitir ordenamiento por fecha.</td>
         <td>2h</td>
+        <td>Williams Avendaño</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -1015,6 +1099,8 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
         <td>Optimizar ordenamiento por fecha</td>
         <td>Permitir ordenamiento por fecha.</td>
         <td>1/2h</td>
+        <td>Williams Avendaño</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -1023,6 +1109,8 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
         <td>Agregar acceso rápido al detalle de orden</td>
         <td>Incluir botón de acceso rápido al detalle de cada orden.</td>
         <td>1h</td>
+        <td>Williams Avendaño</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -1031,6 +1119,8 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
         <td>Sincronizar lista de órdenes en tiempo real</td>
         <td>Actualizar automáticamente lista si hay cambios recientes.</td>
         <td>1h</td>
+        <td>Williams Avendaño</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -1039,6 +1129,8 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
         <td>Documentar vista de gestión de órdenes</td>
         <td>Documentar funcionalidad de visualización y gestión de órdenes.</td>
         <td>1h</td>
+        <td>Williams Avendaño</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td>US-20</td>
@@ -1047,6 +1139,8 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
         <td>Diseñar vista detallada de una orden</td>
         <td>Diseñar vista detallada que muestre todos los campos de una orden (ítems, cantidades, cliente, etc.).</td>
         <td>1h</td>
+        <td>Williams Avendaño</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -1055,6 +1149,8 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
         <td>Implementar navegación desde listado al detalle</td>
         <td>Implementar navegación desde listado general a detalle de orden.</td>
         <td>1h</td>
+        <td>Jahaziel Guerra</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -1063,6 +1159,8 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
         <td>Mostrar estado y fecha estimada de entrega</td>
         <td>Mostrar estado actual y fecha estimada de entrega.</td>
         <td>1h</td>
+        <td>Jahaziel Guerra</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -1071,6 +1169,8 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
         <td>Agregar sección de observaciones en detalle de orden</td>
         <td>Agregar sección para observaciones o notas de la orden.</td>
         <td>1/2h</td>
+        <td>Jahaziel Guerra</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -1079,6 +1179,8 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
         <td>Documentar visualización detallada de orden</td>
         <td>Documentar visualización específica de orden por ID.</td>
         <td>1h</td>
+        <td>Jahaziel Guerra</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td>US-21</td>
@@ -1087,6 +1189,8 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
         <td>Crear sección de historial por restaurante</td>
         <td>Crear sección que agrupe órdenes completadas por restaurante.</td>
         <td>1h</td>
+        <td>Jahaziel Guerra</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -1095,6 +1199,8 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
         <td>Implementar búsqueda de restaurante por nombre</td>
         <td>Permitir búsqueda de restaurante por nombre.</td>
         <td>2h</td>
+        <td>Jahaziel Guerra</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -1103,6 +1209,8 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
         <td>Ordenar historial por fecha</td>
         <td>Mostrar las órdenes en orden cronológico según se prefiera.</td>
         <td>1h</td>
+        <td>Jahaziel Guerra</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -1111,6 +1219,8 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
         <td>Mostrar detalles básicos en historial</td>
         <td>Incluir detalles básicos como fecha, monto y estado.</td>
         <td>1h</td>
+        <td>Jahaziel Guerra</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -1119,6 +1229,8 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
         <td>Implementar paginación en historial</td>
         <td>Implementar paginación para historial largo.</td>
         <td>2h</td>
+        <td>Jahaziel Guerra</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -1127,6 +1239,8 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
         <td>Documentar historial de órdenes por restaurante</td>
         <td>Documentar flujo del historial por restaurante.</td>
         <td>1h</td>
+        <td>Yaku Guzmán</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td>US-22</td>
@@ -1135,6 +1249,8 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
         <td>Diseñar botón de exportación de reportes</td>
         <td>Diseñar botón de exportación en pantalla de historial.</td>
         <td>1h</td>
+        <td>Yaku Guzmán</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -1143,6 +1259,8 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
         <td>Confirmar descarga de reporte</td>
         <td>Solicitar confirmación antes de descargar reporte.</td>
         <td>1/2h</td>
+        <td>Yaku Guzmán</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -1151,6 +1269,8 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
         <td>Notificar resultado de descarga</td>
         <td>Dar feedback si la descarga fue exitosa o hubo errores.</td>
         <td>1h</td>
+        <td>Yaku Guzmán</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -1159,6 +1279,8 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
         <td>Documentar proceso de exportación de reportes</td>
         <td>Documentar proceso de descarga de reportes desde interfaz.</td>
         <td>1h</td>
+        <td>Yaku Guzmán</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td>TS-06</td>
@@ -1167,6 +1289,8 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
         <td>Crear endpoint para obtener insumos por ID de proveedor</td>
         <td>Implementar endpoint GET /api/v1/supplies/:id (Listar insumos del proveedor)</td>
         <td>1h</td>
+        <td>Yaku Guzmán</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -1175,6 +1299,8 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
         <td>Crear endpoint para registrar nuevos insumos</td>
         <td>Implementar endpoint POST /api/v1/supplies (Crear nuevo insumo)</td>
         <td>h</td>
+        <td>Yaku Guzmán</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -1183,6 +1309,8 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
         <td>Crear endpoint para actualizar insumo existente</td>
         <td>Implementar endpoint PUT /api/v1/supplies/{id} (Actualizar insumo)</td>
         <td>1h</td>
+        <td>Yaku Guzmán</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -1191,6 +1319,8 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
         <td>Crear endpoint para eliminar insumo</td>
         <td>Implementar endpoint DELETE /api/v1/productos/{id} (Eliminar insumo)</td>
         <td>2h</td>
+        <td>Yaku Guzmán</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -1199,6 +1329,8 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
         <td>Crear endpoint para cambiar estado de insumo</td>
         <td>Implementar endpoint PATCH /api/v1/productos/{id}/estado (Cambiar estado del insumo)</td>
         <td>2h</td>
+        <td>Yaku Guzmán</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -1207,6 +1339,8 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
         <td>Validar entradas y manejar errores en insumos</td>
         <td>Validación y manejo de errores para creación y actualización</td>
         <td>1h</td>
+        <td>Yaku Guzmán</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -1215,6 +1349,8 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
         <td>Escribir pruebas unitarias para endpoints de insumos</td>
         <td>Implementar pruebas unitarias para todos los endpoints</td>
         <td>2h</td>
+        <td>Julio Castro</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td>TS-09</td>
@@ -1223,6 +1359,8 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
         <td>Definir endpoint para registrar recetas</td>
         <td>Definir endpoint POST /api/v1/recipes en el controlador</td>
         <td>2h</td>
+        <td>Julio Castro</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -1231,6 +1369,8 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
         <td>Validar campos requeridos en receta</td>
         <td>Validar campos requeridos en payload (nombre, ingredientes)</td>
         <td>1h</td>
+        <td>Julio Castro</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -1239,6 +1379,8 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
         <td>Persistir relación entre receta e insumos</td>
         <td>Crear lógica de persistencia con relación a insumos</td>
         <td>2h</td>
+        <td>Julio Castro</td>
+        <td>Done</td>
     </tr>
     <tr>
         <td></td>
@@ -1247,7 +1389,10 @@ Asimismo, se trabajará en la integración del flujo de pagos por suscripción y
         <td>Escribir pruebas para endpoint de recetas</td>
         <td>Escribir test unitario y de integración para el endpoint</td>
         <td>1h</td>
+        <td>Julio Castro</td>
+        <td>Done</td>
     </tr>
+    </tbody>
 </table>
 
 Trello: [https:/linkcuts.org/9b6h7g0n](https://shorturl.at/zMioJ)
