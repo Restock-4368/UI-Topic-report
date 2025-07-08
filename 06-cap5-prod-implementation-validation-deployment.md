@@ -3443,6 +3443,12 @@ Durante este sprint, se avanzó en la construcción de los servicios web de la p
 
 #### 5.2.4.5. Execution Evidence for Sprint Review
 
+A continuación, se presenta el video que muestra los avances actuales en el desarrollo del sistema. Este incluye una vista general de la landing page, donde se destacan los principales flujos de navegación, el diseño responsivo y la estructura visual de la aplicación. Además, se abordarán los progresos tanto en el frontend como en el backend, evidenciando cómo se están integrando las funcionalidades clave y la arquitectura general del proyecto.
+
+**Video:**
+![Captura del video](assets/images/cap-5/evidence-sprint4/exec.png)
+[https://shorturl.at/TbuUf](https://shorturl.at/TbuUf)
+
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
 Durante este sprint se avanzó considerablemente en la implementación y documentación de los endpoints RESTful que soportan las funcionalidades de gestión de cuenta (recuperación, cambio y eliminación de contraseña), así como la gestión de ventas, feedback, notificaciones y control de acceso por suscripción. El equipo logró implementar y probar múltiples servicios que fortalecen la experiencia del usuario y la arquitectura de backend bajo principios DDD.
@@ -3809,4 +3815,4 @@ Como parte de la validación del producto, se incluye también el testimonio de 
 
 A continuación, se incluye un screenshot del video, junto con los enlaces de la versión publicada en Microsoft Stream y YouTube, y el detalle del timing.
 
-[https://shorturl.at/4827U](https://shorturl.at/4827U)
+[https://shorturl.at/d4vSh](https://shorturl.at/d4vSh)
