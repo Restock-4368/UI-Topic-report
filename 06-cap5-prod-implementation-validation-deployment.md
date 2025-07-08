@@ -3509,11 +3509,10 @@ Durante este sprint, se llevó a cabo el despliegue del backend del sistema util
 8. **Despliegue del proyecto**Railway ejecutó el despliegue del backend de forma automática al detectar la rama principal. Se monitoreó el log para validar la correcta inicialización del contenedor.
 
    ![Evidence Step 9](assets/images/cap-5/evidence-sprint4-railway/evidence-step9.jpeg)
-9.  **Verificación con Swagger**
-    Se accedió a la ruta `/swagger/index.html` del dominio generado por Railway, verificando el correcto funcionamiento de los endpoints expuestos por el sistema.
+9. **Verificación con Swagger**
+   Se accedió a la ruta `/swagger/index.html` del dominio generado por Railway, verificando el correcto funcionamiento de los endpoints expuestos por el sistema.
 
    ![Evidence Step 10](assets/images/cap-5/evidence-sprint4-railway/evidence-step10.jpeg)
-
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint
 
@@ -3693,7 +3692,6 @@ Mery Pilar, administradora de restaurantes con 6 años de experiencia, tiene 49 
 Mery Pilar resalta que la herramienta es sumamente sencilla de usar desde el primer contacto: los apartados están dispuestos de manera ordenada, los elementos interactivos resultan intuitivos y el proceso para generar o actualizar pedidos fluye de forma muy eficiente. Aprecia de forma especial el módulo de control de inventario, que le permite monitorear al instante las existencias, recibir notificaciones automáticas cuando un artículo llega al stock mínimo y aplicar filtros por categoría o periodo para identificar patrones de consumo.
 
 Además, enfatiza que la apariencia es fresca y profesional: los tonos empleados son elegantes sin dejar de ser actuales, la tipografía se lee con total nitidez y los iconos transmiten claramente su función. En su opinión, esta solución le proporciona el dominio completo sobre pedidos e inventario, optimiza su tiempo y le infunde la seguridad necesaria para mejorar sus operaciones diarias.
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 #### Segmento 2: Proveedores para Restaurantes
 
@@ -3905,4 +3903,8 @@ Como parte de la validación del producto, se incluye también el testimonio de 
 
 A continuación, se incluye un screenshot del video, junto con los enlaces de la versión publicada en Microsoft Stream y YouTube, y el detalle del timing.
 
-[https://shorturl.at/d4vSh](https://shorturl.at/d4vSh)
+![Foto de Video](assets/images/cap-5/aboutTheProduct.png)
+
+Video en Stream: [https://shorturl.at/d4vSh](https://shorturl.at/d4vSh)
+
+Video en youtube: https://youtu.be/Y7ZVH1KL6U4
